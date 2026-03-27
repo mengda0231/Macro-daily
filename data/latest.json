@@ -1,0 +1,73 @@
+{
+  "site": {
+    "title": "Macro Daily",
+    "subtitle": "Daily macro briefing powered by the local research framework",
+    "generated_at": "2026-03-28 02:39:34"
+  },
+  "latest": {
+    "slug": "2026-03-28",
+    "date": "2026-03-28",
+    "headline": "Growth repair is still partial, while liquidity and risk appetite remain the main bridge into pricing.",
+    "summary": "Today's sample brief shows how the macro framework can turn policy, data, and global headlines into one transmission-based daily note.",
+    "sections": [
+      {
+        "title": "Today's macro line",
+        "items": [
+          "The current working line is not a full-cycle recovery yet; it is a partial repair story that still depends on liquidity and confidence transmission.",
+          "The framework starts from the core contradiction, then checks whether policy, rates, credit, FX, and risk appetite are actually moving in the same direction."
+        ]
+      },
+      {
+        "title": "Economic data focus",
+        "items": [
+          "Watch for the next domestic PMI, credit pulse, and property activity update to confirm whether repair is broadening or staying narrow.",
+          "External data should be read mainly through rate and dollar implications rather than as isolated headlines."
+        ]
+      },
+      {
+        "title": "Policy and official signals",
+        "items": [
+          "Policy language matters only if it creates a visible bridge into rates, credit, or demand-sensitive sectors.",
+          "The daily note should rank policy signals by transmission power instead of repeating every announcement equally."
+        ]
+      },
+      {
+        "title": "International and geopolitical news",
+        "items": [
+          "Global and geopolitical developments enter the note through risk premium, trust, and cross-market capital flow channels.",
+          "Not every geopolitical event deserves headline weight; only events that reprice risk or redirect flows belong in the main line."
+        ]
+      },
+      {
+        "title": "Transmission map",
+        "items": [
+          "Base path: policy -> rates -> credit -> FX/liquidity -> risk appetite -> asset pricing.",
+          "Fast paths can also start from funds, sentiment, or geopolitics, but they still need to reconnect to the same macro map."
+        ]
+      },
+      {
+        "title": "Risk and falsification",
+        "items": [
+          "If rates or credit do not confirm, today's constructive line should be downgraded.",
+          "If risk assets move only on positioning while mid-chain variables stay weak, treat the move as trading heat instead of durable confirmation."
+        ]
+      },
+      {
+        "title": "Next watchlist",
+        "items": [
+          "Domestic data: PMI, credit, property sales.",
+          "Policy layer: central bank and major ministry statements.",
+          "External layer: Fed path, dollar direction, major geopolitical escalation signals."
+        ]
+      }
+    ]
+  },
+  "history": [
+    {
+      "slug": "2026-03-28",
+      "date": "2026-03-28",
+      "headline": "Sample launch edition",
+      "status": "sample"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Macro Daily</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Macro Daily</p>
+        <h1 id="site-title">Loading...</h1>
+        <p id="site-subtitle" class="subtitle"></p>
+        <div class="meta-row">
+          <span id="generated-at"></span>
+          <a class="repo-link" href="https://github.com/mengda0231/Macro-daily" target="_blank" rel="noreferrer">GitHub Repo</a>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="latest-panel card">
+          <div class="panel-head">
+            <p class="section-tag">Latest brief</p>
+            <h2 id="latest-date"></h2>
+          </div>
+          <p id="latest-headline" class="headline"></p>
+          <p id="latest-summary" class="summary"></p>
+          <div id="latest-sections" class="sections"></div>
+        </section>
+
+        <aside class="sidebar">
+          <section class="card">
+            <p class="section-tag">Framework anchor</p>
+            <h3>How this page is meant to be read</h3>
+            <ul class="compact-list">
+              <li>Start from the core contradiction, not the market move.</li>
+              <li>Map every new item to a transmission layer.</li>
+              <li>Keep one falsification block in every daily note.</li>
+            </ul>
+          </section>
+          <section class="card">
+            <p class="section-tag">History</p>
+            <div id="history-list" class="history-list"></div>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script>
+      async function main() {
+        const response = await fetch('./data/latest.json', { cache: 'no-store' });
+        const payload = await response.json();
+
+        document.getElementById('site-title').textContent = payload.site.title;
+        document.getElementById('site-subtitle').textContent = payload.site.subtitle;
+        document.getElementById('generated-at').textContent = 'Generated at ' + payload.site.generated_at;
+
+        document.getElementById('latest-date').textContent = payload.latest.date;
+        document.getElementById('latest-headline').textContent = payload.latest.headline;
+        document.getElementById('latest-summary').textContent = payload.latest.summary;
+
+        const sectionWrap = document.getElementById('latest-sections');
+        payload.latest.sections.forEach((section) => {
+          const article = document.createElement('article');
+          article.className = 'section-card';
+          const title = document.createElement('h3');
+          title.textContent = section.title;
+          const list = document.createElement('ul');
+          section.items.forEach((item) => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            list.appendChild(li);
+          });
+          article.appendChild(title);
+          article.appendChild(list);
+          sectionWrap.appendChild(article);
+        });
+
+        const historyWrap = document.getElementById('history-list');
+        payload.history.forEach((item) => {
+          const row = document.createElement('div');
+          row.className = 'history-item';
+          row.innerHTML = '<strong>' + item.date + '</strong><span>' + item.headline + '</span>';
+          historyWrap.appendChild(row);
+        });
+      }
+
+      main().catch((error) => {
+        console.error(error);
+        document.getElementById('site-title').textContent = 'Macro Daily';
+        document.getElementById('site-subtitle').textContent = 'Failed to load site data.';
+      });
+    </script>
+  </body>
+</html>
