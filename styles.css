@@ -84,7 +84,10 @@ p {
 .small-copy,
 .source-item,
 .history-item span,
-.history-item em {
+.history-item em,
+.entry-meta,
+.entry-summary,
+.note-row {
   color: var(--muted);
 }
 
@@ -104,7 +107,8 @@ p {
   font-size: 14px;
 }
 
-.repo-link {
+.repo-link,
+.entry-title {
   color: var(--accent);
   text-decoration: none;
 }
@@ -150,6 +154,31 @@ p {
   line-height: 1.65;
 }
 
+.count-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.count-box {
+  padding: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.count-box strong {
+  display: block;
+  font-size: 22px;
+}
+
+.count-box span {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 .sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -175,6 +204,17 @@ p {
   line-height: 1.68;
 }
 
+.entry-item + .entry-item {
+  margin-top: 10px;
+}
+
+.entry-meta,
+.entry-summary {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.monitoring-notes,
 .source-list,
 .history-list {
   display: grid;
@@ -182,7 +222,8 @@ p {
 }
 
 .source-item,
-.history-item {
+.history-item,
+.note-row {
   padding-top: 12px;
   border-top: 1px solid var(--line);
   line-height: 1.5;
@@ -190,7 +231,8 @@ p {
 }
 
 .source-item:first-child,
-.history-item:first-child {
+.history-item:first-child,
+.note-row:first-child {
   border-top: 0;
   padding-top: 0;
 }
