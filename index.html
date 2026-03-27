@@ -9,11 +9,24 @@
   <body>
     <div class="page-shell">
       <header class="hero">
-        <p class="eyebrow">Macro Daily</p>
-        <h1 id="site-title">Loading...</h1>
-        <p id="site-subtitle" class="subtitle"></p>
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Macro Daily</p>
+            <h1 id="site-title">Loading...</h1>
+            <p id="site-subtitle" class="subtitle"></p>
+          </div>
+          <div class="hero-side card subtle-card">
+            <p class="section-tag">Current mode</p>
+            <h2>Framework-driven</h2>
+            <p>
+              This version uses the local macro research library as the content source and turns
+              it into a repeatable daily briefing shell.
+            </p>
+          </div>
+        </div>
         <div class="meta-row">
           <span id="generated-at"></span>
+          <span id="site-mode"></span>
           <a class="repo-link" href="https://github.com/mengda0231/Macro-daily" target="_blank" rel="noreferrer">GitHub Repo</a>
         </div>
       </header>
@@ -21,8 +34,11 @@
       <main class="layout">
         <section class="latest-panel card">
           <div class="panel-head">
-            <p class="section-tag">Latest brief</p>
-            <h2 id="latest-date"></h2>
+            <div>
+              <p class="section-tag">Latest brief</p>
+              <h2 id="latest-date"></h2>
+            </div>
+            <span id="latest-mode" class="pill"></span>
           </div>
           <p id="latest-headline" class="headline"></p>
           <p id="latest-summary" class="summary"></p>
@@ -31,14 +47,20 @@
 
         <aside class="sidebar">
           <section class="card">
-            <p class="section-tag">Framework anchor</p>
-            <h3>How this page is meant to be read</h3>
+            <p class="section-tag">Workflow anchor</p>
+            <h3>How to read this daily</h3>
             <ul class="compact-list">
-              <li>Start from the core contradiction, not the market move.</li>
-              <li>Map every new item to a transmission layer.</li>
-              <li>Keep one falsification block in every daily note.</li>
+              <li>Start from the contradiction, not from the price move.</li>
+              <li>Map each item to a transmission layer before assigning weight.</li>
+              <li>Keep a falsification block visible in every edition.</li>
             </ul>
           </section>
+
+          <section class="card">
+            <p class="section-tag">Source set</p>
+            <div id="source-docs" class="source-list"></div>
+          </section>
+
           <section class="card">
             <p class="section-tag">History</p>
             <div id="history-list" class="history-list"></div>
@@ -55,10 +77,12 @@
         document.getElementById('site-title').textContent = payload.site.title;
         document.getElementById('site-subtitle').textContent = payload.site.subtitle;
         document.getElementById('generated-at').textContent = 'Generated at ' + payload.site.generated_at;
+        document.getElementById('site-mode').textContent = 'Mode: ' + payload.site.mode;
 
         document.getElementById('latest-date').textContent = payload.latest.date;
         document.getElementById('latest-headline').textContent = payload.latest.headline;
         document.getElementById('latest-summary').textContent = payload.latest.summary;
+        document.getElementById('latest-mode').textContent = payload.latest.mode || 'framework';
 
         const sectionWrap = document.getElementById('latest-sections');
         payload.latest.sections.forEach((section) => {
@@ -77,11 +101,19 @@
           sectionWrap.appendChild(article);
         });
 
+        const sourceWrap = document.getElementById('source-docs');
+        payload.latest.source_documents.forEach((source) => {
+          const row = document.createElement('div');
+          row.className = 'source-item';
+          row.textContent = source;
+          sourceWrap.appendChild(row);
+        });
+
         const historyWrap = document.getElementById('history-list');
         payload.history.forEach((item) => {
           const row = document.createElement('div');
           row.className = 'history-item';
-          row.innerHTML = '<strong>' + item.date + '</strong><span>' + item.headline + '</span>';
+          row.innerHTML = '<strong>' + item.date + '</strong><span>' + item.headline + '</span><em>' + item.status + '</em>';
           historyWrap.appendChild(row);
         });
       }

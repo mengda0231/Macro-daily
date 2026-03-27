@@ -2,8 +2,17 @@
 
 Static publish repository for the daily macro briefing site.
 
-Current sample:
+Current live edition:
 
 - latest brief date: `2026-03-28`
-- site URL after Pages is enabled:
-  `https://mengda0231.github.io/Macro-daily/`
+- generation mode: `local-framework`
+- site URL: `https://mengda0231.github.io/Macro-daily/`
+
+Current source set:
+
+- `F:\cursor\research-report\learning\02-macro-synthesis\macro-research-motherboard.md`
+- `F:\cursor\research-report\learning\02-macro-synthesis\macro-transmission-map.md`
+- `F:\cursor\research-report\learning\02-macro-synthesis\macro-misjudgment-and-falsification.md`
+- `F:\cursor\research-report\learning\02-macro-synthesis\macro-to-industry-interfaces.md`
+- `F:\cursor\research-report\playbooks\macro-strategy-general-playbook.md`
+- `F:\cursor\research-report\capability\macro-strategy-general.md`
