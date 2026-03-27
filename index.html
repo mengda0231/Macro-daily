@@ -44,6 +44,7 @@
           </div>
           <p id="latest-headline" class="headline"></p>
           <p id="latest-summary" class="summary"></p>
+          <div id="watchpoints" class="watchpoints"></div>
           <div id="latest-sections" class="sections"></div>
         </section>
 
@@ -149,16 +150,32 @@
         });
 
         const sectionWrap = document.getElementById('latest-sections');
+        const watchpointsWrap = document.getElementById('watchpoints');
+        (payload.latest.watchpoints || []).forEach((item) => {
+          const chip = document.createElement('div');
+          chip.className = 'watchpoint';
+          chip.textContent = item;
+          watchpointsWrap.appendChild(chip);
+        });
+
         payload.latest.sections.forEach((section) => {
           const article = document.createElement('article');
           article.className = 'section-card';
           const title = document.createElement('h3');
           title.textContent = section.title;
+          if (section.hint) {
+            const hint = document.createElement('p');
+            hint.className = 'section-hint';
+            hint.textContent = section.hint;
+            article.appendChild(title);
+            article.appendChild(hint);
+          } else {
+            article.appendChild(title);
+          }
           const list = document.createElement('ul');
           section.items.forEach((item) => {
             list.appendChild(renderSectionItem(item));
           });
-          article.appendChild(title);
           article.appendChild(list);
           sectionWrap.appendChild(article);
         });
