@@ -62,6 +62,12 @@
           </section>
 
           <section class="card">
+            <p class="section-tag">Monitoring sources</p>
+            <p id="monitoring-strategy" class="small-copy"></p>
+            <div id="monitoring-sources" class="source-list"></div>
+          </section>
+
+          <section class="card">
             <p class="section-tag">History</p>
             <div id="history-list" class="history-list"></div>
           </section>
@@ -107,6 +113,19 @@
           row.className = 'source-item';
           row.textContent = source;
           sourceWrap.appendChild(row);
+        });
+
+        document.getElementById('monitoring-strategy').textContent = payload.latest.monitoring_strategy;
+        const monitoringWrap = document.getElementById('monitoring-sources');
+        payload.latest.monitoring_sources.forEach((source) => {
+          const row = document.createElement('div');
+          row.className = 'source-item';
+          row.innerHTML =
+            '<strong>' + source.name + '</strong>' +
+            '<span>' + source.category + ' | ' + source.priority + ' | ' + source.region + '</span>' +
+            '<a class="repo-link" href="' + source.url + '" target="_blank" rel="noreferrer">' + source.url + '</a>' +
+            '<span>' + source.notes + '</span>';
+          monitoringWrap.appendChild(row);
         });
 
         const historyWrap = document.getElementById('history-list');

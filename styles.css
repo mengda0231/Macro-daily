@@ -81,6 +81,7 @@ p {
 .subtitle,
 .summary,
 .hero-side p,
+.small-copy,
 .source-item,
 .history-item span,
 .history-item em {
@@ -197,6 +198,11 @@ p {
 .history-item {
   display: grid;
   gap: 4px;
+}
+
+.source-item {
+  display: grid;
+  gap: 6px;
 }
 
 .history-item em {

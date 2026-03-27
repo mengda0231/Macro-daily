@@ -2,7 +2,7 @@
   "site": {
     "title": "Macro Daily",
     "subtitle": "Daily macro briefing generated from the local macro research framework",
-    "generated_at": "2026-03-28 03:41:15",
+    "generated_at": "2026-03-28 03:51:32",
     "mode": "local-framework"
   },
   "latest": {
@@ -11,6 +11,117 @@
     "headline": "Macro Daily is now generated from the local macro motherboard, transmission map, capability card, and playbook instead of a hard-coded sample.",
     "summary": "This edition is framework-driven rather than news-driven: it pulls the reusable macro research structure from the local library and turns it into a repeatable daily briefing shell.",
     "mode": "framework",
+    "monitoring_strategy": "Official data and policy pages outrank media summaries. High-frequency media feeds supplement, but do not replace, primary-source verification.",
+    "monitoring_sources": [
+      {
+        "name": "National Bureau of Statistics of China",
+        "category": "official-data-policy",
+        "region": "CN",
+        "priority": "P0",
+        "type": "official statistics",
+        "url": "https://www.stats.gov.cn/english/",
+        "notes": "Primary source for China macro data, including monthly activity, CPI, PPI, and production releases."
+      },
+      {
+        "name": "People's Bank of China",
+        "category": "official-data-policy",
+        "region": "CN",
+        "priority": "P0",
+        "type": "central bank",
+        "url": "https://www.pbc.gov.cn/",
+        "notes": "Primary source for monetary policy, open market operations, LPR, press briefings, and financial statistics."
+      },
+      {
+        "name": "State Administration of Foreign Exchange",
+        "category": "official-data-policy",
+        "region": "CN",
+        "priority": "P0",
+        "type": "fx regulator",
+        "url": "https://www.safe.gov.cn/",
+        "notes": "Primary source for FX reserves, balance of payments, cross-border flow data, and SAFE policy interpretation."
+      },
+      {
+        "name": "State Council / China Government Network",
+        "category": "official-data-policy",
+        "region": "CN",
+        "priority": "P0",
+        "type": "policy releases",
+        "url": "https://www.gov.cn/",
+        "notes": "Primary source for top-level policy releases, executive meetings, and official policy briefing transcripts."
+      },
+      {
+        "name": "Federal Reserve Board RSS Feeds",
+        "category": "official-global-macro",
+        "region": "US",
+        "priority": "P1",
+        "type": "central bank",
+        "url": "https://www.federalreserve.gov/feeds/feeds.htm",
+        "notes": "Primary source for Fed press releases, speeches, and data announcements."
+      },
+      {
+        "name": "U.S. Bureau of Labor Statistics Newsroom",
+        "category": "official-global-macro",
+        "region": "US",
+        "priority": "P1",
+        "type": "official statistics",
+        "url": "https://www.bls.gov/newsroom/",
+        "notes": "Primary source for payrolls, CPI, PPI, and labor-market releases."
+      },
+      {
+        "name": "U.S. Bureau of Economic Analysis Current Releases",
+        "category": "official-global-macro",
+        "region": "US",
+        "priority": "P1",
+        "type": "official statistics",
+        "url": "https://www.bea.gov/news/current-releases",
+        "notes": "Primary source for GDP, PCE, personal income, trade, and related U.S. macro releases."
+      },
+      {
+        "name": "Federal Reserve on X",
+        "category": "official-global-macro",
+        "region": "US",
+        "priority": "P2",
+        "type": "official social",
+        "url": "https://x.com/federalreserve",
+        "notes": "Fast distribution layer for Fed releases and data links; use as alerting, not as the final source."
+      },
+      {
+        "name": "IMF on X",
+        "category": "official-global-macro",
+        "region": "Global",
+        "priority": "P2",
+        "type": "official social",
+        "url": "https://x.com/IMFNews",
+        "notes": "Useful for fast awareness of IMF analysis, blogs, and multilateral macro themes."
+      },
+      {
+        "name": "Reuters Markets on X",
+        "category": "professional-market-media",
+        "region": "Global",
+        "priority": "P2",
+        "type": "media social",
+        "url": "https://x.com/ReutersMarkets",
+        "notes": "Fast market-color and cross-asset alerting; verify every market-moving item against primary or Reuters web copy."
+      },
+      {
+        "name": "Reuters Markets",
+        "category": "professional-market-media",
+        "region": "Global",
+        "priority": "P1",
+        "type": "wire media",
+        "url": "https://www.reuters.com/markets/",
+        "notes": "Professional wire for global macro, rates, FX, commodities, and geopolitical developments."
+      },
+      {
+        "name": "财联社",
+        "category": "professional-market-media",
+        "region": "CN",
+        "priority": "P2",
+        "type": "financial wire",
+        "url": "https://www.cls.cn/",
+        "notes": "High-frequency China market and policy alert layer. Useful for fast signal capture, but important items should be traced back to official policy or data pages."
+      }
+    ],
     "source_documents": [
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
@@ -23,17 +134,17 @@
       {
         "title": "Framework line",
         "items": [
-          "这份文档是 `macro-strategy` 在新学习体系里的上位母板。它的用途不是 替代单篇报告，也不是给出某次时点判断，而是把宏观研究稳定压缩成一套可迁移的 起手语法，供后续所有行业融合直接调用。",
-          "这一版不是空的抽象母板，而是已经吸收了当前 10 份宏观 `normalized` 单文件学习的 结果。也就是说，下面这套母板已经被样本库里的几类宏观写法共同验证过。"
+          "Start from the core contradiction instead of starting from the latest price move.",
+          "Treat macro research as a transmission grammar that can later plug into industry work.",
+          "Separate leading variables from confirmation variables before assigning market weight."
         ]
       },
       {
         "title": "Transmission map",
         "items": [
-          "这份文档把宏观研究里最常见的传导路径固定下来。它不是说每次研究都必须走完 全链条，而是提醒你不要把远端结果直接当作起点，而要追问变量是如何一层层 传到资产和行业的。",
-          "标准传导链：从政策和信用出发，一路传到风险偏好和资产。",
-          "交易映射链：从资金、情绪、地缘或制度预期出发，更快地进入风险溢价和资产定价。",
-          "全球配置入口：从美元、利差、跨市场相对估值和全球流动性切入。"
+          "Base path: policy -> rates -> credit -> FX/liquidity -> risk appetite -> asset pricing.",
+          "Fast paths can begin from flows, positioning, or geopolitics, but they still need to reconnect to the same macro chain.",
+          "Do not confuse the end-point asset move with the true starting variable."
         ]
       },
       {
@@ -61,21 +172,19 @@
       {
         "title": "Risk and falsification",
         "items": [
-          "这份文档固定宏观研究里必须保留的证伪纪律。宏观最容易出错的地方，不是信息不够， 而是太容易被完整叙事和大词覆盖，从而把还没验证的推断写成已经成立的因果链。",
-          "典型表现：股市上涨后才说风险偏好修复已经确认。",
-          "修正方法：先找领先变量，再看价格是否只是提前交易。",
-          "典型表现：因为某月社融改善，就直接写信用周期反转。",
-          "修正方法：检查数据是否持续、是否跨主体共振、是否进入资产映射。"
+          "Do not reverse-engineer a macro story from a price move that has already happened.",
+          "A single data point is not a macro cycle turn unless it persists and enters the transmission chain.",
+          "Write the failure condition explicitly: which leading variable would invalidate the current line first?",
+          "Distinguish timing lag from thesis failure before downgrading a framework."
         ]
       },
       {
         "title": "Macro-to-industry interfaces",
         "items": [
-          "这份文档的作用，是把宏观层和行业层之间的接口写清楚。它强调的不是“宏观总是 最重要”，而是“宏观究竟以什么方式进入各行业研究框架”，避免后续行业融合把 宏观写成空泛背景。",
-          "宏观变量在这个行业里是起手变量，还是背景变量。",
-          "宏观变量主要通过需求、成本、资金、监管，还是估值贴现进入行业。",
-          "宏观影响是持续性的，还是阶段性的交易变量。",
-          "主要接口：利率、全球流动性、风险偏好、资本开支。"
+          "Technology usually receives macro through liquidity, valuation, and risk appetite rather than through the first data print.",
+          "Financials receive macro directly through rates, credit, regulation, and balance-sheet quality.",
+          "Resources and materials receive macro through global demand, the dollar, inventory, and price transmission.",
+          "Consumer and autos often receive macro through income expectations, confidence, policy stimulus, and financing access."
         ]
       }
     ]
