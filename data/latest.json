@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-28 16:41:54",
+    "generated_at": "2026-03-28 19:20:46",
     "mode": "分析日报"
   },
   "latest": {
@@ -999,71 +999,6 @@
         "analysis_basis": "标题/摘要"
       },
       {
-        "id": "media-cls-telegraph-泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
-        "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
-        "url": "https://www.cls.cn/detail/2327829",
-        "published_at": "2026-03-28 14:28:18",
-        "event_date": "2026-03-28",
-        "source_id": "media-cls-telegraph",
-        "source_name": "财联社电报",
-        "theme": "china-fast-alert",
-        "category": "media-alert",
-        "priority": "P1",
-        "trust_level": "secondary",
-        "bucket_id": "media_watch",
-        "bucket_title": "媒体预警证据池",
-        "importance_level": "C级背景",
-        "importance_score": 5,
-        "event_type": "地缘与商品冲击",
-        "what_happened": "【泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议】财联社3月28日电，泰国总理阿努廷28日说，为应对中东局势引发的泰国国内油价上涨等危机，泰国外交部近期与相关国家积极沟通，根据目前与伊朗方面达成的协议，泰国油轮能够安全通过霍尔木兹海峡。阿努廷当天在总理府举行媒体见面会，就政府...",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
-        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-        "macro_transmission": [
-          "地缘事件 -> 油价/运价/供给预期变化 -> 通胀与增长预期重估",
-          "若冲击持续，风险偏好和政策路径都会被重新定价"
-        ],
-        "market_implication": {
-          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
-          "assets": {
-            "a_h_share": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不构成新的交易主线。"
-            },
-            "rates": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变利率主判断。"
-            },
-            "fx": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变汇率方向判断。"
-            },
-            "gold": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "避险与通胀信号不足。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不足以重塑商品供需预期。"
-            }
-          }
-        },
-        "confidence": "中低",
-        "follow_up_signals": [
-          "油价是否持续上行",
-          "冲突是否扩大或缓和",
-          "通胀预期和避险资产是否同步强化"
-        ],
-        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "【泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议】财联社3月28日电，泰国总理阿努廷28日说，为应对中东局势引发的泰国国内油价上涨等危机，泰国外交部近期与相关国家积极沟通，根据目前与伊朗方面达成的协议，泰国油轮能够安全通过霍尔木兹海峡。阿努廷当天在总理府举行媒体见面会，就政府应对油价波动的措施进行说明。他说，政府接下来将重点推进外交协调、能源安全、商品价格管控以及民生保障等四方面工作，并呼吁公众共同践行节能措施来加以应对。泰国外交部...",
-        "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
-      },
-      {
         "id": "media-cls-depth-泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
         "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
         "url": "https://www.cls.cn/detail/2327833",
@@ -1129,14 +1064,14 @@
         "analysis_basis": "标题/摘要"
       },
       {
-        "id": "media-cls-depth-末日博士-鲁比尼-特朗普更有可能升级伊朗局势而非选择退让",
-        "title": "“末日博士”鲁比尼：特朗普更有可能升级伊朗局势而非选择退让",
-        "url": "https://www.cls.cn/detail/2327594",
-        "published_at": "2026-03-27 23:25:36",
-        "event_date": "2026-03-27",
-        "source_id": "media-cls-depth",
-        "source_name": "财联社深度",
-        "theme": "macro-depth-alert",
+        "id": "media-cls-telegraph-欧洲运输与环境联合会-美以伊战事推高全球航运成本",
+        "title": "欧洲运输与环境联合会：美以伊战事推高全球航运成本",
+        "url": "https://www.cls.cn/detail/2327885",
+        "published_at": "2026-03-28 17:53:09",
+        "event_date": "2026-03-28",
+        "source_id": "media-cls-telegraph",
+        "source_name": "财联社电报",
+        "theme": "china-fast-alert",
         "category": "media-alert",
         "priority": "P1",
         "trust_level": "secondary",
@@ -1145,7 +1080,7 @@
         "importance_level": "C级背景",
         "importance_score": 5,
         "event_type": "地缘与商品冲击",
-        "what_happened": "①著名经济学家鲁比尼预测，美国总统特朗普可能选择升级对伊朗的冲突以争取胜利，而非退让。他认为冲突升级的概率超过50%； ②鲁比尼警告称，冲突持续将对全球经济造成冲击，可能导致油价上涨、各国下调经济增长预期，并可能迫使美联储和欧洲央行加息。",
+        "what_happened": "【欧洲运输与环境联合会：美以伊战事推高全球航运成本】财联社3月28日电，欧洲运输与环境联合会27日发布报告说，受美以伊战事影响，全球航运业燃料成本大幅攀升，在推高行业运营压力的同时，也为加快能源转型提供契机。报告显示，自2月28日以来，全球航运业累计额外燃料成本已超46亿欧...",
         "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
@@ -1189,7 +1124,7 @@
           "通胀预期和避险资产是否同步强化"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "①著名经济学家鲁比尼预测，美国总统特朗普可能选择升级对伊朗的冲突以争取胜利，而非退让。他认为冲突升级的概率超过50%； ②鲁比尼警告称，冲突持续将对全球经济造成冲击，可能导致油价上涨、各国下调经济增长预期，并可能迫使美联储和欧洲央行加息。",
+        "raw_summary": "【欧洲运输与环境联合会：美以伊战事推高全球航运成本】财联社3月28日电，欧洲运输与环境联合会27日发布报告说，受美以伊战事影响，全球航运业燃料成本大幅攀升，在推高行业运营压力的同时，也为加快能源转型提供契机。报告显示，自2月28日以来，全球航运业累计额外燃料成本已超46亿欧元。随着冲突持续，船用燃料价格显著上涨。以新加坡港口为例，超低硫燃料油价格已升至每吨941欧元，较年初上涨223%；液化天然气价格自3月初以来上涨72%。报告指...",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要"
       },
@@ -1519,28 +1454,28 @@
         "analysis_basis": "标题/摘要"
       },
       {
-        "id": "cn-safe-home-circular-of-the-state-administration-of-foreign-exchange-on",
-        "title": "Circular of the State Administration of Foreign Exchange on ...",
-        "url": "https://www.safe.gov.cn/en/2021/1203/1909.html",
-        "published_at": null,
-        "event_date": "2021-12-03",
-        "source_id": "cn-safe-home",
-        "source_name": "国家外汇管理局英文发布",
-        "theme": "china-fx-bop",
+        "id": "eu-ecb-blog-rss-mind-the-gap-credit-dynamics-in-the-euro-area",
+        "title": "Mind the gap: credit dynamics in the euro area",
+        "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260126~5d9addcc3f.en.html",
+        "published_at": "Mon, 26 Jan 2026 11:00:00 +0100",
+        "event_date": "2026-01-26",
+        "source_id": "eu-ecb-blog-rss",
+        "source_name": "欧洲央行博客",
+        "theme": "euro-policy-communication",
         "category": "official-secondary",
         "priority": "P1",
         "trust_level": "primary",
-        "bucket_id": "china_data",
-        "bucket_title": "中国数据证据池",
+        "bucket_id": "global_macro",
+        "bucket_title": "全球宏观与跨资产证据池",
         "importance_level": "C级背景",
         "importance_score": 3,
-        "event_type": "汇率/跨境流动",
-        "what_happened": "Circular of the State Administration of Foreign Exchange on ...",
-        "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。",
+        "event_type": "流动性/利率",
+        "what_happened": "Mind the gap: credit dynamics in the euro area",
+        "analysis_summary": "流动性/利率视角下，这条信息更适合作为背景记录。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
-          "汇率/跨境资金变化 -> 外资预期与政策空间变化 -> 股票、债券和商品再定价",
-          "若伴随美元或全球利率变化，传导会更快更广"
+          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
+          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
         ],
         "market_implication": {
           "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
@@ -1574,38 +1509,38 @@
         },
         "confidence": "中高",
         "follow_up_signals": [
-          "人民币汇率与美元指数",
-          "跨境资金流向是否延续",
-          "政策是否释放稳汇率信号"
+          "公开市场操作和短端资金价格",
+          "政策沟通是否继续偏松",
+          "信用扩张是否同步跟进"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "raw_summary": "Mind the gap: credit dynamics in the euro area",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要"
       },
       {
-        "id": "cn-safe-home-circular-of-the-state-administration-of-foreign-exchange-on",
-        "title": "Circular of the State Administration of Foreign Exchange on ...",
-        "url": "https://www.safe.gov.cn/en/2021/0108/1792.html",
-        "published_at": null,
-        "event_date": "2021-01-08",
-        "source_id": "cn-safe-home",
-        "source_name": "国家外汇管理局英文发布",
-        "theme": "china-fx-bop",
+        "id": "eu-ecb-blog-rss-lower-inflation-weaker-activity-what-foreign-import-tariffs-mean-for-the-euro-area",
+        "title": "Lower inflation, weaker activity: what foreign import tariffs mean for the euro area",
+        "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260210~187329b5f5.en.html",
+        "published_at": "Tue, 10 Feb 2026 11:00:00 +0100",
+        "event_date": "2026-02-10",
+        "source_id": "eu-ecb-blog-rss",
+        "source_name": "欧洲央行博客",
+        "theme": "euro-policy-communication",
         "category": "official-secondary",
         "priority": "P1",
         "trust_level": "primary",
-        "bucket_id": "china_data",
-        "bucket_title": "中国数据证据池",
+        "bucket_id": "global_macro",
+        "bucket_title": "全球宏观与跨资产证据池",
         "importance_level": "C级背景",
         "importance_score": 3,
-        "event_type": "汇率/跨境流动",
-        "what_happened": "Circular of the State Administration of Foreign Exchange on ...",
-        "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。",
+        "event_type": "流动性/利率",
+        "what_happened": "Lower inflation, weaker activity: what foreign import tariffs mean for the euro area",
+        "analysis_summary": "流动性/利率视角下，这条信息更适合作为背景记录。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
-          "汇率/跨境资金变化 -> 外资预期与政策空间变化 -> 股票、债券和商品再定价",
-          "若伴随美元或全球利率变化，传导会更快更广"
+          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
+          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
         ],
         "market_implication": {
           "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
@@ -1639,12 +1574,77 @@
         },
         "confidence": "中高",
         "follow_up_signals": [
-          "人民币汇率与美元指数",
-          "跨境资金流向是否延续",
-          "政策是否释放稳汇率信号"
+          "公开市场操作和短端资金价格",
+          "政策沟通是否继续偏松",
+          "信用扩张是否同步跟进"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "raw_summary": "Lower inflation, weaker activity: what foreign import tariffs mean for the euro area",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "eu-ecb-blog-rss-how-tariffs-threaten-business-dynamism-productivity-and-growth",
+        "title": "How tariffs threaten business dynamism, productivity and growth",
+        "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260225~f0dae9781d.en.html",
+        "published_at": "Wed, 25 Feb 2026 11:00:00 +0100",
+        "event_date": "2026-02-25",
+        "source_id": "eu-ecb-blog-rss",
+        "source_name": "欧洲央行博客",
+        "theme": "euro-policy-communication",
+        "category": "official-secondary",
+        "priority": "P1",
+        "trust_level": "primary",
+        "bucket_id": "global_macro",
+        "bucket_title": "全球宏观与跨资产证据池",
+        "importance_level": "C级背景",
+        "importance_score": 3,
+        "event_type": "流动性/利率",
+        "what_happened": "How tariffs threaten business dynamism, productivity and growth",
+        "analysis_summary": "流动性/利率视角下，这条信息更适合作为背景记录。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
+          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "confidence": "中高",
+        "follow_up_signals": [
+          "公开市场操作和短端资金价格",
+          "政策沟通是否继续偏松",
+          "信用扩张是否同步跟进"
+        ],
+        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
+        "raw_summary": "How tariffs threaten business dynamism, productivity and growth",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要"
       }
@@ -1832,17 +1832,17 @@
           },
           {
             "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
-            "url": "https://www.cls.cn/detail/2327829",
-            "importance_level": "C级背景",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
-            "source_name": "财联社电报"
-          },
-          {
-            "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
             "url": "https://www.cls.cn/detail/2327833",
             "importance_level": "C级背景",
             "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
             "source_name": "财联社深度"
+          },
+          {
+            "title": "欧洲运输与环境联合会：美以伊战事推高全球航运成本",
+            "url": "https://www.cls.cn/detail/2327885",
+            "importance_level": "C级背景",
+            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
+            "source_name": "财联社电报"
           },
           {
             "title": "俄副外长：俄日接触保持在最低水平 若日方威胁远东将反制",
@@ -1904,7 +1904,7 @@
       "secondary": 8,
       "background": 12,
       "ignored": 8,
-      "raw_items_total": 97
+      "raw_items_total": 104
     },
     "watchpoints": [
       "中国政策雷达: 中国人民银行货币政策委员会...",
@@ -2047,6 +2047,16 @@
         "notes": "用于补充欧元区通胀、货币总量、信贷、国际收支和金融账户等一手数据。"
       },
       {
+        "name": "欧洲央行博客",
+        "category_label": "官方二级",
+        "priority": "P1",
+        "region": "EU",
+        "trust_label": "一手",
+        "cadence_label": "每日",
+        "homepage_url": "https://www.ecb.europa.eu/press/blog/html/index.en.html",
+        "notes": "用于补充欧洲央行对增长、通胀、工资、信贷和金融环境的框架性解读。"
+      },
+      {
         "name": "英国央行新闻与公告",
         "category_label": "官方一级",
         "priority": "P0",
@@ -2065,6 +2075,16 @@
         "cadence_label": "每日",
         "homepage_url": "https://www.bankofengland.co.uk/statistics",
         "notes": "用于补充英国利率、信贷、按揭、汇率和货币金融统计发布。"
+      },
+      {
+        "name": "纽约联储 Liberty Street Economics",
+        "category_label": "官方二级",
+        "priority": "P1",
+        "region": "US",
+        "trust_label": "一手",
+        "cadence_label": "每日",
+        "homepage_url": "https://libertystreeteconomics.newyorkfed.org/",
+        "notes": "用于补充纽约联储研究博客对美国通胀、利率、信用、住房和金融条件的框架性解读。"
       },
       {
         "name": "英国央行讲话",
@@ -2133,7 +2153,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-28 16:41:54",
+    "daily_input_generated_at": "2026-03-28 19:20:46",
     "source_documents": [
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
