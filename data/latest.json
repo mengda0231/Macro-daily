@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-28 16:39:06",
+    "generated_at": "2026-03-28 16:41:54",
     "mode": "分析日报"
   },
   "latest": {
@@ -1796,13 +1796,6 @@
             "source_name": "欧洲央行新闻稿"
           },
           {
-            "title": "Summary of AI roundtables - February 2026",
-            "url": "https://www.bankofengland.co.uk/minutes/2026/february/summary-of-ai-roundtables-feb-2026",
-            "importance_level": "A级重点",
-            "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。",
-            "source_name": "英国央行新闻与公告"
-          },
-          {
             "title": "Piero Cipollone: The digital euro: preparing for a potential launch",
             "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260324~66f71f7577.en.html",
             "importance_level": "A级重点",
@@ -1815,6 +1808,13 @@
             "importance_level": "A级重点",
             "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。",
             "source_name": "欧洲央行新闻稿"
+          },
+          {
+            "title": "Mortgage Lenders and Administrators Statistics - 2025 Q4",
+            "url": "https://www.bankofengland.co.uk/statistics/mortgage-lenders-and-administrators/2025/2025-q4",
+            "importance_level": "B级关注",
+            "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+            "source_name": "英国央行统计发布"
           }
         ]
       },
@@ -2133,7 +2133,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-28 16:39:06",
+    "daily_input_generated_at": "2026-03-28 16:41:54",
     "source_documents": [
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
