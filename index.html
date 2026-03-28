@@ -14,13 +14,12 @@
             <p class="eyebrow">宏观日报</p>
             <h1 id="site-title">加载中...</h1>
             <p id="site-subtitle" class="subtitle"></p>
+            <p id="latest-headline" class="headline"></p>
+            <p id="latest-summary" class="summary"></p>
           </div>
           <div class="hero-side card subtle-card">
-            <p class="section-tag">当前模式</p>
-            <h2>框架底座 + 每日输入</h2>
-            <p>
-              官方宏观发布是主锚点，快讯和媒体信源保留为预警层，但不替代一手来源验证。
-            </p>
+            <p class="section-tag">今日框架</p>
+            <h2>先结论，再证据，再背景</h2>
             <div id="daily-counts" class="count-grid"></div>
           </div>
         </div>
@@ -33,34 +32,72 @@
       </header>
 
       <main class="layout">
-        <section class="latest-panel card">
-          <div class="panel-head">
-            <div>
-              <p class="section-tag">最新日报</p>
-              <h2 id="latest-date"></h2>
+        <section class="main-column">
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">今日宏观判断</p>
+                <h2 id="latest-date"></h2>
+              </div>
+              <span id="latest-mode" class="pill"></span>
             </div>
-            <span id="latest-mode" class="pill"></span>
-          </div>
-          <p id="latest-headline" class="headline"></p>
-          <p id="latest-summary" class="summary"></p>
-          <div id="watchpoints" class="watchpoints"></div>
-          <div id="latest-sections" class="sections"></div>
+            <div id="judgment-list" class="judgment-list"></div>
+            <div id="watchpoints" class="watchpoints"></div>
+          </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">重点点评卡</p>
+                <h2>今天最值得看的宏观事件</h2>
+              </div>
+            </div>
+            <div id="focus-cards" class="focus-cards"></div>
+          </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">次级关注</p>
+                <h2>有增量，但暂不到主线级别</h2>
+              </div>
+            </div>
+            <div id="secondary-list" class="stack-list"></div>
+          </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">背景与降级信息</p>
+                <h2>保留记录，但不抢主视图</h2>
+              </div>
+            </div>
+            <details class="background-details" open>
+              <summary>展开查看背景层事件</summary>
+              <div id="background-list" class="stack-list"></div>
+            </details>
+          </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">分桶证据池</p>
+                <h2>用于验证主线，不替代重点判断</h2>
+              </div>
+            </div>
+            <div id="evidence-sections" class="evidence-grid"></div>
+          </section>
         </section>
 
         <aside class="sidebar">
           <section class="card">
-            <p class="section-tag">阅读锚点</p>
-            <h3>如何使用这份日报</h3>
-            <ul class="compact-list">
-              <li>先抓核心矛盾，不要先盯价格波动。</li>
-              <li>给每条信息先定位到传导层，再判断权重。</li>
-              <li>每一版都要保留清晰的证伪区块。</li>
-            </ul>
+            <p class="section-tag">今日资产映射</p>
+            <div id="asset-map" class="asset-map"></div>
           </section>
 
           <section class="card">
-            <p class="section-tag">源文件集合</p>
-            <div id="source-docs" class="source-list"></div>
+            <p class="section-tag">重点跟踪指标</p>
+            <div id="follow-up-signals" class="compact-list"></div>
           </section>
 
           <section class="card">
@@ -75,7 +112,12 @@
           </section>
 
           <section class="card">
-            <p class="section-tag">历史记录</p>
+            <p class="section-tag">框架锚点</p>
+            <div id="framework-notes" class="compact-list"></div>
+          </section>
+
+          <section class="card">
+            <p class="section-tag">历史判断</p>
             <div id="history-list" class="history-list"></div>
           </section>
         </aside>
@@ -83,16 +125,14 @@
     </div>
 
     <script>
-      function renderSectionItem(item) {
-        if (typeof item === 'string') {
-          const li = document.createElement('li');
-          li.textContent = item;
-          return li;
-        }
+      function createNode(tag, className, text) {
+        const node = document.createElement(tag);
+        if (className) node.className = className;
+        if (text) node.textContent = text;
+        return node;
+      }
 
-        const li = document.createElement('li');
-        li.className = 'entry-item';
-
+      function renderCardTitle(item) {
         const title = document.createElement(item.url ? 'a' : 'span');
         title.className = 'entry-title';
         title.textContent = item.title;
@@ -101,133 +141,164 @@
           title.target = '_blank';
           title.rel = 'noreferrer';
         }
-        li.appendChild(title);
+        return title;
+      }
 
-        if (item.meta) {
-          const meta = document.createElement('div');
-          meta.className = 'entry-meta';
-          meta.textContent = item.meta;
-          li.appendChild(meta);
+      function renderFocusCard(item) {
+        const card = createNode('article', 'focus-card');
+        const top = createNode('div', 'card-top');
+        const level = createNode('span', 'pill level-pill', item.importance_level);
+        const meta = createNode('span', 'entry-meta', [item.source_name, item.event_type, item.confidence + '置信度'].join(' | '));
+        top.appendChild(level);
+        top.appendChild(meta);
+        card.appendChild(top);
+        card.appendChild(renderCardTitle(item));
+
+        const sections = [
+          ['发生了什么', item.what_happened],
+          ['为什么重要', item.why_it_matters],
+          ['传导链', (item.macro_transmission || []).join(' -> ')],
+          ['投资含义', item.market_implication ? item.market_implication.summary : ''],
+          ['跟踪点', (item.follow_up_signals || []).slice(0, 3).join('；')],
+        ];
+
+        sections.forEach(([label, value]) => {
+          if (!value) return;
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', label + '：'));
+          row.appendChild(createNode('span', '', value));
+          card.appendChild(row);
+        });
+        return card;
+      }
+
+      function renderStackItem(item) {
+        const wrap = createNode('article', 'stack-item');
+        const header = createNode('div', 'stack-header');
+        header.appendChild(renderCardTitle(item));
+        header.appendChild(createNode('span', 'pill small-pill', item.importance_level));
+        wrap.appendChild(header);
+        wrap.appendChild(createNode('div', 'entry-meta', [item.source_name, item.event_type].join(' | ')));
+        if (item.analysis_summary) wrap.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
+        if (item.market_implication && item.market_implication.summary) {
+          wrap.appendChild(createNode('p', 'entry-summary', '投资含义：' + item.market_implication.summary));
         }
+        if (item.downgrade_reason) wrap.appendChild(createNode('p', 'entry-summary', '降级原因：' + item.downgrade_reason));
+        return wrap;
+      }
 
-        if (item.summary) {
-          const summary = document.createElement('div');
-          summary.className = 'entry-summary';
-          summary.textContent = item.summary;
-          li.appendChild(summary);
-        }
-
-        return li;
+      function renderEvidenceSection(section) {
+        const card = createNode('article', 'evidence-card');
+        card.appendChild(createNode('h3', '', section.title));
+        if (section.hint) card.appendChild(createNode('p', 'section-hint', section.hint));
+        const list = createNode('div', 'evidence-list');
+        (section.items || []).forEach((item) => {
+          const row = createNode('div', 'evidence-item');
+          row.appendChild(renderCardTitle(item));
+          row.appendChild(createNode('div', 'entry-meta', [item.source_name, item.importance_level].join(' | ')));
+          row.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
+          list.appendChild(row);
+        });
+        card.appendChild(list);
+        return card;
       }
 
       async function main() {
         const response = await fetch('./data/latest.json', { cache: 'no-store' });
         const payload = await response.json();
+        const latest = payload.latest;
 
         document.getElementById('site-title').textContent = payload.site.title;
         document.getElementById('site-subtitle').textContent = payload.site.subtitle;
+        document.getElementById('latest-date').textContent = latest.date;
+        document.getElementById('latest-headline').textContent = latest.headline;
+        document.getElementById('latest-summary').textContent = latest.summary;
         document.getElementById('generated-at').textContent = '页面生成时间：' + payload.site.generated_at;
         document.getElementById('site-mode').textContent = '页面模式：' + payload.site.mode;
-
-        if (payload.latest.daily_input_generated_at) {
-          document.getElementById('daily-generated-at').textContent =
-            '输入扫描时间：' + payload.latest.daily_input_generated_at;
+        document.getElementById('latest-mode').textContent = latest.mode || '分析日报';
+        if (latest.daily_input_generated_at) {
+          document.getElementById('daily-generated-at').textContent = '分析生成时间：' + latest.daily_input_generated_at;
         }
 
-        document.getElementById('latest-date').textContent = payload.latest.date;
-        document.getElementById('latest-headline').textContent = payload.latest.headline;
-        document.getElementById('latest-summary').textContent = payload.latest.summary;
-        document.getElementById('latest-mode').textContent = payload.latest.mode || '框架模式';
-
+        const countMap = {
+          focus: '重点',
+          secondary: '关注',
+          background: '背景',
+          ignored: '忽略',
+          raw_items_total: '原始条目',
+        };
         const countsWrap = document.getElementById('daily-counts');
-        const counts = payload.latest.daily_input_counts || {};
-        Object.entries(counts).forEach(([label, value]) => {
-          const box = document.createElement('div');
-          box.className = 'count-box';
-          const labelMap = {
-            sources_ok: '成功信源',
-            sources_failed: '失败信源',
-            items_total: '候选条目',
-          };
-          box.innerHTML = '<strong>' + value + '</strong><span>' + (labelMap[label] || label.replaceAll('_', ' ')) + '</span>';
+        Object.entries(latest.daily_input_counts || {}).forEach(([key, value]) => {
+          const box = createNode('div', 'count-box');
+          box.innerHTML = '<strong>' + value + '</strong><span>' + (countMap[key] || key) + '</span>';
           countsWrap.appendChild(box);
         });
 
-        const sectionWrap = document.getElementById('latest-sections');
-        const watchpointsWrap = document.getElementById('watchpoints');
-        (payload.latest.watchpoints || []).forEach((item) => {
-          const chip = document.createElement('div');
-          chip.className = 'watchpoint';
-          chip.textContent = item;
-          watchpointsWrap.appendChild(chip);
+        const judgmentWrap = document.getElementById('judgment-list');
+        (latest.judgments || []).forEach((text) => {
+          const row = createNode('div', 'judgment-item');
+          row.appendChild(createNode('span', 'bullet-dot'));
+          row.appendChild(createNode('span', '', text));
+          judgmentWrap.appendChild(row);
         });
 
-        payload.latest.sections.forEach((section) => {
-          const article = document.createElement('article');
-          article.className = 'section-card';
-          const title = document.createElement('h3');
-          title.textContent = section.title;
-          if (section.hint) {
-            const hint = document.createElement('p');
-            hint.className = 'section-hint';
-            hint.textContent = section.hint;
-            article.appendChild(title);
-            article.appendChild(hint);
-          } else {
-            article.appendChild(title);
-          }
-          const list = document.createElement('ul');
-          section.items.forEach((item) => {
-            list.appendChild(renderSectionItem(item));
-          });
-          article.appendChild(list);
-          sectionWrap.appendChild(article);
+        const watchpointWrap = document.getElementById('watchpoints');
+        (latest.watchpoints || []).forEach((text) => {
+          watchpointWrap.appendChild(createNode('div', 'watchpoint', text));
         });
 
-        const sourceWrap = document.getElementById('source-docs');
-        payload.latest.source_documents.forEach((source) => {
-          const row = document.createElement('div');
-          row.className = 'source-item';
-          row.textContent = source;
+        const focusWrap = document.getElementById('focus-cards');
+        (latest.focus_cards || []).forEach((item) => focusWrap.appendChild(renderFocusCard(item)));
+
+        const secondaryWrap = document.getElementById('secondary-list');
+        (latest.secondary_items || []).forEach((item) => secondaryWrap.appendChild(renderStackItem(item)));
+
+        const backgroundWrap = document.getElementById('background-list');
+        (latest.background_items || []).forEach((item) => backgroundWrap.appendChild(renderStackItem(item)));
+
+        const evidenceWrap = document.getElementById('evidence-sections');
+        (latest.evidence_sections || []).forEach((section) => evidenceWrap.appendChild(renderEvidenceSection(section)));
+
+        const assetWrap = document.getElementById('asset-map');
+        (latest.asset_map || []).forEach((item) => {
+          const row = createNode('div', 'asset-item');
+          row.appendChild(createNode('strong', '', item.label));
+          row.appendChild(createNode('span', 'pill asset-pill', item.stance));
+          row.appendChild(createNode('p', 'entry-summary', item.reason));
+          assetWrap.appendChild(row);
+        });
+
+        const signalWrap = document.getElementById('follow-up-signals');
+        (latest.follow_up_signals || []).forEach((text) => {
+          signalWrap.appendChild(createNode('div', 'list-row', text));
+        });
+
+        const logic = latest.monitoring_logic || {};
+        document.getElementById('monitoring-strategy').textContent = logic.core_rule || '';
+        const noteWrap = document.getElementById('monitoring-notes');
+        (logic.selection_notes || []).forEach((text) => noteWrap.appendChild(createNode('div', 'note-row', text)));
+
+        const sourceWrap = document.getElementById('monitoring-sources');
+        (latest.monitoring_sources || []).forEach((source) => {
+          const row = createNode('div', 'source-item');
+          row.innerHTML =
+            '<strong>' + source.name + '</strong>' +
+            '<span>' + [source.category_label, source.priority, source.region, source.trust_label].join(' | ') + '</span>' +
+            '<span>更新频率：' + source.cadence_label + '</span>' +
+            '<a class="repo-link" href="' + source.homepage_url + '" target="_blank" rel="noreferrer">' + source.homepage_url + '</a>' +
+            '<span>' + source.notes + '</span>';
           sourceWrap.appendChild(row);
         });
 
-        document.getElementById('monitoring-strategy').textContent = payload.latest.monitoring_strategy;
-        const monitoringNotesWrap = document.getElementById('monitoring-notes');
-        (payload.latest.monitoring_notes || []).forEach((note) => {
-          const noteRow = document.createElement('div');
-          noteRow.className = 'note-row';
-          noteRow.textContent = note;
-          monitoringNotesWrap.appendChild(noteRow);
-        });
-
-        const monitoringWrap = document.getElementById('monitoring-sources');
-        payload.latest.monitoring_sources.forEach((source) => {
-          const row = document.createElement('div');
-          row.className = 'source-item';
-          const categoryMap = {
-            'official-primary': '官方一级',
-            'official-secondary': '官方二级',
-            'media-alert': '媒体预警',
-          };
-          const trustMap = {
-            primary: '一手',
-            secondary: '二手',
-          };
-          row.innerHTML =
-            '<strong>' + source.name + '</strong>' +
-            '<span>' + (categoryMap[source.category] || source.category) + ' | ' + source.priority + ' | ' + source.region + ' | ' + (trustMap[source.trust_level] || source.trust_level) + '</span>' +
-            '<span>更新频率：' + source.cadence + '</span>' +
-            '<a class="repo-link" href="' + source.homepage_url + '" target="_blank" rel="noreferrer">' + source.homepage_url + '</a>' +
-            '<span>' + source.notes + '</span>';
-          monitoringWrap.appendChild(row);
-        });
+        const frameworkWrap = document.getElementById('framework-notes');
+        (latest.framework_notes || []).forEach((text) => frameworkWrap.appendChild(createNode('div', 'list-row', text)));
 
         const historyWrap = document.getElementById('history-list');
-        payload.history.forEach((item) => {
-          const row = document.createElement('div');
-          row.className = 'history-item';
-          row.innerHTML = '<strong>' + item.date + '</strong><span>' + item.headline + '</span><em>' + item.status + '</em>';
+        (payload.history || []).forEach((item) => {
+          const row = createNode('div', 'history-item');
+          row.appendChild(createNode('strong', '', item.date));
+          row.appendChild(createNode('span', '', item.headline));
+          row.appendChild(createNode('em', '', item.status));
           historyWrap.appendChild(row);
         });
       }
