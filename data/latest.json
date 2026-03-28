@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-28 19:31:31",
+    "generated_at": "2026-03-28 20:08:12",
     "mode": "分析日报"
   },
   "latest": {
@@ -999,6 +999,71 @@
         "analysis_basis": "标题/摘要"
       },
       {
+        "id": "media-cls-telegraph-美国务卿和欧盟官员被曝就乌克兰问题激烈交锋",
+        "title": "美国务卿和欧盟官员被曝就乌克兰问题激烈交锋",
+        "url": "https://www.cls.cn/detail/2327912",
+        "published_at": "2026-03-28 19:50:30",
+        "event_date": "2026-03-28",
+        "source_id": "media-cls-telegraph",
+        "source_name": "财联社电报",
+        "theme": "china-fast-alert",
+        "category": "media-alert",
+        "priority": "P1",
+        "trust_level": "secondary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "C级背景",
+        "importance_score": 5,
+        "event_type": "地缘与商品冲击",
+        "what_happened": "【美国务卿和欧盟官员被曝就乌克兰问题激烈交锋】财联社3月28日电，据三名参会消息人士爆料，在当地时间3月27日举行的七国集团外长会期间，美国国务卿鲁比奥和欧盟外交与安全政策高级代表卡拉斯就俄乌冲突问题激烈交锋。消息称，这场交锋体现了美国当前与其许多欧洲盟友之间因俄乌冲突而产...",
+        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "地缘事件 -> 油价/运价/供给预期变化 -> 通胀与增长预期重估",
+          "若冲击持续，风险偏好和政策路径都会被重新定价"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "confidence": "中低",
+        "follow_up_signals": [
+          "油价是否持续上行",
+          "冲突是否扩大或缓和",
+          "通胀预期和避险资产是否同步强化"
+        ],
+        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
+        "raw_summary": "【美国务卿和欧盟官员被曝就乌克兰问题激烈交锋】财联社3月28日电，据三名参会消息人士爆料，在当地时间3月27日举行的七国集团外长会期间，美国国务卿鲁比奥和欧盟外交与安全政策高级代表卡拉斯就俄乌冲突问题激烈交锋。消息称，这场交锋体现了美国当前与其许多欧洲盟友之间因俄乌冲突而产生的相互不信任。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
         "id": "media-cls-depth-泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
         "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
         "url": "https://www.cls.cn/detail/2327833",
@@ -1582,71 +1647,6 @@
         "raw_summary": "Lower inflation, weaker activity: what foreign import tariffs mean for the euro area",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要"
-      },
-      {
-        "id": "eu-ecb-blog-rss-how-tariffs-threaten-business-dynamism-productivity-and-growth",
-        "title": "How tariffs threaten business dynamism, productivity and growth",
-        "url": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260225~f0dae9781d.en.html",
-        "published_at": "Wed, 25 Feb 2026 11:00:00 +0100",
-        "event_date": "2026-02-25",
-        "source_id": "eu-ecb-blog-rss",
-        "source_name": "欧洲央行博客",
-        "theme": "euro-policy-communication",
-        "category": "official-secondary",
-        "priority": "P1",
-        "trust_level": "primary",
-        "bucket_id": "global_macro",
-        "bucket_title": "全球宏观与跨资产证据池",
-        "importance_level": "C级背景",
-        "importance_score": 3,
-        "event_type": "流动性/利率",
-        "what_happened": "How tariffs threaten business dynamism, productivity and growth",
-        "analysis_summary": "流动性/利率视角下，这条信息更适合作为背景记录。",
-        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-        "macro_transmission": [
-          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
-          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
-        ],
-        "market_implication": {
-          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
-          "assets": {
-            "a_h_share": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不构成新的交易主线。"
-            },
-            "rates": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变利率主判断。"
-            },
-            "fx": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变汇率方向判断。"
-            },
-            "gold": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "避险与通胀信号不足。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不足以重塑商品供需预期。"
-            }
-          }
-        },
-        "confidence": "中高",
-        "follow_up_signals": [
-          "公开市场操作和短端资金价格",
-          "政策沟通是否继续偏松",
-          "信用扩张是否同步跟进"
-        ],
-        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "How tariffs threaten business dynamism, productivity and growth",
-        "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
       }
     ],
     "evidence_sections": [
@@ -1845,10 +1845,10 @@
             "source_name": "财联社电报"
           },
           {
-            "title": "俄副外长：俄日接触保持在最低水平 若日方威胁远东将反制",
-            "url": "https://www.cls.cn/detail/2327863",
-            "importance_level": "B级关注",
-            "analysis_summary": "政策变化视角下，这条信息对今日判断有辅助价值。",
+            "title": "美国务卿和欧盟官员被曝就乌克兰问题激烈交锋",
+            "url": "https://www.cls.cn/detail/2327912",
+            "importance_level": "C级背景",
+            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
             "source_name": "财联社电报"
           }
         ]
@@ -2153,16 +2153,16 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-28 19:31:30",
+    "daily_input_generated_at": "2026-03-28 20:08:12",
     "source_documents": [
-      "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
-      "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
-      "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-misjudgment-and-falsification.md",
-      "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-to-industry-interfaces.md",
-      "F:\\cursor\\research-report\\playbooks\\macro-strategy-general-playbook.md",
-      "F:\\cursor\\research-report\\capability\\macro-strategy-general.md",
-      "F:\\cursor\\research-report\\source-registry.json",
-      "F:\\cursor\\research-report\\_work\\macro-daily\\daily-analysis-latest.json"
+      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
+      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
+      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-misjudgment-and-falsification.md",
+      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-to-industry-interfaces.md",
+      "F:\\Codex\\projects\\research-report\\playbooks\\macro-strategy-general-playbook.md",
+      "F:\\Codex\\projects\\research-report\\capability\\macro-strategy-general.md",
+      "F:\\Codex\\projects\\research-report\\source-registry.json",
+      "F:\\Codex\\projects\\research-report\\_work\\macro-daily\\daily-analysis-latest.json"
     ]
   },
   "history": [

@@ -32,11 +32,11 @@ run-local-npm.cmd run dev
 
 当前源文件集合：
 
-- `F:\cursor\research-report\learning\02-macro-synthesis\macro-research-motherboard.md`
-- `F:\cursor\research-report\learning\02-macro-synthesis\macro-transmission-map.md`
-- `F:\cursor\research-report\learning\02-macro-synthesis\macro-misjudgment-and-falsification.md`
-- `F:\cursor\research-report\learning\02-macro-synthesis\macro-to-industry-interfaces.md`
-- `F:\cursor\research-report\playbooks\macro-strategy-general-playbook.md`
-- `F:\cursor\research-report\capability\macro-strategy-general.md`
-- `F:\cursor\research-report\source-registry.json`
-- `F:\cursor\research-report\_work\macro-daily\daily-analysis-latest.json`
+- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-research-motherboard.md`
+- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-transmission-map.md`
+- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-misjudgment-and-falsification.md`
+- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-to-industry-interfaces.md`
+- `F:\Codex\projects\research-report\playbooks\macro-strategy-general-playbook.md`
+- `F:\Codex\projects\research-report\capability\macro-strategy-general.md`
+- `F:\Codex\projects\research-report\source-registry.json`
+- `F:\Codex\projects\research-report\_work\macro-daily\daily-analysis-latest.json`
