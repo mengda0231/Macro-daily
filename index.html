@@ -21,6 +21,7 @@
             <p class="section-tag">今日框架</p>
             <h2>先结论，再证据，再背景</h2>
             <div id="daily-counts" class="count-grid"></div>
+            <div id="hero-outlook" class="hero-outlook"></div>
           </div>
         </div>
         <div class="meta-row">
@@ -52,6 +53,7 @@
                 <h2>今天最值得看的宏观事件</h2>
               </div>
             </div>
+            <div id="lead-focus-card" class="lead-focus-card"></div>
             <div id="focus-cards" class="focus-cards"></div>
           </section>
 
@@ -72,7 +74,7 @@
                 <h2>保留记录，但不抢主视图</h2>
               </div>
             </div>
-            <details class="background-details" open>
+            <details class="background-details">
               <summary>展开查看背景层事件</summary>
               <div id="background-list" class="stack-list"></div>
             </details>
@@ -144,15 +146,37 @@
         return title;
       }
 
-      function renderFocusCard(item) {
-        const card = createNode('article', 'focus-card');
+      function renderAssetChips(assets, className) {
+        const wrap = createNode('div', className || 'asset-chip-row');
+        const labels = {
+          a_h_share: '股',
+          rates: '利率',
+          fx: '汇率',
+          gold: '黄金',
+          oil_commodities: '商品',
+        };
+        Object.entries(assets || {}).forEach(([key, detail]) => {
+          const chip = createNode('div', 'asset-chip');
+          chip.appendChild(createNode('strong', '', labels[key] || key));
+          chip.appendChild(createNode('span', 'asset-chip-pill stance-' + (detail.score > 0 ? 'up' : detail.score < 0 ? 'down' : 'flat'), detail.bias));
+          wrap.appendChild(chip);
+        });
+        return wrap;
+      }
+
+      function renderFocusCard(item, lead) {
+        const card = createNode('article', lead ? 'focus-card focus-card--lead' : 'focus-card');
         const top = createNode('div', 'card-top');
         const level = createNode('span', 'pill level-pill', item.importance_level);
-        const meta = createNode('span', 'entry-meta', [item.source_name, item.event_type, item.confidence + '置信度'].join(' | '));
+        const basis = item.analysis_basis ? item.analysis_basis : '标题/摘要';
+        const meta = createNode('span', 'entry-meta', [item.source_name, item.event_type, basis, item.confidence + '置信度'].join(' | '));
         top.appendChild(level);
         top.appendChild(meta);
         card.appendChild(top);
         card.appendChild(renderCardTitle(item));
+        if (item.market_implication && item.market_implication.assets) {
+          card.appendChild(renderAssetChips(item.market_implication.assets, lead ? 'asset-chip-row asset-chip-row--lead' : 'asset-chip-row'));
+        }
 
         const sections = [
           ['发生了什么', item.what_happened],
@@ -248,7 +272,12 @@
         });
 
         const focusWrap = document.getElementById('focus-cards');
-        (latest.focus_cards || []).forEach((item) => focusWrap.appendChild(renderFocusCard(item)));
+        const leadFocusWrap = document.getElementById('lead-focus-card');
+        const focusItems = latest.focus_cards || [];
+        if (focusItems.length > 0) {
+          leadFocusWrap.appendChild(renderFocusCard(focusItems[0], true));
+          focusItems.slice(1).forEach((item) => focusWrap.appendChild(renderFocusCard(item, false)));
+        }
 
         const secondaryWrap = document.getElementById('secondary-list');
         (latest.secondary_items || []).forEach((item) => secondaryWrap.appendChild(renderStackItem(item)));
@@ -261,11 +290,19 @@
 
         const assetWrap = document.getElementById('asset-map');
         (latest.asset_map || []).forEach((item) => {
-          const row = createNode('div', 'asset-item');
+          const row = createNode('div', 'asset-item stance-' + (item.score > 0 ? 'up' : item.score < 0 ? 'down' : 'flat'));
           row.appendChild(createNode('strong', '', item.label));
           row.appendChild(createNode('span', 'pill asset-pill', item.stance));
           row.appendChild(createNode('p', 'entry-summary', item.reason));
           assetWrap.appendChild(row);
+        });
+
+        const heroOutlookWrap = document.getElementById('hero-outlook');
+        (latest.asset_map || []).slice(0, 4).forEach((item) => {
+          const chip = createNode('div', 'hero-outlook-item stance-' + (item.score > 0 ? 'up' : item.score < 0 ? 'down' : 'flat'));
+          chip.appendChild(createNode('strong', '', item.label));
+          chip.appendChild(createNode('span', '', item.stance));
+          heroOutlookWrap.appendChild(chip);
         });
 
         const signalWrap = document.getElementById('follow-up-signals');

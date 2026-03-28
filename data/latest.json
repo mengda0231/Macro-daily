@@ -2,20 +2,19 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-28 14:04:11",
+    "generated_at": "2026-03-28 14:57:53",
     "mode": "分析日报"
   },
   "latest": {
     "slug": "2026-03-28",
     "date": "2026-03-28",
-    "headline": "今天筛出 5 条重点、4 条关注、12 条背景事件；主线聚焦在数据验证、流动性/利率。",
-    "summary": "这份日报优先回答“为什么重要、如何传导、对资产意味着什么”，而不是简单罗列链接。",
+    "headline": "今天筛出 5 条重点、8 条关注、12 条背景事件；主线聚焦在数据验证、流动性/利率。",
+    "summary": "这份日报优先回答“为什么重要、如何传导、对资产意味着什么”，并尽量用正文增量而不是仅用标题做点评。",
     "mode": "分析日报",
     "judgments": [
       "今天更值得盯数据是否在连续验证当前主线，而不是对单一读数做过度外推。",
       "利率和流动性仍是核心定价锚，若短端条件继续改善，权益估值会比基本面更先反应。",
-      "汇率和跨境流动决定外资风险偏好与政策空间，应把人民币方向与资本流动放在高优先级观察位。",
-      "地缘与油价冲击仍是最容易快速改变跨资产定价的外生变量，短期更偏向风险源而非单纯题材。"
+      "今日政策线索更适合按“稳预期”而不是“强刺激”理解，只有后续出现量化工具和执行细则，才值得进一步上调风险偏好。"
     ],
     "focus_cards": [
       {
@@ -33,13 +32,13 @@
         "bucket_id": "fed_us_macro",
         "bucket_title": "美联储与美国宏观证据池",
         "importance_level": "A级重点",
-        "importance_score": 15,
+        "importance_score": 16,
         "event_type": "数据验证",
-        "what_happened": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
-        "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
-        "why_it_matters": "这类数据的价值在于验证或反驳当前主线。真正重要的不是单一数字本身，而是它是否改变增长、通胀和政策预期。",
+        "what_happened": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int...",
+        "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
+        "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看正文中的新增数字或执行口径是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
-          "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
+          "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整；当前正文中已有更明确的数字或措辞增量。",
           "若连续几期同向变化，市场会把单点数据升级为阶段性趋势"
         ],
         "market_implication": {
@@ -74,12 +73,15 @@
         },
         "confidence": "高",
         "follow_up_signals": [
+          "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
           "市场是否重写增长或通胀预期"
         ],
         "downgrade_reason": null,
-        "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
+        "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。",
+        "detail_excerpt": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from international economic transactions narrowed by $48.4 billion, or 20.2 percent, to $190.7 billion in the fourth quarter of 2025, according to statistics released t...",
+        "analysis_basis": "正文提炼"
       },
       {
         "id": "us-bea-current-releases-u-s-international-trade-in-goods-and-services-january-2026",
@@ -96,13 +98,13 @@
         "bucket_id": "fed_us_macro",
         "bucket_title": "美联储与美国宏观证据池",
         "importance_level": "A级重点",
-        "importance_score": 15,
+        "importance_score": 16,
         "event_type": "数据验证",
-        "what_happened": "U.S. International Trade in Goods and Services, January 2026",
-        "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
-        "why_it_matters": "这类数据的价值在于验证或反驳当前主线。真正重要的不是单一数字本身，而是它是否改变增长、通胀和政策预期。",
+        "what_happened": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser...",
+        "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
+        "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看正文中的新增数字或执行口径是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
-          "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
+          "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整；当前正文中已有更明确的数字或措辞增量。",
           "若连续几期同向变化，市场会把单点数据升级为阶段性趋势"
         ],
         "market_implication": {
@@ -137,12 +139,81 @@
         },
         "confidence": "高",
         "follow_up_signals": [
+          "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
           "市场是否重写增长或通胀预期"
         ],
         "downgrade_reason": null,
-        "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
+        "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。",
+        "detail_excerpt": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the services surplus of $1.0 billion to $27.3 billion. International Trade in Goods and Services, January 2026 EMBARGOED UNTIL RELEASE AT 8:30 A.M.",
+        "analysis_basis": "正文提炼"
+      },
+      {
+        "id": "cn-pboc-home-中国人民银行召开2026年金融稳定工作会议",
+        "title": "中国人民银行召开2026年金融稳定工作会议",
+        "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032711215379505/index.html",
+        "published_at": null,
+        "event_date": "2026-03-27",
+        "source_id": "cn-pboc-home",
+        "source_name": "中国人民银行",
+        "theme": "china-monetary-policy",
+        "category": "official-primary",
+        "priority": "P0",
+        "trust_level": "primary",
+        "bucket_id": "china_policy",
+        "bucket_title": "中国政策证据池",
+        "importance_level": "A级重点",
+        "importance_score": 15,
+        "event_type": "流动性/利率",
+        "what_happened": "术语表 常见问题 --> 网站地图 更新日志 --> --> 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政...",
+        "analysis_summary": "流动性/利率视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
+        "why_it_matters": "利率和流动性是宏观传导链的核心变量，正文中的新增数字或执行口径往往会先影响估值和风险偏好，再影响更广泛资产定价。",
+        "macro_transmission": [
+          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价；当前正文中已有更明确的数字或措辞增量。",
+          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
+        ],
+        "market_implication": {
+          "summary": "流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。",
+          "assets": {
+            "a_h_share": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "流动性改善通常先利好成长与高弹性资产。"
+            },
+            "rates": {
+              "bias": "偏下",
+              "score": 1,
+              "reason": "若宽松倾向强化，利率中枢更易下移。"
+            },
+            "fx": {
+              "bias": "中性偏弱",
+              "score": -1,
+              "reason": "宽松若明显加大，人民币可能阶段性承压。"
+            },
+            "gold": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "实际利率回落通常利多黄金。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "商品更多取决于需求与供给是否跟上。"
+            }
+          }
+        },
+        "confidence": "高",
+        "follow_up_signals": [
+          "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
+          "公开市场操作和短端资金价格",
+          "政策沟通是否继续偏松",
+          "信用扩张是否同步跟进"
+        ],
+        "downgrade_reason": null,
+        "raw_summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。",
+        "detail_excerpt": "术语表 常见问题 --> 网站地图 更新日志 --> --> 无障碍浏览 English Version 信息公开 新闻发布 法律法规 货币政策 宏观审慎 信贷政策 金融市场 金融稳定 调查统计 银行会计 支付体系 金融科技 人民币 经理国库 国际交往 人员招录 学术交流 征信管理 反洗钱 党建工作 服务互动 政务公开 政策解读 公告信息 图文直播 央行研究 音频视频 市场动态 网上展厅 报告下载 报刊年鉴 网送文告 办事大厅 在线申报 下载中心 网上调查 意见征集 金融知识 关于我们 | 我的位置: 沟通交流 > 沟通交流 > 新闻 中国人民银行召开2026年金融稳定工作会议 字号 大 中 小 文章来源： 2026-03-2...",
+        "analysis_basis": "正文提炼"
       },
       {
         "id": "us-fed-press-rss-federal-reserve-issues-fomc-statement",
@@ -159,13 +230,13 @@
         "bucket_id": "media_watch",
         "bucket_title": "媒体预警证据池",
         "importance_level": "A级重点",
-        "importance_score": 12,
+        "importance_score": 13,
         "event_type": "流动性/利率",
-        "what_happened": "Federal Reserve issues FOMC statement",
-        "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。",
-        "why_it_matters": "利率和流动性是宏观传导链的核心变量，往往会先影响估值和风险偏好，再影响更广泛资产定价。",
+        "what_happened": "Assets Large Banks and Large Foreign Banks Global Systemically Important Banks Resources for Supervised Institutions Federal Reserve Supervision and Regulati...",
+        "analysis_summary": "流动性/利率视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
+        "why_it_matters": "利率和流动性是宏观传导链的核心变量，正文中的新增数字或执行口径往往会先影响估值和风险偏好，再影响更广泛资产定价。",
         "macro_transmission": [
-          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
+          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价；当前正文中已有更明确的数字或措辞增量。",
           "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
         ],
         "market_implication": {
@@ -200,141 +271,343 @@
         },
         "confidence": "高",
         "follow_up_signals": [
+          "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
           "公开市场操作和短端资金价格",
           "政策沟通是否继续偏松",
           "信用扩张是否同步跟进"
         ],
         "downgrade_reason": null,
-        "raw_summary": "Federal Reserve issues FOMC statement"
+        "raw_summary": "Federal Reserve issues FOMC statement",
+        "detail_excerpt": "Assets Large Banks and Large Foreign Banks Global Systemically Important Banks Resources for Supervised Institutions Federal Reserve Supervision and Regulation Report Information Collections Under Review Securities Exchange Act of 1934 Municipal and Government Securities Enforcement Actions and Legal Developments Me...",
+        "analysis_basis": "正文提炼"
       },
       {
-        "id": "us-fed-press-rss-federal-reserve-board-and-federal-open-market-committee-release-economic-projections-from-the-march-17-18-fomc-meeting",
-        "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm",
-        "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
-        "event_date": "2026-03-18",
-        "source_id": "us-fed-press-rss",
-        "source_name": "Federal Reserve Press Releases",
-        "theme": "us-monetary-policy",
+        "id": "cn-govcn-yaowen-中共中央办公厅-国务院办公厅关于加快建立长期护理保险制度的意见",
+        "title": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见",
+        "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
+        "published_at": null,
+        "event_date": "2026-03-28",
+        "source_id": "cn-govcn-yaowen",
+        "source_name": "国务院 / 中国政府网要闻",
+        "theme": "china-policy",
         "category": "official-primary",
         "priority": "P0",
         "trust_level": "primary",
         "bucket_id": "media_watch",
         "bucket_title": "媒体预警证据池",
         "importance_level": "A级重点",
-        "importance_score": 12,
-        "event_type": "流动性/利率",
-        "what_happened": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
-        "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。",
-        "why_it_matters": "利率和流动性是宏观传导链的核心变量，往往会先影响估值和风险偏好，再影响更广泛资产定价。",
+        "importance_score": 11,
+        "event_type": "政策变化",
+        "what_happened": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见",
+        "analysis_summary": "政策变化视角下，这条信息足以进入今日重点观察。",
+        "why_it_matters": "这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。",
         "macro_transmission": [
-          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
-          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
+          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
+          "若后续出现配套执行细则，影响会从预期层走向基本面层"
         ],
         "market_implication": {
-          "summary": "流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。",
+          "summary": "若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。",
           "assets": {
             "a_h_share": {
               "bias": "偏多",
               "score": 1,
-              "reason": "流动性改善通常先利好成长与高弹性资产。"
+              "reason": "政策预期改善通常先作用于风险偏好。"
             },
             "rates": {
-              "bias": "偏下",
-              "score": 1,
-              "reason": "若宽松倾向强化，利率中枢更易下移。"
-            },
-            "fx": {
-              "bias": "中性偏弱",
+              "bias": "中性偏上",
               "score": -1,
-              "reason": "宽松若明显加大，人民币可能阶段性承压。"
-            },
-            "gold": {
-              "bias": "偏多",
-              "score": 1,
-              "reason": "实际利率回落通常利多黄金。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "商品更多取决于需求与供给是否跟上。"
-            }
-          }
-        },
-        "confidence": "高",
-        "follow_up_signals": [
-          "公开市场操作和短端资金价格",
-          "政策沟通是否继续偏松",
-          "信用扩张是否同步跟进"
-        ],
-        "downgrade_reason": null,
-        "raw_summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting"
-      },
-      {
-        "id": "cn-safe-home-safe-releases-china-s-balance-of-payments-for-the-fourth-qua",
-        "title": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
-        "url": "https://www.safe.gov.cn/en/2026/0327/2406.html",
-        "published_at": null,
-        "event_date": "2026-03-27",
-        "source_id": "cn-safe-home",
-        "source_name": "国家外汇管理局英文发布",
-        "theme": "china-fx-bop",
-        "category": "official-secondary",
-        "priority": "P1",
-        "trust_level": "primary",
-        "bucket_id": "china_data",
-        "bucket_title": "中国数据证据池",
-        "importance_level": "B级关注",
-        "importance_score": 7,
-        "event_type": "汇率/跨境流动",
-        "what_happened": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
-        "analysis_summary": "汇率/跨境流动视角下，这条信息对今日判断有辅助价值。",
-        "why_it_matters": "汇率和跨境流动会同时影响风险偏好、外资方向和政策空间，因此对股票、债券和大宗商品都有外溢作用。",
-        "macro_transmission": [
-          "汇率/跨境资金变化 -> 外资预期与政策空间变化 -> 股票、债券和商品再定价",
-          "若伴随美元或全球利率变化，传导会更快更广"
-        ],
-        "market_implication": {
-          "summary": "汇率与跨境流动更容易改变市场的风险承受能力和政策空间，通常先影响外资偏好，再影响股债定价。",
-          "assets": {
-            "a_h_share": {
-              "bias": "中性偏多",
-              "score": 1,
-              "reason": "资金流和人民币预期改善通常利好风险资产。"
-            },
-            "rates": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "利率方向仍需看政策与增长合力。"
+              "reason": "若稳增长预期抬升，长端利率可能先承压。"
             },
             "fx": {
-              "bias": "偏多",
+              "bias": "偏稳",
               "score": 1,
-              "reason": "汇率与流动性直接作用于人民币预期。"
+              "reason": "政策托底有助于稳定人民币预期。"
             },
             "gold": {
               "bias": "中性",
               "score": 0,
-              "reason": "黄金更多受美元和实际利率共同驱动。"
+              "reason": "政策条目对黄金并非直接驱动。"
             },
             "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "商品影响更多取决于需求预期变化。"
+              "bias": "偏多",
+              "score": 1,
+              "reason": "若政策带动需求预期，工业品更受益。"
             }
           }
         },
         "confidence": "中高",
         "follow_up_signals": [
-          "人民币汇率与美元指数",
-          "跨境资金流向是否延续",
-          "政策是否释放稳汇率信号"
+          "后续是否有配套细则",
+          "是否出现量化工具或额度安排",
+          "市场利率与风险偏好是否跟随改善"
         ],
         "downgrade_reason": null,
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
+        "raw_summary": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       }
     ],
     "secondary_items": [
+      {
+        "id": "cn-ndrc-news-国家对成品油价格采取临时调控措施",
+        "title": "国家对成品油价格采取临时调控措施",
+        "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
+        "published_at": "2026/03/23",
+        "event_date": "2026-03-23",
+        "source_id": "cn-ndrc-news",
+        "source_name": "国家发展改革委新闻动态",
+        "theme": "china-growth-policy",
+        "category": "official-secondary",
+        "priority": "P1",
+        "trust_level": "primary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "B级关注",
+        "importance_score": 9,
+        "event_type": "政策变化",
+        "what_happened": "国家对成品油价格采取临时调控措施",
+        "analysis_summary": "政策变化视角下，这条信息对今日判断有辅助价值。",
+        "why_it_matters": "这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。",
+        "macro_transmission": [
+          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
+          "若后续出现配套执行细则，影响会从预期层走向基本面层"
+        ],
+        "market_implication": {
+          "summary": "若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。",
+          "assets": {
+            "a_h_share": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "政策预期改善通常先作用于风险偏好。"
+            },
+            "rates": {
+              "bias": "中性偏上",
+              "score": -1,
+              "reason": "若稳增长预期抬升，长端利率可能先承压。"
+            },
+            "fx": {
+              "bias": "偏稳",
+              "score": 1,
+              "reason": "政策托底有助于稳定人民币预期。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "政策条目对黄金并非直接驱动。"
+            },
+            "oil_commodities": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "若政策带动需求预期，工业品更受益。"
+            }
+          }
+        },
+        "confidence": "中高",
+        "follow_up_signals": [
+          "后续是否有配套细则",
+          "是否出现量化工具或额度安排",
+          "市场利率与风险偏好是否跟随改善"
+        ],
+        "downgrade_reason": null,
+        "raw_summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "cn-nbs-press-release-9-industrial-producer-price-indexes-in-february-2026",
+        "title": "9.Industrial Producer Price Indexes in February 2026",
+        "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260310_1962747.html",
+        "published_at": null,
+        "event_date": "2026-03-10",
+        "source_id": "cn-nbs-press-release",
+        "source_name": "国家统计局英文发布",
+        "theme": "china-data",
+        "category": "official-primary",
+        "priority": "P0",
+        "trust_level": "primary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "B级关注",
+        "importance_score": 9,
+        "event_type": "数据验证",
+        "what_happened": "9.Industrial Producer Price Indexes in February 2026",
+        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
+        "macro_transmission": [
+          "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
+          "若连续几期同向变化，市场会把单点数据升级为阶段性趋势"
+        ],
+        "market_implication": {
+          "summary": "关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。",
+          "assets": {
+            "a_h_share": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "更强增长或更稳数据通常改善权益预期。"
+            },
+            "rates": {
+              "bias": "偏上",
+              "score": -1,
+              "reason": "增长或通胀预期抬升会推高利率中枢。"
+            },
+            "fx": {
+              "bias": "偏稳",
+              "score": 1,
+              "reason": "数据改善有利于稳定人民币与风险偏好。"
+            },
+            "gold": {
+              "bias": "中性偏空",
+              "score": -1,
+              "reason": "风险偏好改善时，黄金相对受抑。"
+            },
+            "oil_commodities": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "需求修复逻辑通常利多原油和工业品。"
+            }
+          }
+        },
+        "confidence": "中高",
+        "follow_up_signals": [
+          "下一期同类数据是否延续",
+          "政策口径是否因此调整",
+          "市场是否重写增长或通胀预期"
+        ],
+        "downgrade_reason": null,
+        "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "cn-nbs-press-release-8-market-prices-of-important-means-of-production-in-circulation-march-1-10-2026",
+        "title": "8.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
+        "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260312_1962757.html",
+        "published_at": null,
+        "event_date": "2026-03-12",
+        "source_id": "cn-nbs-press-release",
+        "source_name": "国家统计局英文发布",
+        "theme": "china-data",
+        "category": "official-primary",
+        "priority": "P0",
+        "trust_level": "primary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "B级关注",
+        "importance_score": 9,
+        "event_type": "数据验证",
+        "what_happened": "8.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
+        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
+        "macro_transmission": [
+          "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
+          "若连续几期同向变化，市场会把单点数据升级为阶段性趋势"
+        ],
+        "market_implication": {
+          "summary": "关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。",
+          "assets": {
+            "a_h_share": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "更强增长或更稳数据通常改善权益预期。"
+            },
+            "rates": {
+              "bias": "偏上",
+              "score": -1,
+              "reason": "增长或通胀预期抬升会推高利率中枢。"
+            },
+            "fx": {
+              "bias": "偏稳",
+              "score": 1,
+              "reason": "数据改善有利于稳定人民币与风险偏好。"
+            },
+            "gold": {
+              "bias": "中性偏空",
+              "score": -1,
+              "reason": "风险偏好改善时，黄金相对受抑。"
+            },
+            "oil_commodities": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "需求修复逻辑通常利多原油和工业品。"
+            }
+          }
+        },
+        "confidence": "中高",
+        "follow_up_signals": [
+          "下一期同类数据是否延续",
+          "政策口径是否因此调整",
+          "市场是否重写增长或通胀预期"
+        ],
+        "downgrade_reason": null,
+        "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "cn-ndrc-news-2026年3月23日国内成品油价格调整",
+        "title": "2026年3月23日国内成品油价格调整",
+        "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
+        "published_at": "2026/03/23",
+        "event_date": "2026-03-23",
+        "source_id": "cn-ndrc-news",
+        "source_name": "国家发展改革委新闻动态",
+        "theme": "china-growth-policy",
+        "category": "official-secondary",
+        "priority": "P1",
+        "trust_level": "primary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "B级关注",
+        "importance_score": 9,
+        "event_type": "政策变化",
+        "what_happened": "2026年3月23日国内成品油价格调整",
+        "analysis_summary": "政策变化视角下，这条信息对今日判断有辅助价值。",
+        "why_it_matters": "这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。",
+        "macro_transmission": [
+          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
+          "若后续出现配套执行细则，影响会从预期层走向基本面层"
+        ],
+        "market_implication": {
+          "summary": "若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。",
+          "assets": {
+            "a_h_share": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "政策预期改善通常先作用于风险偏好。"
+            },
+            "rates": {
+              "bias": "中性偏上",
+              "score": -1,
+              "reason": "若稳增长预期抬升，长端利率可能先承压。"
+            },
+            "fx": {
+              "bias": "偏稳",
+              "score": 1,
+              "reason": "政策托底有助于稳定人民币预期。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "政策条目对黄金并非直接驱动。"
+            },
+            "oil_commodities": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "若政策带动需求预期，工业品更受益。"
+            }
+          }
+        },
+        "confidence": "中高",
+        "follow_up_signals": [
+          "后续是否有配套细则",
+          "是否出现量化工具或额度安排",
+          "市场利率与风险偏好是否跟随改善"
+        ],
+        "downgrade_reason": null,
+        "raw_summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
       {
         "id": "media-cls-depth-美国消费者信心跌至三个月低点-最富裕阶层也因股市重挫遭受打击",
         "title": "美国消费者信心跌至三个月低点 最富裕阶层也因股市重挫遭受打击",
@@ -354,7 +627,7 @@
         "event_type": "地缘与商品冲击",
         "what_happened": "①3月份美国消费者信心降至53.3，为去年12月以来最低水平，主要受中东战争引发的通胀忧虑和经济前景不确定性影响； ②若美伊战争持续数月，经济前景可能迅速恶化，引发下行螺旋：股市下跌导致支出减弱，最终陷入衰退。",
         "analysis_summary": "地缘与商品冲击视角下，这条信息对今日判断有辅助价值。",
-        "why_it_matters": "这类事件会先冲击能源与通胀预期，再向增长预期和风险偏好传导，通常是跨资产定价的快速触发器。",
+        "why_it_matters": "这类事件会先冲击能源与通胀预期，再向增长预期和风险偏好传导，当前关键在于新增口径、工具或约束变化是否持续。",
         "macro_transmission": [
           "地缘事件 -> 油价/运价/供给预期变化 -> 通胀与增长预期重估",
           "若冲击持续，风险偏好和政策路径都会被重新定价"
@@ -396,7 +669,74 @@
           "通胀预期和避险资产是否同步强化"
         ],
         "downgrade_reason": null,
-        "raw_summary": "①3月份美国消费者信心降至53.3，为去年12月以来最低水平，主要受中东战争引发的通胀忧虑和经济前景不确定性影响； ②若美伊战争持续数月，经济前景可能迅速恶化，引发下行螺旋：股市下跌导致支出减弱，最终陷入衰退。"
+        "raw_summary": "①3月份美国消费者信心降至53.3，为去年12月以来最低水平，主要受中东战争引发的通胀忧虑和经济前景不确定性影响； ②若美伊战争持续数月，经济前景可能迅速恶化，引发下行螺旋：股市下跌导致支出减弱，最终陷入衰退。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "cn-safe-home-safe-releases-china-s-balance-of-payments-for-the-fourth-qua",
+        "title": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
+        "url": "https://www.safe.gov.cn/en/2026/0327/2406.html",
+        "published_at": null,
+        "event_date": "2026-03-27",
+        "source_id": "cn-safe-home",
+        "source_name": "国家外汇管理局英文发布",
+        "theme": "china-fx-bop",
+        "category": "official-secondary",
+        "priority": "P1",
+        "trust_level": "primary",
+        "bucket_id": "china_data",
+        "bucket_title": "中国数据证据池",
+        "importance_level": "B级关注",
+        "importance_score": 7,
+        "event_type": "汇率/跨境流动",
+        "what_happened": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
+        "analysis_summary": "汇率/跨境流动视角下，这条信息对今日判断有辅助价值。",
+        "why_it_matters": "汇率和跨境流动会同时影响风险偏好、外资方向和政策空间，因此新增口径、工具或约束变化会对股票、债券和大宗商品产生外溢。",
+        "macro_transmission": [
+          "汇率/跨境资金变化 -> 外资预期与政策空间变化 -> 股票、债券和商品再定价",
+          "若伴随美元或全球利率变化，传导会更快更广"
+        ],
+        "market_implication": {
+          "summary": "汇率与跨境流动更容易改变市场的风险承受能力和政策空间，通常先影响外资偏好，再影响股债定价。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性偏多",
+              "score": 1,
+              "reason": "资金流和人民币预期改善通常利好风险资产。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "利率方向仍需看政策与增长合力。"
+            },
+            "fx": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "汇率与流动性直接作用于人民币预期。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "黄金更多受美元和实际利率共同驱动。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "商品影响更多取决于需求预期变化。"
+            }
+          }
+        },
+        "confidence": "中高",
+        "follow_up_signals": [
+          "人民币汇率与美元指数",
+          "跨境资金流向是否延续",
+          "政策是否释放稳汇率信号"
+        ],
+        "downgrade_reason": null,
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "us-fed-press-rss-minutes-of-the-board-s-discount-rate-meetings-on-january-20-and-28-2026",
@@ -417,7 +757,7 @@
         "event_type": "流动性/利率",
         "what_happened": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
         "analysis_summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。",
-        "why_it_matters": "利率和流动性是宏观传导链的核心变量，往往会先影响估值和风险偏好，再影响更广泛资产定价。",
+        "why_it_matters": "利率和流动性是宏观传导链的核心变量，新增口径、工具或约束变化往往会先影响估值和风险偏好，再影响更广泛资产定价。",
         "macro_transmission": [
           "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
           "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
@@ -459,7 +799,9 @@
           "信用扩张是否同步跟进"
         ],
         "downgrade_reason": null,
-        "raw_summary": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026"
+        "raw_summary": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "us-fed-press-rss-following-earlier-actions-to-remove-reputation-risk-from-its-supervision-of-banks-federal-reserve-board-requests-comment-on-proposal-to-codify-that-removal",
@@ -480,7 +822,7 @@
         "event_type": "流动性/利率",
         "what_happened": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to...",
         "analysis_summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。",
-        "why_it_matters": "利率和流动性是宏观传导链的核心变量，往往会先影响估值和风险偏好，再影响更广泛资产定价。",
+        "why_it_matters": "利率和流动性是宏观传导链的核心变量，新增口径、工具或约束变化往往会先影响估值和风险偏好，再影响更广泛资产定价。",
         "macro_transmission": [
           "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
           "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
@@ -522,136 +864,12 @@
           "信用扩张是否同步跟进"
         ],
         "downgrade_reason": null,
-        "raw_summary": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal"
-      },
-      {
-        "id": "cn-pboc-home-中国人民银行货币政策委员会",
-        "title": "中国人民银行货币政策委员会...",
-        "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870936/2025100917194615589/index.html",
-        "published_at": null,
-        "event_date": "2025-10-09",
-        "source_id": "cn-pboc-home",
-        "source_name": "中国人民银行",
-        "theme": "china-monetary-policy",
-        "category": "official-primary",
-        "priority": "P0",
-        "trust_level": "primary",
-        "bucket_id": "china_policy",
-        "bucket_title": "中国政策证据池",
-        "importance_level": "B级关注",
-        "importance_score": 6,
-        "event_type": "流动性/利率",
-        "what_happened": "中国人民银行货币政策委员会...",
-        "analysis_summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。",
-        "why_it_matters": "利率和流动性是宏观传导链的核心变量，往往会先影响估值和风险偏好，再影响更广泛资产定价。",
-        "macro_transmission": [
-          "短端流动性或政策利率变化 -> 贴现率/估值变化 -> 风险资产重定价",
-          "若信用条件同步变化，影响会进一步扩散到经济活动与盈利预期"
-        ],
-        "market_implication": {
-          "summary": "流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。",
-          "assets": {
-            "a_h_share": {
-              "bias": "偏多",
-              "score": 1,
-              "reason": "流动性改善通常先利好成长与高弹性资产。"
-            },
-            "rates": {
-              "bias": "偏下",
-              "score": 1,
-              "reason": "若宽松倾向强化，利率中枢更易下移。"
-            },
-            "fx": {
-              "bias": "中性偏弱",
-              "score": -1,
-              "reason": "宽松若明显加大，人民币可能阶段性承压。"
-            },
-            "gold": {
-              "bias": "偏多",
-              "score": 1,
-              "reason": "实际利率回落通常利多黄金。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "商品更多取决于需求与供给是否跟上。"
-            }
-          }
-        },
-        "confidence": "中高",
-        "follow_up_signals": [
-          "公开市场操作和短端资金价格",
-          "政策沟通是否继续偏松",
-          "信用扩张是否同步跟进"
-        ],
-        "downgrade_reason": null,
-        "raw_summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
+        "raw_summary": "Following earlier actions to remove reputation risk from its supervision of banks, Federal Reserve Board requests comment on proposal to codify that removal",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       }
     ],
     "background_items": [
-      {
-        "id": "media-cls-depth-末日博士-鲁比尼-特朗普更有可能升级伊朗局势而非选择退让",
-        "title": "“末日博士”鲁比尼：特朗普更有可能升级伊朗局势而非选择退让",
-        "url": "https://www.cls.cn/detail/2327594",
-        "published_at": "2026-03-27 23:25:36",
-        "event_date": "2026-03-27",
-        "source_id": "media-cls-depth",
-        "source_name": "财联社深度",
-        "theme": "macro-depth-alert",
-        "category": "media-alert",
-        "priority": "P1",
-        "trust_level": "secondary",
-        "bucket_id": "media_watch",
-        "bucket_title": "媒体预警证据池",
-        "importance_level": "C级背景",
-        "importance_score": 5,
-        "event_type": "地缘与商品冲击",
-        "what_happened": "①著名经济学家鲁比尼预测，美国总统特朗普可能选择升级对伊朗的冲突以争取胜利，而非退让。他认为冲突升级的概率超过50%； ②鲁比尼警告称，冲突持续将对全球经济造成冲击，可能导致油价上涨、各国下调经济增长预期，并可能迫使美联储和欧洲央行加息。",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
-        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-        "macro_transmission": [
-          "地缘事件 -> 油价/运价/供给预期变化 -> 通胀与增长预期重估",
-          "若冲击持续，风险偏好和政策路径都会被重新定价"
-        ],
-        "market_implication": {
-          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
-          "assets": {
-            "a_h_share": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不构成新的交易主线。"
-            },
-            "rates": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变利率主判断。"
-            },
-            "fx": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变汇率方向判断。"
-            },
-            "gold": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "避险与通胀信号不足。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不足以重塑商品供需预期。"
-            }
-          }
-        },
-        "confidence": "中低",
-        "follow_up_signals": [
-          "油价是否持续上行",
-          "冲突是否扩大或缓和",
-          "通胀预期和避险资产是否同步强化"
-        ],
-        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "①著名经济学家鲁比尼预测，美国总统特朗普可能选择升级对伊朗的冲突以争取胜利，而非退让。他认为冲突升级的概率超过50%； ②鲁比尼警告称，冲突持续将对全球经济造成冲击，可能导致油价上涨、各国下调经济增长预期，并可能迫使美联储和欧洲央行加息。"
-      },
       {
         "id": "cn-safe-home-safe-releases-data-on-foreign-exchange-settlement-and-sales",
         "title": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
@@ -713,7 +931,9 @@
           "政策是否释放稳汇率信号"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "global-imf-news-economic-outlook",
@@ -776,7 +996,139 @@
           "市场利率与风险偏好是否跟随改善"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
+        "raw_summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "media-cls-telegraph-泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
+        "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
+        "url": "https://www.cls.cn/detail/2327829",
+        "published_at": "2026-03-28 14:28:18",
+        "event_date": "2026-03-28",
+        "source_id": "media-cls-telegraph",
+        "source_name": "财联社电报",
+        "theme": "china-fast-alert",
+        "category": "media-alert",
+        "priority": "P1",
+        "trust_level": "secondary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "C级背景",
+        "importance_score": 5,
+        "event_type": "地缘与商品冲击",
+        "what_happened": "【泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议】财联社3月28日电，泰国总理阿努廷28日说，为应对中东局势引发的泰国国内油价上涨等危机，泰国外交部近期与相关国家积极沟通，根据目前与伊朗方面达成的协议，泰国油轮能够安全通过霍尔木兹海峡。阿努廷当天在总理府举行媒体见面会，就政府...",
+        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "地缘事件 -> 油价/运价/供给预期变化 -> 通胀与增长预期重估",
+          "若冲击持续，风险偏好和政策路径都会被重新定价"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "confidence": "中低",
+        "follow_up_signals": [
+          "油价是否持续上行",
+          "冲突是否扩大或缓和",
+          "通胀预期和避险资产是否同步强化"
+        ],
+        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
+        "raw_summary": "【泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议】财联社3月28日电，泰国总理阿努廷28日说，为应对中东局势引发的泰国国内油价上涨等危机，泰国外交部近期与相关国家积极沟通，根据目前与伊朗方面达成的协议，泰国油轮能够安全通过霍尔木兹海峡。阿努廷当天在总理府举行媒体见面会，就政府应对油价波动的措施进行说明。他说，政府接下来将重点推进外交协调、能源安全、商品价格管控以及民生保障等四方面工作，并呼吁公众共同践行节能措施来加以应对。泰国外交部...",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
+      },
+      {
+        "id": "media-cls-depth-末日博士-鲁比尼-特朗普更有可能升级伊朗局势而非选择退让",
+        "title": "“末日博士”鲁比尼：特朗普更有可能升级伊朗局势而非选择退让",
+        "url": "https://www.cls.cn/detail/2327594",
+        "published_at": "2026-03-27 23:25:36",
+        "event_date": "2026-03-27",
+        "source_id": "media-cls-depth",
+        "source_name": "财联社深度",
+        "theme": "macro-depth-alert",
+        "category": "media-alert",
+        "priority": "P1",
+        "trust_level": "secondary",
+        "bucket_id": "media_watch",
+        "bucket_title": "媒体预警证据池",
+        "importance_level": "C级背景",
+        "importance_score": 5,
+        "event_type": "地缘与商品冲击",
+        "what_happened": "①著名经济学家鲁比尼预测，美国总统特朗普可能选择升级对伊朗的冲突以争取胜利，而非退让。他认为冲突升级的概率超过50%； ②鲁比尼警告称，冲突持续将对全球经济造成冲击，可能导致油价上涨、各国下调经济增长预期，并可能迫使美联储和欧洲央行加息。",
+        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "地缘事件 -> 油价/运价/供给预期变化 -> 通胀与增长预期重估",
+          "若冲击持续，风险偏好和政策路径都会被重新定价"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "confidence": "中低",
+        "follow_up_signals": [
+          "油价是否持续上行",
+          "冲突是否扩大或缓和",
+          "通胀预期和避险资产是否同步强化"
+        ],
+        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
+        "raw_summary": "①著名经济学家鲁比尼预测，美国总统特朗普可能选择升级对伊朗的冲突以争取胜利，而非退让。他认为冲突升级的概率超过50%； ②鲁比尼警告称，冲突持续将对全球经济造成冲击，可能导致油价上涨、各国下调经济增长预期，并可能迫使美联储和欧洲央行加息。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "us-fed-speeches-rss-bowman-capital-rules-for-the-real-economy",
@@ -839,7 +1191,9 @@
           "信用扩张是否同步跟进"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C."
+        "raw_summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "cn-ndrc-news-关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
@@ -902,7 +1256,9 @@
           "市场利率与风险偏好是否跟随改善"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "通知公告 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。"
+        "raw_summary": "通知公告 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "us-fed-speeches-rss-waller-labor-market-data-signal-or-noise",
@@ -965,7 +1321,9 @@
           "信用扩张是否同步跟进"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The National Association for Business Economics, Washington, D.C."
+        "raw_summary": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The National Association for Business Economics, Washington, D.C.",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "cn-safe-home-safe-releases-data-on-china-s-foreign-exchange-reserves-at-t",
@@ -1028,7 +1386,9 @@
           "政策是否释放稳汇率信号"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "cn-safe-home-notice-of-the-state-administration-of-foreign-exchange-on-fu",
@@ -1091,7 +1451,9 @@
           "政策是否释放稳汇率信号"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "cn-safe-home-circular-of-the-state-administration-of-foreign-exchange-on",
@@ -1154,7 +1516,9 @@
           "政策是否释放稳汇率信号"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "cn-safe-home-circular-of-the-state-administration-of-foreign-exchange-on",
@@ -1217,7 +1581,9 @@
           "政策是否释放稳汇率信号"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       },
       {
         "id": "us-fed-speeches-rss-barr-what-will-artificial-intelligence-mean-for-the-labor-market-and-the-economy",
@@ -1280,70 +1646,9 @@
           "信用扩张是否同步跟进"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "Speech At the New York Association for Business Economics, New York, New York"
-      },
-      {
-        "id": "cn-govcn-yaowen-王毅向-海洋生物多样性协定-第三届筹委会会议致辞",
-        "title": "王毅向《海洋生物多样性协定》第三届筹委会会议致辞",
-        "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063804.htm",
-        "published_at": null,
-        "event_date": "2026-03-28",
-        "source_id": "cn-govcn-yaowen",
-        "source_name": "国务院 / 中国政府网要闻",
-        "theme": "china-policy",
-        "category": "official-primary",
-        "priority": "P0",
-        "trust_level": "primary",
-        "bucket_id": "media_watch",
-        "bucket_title": "媒体预警证据池",
-        "importance_level": "C级背景",
-        "importance_score": 1,
-        "event_type": "政策变化",
-        "what_happened": "王毅向《海洋生物多样性协定》第三届筹委会会议致辞",
-        "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
-        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-        "macro_transmission": [
-          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
-          "若后续出现配套执行细则，影响会从预期层走向基本面层"
-        ],
-        "market_implication": {
-          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
-          "assets": {
-            "a_h_share": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不构成新的交易主线。"
-            },
-            "rates": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变利率主判断。"
-            },
-            "fx": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变汇率方向判断。"
-            },
-            "gold": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "避险与通胀信号不足。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不足以重塑商品供需预期。"
-            }
-          }
-        },
-        "confidence": "中高",
-        "follow_up_signals": [
-          "后续是否有配套细则",
-          "是否出现量化工具或额度安排",
-          "市场利率与风险偏好是否跟随改善"
-        ],
-        "downgrade_reason": "属于例行活动或常规表态，缺少新增工具、数字或执行约束变化。",
-        "raw_summary": "王毅向《海洋生物多样性协定》第三届筹委会会议致辞"
+        "raw_summary": "Speech At the New York Association for Business Economics, New York, New York",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要"
       }
     ],
     "evidence_sections": [
@@ -1370,7 +1675,7 @@
             "title": "中国人民银行召开2026年金融稳定工作会议",
             "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032711215379505/index.html",
             "importance_level": "A级重点",
-            "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。",
+            "analysis_summary": "流动性/利率视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
             "source_name": "中国人民银行"
           },
           {
@@ -1440,21 +1745,21 @@
             "title": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
             "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
+            "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases"
           },
           {
             "title": "U.S. International Trade in Goods and Services, January 2026",
             "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
+            "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases"
           },
           {
             "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
             "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
+            "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases"
           },
           {
@@ -1468,7 +1773,7 @@
             "title": "Personal Income and Outlays, January 2026",
             "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
+            "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases"
           }
         ]
@@ -1528,6 +1833,13 @@
             "source_name": "财联社深度"
           },
           {
+            "title": "泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
+            "url": "https://www.cls.cn/detail/2327829",
+            "importance_level": "C级背景",
+            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。",
+            "source_name": "财联社电报"
+          },
+          {
             "title": "“末日博士”鲁比尼：特朗普更有可能升级伊朗局势而非选择退让",
             "url": "https://www.cls.cn/detail/2327594",
             "importance_level": "C级背景",
@@ -1542,52 +1854,52 @@
         "asset": "a_h_share",
         "label": "A股/港股风险偏好",
         "stance": "偏多",
-        "score": 11,
-        "reason": "更强增长或更稳数据通常改善权益预期。；流动性改善通常先利好成长与高弹性资产。；资金流和人民币预期改善通常利好风险资产。；地缘和油价冲击会压低风险偏好。"
+        "score": 14,
+        "reason": "更强增长或更稳数据通常改善权益预期。；流动性改善通常先利好成长与高弹性资产。；政策预期改善通常先作用于风险偏好。"
       },
       {
         "asset": "rates",
         "label": "利率",
-        "stance": "偏多",
-        "score": 4,
-        "reason": "增长或通胀预期抬升会推高利率中枢。；若宽松倾向强化，利率中枢更易下移。；利率方向仍需看政策与增长合力。；避险交易可能先压低利率，但通胀压力会限制空间。"
+        "stance": "偏空",
+        "score": -6,
+        "reason": "增长或通胀预期抬升会推高利率中枢。；若宽松倾向强化，利率中枢更易下移。；若稳增长预期抬升，长端利率可能先承压。"
       },
       {
         "asset": "fx",
         "label": "美元/人民币",
-        "stance": "偏空",
-        "score": -3,
-        "reason": "数据改善有利于稳定人民币与风险偏好。；宽松若明显加大，人民币可能阶段性承压。；汇率与流动性直接作用于人民币预期。；全球避险通常利多美元。"
+        "stance": "偏多",
+        "score": 6,
+        "reason": "数据改善有利于稳定人民币与风险偏好。；宽松若明显加大，人民币可能阶段性承压。；政策托底有助于稳定人民币预期。"
       },
       {
         "asset": "gold",
         "label": "黄金",
-        "stance": "偏多",
-        "score": 4,
-        "reason": "风险偏好改善时，黄金相对受抑。；实际利率回落通常利多黄金。；黄金更多受美元和实际利率共同驱动。；避险和通胀预期都支撑黄金。"
+        "stance": "偏空",
+        "score": -2,
+        "reason": "风险偏好改善时，黄金相对受抑。；实际利率回落通常利多黄金。；政策条目对黄金并非直接驱动。"
       },
       {
         "asset": "oil_commodities",
         "label": "原油/大宗",
         "stance": "偏多",
-        "score": 5,
-        "reason": "需求修复逻辑通常利多原油和工业品。；商品更多取决于需求与供给是否跟上。；商品影响更多取决于需求预期变化。；供给中断预期通常先推升原油。"
+        "score": 10,
+        "reason": "需求修复逻辑通常利多原油和工业品。；商品更多取决于需求与供给是否跟上。；若政策带动需求预期，工业品更受益。"
       }
     ],
     "follow_up_signals": [
+      "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
       "下一期同类数据是否延续",
       "政策口径是否因此调整",
       "市场是否重写增长或通胀预期",
       "公开市场操作和短端资金价格",
-      "政策沟通是否继续偏松",
-      "信用扩张是否同步跟进"
+      "政策沟通是否继续偏松"
     ],
     "daily_input_counts": {
       "focus": 5,
-      "secondary": 4,
+      "secondary": 8,
       "background": 12,
       "ignored": 9,
-      "raw_items_total": 64
+      "raw_items_total": 65
     },
     "watchpoints": [
       "中国政策雷达: 中国人民银行货币政策委员会...",
@@ -1746,7 +2058,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-28 14:04:11",
+    "daily_input_generated_at": "2026-03-28 14:57:52",
     "source_documents": [
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
@@ -1762,7 +2074,7 @@
     {
       "slug": "2026-03-28",
       "date": "2026-03-28",
-      "headline": "今天筛出 5 条重点、4 条关注、12 条背景事件；主线聚焦在数据验证、流动性/利率。",
+      "headline": "今天筛出 5 条重点、8 条关注、12 条背景事件；主线聚焦在数据验证、流动性/利率。",
       "status": "分析日报"
     }
   ]
