@@ -1,26 +1,26 @@
 {
   "site": {
-    "title": "Macro Daily",
-    "subtitle": "Daily macro briefing generated from the local macro research framework",
-    "generated_at": "2026-03-28 12:43:16",
-    "mode": "daily-brief"
+    "title": "宏观日报",
+    "subtitle": "基于本地宏观研究框架自动生成的中文宏观日报",
+    "generated_at": "2026-03-28 12:53:44",
+    "mode": "日报模式"
   },
   "latest": {
     "slug": "2026-03-28",
     "date": "2026-03-28",
-    "headline": "Macro input scan captured 65 candidate items across 12 working sources.",
-    "summary": "Only macro-relevant items are retained. Primary sources lead the stack, while media and fast-wire items stay in the alert layer.",
-    "mode": "daily-brief",
-    "monitoring_strategy": "Only macro-relevant releases, policy signals, and cross-asset risk items should enter the daily brief. Official data and policy pages outrank media summaries.",
+    "headline": "本次宏观输入扫描共捕获 66 条候选信息，来自 12 个可用信源。",
+    "summary": "系统仅保留宏观相关信息。官方一手信源作为主栈，媒体和快讯仅作为预警层存在。",
+    "mode": "日报模式",
+    "monitoring_strategy": "只有宏观相关的发布、政策信号和跨资产风险事件才进入日报。官方数据与政策页面优先级高于媒体摘要。",
     "monitoring_layers": [
       "official-primary",
       "official-secondary",
       "media-alert"
     ],
     "monitoring_notes": [
-      "Keep this project focused on macro only: policy, liquidity, rates, inflation, labor, growth, trade, FX, energy, and cross-asset risk.",
-      "Exclude company news, sector-only stories, stock-specific headlines, and non-macro market color unless they clearly change the macro transmission path.",
-      "Use media and fast-wire sources for alerting only, then verify important items against primary sources."
+      "这个项目只聚焦宏观：政策、流动性、利率、通胀、就业、增长、贸易、汇率、能源和跨资产风险。",
+      "排除公司新闻、单一板块叙事、个股标题和非宏观市场噪音，除非它们明确改变了宏观传导路径。",
+      "媒体和快讯只用于预警，重要条目必须回到一手来源验证。"
     ],
     "monitoring_sources": [
       {
@@ -31,7 +31,7 @@
         "homepage_url": "https://www.gov.cn/",
         "trust_level": "primary",
         "cadence": "intraday",
-        "notes": "Top-level China policy source. Use it to confirm State Council meetings, policy documents, and official briefing language."
+        "notes": "中国顶层政策信源，用来确认国务院会议、政策文件和官方表述。"
       },
       {
         "name": "中国人民银行",
@@ -41,7 +41,7 @@
         "homepage_url": "http://www.pbc.gov.cn/",
         "trust_level": "primary",
         "cadence": "intraday",
-        "notes": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+        "notes": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
       },
       {
         "name": "国家统计局英文发布",
@@ -51,7 +51,7 @@
         "homepage_url": "https://www.stats.gov.cn/english/",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "Primary source for China macro data releases and statistical commentary."
+        "notes": "中国宏观数据发布和统计解读的一手来源。"
       },
       {
         "name": "国家外汇管理局英文发布",
@@ -61,7 +61,7 @@
         "homepage_url": "https://www.safe.gov.cn/",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "FX reserves, balance-of-payments and cross-border flow monitoring."
+        "notes": "用于跟踪外汇储备、国际收支和跨境资金流动。"
       },
       {
         "name": "国家发展改革委新闻动态",
@@ -71,7 +71,7 @@
         "homepage_url": "https://www.ndrc.gov.cn/",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "Useful for growth policy, pricing policy, energy policy, infrastructure, and domestic-demand signals."
+        "notes": "用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。"
       },
       {
         "name": "Federal Reserve Press Releases",
@@ -81,7 +81,7 @@
         "homepage_url": "https://www.federalreserve.gov/feeds/feeds.htm",
         "trust_level": "primary",
         "cadence": "intraday",
-        "notes": "Primary source for Fed policy, facilities, supervision, and liquidity announcements."
+        "notes": "美联储政策、工具、监管与流动性公告的一手来源。"
       },
       {
         "name": "Federal Reserve Speeches",
@@ -91,7 +91,7 @@
         "homepage_url": "https://www.federalreserve.gov/newsevents/speeches.htm",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "Good for Fed communication drift and policy tone before formal meeting outcomes change."
+        "notes": "适合跟踪美联储口径漂移和正式会议结果变化前的政策语气。"
       },
       {
         "name": "U.S. Bureau of Labor Statistics Newsroom",
@@ -101,7 +101,7 @@
         "homepage_url": "https://www.bls.gov/",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "Primary U.S. labor and inflation release source."
+        "notes": "美国就业和通胀发布的一手来源。"
       },
       {
         "name": "U.S. Bureau of Economic Analysis Current Releases",
@@ -111,7 +111,7 @@
         "homepage_url": "https://www.bea.gov/news/current-releases",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
+        "notes": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
       },
       {
         "name": "IMF News and Press Releases",
@@ -121,7 +121,7 @@
         "homepage_url": "https://www.imf.org/en/News",
         "trust_level": "primary",
         "cadence": "daily",
-        "notes": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+        "notes": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
       },
       {
         "name": "财联社电报",
@@ -131,7 +131,7 @@
         "homepage_url": "https://www.cls.cn/telegraph",
         "trust_level": "secondary",
         "cadence": "intraday",
-        "notes": "Highest-frequency China-friendly macro alert stream. Every important item still needs primary-source confirmation."
+        "notes": "高频宏观预警流，适合第一时间捕捉线索，但重要内容仍需回到一手来源确认。"
       },
       {
         "name": "财联社深度",
@@ -141,7 +141,7 @@
         "homepage_url": "https://www.cls.cn/",
         "trust_level": "secondary",
         "cadence": "intraday",
-        "notes": "Macro-oriented depth and interpretation layer from 财联社 homepage. Use it as a context supplement, not as the final authority."
+        "notes": "财联社首页中的宏观深度与解读层，可作为背景补充，不作为最终依据。"
       },
       {
         "name": "Reuters Markets",
@@ -151,20 +151,20 @@
         "homepage_url": "https://www.reuters.com/markets/",
         "trust_level": "secondary",
         "cadence": "intraday",
-        "notes": "Disabled for now because direct site fetching is not stable in the current environment."
+        "notes": "当前环境下直连抓取不稳定，暂时停用。"
       }
     ],
     "daily_input_counts": {
       "sources_ok": 12,
       "sources_failed": 0,
-      "items_total": 65
+      "items_total": 66
     },
-    "daily_input_generated_at": "2026-03-28 12:43:16",
+    "daily_input_generated_at": "2026-03-28 12:53:44",
     "watchpoints": [
-      "China policy radar: 李强主持召开国务院常务会议 学习贯彻习近平总书记在深入推进雄安新区高质量建设和发展座谈会上的重要讲话精神",
-      "China data monitor: SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
-      "Fed and U.S. macro: U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
-      "Global macro and cross-asset risk: World Economic Outlook"
+      "中国政策雷达: 中国人民银行货币政策委员会...",
+      "中国数据跟踪: SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
+      "美联储与美国宏观: U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
+      "全球宏观与跨资产风险: World Economic Outlook"
     ],
     "source_documents": [
       "F:\\cursor\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
@@ -178,200 +178,200 @@
     ],
     "sections": [
       {
-        "title": "China policy radar",
-        "hint": "Read this first when the market is trading China policy tone, liquidity, fiscal support, or administrative guidance.",
+        "title": "中国政策雷达",
+        "hint": "当市场主线围绕中国政策基调、流动性、财政支持或行政引导时，优先看这一栏。",
         "items": [
-          {
-            "kind": "entry",
-            "title": "李强主持召开国务院常务会议 学习贯彻习近平总书记在深入推进雄安新区高质量建设和发展座谈会上的重要讲话精神",
-            "url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064015.htm",
-            "meta": "国务院 / 中国政府网要闻 | P0 | primary",
-            "summary": "李强主持召开国务院常务会议 学习贯彻习近平总书记在深入推进雄安新区高质量建设和发展座谈会上的重要讲话精神"
-          },
-          {
-            "kind": "entry",
-            "title": "国家对成品油价格采取临时调控措施",
-            "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
-            "meta": "国家发展改革委新闻动态 | P1 | primary | 2026/03/23",
-            "summary": "新闻发布 | Useful for growth policy, pricing policy, energy policy, infrastructure, and domestic-demand signals."
-          },
           {
             "kind": "entry",
             "title": "中国人民银行货币政策委员会...",
             "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870939/5546206/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           },
           {
             "kind": "entry",
             "title": "中国人民银行货币政策委员会...",
             "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870936/2025100917194615589/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           },
           {
             "kind": "entry",
             "title": "中国人民银行召开2026年金融稳定工作会议",
             "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032711215379505/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           },
           {
             "kind": "entry",
-            "title": "2026年3月23日国内成品油价格调整",
-            "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
-            "meta": "国家发展改革委新闻动态 | P1 | primary | 2026/03/23",
-            "summary": "新闻发布 | Useful for growth policy, pricing policy, energy policy, infrastructure, and domestic-demand signals."
+            "title": "中国人民银行召开2026年国库工作会议",
+            "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032315013158591/index.html",
+            "meta": "中国人民银行 | P0 | primary",
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
+          },
+          {
+            "kind": "entry",
+            "title": "2026年统计数据",
+            "url": "http://www.pbc.gov.cn/diaochatongjisi/116219/116319/2026ntjsj/index.html",
+            "meta": "中国人民银行 | P0 | primary",
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
+          },
+          {
+            "kind": "entry",
+            "title": "2025年统计数据",
+            "url": "http://www.pbc.gov.cn/diaochatongjisi/116219/116319/5570903/index.html",
+            "meta": "中国人民银行 | P0 | primary",
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           }
         ]
       },
       {
-        "title": "China data monitor",
-        "hint": "Use this to check whether the China macro tape is confirming or contradicting the current policy narrative.",
+        "title": "中国数据跟踪",
+        "hint": "用这一栏判断中国宏观数据是在验证还是在反驳当前政策叙事。",
         "items": [
           {
             "kind": "entry",
             "title": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
             "url": "https://www.safe.gov.cn/en/2026/0316/2400.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
             "url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
             "url": "https://www.safe.gov.cn/en/2026/0327/2406.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "Notice of the State Administration of Foreign Exchange on Fu...",
             "url": "https://www.safe.gov.cn/en/2023/1208/2262.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "Circular of the State Administration of Foreign Exchange on ...",
             "url": "https://www.safe.gov.cn/en/2021/1203/1909.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "Circular of the State Administration of Foreign Exchange on ...",
             "url": "https://www.safe.gov.cn/en/2021/0108/1792.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           }
         ]
       },
       {
-        "title": "Fed and U.S. macro",
-        "hint": "This bucket matters when global duration, dollar direction, and risk appetite are leading markets.",
+        "title": "美联储与美国宏观",
+        "hint": "当全球长端利率、美元方向和风险偏好主导市场时，这一栏最关键。",
         "items": [
           {
             "kind": "entry",
             "title": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
             "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
             "meta": "U.S. Bureau of Economic Analysis Current Releases | P0 | primary",
-            "summary": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
+            "summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
           },
           {
             "kind": "entry",
             "title": "U.S. International Trade in Goods and Services, January 2026",
             "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
             "meta": "U.S. Bureau of Economic Analysis Current Releases | P0 | primary",
-            "summary": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
+            "summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
           },
           {
             "kind": "entry",
             "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
             "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
             "meta": "U.S. Bureau of Economic Analysis Current Releases | P0 | primary",
-            "summary": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
+            "summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
+          },
+          {
+            "kind": "entry",
+            "title": "Productivity and Costs",
+            "url": "https://www.bls.gov/news.release/prod2.toc.htm",
+            "meta": "U.S. Bureau of Labor Statistics Newsroom | P0 | primary",
+            "summary": "美国就业和通胀发布的一手来源。"
           },
           {
             "kind": "entry",
             "title": "Personal Income and Outlays, January 2026",
             "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
             "meta": "U.S. Bureau of Economic Analysis Current Releases | P0 | primary",
-            "summary": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
+            "summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
           },
           {
             "kind": "entry",
             "title": "Gross Domestic Product by State and Personal Income by State, 3rd Quarter 2025",
             "url": "https://www.bea.gov/news/2026/gross-domestic-product-state-and-personal-income-state-3rd-quarter-2025",
             "meta": "U.S. Bureau of Economic Analysis Current Releases | P0 | primary",
-            "summary": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
-          },
-          {
-            "kind": "entry",
-            "title": "Gross Domestic Product by County and Personal Income by County, 2024",
-            "url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
-            "meta": "U.S. Bureau of Economic Analysis Current Releases | P0 | primary",
-            "summary": "Primary U.S. GDP, PCE, income, trade, and sector-activity release source."
+            "summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。"
           }
         ]
       },
       {
-        "title": "Global macro and cross-asset risk",
-        "hint": "Use this to track spillovers from oil, geopolitics, trade, IMF framing, and broader cross-asset stress.",
+        "title": "全球宏观与跨资产风险",
+        "hint": "用这一栏跟踪油价、地缘、贸易、IMF 表述和更广泛的跨资产压力外溢。",
         "items": [
           {
             "kind": "entry",
             "title": "World Economic Outlook",
             "url": "https://www.imf.org/en/publications/weo",
             "meta": "IMF News and Press Releases | P1 | primary",
-            "summary": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+            "summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
           },
           {
             "kind": "entry",
             "title": "How the IMF Supports the Global Economy",
             "url": "https://www.imf.org/en/about/how-the-imf-supports-the-global-economy",
             "meta": "IMF News and Press Releases | P1 | primary",
-            "summary": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+            "summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
           },
           {
             "kind": "entry",
             "title": "Global Financial Stability Report",
             "url": "https://www.imf.org/en/publications/gfsr",
             "meta": "IMF News and Press Releases | P1 | primary",
-            "summary": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+            "summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
           },
           {
             "kind": "entry",
             "title": "Fiscal Policies",
             "url": "https://www.imf.org/en/topics/fiscal-policies",
             "meta": "IMF News and Press Releases | P1 | primary",
-            "summary": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+            "summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
           },
           {
             "kind": "entry",
             "title": "Fiscal Monitor",
             "url": "https://www.imf.org/en/publications/fm",
             "meta": "IMF News and Press Releases | P1 | primary",
-            "summary": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+            "summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
           },
           {
             "kind": "entry",
             "title": "Economic Outlook",
             "url": "https://www.imf.org/en/videos/index#economicoutlook",
             "meta": "IMF News and Press Releases | P1 | primary",
-            "summary": "Helpful for global macro backdrop, spillovers, and multilateral policy framing."
+            "summary": "用于补充全球宏观背景、外溢影响和多边机构政策表述。"
           }
         ]
       },
       {
-        "title": "Media alerts worth verifying",
-        "hint": "These are fast macro signals and framing aids. Confirm anything important against primary sources before treating it as final.",
+        "title": "媒体预警与待验证线索",
+        "hint": "这里放的是高频宏观预警和辅助叙事线索，重要信息必须回到一手来源再确认。",
         "items": [
           {
             "kind": "entry",
@@ -418,7 +418,7 @@
         ]
       },
       {
-        "title": "Official primary releases",
+        "title": "官方一级发布",
         "items": [
           {
             "kind": "entry",
@@ -481,96 +481,96 @@
             "title": "中国人民银行召开2026年金融稳定工作会议",
             "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032711215379505/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           },
           {
             "kind": "entry",
             "title": "中国人民银行召开2026年国库工作会议",
             "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032315013158591/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           },
           {
             "kind": "entry",
             "title": "中国人民银行货币政策委员会...",
             "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870939/5546206/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           },
           {
             "kind": "entry",
             "title": "中国人民银行货币政策委员会...",
             "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870936/2025100917194615589/index.html",
             "meta": "中国人民银行 | P0 | primary",
-            "summary": "Primary China monetary-policy and liquidity source. Relevant for OMO, LPR, FX, financial stability, and official statistical releases."
+            "summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。"
           }
         ]
       },
       {
-        "title": "Official secondary context",
+        "title": "官方二级补充",
         "items": [
           {
             "kind": "entry",
             "title": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
             "url": "https://www.safe.gov.cn/en/2026/0327/2406.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
             "url": "https://www.safe.gov.cn/en/2026/0316/2400.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
             "url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "Notice of the State Administration of Foreign Exchange on Fu...",
             "url": "https://www.safe.gov.cn/en/2023/1208/2262.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "Circular of the State Administration of Foreign Exchange on ...",
             "url": "https://www.safe.gov.cn/en/2021/1203/1909.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "Circular of the State Administration of Foreign Exchange on ...",
             "url": "https://www.safe.gov.cn/en/2021/0108/1792.html",
             "meta": "国家外汇管理局英文发布 | P1 | primary",
-            "summary": "FX reserves, balance-of-payments and cross-border flow monitoring."
+            "summary": "用于跟踪外汇储备、国际收支和跨境资金流动。"
           },
           {
             "kind": "entry",
             "title": "国家对成品油价格采取临时调控措施",
             "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
             "meta": "国家发展改革委新闻动态 | P1 | primary | 2026/03/23",
-            "summary": "新闻发布 | Useful for growth policy, pricing policy, energy policy, infrastructure, and domestic-demand signals."
+            "summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。"
           },
           {
             "kind": "entry",
             "title": "2026年3月23日国内成品油价格调整",
             "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
             "meta": "国家发展改革委新闻动态 | P1 | primary | 2026/03/23",
-            "summary": "新闻发布 | Useful for growth policy, pricing policy, energy policy, infrastructure, and domestic-demand signals."
+            "summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。"
           },
           {
             "kind": "entry",
             "title": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
             "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
             "meta": "国家发展改革委新闻动态 | P1 | primary | 2026/02/13",
-            "summary": "通知公告 | Useful for growth policy, pricing policy, energy policy, infrastructure, and domestic-demand signals."
+            "summary": "通知公告 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。"
           },
           {
             "kind": "entry",
@@ -596,8 +596,15 @@
         ]
       },
       {
-        "title": "Media and fast-wire alerts",
+        "title": "媒体与快讯预警",
         "items": [
+          {
+            "kind": "entry",
+            "title": "国家数据局已新设国际数据治理合作司",
+            "url": "https://www.cls.cn/detail/2327805",
+            "meta": "财联社电报 | P1 | secondary | 2026-03-28 12:44:19",
+            "summary": "【国家数据局已新设国际数据治理合作司】财联社3月28日电，国家数据局官网近日公布的《国家数据局2026年度部门预算》披露，国家数据局共有行政单位1个，为机关本级，内设6个司：综合司、政策和规划司、数据资源司、数字经济司、数字科技和基础设施建设司、国际数据治理合作司。局属事业单位1个，为国家数据发展研究院。"
+          },
           {
             "kind": "entry",
             "title": "巴防务分析专家：巴基斯坦正在美伊间发挥协调与斡旋作用",
@@ -643,23 +650,23 @@
         ]
       },
       {
-        "title": "Framework line",
+        "title": "框架主线",
         "items": [
-          "Start from the core contradiction instead of starting from the latest price move.",
-          "Treat macro research as a transmission grammar that can later plug into industry work.",
-          "Separate leading variables from confirmation variables before assigning market weight."
+          "先找核心矛盾，不要从最新价格波动倒推叙事。",
+          "把宏观研究当作一套可迁移的传导语法，后续再接到行业研究里。",
+          "先区分领先变量和验证变量，再决定市场权重。"
         ]
       },
       {
-        "title": "Transmission map",
+        "title": "传导地图",
         "items": [
-          "Base path: policy -> rates -> credit -> FX/liquidity -> risk appetite -> asset pricing.",
-          "Fast paths can begin from flows, positioning, or geopolitics, but they still need to reconnect to the same macro chain.",
-          "Do not confuse the end-point asset move with the true starting variable."
+          "基础路径是：政策 -> 利率 -> 信用 -> 汇率/流动性 -> 风险偏好 -> 资产定价。",
+          "短路径可以从资金流、仓位或地缘事件起步，但最终仍要回到同一条宏观传导链上。",
+          "不要把资产价格终点误当成真正的起始变量。"
         ]
       },
       {
-        "title": "First 30-minute checklist",
+        "title": "前 30 分钟检查清单",
         "items": [
           "Confirm listing status and market context.",
           "Identify the industry archetype.",
@@ -670,7 +677,7 @@
         ]
       },
       {
-        "title": "Core research questions",
+        "title": "核心研究问题",
         "items": [
           "Question 1: What is the current core contradiction in this industry framework set?",
           "Question 2: Which variables explain revenue and margin changes first?",
@@ -681,21 +688,21 @@
         ]
       },
       {
-        "title": "Risk and falsification",
+        "title": "风险与证伪",
         "items": [
-          "Do not reverse-engineer a macro story from a price move that has already happened.",
-          "A single data point is not a macro cycle turn unless it persists and enters the transmission chain.",
-          "Write the failure condition explicitly: which leading variable would invalidate the current line first?",
-          "Distinguish timing lag from thesis failure before downgrading a framework."
+          "不要从已经发生的价格波动反向拼接宏观故事。",
+          "单个数据点不是周期拐点，除非它持续出现并进入传导链。",
+          "必须显式写出失效条件：哪一个领先变量先动会推翻当前判断。",
+          "在下调判断之前，要先分清是时滞问题还是逻辑失效。"
         ]
       },
       {
-        "title": "Macro-to-industry interfaces",
+        "title": "宏观到行业的接口",
         "items": [
-          "Technology usually receives macro through liquidity, valuation, and risk appetite rather than through the first data print.",
-          "Financials receive macro directly through rates, credit, regulation, and balance-sheet quality.",
-          "Resources and materials receive macro through global demand, the dollar, inventory, and price transmission.",
-          "Consumer and autos often receive macro through income expectations, confidence, policy stimulus, and financing access."
+          "科技通常通过流动性、估值和风险偏好接收宏观影响，而不是直接对应第一份数据。",
+          "金融板块会更直接地受到利率、信用、监管和资产负债表质量影响。",
+          "资源材料更多通过全球需求、美元、库存和价格传导来体现宏观约束。",
+          "消费和汽车往往通过收入预期、信心、政策刺激和融资可得性承接宏观变化。"
         ]
       }
     ]
@@ -704,8 +711,8 @@
     {
       "slug": "2026-03-28",
       "date": "2026-03-28",
-      "headline": "Daily macro brief",
-      "status": "daily-brief"
+      "headline": "宏观日报",
+      "status": "日报模式"
     }
   ]
 }

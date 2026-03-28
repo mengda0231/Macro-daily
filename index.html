@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Macro Daily</title>
+    <title>宏观日报</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -11,16 +11,15 @@
       <header class="hero">
         <div class="hero-grid">
           <div>
-            <p class="eyebrow">Macro Daily</p>
-            <h1 id="site-title">Loading...</h1>
+            <p class="eyebrow">宏观日报</p>
+            <h1 id="site-title">加载中...</h1>
             <p id="site-subtitle" class="subtitle"></p>
           </div>
           <div class="hero-side card subtle-card">
-            <p class="section-tag">Current mode</p>
-            <h2>Framework plus daily inputs</h2>
+            <p class="section-tag">当前模式</p>
+            <h2>框架底座 + 每日输入</h2>
             <p>
-              Official macro releases anchor the stack. Fast-wire and media sources stay visible as
-              alerting inputs, but they do not replace primary-source verification.
+              官方宏观发布是主锚点，快讯和媒体信源保留为预警层，但不替代一手来源验证。
             </p>
             <div id="daily-counts" class="count-grid"></div>
           </div>
@@ -29,7 +28,7 @@
           <span id="generated-at"></span>
           <span id="site-mode"></span>
           <span id="daily-generated-at"></span>
-          <a class="repo-link" href="https://github.com/mengda0231/Macro-daily" target="_blank" rel="noreferrer">GitHub Repo</a>
+          <a class="repo-link" href="https://github.com/mengda0231/Macro-daily" target="_blank" rel="noreferrer">GitHub 仓库</a>
         </div>
       </header>
 
@@ -37,7 +36,7 @@
         <section class="latest-panel card">
           <div class="panel-head">
             <div>
-              <p class="section-tag">Latest brief</p>
+              <p class="section-tag">最新日报</p>
               <h2 id="latest-date"></h2>
             </div>
             <span id="latest-mode" class="pill"></span>
@@ -50,33 +49,33 @@
 
         <aside class="sidebar">
           <section class="card">
-            <p class="section-tag">Workflow anchor</p>
-            <h3>How to read this daily</h3>
+            <p class="section-tag">阅读锚点</p>
+            <h3>如何使用这份日报</h3>
             <ul class="compact-list">
-              <li>Start from the contradiction, not from the price move.</li>
-              <li>Map each item to a transmission layer before assigning weight.</li>
-              <li>Keep a falsification block visible in every edition.</li>
+              <li>先抓核心矛盾，不要先盯价格波动。</li>
+              <li>给每条信息先定位到传导层，再判断权重。</li>
+              <li>每一版都要保留清晰的证伪区块。</li>
             </ul>
           </section>
 
           <section class="card">
-            <p class="section-tag">Source set</p>
+            <p class="section-tag">源文件集合</p>
             <div id="source-docs" class="source-list"></div>
           </section>
 
           <section class="card">
-            <p class="section-tag">Monitoring logic</p>
+            <p class="section-tag">监控逻辑</p>
             <p id="monitoring-strategy" class="small-copy"></p>
             <div id="monitoring-notes" class="monitoring-notes"></div>
           </section>
 
           <section class="card">
-            <p class="section-tag">Monitoring sources</p>
+            <p class="section-tag">监控信源</p>
             <div id="monitoring-sources" class="source-list"></div>
           </section>
 
           <section class="card">
-            <p class="section-tag">History</p>
+            <p class="section-tag">历史记录</p>
             <div id="history-list" class="history-list"></div>
           </section>
         </aside>
@@ -127,25 +126,30 @@
 
         document.getElementById('site-title').textContent = payload.site.title;
         document.getElementById('site-subtitle').textContent = payload.site.subtitle;
-        document.getElementById('generated-at').textContent = 'Site generated at ' + payload.site.generated_at;
-        document.getElementById('site-mode').textContent = 'Mode: ' + payload.site.mode;
+        document.getElementById('generated-at').textContent = '页面生成时间：' + payload.site.generated_at;
+        document.getElementById('site-mode').textContent = '页面模式：' + payload.site.mode;
 
         if (payload.latest.daily_input_generated_at) {
           document.getElementById('daily-generated-at').textContent =
-            'Input scan generated at ' + payload.latest.daily_input_generated_at;
+            '输入扫描时间：' + payload.latest.daily_input_generated_at;
         }
 
         document.getElementById('latest-date').textContent = payload.latest.date;
         document.getElementById('latest-headline').textContent = payload.latest.headline;
         document.getElementById('latest-summary').textContent = payload.latest.summary;
-        document.getElementById('latest-mode').textContent = payload.latest.mode || 'framework';
+        document.getElementById('latest-mode').textContent = payload.latest.mode || '框架模式';
 
         const countsWrap = document.getElementById('daily-counts');
         const counts = payload.latest.daily_input_counts || {};
         Object.entries(counts).forEach(([label, value]) => {
           const box = document.createElement('div');
           box.className = 'count-box';
-          box.innerHTML = '<strong>' + value + '</strong><span>' + label.replaceAll('_', ' ') + '</span>';
+          const labelMap = {
+            sources_ok: '成功信源',
+            sources_failed: '失败信源',
+            items_total: '候选条目',
+          };
+          box.innerHTML = '<strong>' + value + '</strong><span>' + (labelMap[label] || label.replaceAll('_', ' ')) + '</span>';
           countsWrap.appendChild(box);
         });
 
@@ -201,10 +205,19 @@
         payload.latest.monitoring_sources.forEach((source) => {
           const row = document.createElement('div');
           row.className = 'source-item';
+          const categoryMap = {
+            'official-primary': '官方一级',
+            'official-secondary': '官方二级',
+            'media-alert': '媒体预警',
+          };
+          const trustMap = {
+            primary: '一手',
+            secondary: '二手',
+          };
           row.innerHTML =
             '<strong>' + source.name + '</strong>' +
-            '<span>' + source.category + ' | ' + source.priority + ' | ' + source.region + ' | ' + source.trust_level + '</span>' +
-            '<span>cadence: ' + source.cadence + '</span>' +
+            '<span>' + (categoryMap[source.category] || source.category) + ' | ' + source.priority + ' | ' + source.region + ' | ' + (trustMap[source.trust_level] || source.trust_level) + '</span>' +
+            '<span>更新频率：' + source.cadence + '</span>' +
             '<a class="repo-link" href="' + source.homepage_url + '" target="_blank" rel="noreferrer">' + source.homepage_url + '</a>' +
             '<span>' + source.notes + '</span>';
           monitoringWrap.appendChild(row);
@@ -221,8 +234,8 @@
 
       main().catch((error) => {
         console.error(error);
-        document.getElementById('site-title').textContent = 'Macro Daily';
-        document.getElementById('site-subtitle').textContent = 'Failed to load site data.';
+        document.getElementById('site-title').textContent = '宏观日报';
+        document.getElementById('site-subtitle').textContent = '站点数据加载失败。';
       });
     </script>
   </body>
