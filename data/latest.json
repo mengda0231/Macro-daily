@@ -2,11 +2,11 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-28 20:08:12",
+    "generated_at": "2026-03-29 00:43:42",
     "mode": "分析日报"
   },
   "latest": {
-    "slug": "2026-03-28",
+    "slug": "2026-03-29",
     "date": "2026-03-28",
     "headline": "今天筛出 5 条重点、8 条关注、12 条背景事件；主线聚焦在数据验证、流动性/利率。",
     "summary": "这份日报优先回答“为什么重要、如何传导、对资产意味着什么”，并尽量用正文增量而不是仅用标题做点评。",
@@ -2157,6 +2157,7 @@
     "source_documents": [
       "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
       "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
+      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-daily-analysis-framework.md",
       "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-misjudgment-and-falsification.md",
       "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-to-industry-interfaces.md",
       "F:\\Codex\\projects\\research-report\\playbooks\\macro-strategy-general-playbook.md",
@@ -2166,6 +2167,12 @@
     ]
   },
   "history": [
+    {
+      "slug": "2026-03-29",
+      "date": "2026-03-28",
+      "headline": "今天筛出 5 条重点、8 条关注、12 条背景事件；主线聚焦在数据验证、流动性/利率。",
+      "status": "分析日报"
+    },
     {
       "slug": "2026-03-28",
       "date": "2026-03-28",
