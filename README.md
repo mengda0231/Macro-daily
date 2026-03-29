@@ -4,7 +4,7 @@
 
 当前线上版本：
 
-- 最新日报日期：`2026-03-29`
+- 最新日报日期：`2026-03-30`
 - 生成模式：`分析日报`
 - 站点地址：`https://mengda0231.github.io/Macro-daily/`
 
@@ -41,3 +41,4 @@ run-local-npm.cmd run dev
 - `F:\Codex\projects\research-report\capability\macro-strategy-general.md`
 - `F:\Codex\projects\research-report\source-registry.json`
 - `F:\Codex\projects\research-report\_work\macro-daily\daily-analysis-latest.json`
+- `F:\Codex\projects\research-report\_work\macro-data\snapshot-latest.json`
