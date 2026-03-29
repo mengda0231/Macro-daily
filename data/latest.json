@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-30 07:07:15",
+    "generated_at": "2026-03-30 07:26:36",
     "mode": "分析日报"
   },
   "latest": {
@@ -22,13 +22,13 @@
       {
         "topic_id": "growth-inflation-liquidity",
         "topic": "增长、通胀、利率与风险偏好",
-        "consensus": "宏观日报必须同时跟踪增长、通胀、利率和风险偏好，不能只盯 headline 数据。",
-        "disagreement": "分歧在于当前更接近“通胀粘性与长端利率约束主导”，还是“增长放缓促成宽松交易回归”。",
+        "consensus": "宏观日报必须同时跟踪增长、通胀、利率、风险偏好和央行反应函数，不能只盯 headline 数据。",
+        "disagreement": "分歧在于当前更接近“通胀粘性与长端利率约束主导”，还是“油价冲击转弱后，增长放缓促成宽松交易回归”。",
         "active_key": "scenario_a",
         "active_label": "利率约束延续型",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
         "alternative_label": "增长放缓宽松回归型",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "why_active": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
         "scenario_switch_signals": [
           "核心通胀继续偏强",
@@ -37,7 +37,7 @@
         ],
         "invalidations": [
           "如果就业与增长明确走弱，利率约束延续型会失效",
-          "如果通胀和长端利率重新抬升，增长放缓宽松回归型会失效。"
+          "如果通胀和长端利率重新抬升，增长放缓宽松回归型会失效"
         ],
         "source_mix": [
           "大摩-全球宏观下一步：通胀与增长如何抉择",
@@ -254,8 +254,8 @@
         "analysis_basis": "正文提炼",
         "data_validation_note": "数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -417,8 +417,8 @@
         "detail_excerpt": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά English Español Eesti keel Suomi Français Gaeilge Hrvatski Magyar Italiano Lietuvių Latviešu Malti Nederlands Polski Português Română Slovenčina Slovenščina Sven...",
         "analysis_basis": "正文提炼",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -664,8 +664,8 @@
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -745,8 +745,8 @@
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -908,8 +908,8 @@
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -989,8 +989,8 @@
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -1070,8 +1070,8 @@
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -1630,8 +1630,8 @@
         "analysis_basis": "标题/摘要",
         "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -1711,8 +1711,8 @@
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -1793,8 +1793,8 @@
         "analysis_basis": "标题/摘要",
         "data_validation_note": "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -2039,8 +2039,8 @@
         "analysis_basis": "标题/摘要",
         "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -2121,8 +2121,8 @@
         "analysis_basis": "标题/摘要",
         "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "scenario_topic": "增长、通胀、利率与风险偏好",
-        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
-        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
         "active_scenario_label": "利率约束延续型",
         "alternative_scenario_label": "增长放缓宽松回归型",
         "scenario_switch_signals": [
@@ -2641,7 +2641,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-30 02:28:11",
+    "daily_input_generated_at": "2026-03-30 07:07:33",
     "data_validation": {
       "analysis_hints": [
         "当前 10Y 美债为 4.42，联邦基金利率为 3.64，先看长端是否继续围绕政策利率重定价。",
