@@ -35,6 +35,7 @@ run-local-npm.cmd run dev
 - `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-research-motherboard.md`
 - `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-transmission-map.md`
 - `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-daily-analysis-framework.md`
+- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-learning-live-notes.md`
 - `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-misjudgment-and-falsification.md`
 - `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-to-industry-interfaces.md`
 - `F:\Codex\projects\research-report\playbooks\macro-strategy-general-playbook.md`

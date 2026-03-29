@@ -181,6 +181,7 @@
         const sections = [
           ['发生了什么', item.what_happened],
           ['为什么重要', item.why_it_matters],
+          ['数据校验', item.data_validation_note],
           ['传导链', (item.macro_transmission || []).join(' -> ')],
           ['投资含义', item.market_implication ? item.market_implication.summary : ''],
           ['跟踪点', (item.follow_up_signals || []).slice(0, 3).join('；')],
