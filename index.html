@@ -43,6 +43,8 @@
               <span id="latest-mode" class="pill"></span>
             </div>
             <div id="judgment-list" class="judgment-list"></div>
+            <div id="scenario-overview" class="scenario-grid"></div>
+            <div id="user-confirmation" class="confirmation-list"></div>
             <div id="watchpoints" class="watchpoints"></div>
           </section>
 
@@ -183,6 +185,10 @@
           ['为什么重要', item.why_it_matters],
           ['数据校验', item.data_validation_note],
           ['传导链', (item.macro_transmission || []).join(' -> ')],
+          ['当前采用视角', item.active_scenario_label ? (item.active_scenario_label + '：' + (item.active_scenario || '')) : ''],
+          ['替代视角', item.alternative_scenario_label ? (item.alternative_scenario_label + '：' + (item.alternative_scenario || '')) : ''],
+          ['切换条件', (item.scenario_switch_signals || []).slice(0, 3).join('；')],
+          ['为什么今天先不用另一个视角', item.scenario_why_not_alternative || item.why_this_scenario],
           ['投资含义', item.market_implication ? item.market_implication.summary : ''],
           ['跟踪点', (item.follow_up_signals || []).slice(0, 3).join('；')],
         ];
@@ -194,6 +200,60 @@
           row.appendChild(createNode('span', '', value));
           card.appendChild(row);
         });
+        return card;
+      }
+
+      function renderScenarioCard(item) {
+        const card = createNode('article', 'scenario-card');
+        const top = createNode('div', 'scenario-top');
+        top.appendChild(createNode('p', 'scenario-topic', item.topic || item.topic_id || '情景主题'));
+        if (item.active_label) {
+          top.appendChild(createNode('span', 'pill scenario-pill', '主情景：' + item.active_label));
+        }
+        card.appendChild(top);
+
+        if (item.consensus) {
+          const consensus = createNode('p', 'scenario-summary');
+          consensus.innerHTML = '<strong>当前共识：</strong>' + item.consensus;
+          card.appendChild(consensus);
+        }
+
+        const rows = [
+          ['当前主情景', item.active_label ? (item.active_label + '：' + (item.active_scenario || '')) : item.active_scenario],
+          ['为什么今天更偏这个情景', item.why_active],
+          ['备选情景', item.alternative_label ? (item.alternative_label + '：' + (item.alternative_scenario || '')) : item.alternative_scenario],
+          ['切换条件', (item.scenario_switch_signals || []).slice(0, 3).join('；')],
+          ['失效条件', (item.invalidations || []).slice(0, 2).join('；')],
+        ];
+
+        rows.forEach(([label, value]) => {
+          if (!value) return;
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', label + '：'));
+          row.appendChild(createNode('span', '', value));
+          card.appendChild(row);
+        });
+
+        if ((item.source_mix || []).length > 0) {
+          const source = createNode('p', 'scenario-source', '参考来源：' + item.source_mix.join('；'));
+          card.appendChild(source);
+        }
+        return card;
+      }
+
+      function renderConfirmationItem(item) {
+        const card = createNode('article', 'confirmation-item');
+        const title = createNode('strong', '', item.topic || '待确认问题');
+        card.appendChild(title);
+        if (item.conflict) {
+          card.appendChild(createNode('p', 'entry-summary', '冲突点：' + item.conflict));
+        }
+        if (item.current_view) {
+          card.appendChild(createNode('p', 'entry-summary', '当前倾向：' + item.current_view));
+        }
+        if (item.missing_signal) {
+          card.appendChild(createNode('p', 'entry-summary', '缺失确认：' + item.missing_signal));
+        }
         return card;
       }
 
@@ -266,6 +326,24 @@
           row.appendChild(createNode('span', '', text));
           judgmentWrap.appendChild(row);
         });
+
+        const scenarioWrap = document.getElementById('scenario-overview');
+        (latest.scenario_overview || []).forEach((item) => {
+          scenarioWrap.appendChild(renderScenarioCard(item));
+        });
+        if (!scenarioWrap.children.length) {
+          scenarioWrap.appendChild(createNode('div', 'empty-state', '当前没有可展示的情景矩阵，先沿用今日判断与证据池观察。'));
+        }
+
+        const confirmationWrap = document.getElementById('user-confirmation');
+        const confirmations = latest.needs_user_confirmation || [];
+        if (confirmations.length > 0) {
+          const head = createNode('div', 'confirmation-head');
+          head.appendChild(createNode('strong', '', '待你确认的高影响分歧'));
+          head.appendChild(createNode('span', 'entry-meta', '这些问题会改变首页主判断或多个资产映射'));
+          confirmationWrap.appendChild(head);
+          confirmations.forEach((item) => confirmationWrap.appendChild(renderConfirmationItem(item)));
+        }
 
         const watchpointWrap = document.getElementById('watchpoints');
         (latest.watchpoints || []).forEach((text) => {

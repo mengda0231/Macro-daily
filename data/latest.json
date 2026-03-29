@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-30 01:34:30",
+    "generated_at": "2026-03-30 02:28:34",
     "mode": "分析日报"
   },
   "latest": {
@@ -12,11 +12,94 @@
     "summary": "这份日报优先回答“为什么重要、如何传导、对资产意味着什么”，并尽量用正文增量而不是仅用标题做点评。",
     "mode": "分析日报",
     "judgments": [
+      "增长、通胀、利率与风险偏好：当前主情景为“利率约束延续型”，当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。。备选情景是“增长放缓宽松回归型”；若核心通胀继续偏强；10Y 和 2Y 利率维持高位，就要切换视角。",
+      "人民币汇率与股市：当前主情景为“结构性升值型”，当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。。备选情景是“基本面共振型”；若主动外资持续净流入股市；社融和内需同步修复，就要切换视角。",
+      "油价、地缘与通胀：当前主情景为“脉冲冲击回落型”，现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。。备选情景是“持续高油价型”；若WTI 持续站稳高位；库存持续去化，就要切换视角。",
       "美债长短端目前都在上行且 10Y-2Y 利差维持正值，说明市场仍在交易更高的长端定价和并未明显转松的金融条件。",
-      "美国失业率边际抬升，当前更像就业韧性开始松动的早期信号，但还需要非农、工资和工时共同验证。",
-      "中国宏观起手不能只盯总量刺激，还要同步跟踪“开放、FDI、服务贸易、内需再平衡”是否形成新的增长接力。",
-      "外部平衡和跨境流动应保持高优先级观察，它们会直接决定人民币方向、外资风险偏好和国内政策空间。",
-      "美国通胀判断要先拆 headline 和核心分项；只有核心粘性继续同向，利率中枢才会被市场真正重写。"
+      "美国失业率边际抬升，当前更像就业韧性开始松动的早期信号，但还需要非农、工资和工时共同验证。"
+    ],
+    "scenario_overview": [
+      {
+        "topic_id": "growth-inflation-liquidity",
+        "topic": "增长、通胀、利率与风险偏好",
+        "consensus": "宏观日报必须同时跟踪增长、通胀、利率和风险偏好，不能只盯 headline 数据。",
+        "disagreement": "分歧在于当前更接近“通胀粘性与长端利率约束主导”，还是“增长放缓促成宽松交易回归”。",
+        "active_key": "scenario_a",
+        "active_label": "利率约束延续型",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_label": "增长放缓宽松回归型",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "why_active": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "invalidations": [
+          "如果就业与增长明确走弱，利率约束延续型会失效",
+          "如果通胀和长端利率重新抬升，增长放缓宽松回归型会失效。"
+        ],
+        "source_mix": [
+          "大摩-全球宏观下一步：通胀与增长如何抉择",
+          "花旗-全球宏观策略：滞胀之风",
+          "法国兴业-宏观大局：现实审视",
+          "macro-data-interfaces-map"
+        ]
+      },
+      {
+        "topic_id": "fx-equity",
+        "topic": "人民币汇率与股市",
+        "consensus": "写汇率和股市关系时，必须先拆人民币升值来自哪里，再判断资金到底流向了经常账户、债券、现金、FDI 还是股市。",
+        "disagreement": "分歧的核心不在“人民币升值是否利好股市”，而在“这轮升值究竟是整体基本面改善驱动，还是外需顺差和美元环境驱动”。",
+        "active_key": "scenario_b",
+        "active_label": "结构性升值型",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_label": "基本面共振型",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "why_active": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "invalidations": [
+          "如果外资直接入市和内需修复同时被验证，结构性升值型会失效",
+          "如果升值持续但股市仍无增量资金验证，基本面共振型会失效。"
+        ],
+        "source_mix": [
+          "宏观策略周论：汇率与股市的关系",
+          "macro-intake-20260316-fx-equity-study",
+          "macro-strategy-general-study",
+          "macro-strategy-memo-study"
+        ]
+      },
+      {
+        "topic_id": "oil-geopolitics",
+        "topic": "油价、地缘与通胀",
+        "consensus": "油价和地缘不能只当商品新闻处理，它们决定的是通胀预期、联储路径和全球风险偏好的再定价速度。",
+        "disagreement": "分歧在于本轮地缘冲击是“持续性高油价通胀压力”，还是“脉冲式风险定价后逐步回落”。",
+        "active_key": "scenario_b",
+        "active_label": "脉冲冲击回落型",
+        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
+        "alternative_label": "持续高油价型",
+        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
+        "why_active": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "scenario_switch_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "invalidations": [
+          "如果油价重新跌回脉冲前区间，持续高油价型会失效",
+          "如果冲突拖长且库存恶化，脉冲冲击回落型会失效。"
+        ],
+        "source_mix": [
+          "宏观策略周论：油价、黄金与科技",
+          "美银-伊朗与美国宏观市场常见问题解答",
+          "macro-daily-analysis-framework",
+          "macro-transmission-map"
+        ]
+      }
     ],
     "focus_cards": [
       {
@@ -80,13 +163,26 @@
           "经常账户和资本金融账户是否继续改善",
           "人民币汇率与跨境流向是否延续",
           "政策口径是否更强调稳汇率或稳外部平衡",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市"
         ],
         "downgrade_reason": null,
         "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。",
         "detail_excerpt": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from international economic transactions narrowed by $48.4 billion, or 20.2 percent, to $190.7 billion in the fourth quarter of 2025, according to statistics released t...",
         "analysis_basis": "正文提炼",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       },
       {
         "id": "us-bea-current-releases-u-s-international-trade-in-goods-and-services-january-2026",
@@ -149,13 +245,26 @@
           "核心分项是否继续同向变化",
           "美债利率与联储预期是否跟随调整",
           "美元和全球风险资产是否出现同步重定价",
-          "数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。"
+          "数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+          "核心通胀继续偏强"
         ],
         "downgrade_reason": null,
         "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。",
         "detail_excerpt": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the services surplus of $1.0 billion to $27.3 billion. International Trade in Goods and Services, January 2026 EMBARGOED UNTIL RELEASE AT 8:30 A.M.",
         "analysis_basis": "正文提炼",
-        "data_validation_note": "数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。"
+        "data_validation_note": "数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "eu-ecb-statistical-rss-euro-area-monthly-balance-of-payments-january-2026",
@@ -218,13 +327,26 @@
           "经常账户和资本金融账户是否继续改善",
           "人民币汇率与跨境流向是否延续",
           "政策口径是否更强调稳汇率或稳外部平衡",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市"
         ],
         "downgrade_reason": null,
         "raw_summary": "Euro area monthly balance of payments: January 2026",
         "detail_excerpt": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά English Español Eesti keel Suomi Français Gaeilge Hrvatski Magyar Italiano Lietuvių Latviešu Malti Nederlands Polski Português Română Slovenčina Slovenščina Svens...",
         "analysis_basis": "正文提炼",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       },
       {
         "id": "eu-ecb-statistical-rss-monetary-developments-in-the-euro-area-january-2026",
@@ -286,12 +408,26 @@
           "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
-          "市场是否重写增长或通胀预期"
+          "市场是否重写增长或通胀预期",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位"
         ],
         "downgrade_reason": null,
         "raw_summary": "Monetary developments in the euro area: January 2026",
         "detail_excerpt": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά English Español Eesti keel Suomi Français Gaeilge Hrvatski Magyar Italiano Lietuvių Latviešu Malti Nederlands Polski Português Română Slovenčina Slovenščina Sven...",
-        "analysis_basis": "正文提炼"
+        "analysis_basis": "正文提炼",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "cn-pboc-home-中国人民银行召开2026年金融稳定工作会议",
@@ -353,13 +489,27 @@
           "短端资金价格是否继续改善",
           "信用和社融是否跟上",
           "汇率约束是否开始变得更强",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市",
+          "社融和内需同步修复"
         ],
         "downgrade_reason": null,
         "raw_summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       }
     ],
     "secondary_items": [
@@ -423,13 +573,27 @@
           "油气价格是否持续上行或回落",
           "库存和供给是否继续恶化",
           "通胀预期和风险资产是否出现联动",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "WTI 持续站稳高位",
+          "库存持续去化"
         ],
         "downgrade_reason": null,
         "raw_summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "scenario_topic": "油价、地缘与通胀",
+        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
+        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
+        "active_scenario_label": "脉冲冲击回落型",
+        "alternative_scenario_label": "持续高油价型",
+        "scenario_switch_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“持续高油价型”，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。"
       },
       {
         "id": "cn-nbs-press-release-9-industrial-producer-price-indexes-in-february-2026",
@@ -490,12 +654,27 @@
         "follow_up_signals": [
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
-          "市场是否重写增长或通胀预期"
+          "市场是否重写增长或通胀预期",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": null,
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
+        "analysis_basis": "标题/摘要",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "cn-nbs-press-release-8-market-prices-of-important-means-of-production-in-circulation-march-1-10-2026",
@@ -556,12 +735,27 @@
         "follow_up_signals": [
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
-          "市场是否重写增长或通胀预期"
+          "市场是否重写增长或通胀预期",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": null,
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
+        "analysis_basis": "标题/摘要",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "cn-ndrc-news-2026年3月23日国内成品油价格调整",
@@ -623,13 +817,27 @@
           "油气价格是否持续上行或回落",
           "库存和供给是否继续恶化",
           "通胀预期和风险资产是否出现联动",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "WTI 持续站稳高位",
+          "库存持续去化"
         ],
         "downgrade_reason": null,
         "raw_summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "scenario_topic": "油价、地缘与通胀",
+        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
+        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
+        "active_scenario_label": "脉冲冲击回落型",
+        "alternative_scenario_label": "持续高油价型",
+        "scenario_switch_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“持续高油价型”，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。"
       },
       {
         "id": "uk-boe-statistics-money-and-credit-november-2025",
@@ -690,12 +898,27 @@
         "follow_up_signals": [
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
-          "市场是否重写增长或通胀预期"
+          "市场是否重写增长或通胀预期",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": null,
         "raw_summary": "Our monthly Money and Credit statistical release is made up of three parts: broad money and credit, lending to individual and lending to businesses.",
         "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
+        "analysis_basis": "标题/摘要",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "uk-boe-statistics-money-and-credit-january-2026",
@@ -756,12 +979,27 @@
         "follow_up_signals": [
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
-          "市场是否重写增长或通胀预期"
+          "市场是否重写增长或通胀预期",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": null,
         "raw_summary": "Our monthly Money and Credit statistical release is made up of three parts: broad money and credit, lending to individual and lending to businesses.",
         "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
+        "analysis_basis": "标题/摘要",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "uk-boe-statistics-money-and-credit-december-2025",
@@ -822,12 +1060,27 @@
         "follow_up_signals": [
           "下一期同类数据是否延续",
           "政策口径是否因此调整",
-          "市场是否重写增长或通胀预期"
+          "市场是否重写增长或通胀预期",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": null,
         "raw_summary": "Our monthly Money and Credit statistical release is made up of three parts: broad money and credit, lending to individual and lending to businesses.",
         "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
+        "analysis_basis": "标题/摘要",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "media-cls-depth-美国消费者信心跌至三个月低点-最富裕阶层也因股市重挫遭受打击",
@@ -889,13 +1142,27 @@
           "油价是否持续上行",
           "冲突是否扩大或缓和",
           "通胀预期和避险资产是否同步强化",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "主动外资持续净流入股市",
+          "社融和内需同步修复"
         ],
         "downgrade_reason": null,
         "raw_summary": "①3月份美国消费者信心降至53.3，为去年12月以来最低水平，主要受中东战争引发的通胀忧虑和经济前景不确定性影响； ②若美伊战争持续数月，经济前景可能迅速恶化，引发下行螺旋：股市下跌导致支出减弱，最终陷入衰退。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       }
     ],
     "background_items": [
@@ -959,13 +1226,27 @@
           "经常账户和资本金融账户是否继续改善",
           "人民币汇率与跨境流向是否延续",
           "政策口径是否更强调稳汇率或稳外部平衡",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市",
+          "社融和内需同步修复"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       },
       {
         "id": "global-imf-news-economic-outlook",
@@ -1093,13 +1374,27 @@
           "油气价格是否持续上行或回落",
           "库存和供给是否继续恶化",
           "通胀预期和风险资产是否出现联动",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "WTI 持续站稳高位",
+          "库存持续去化"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "【美国务卿和欧盟官员被曝就乌克兰问题激烈交锋】财联社3月28日电，据三名参会消息人士爆料，在当地时间3月27日举行的七国集团外长会期间，美国国务卿鲁比奥和欧盟外交与安全政策高级代表卡拉斯就俄乌冲突问题激烈交锋。消息称，这场交锋体现了美国当前与其许多欧洲盟友之间因俄乌冲突而产生的相互不信任。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "scenario_topic": "油价、地缘与通胀",
+        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
+        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
+        "active_scenario_label": "脉冲冲击回落型",
+        "alternative_scenario_label": "持续高油价型",
+        "scenario_switch_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“持续高油价型”，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。"
       },
       {
         "id": "media-cls-depth-泰国就本国油轮通行霍尔木兹海峡与伊朗达成协议",
@@ -1161,13 +1456,27 @@
           "油气价格是否持续上行或回落",
           "库存和供给是否继续恶化",
           "通胀预期和风险资产是否出现联动",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "WTI 持续站稳高位",
+          "库存持续去化"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "为应对中东局势引发的泰国国内油价上涨等危机，泰国外交部近期与相关国家积极沟通，根据目前与伊朗方面达成的协议，泰国油轮能够安全通过霍尔木兹海峡。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "scenario_topic": "油价、地缘与通胀",
+        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
+        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
+        "active_scenario_label": "脉冲冲击回落型",
+        "alternative_scenario_label": "持续高油价型",
+        "scenario_switch_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“持续高油价型”，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。"
       },
       {
         "id": "media-cls-telegraph-欧洲运输与环境联合会-美以伊战事推高全球航运成本",
@@ -1229,13 +1538,27 @@
           "油气价格是否持续上行或回落",
           "库存和供给是否继续恶化",
           "通胀预期和风险资产是否出现联动",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "WTI 持续站稳高位",
+          "库存持续去化"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "【欧洲运输与环境联合会：美以伊战事推高全球航运成本】财联社3月28日电，欧洲运输与环境联合会27日发布报告说，受美以伊战事影响，全球航运业燃料成本大幅攀升，在推高行业运营压力的同时，也为加快能源转型提供契机。报告显示，自2月28日以来，全球航运业累计额外燃料成本已超46亿欧元。随着冲突持续，船用燃料价格显著上涨。以新加坡港口为例，超低硫燃料油价格已升至每吨941欧元，较年初上涨223%；液化天然气价格自3月初以来上涨72%。报告指...",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。"
+        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "scenario_topic": "油价、地缘与通胀",
+        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
+        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
+        "active_scenario_label": "脉冲冲击回落型",
+        "alternative_scenario_label": "持续高油价型",
+        "scenario_switch_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“持续高油价型”，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。"
       },
       {
         "id": "us-fed-speeches-rss-bowman-capital-rules-for-the-real-economy",
@@ -1297,13 +1620,27 @@
           "短端资金价格是否继续改善",
           "信用和社融是否跟上",
           "汇率约束是否开始变得更强",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "cn-ndrc-news-关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
@@ -1364,12 +1701,27 @@
         "follow_up_signals": [
           "后续是否有配套细则",
           "是否出现量化工具或额度安排",
-          "市场利率与风险偏好是否跟随改善"
+          "市场利率与风险偏好是否跟随改善",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "通知公告 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
         "detail_excerpt": "",
-        "analysis_basis": "标题/摘要"
+        "analysis_basis": "标题/摘要",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "us-fed-speeches-rss-waller-labor-market-data-signal-or-noise",
@@ -1431,13 +1783,27 @@
           "失业率和非农后续是否继续验证同一方向",
           "工资与劳动参与率是否同步变化",
           "市场是否把数据解释为趋势而不是扰动",
-          "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。"
+          "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The National Association for Business Economics, Washington, D.C.",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。"
+        "data_validation_note": "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "cn-safe-home-safe-releases-data-on-china-s-foreign-exchange-reserves-at-t",
@@ -1499,13 +1865,27 @@
           "经常账户和资本金融账户是否继续改善",
           "人民币汇率与跨境流向是否延续",
           "政策口径是否更强调稳汇率或稳外部平衡",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市",
+          "社融和内需同步修复"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       },
       {
         "id": "cn-safe-home-notice-of-the-state-administration-of-foreign-exchange-on-fu",
@@ -1567,13 +1947,27 @@
           "经常账户和资本金融账户是否继续改善",
           "人民币汇率与跨境流向是否延续",
           "政策口径是否更强调稳汇率或稳外部平衡",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市",
+          "社融和内需同步修复"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       },
       {
         "id": "eu-ecb-blog-rss-mind-the-gap-credit-dynamics-in-the-euro-area",
@@ -1635,13 +2029,27 @@
           "短端资金价格是否继续改善",
           "信用和社融是否跟上",
           "汇率约束是否开始变得更强",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "Mind the gap: credit dynamics in the euro area",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
         "id": "eu-ecb-blog-rss-lower-inflation-weaker-activity-what-foreign-import-tariffs-mean-for-the-euro-area",
@@ -1703,13 +2111,27 @@
           "公开市场操作和短端资金价格",
           "政策沟通是否继续偏松",
           "信用扩张是否同步跟进",
-          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
         "raw_summary": "Lower inflation, weaker activity: what foreign import tariffs mean for the euro area",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "就业和增长继续走弱，市场重新开始交易更早的宽松路径，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       }
     ],
     "evidence_sections": [
@@ -1955,13 +2377,16 @@
       }
     ],
     "follow_up_signals": [
-      "中国宏观起手不能只盯总量刺激，还要同步跟踪“开放、FDI、服务贸易、内需再平衡”是否形成新的增长接力。",
-      "遇到国际油价冲击时，不要直接把全球油价映射为国内通胀；要先判断国内是否存在价格传导缓冲器和财政吸收机制。",
+      "核心通胀继续偏强",
+      "10Y 和 2Y 利率维持高位",
+      "主动外资持续净流入股市",
       "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
       "经常账户和资本金融账户是否继续改善",
       "人民币汇率与跨境流向是否延续",
-      "政策口径是否更强调稳汇率或稳外部平衡"
+      "政策口径是否更强调稳汇率或稳外部平衡",
+      "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。"
     ],
+    "needs_user_confirmation": [],
     "daily_input_counts": {
       "focus": 5,
       "secondary": 8,
@@ -2216,7 +2641,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-30 01:31:14",
+    "daily_input_generated_at": "2026-03-30 02:28:11",
     "data_validation": {
       "analysis_hints": [
         "当前 10Y 美债为 4.42，联邦基金利率为 3.64，先看长端是否继续围绕政策利率重定价。",

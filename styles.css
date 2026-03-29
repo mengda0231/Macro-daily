@@ -194,6 +194,7 @@ h3,
 }
 
 .count-grid,
+.scenario-grid,
 .focus-cards,
 .evidence-grid {
   display: grid;
@@ -246,6 +247,7 @@ h3,
 }
 
 .judgment-list,
+.confirmation-list,
 .watchpoints,
 .stack-list,
 .asset-map,
@@ -291,10 +293,64 @@ h3,
 }
 
 .focus-card,
+.scenario-card,
 .evidence-card {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.46);
   padding: 16px;
+}
+
+.scenario-grid {
+  margin-top: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.scenario-card {
+  background: linear-gradient(180deg, rgba(255, 249, 243, 0.98), rgba(242, 233, 221, 0.9));
+  border-color: rgba(143, 74, 41, 0.18);
+}
+
+.scenario-top,
+.confirmation-head {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.scenario-topic {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: var(--ink);
+  font-family: var(--font-display);
+}
+
+.scenario-pill {
+  background: rgba(143, 74, 41, 0.12);
+  color: var(--accent);
+}
+
+.scenario-summary,
+.scenario-source {
+  margin-top: 12px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.confirmation-list {
+  margin-top: 16px;
+}
+
+.confirmation-item,
+.empty-state {
+  border: 1px dashed var(--line);
+  background: rgba(255, 255, 255, 0.4);
+  padding: 14px 16px;
+}
+
+.empty-state {
+  color: var(--muted);
 }
 
 .focus-card--lead {
