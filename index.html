@@ -18,8 +18,8 @@
             <p id="latest-summary" class="summary"></p>
           </div>
           <div class="hero-side card subtle-card">
-            <p class="section-tag">今日主线总述</p>
-            <h2>先读结论，再看重点事件</h2>
+            <p class="section-tag">摘要速读</p>
+            <h2>先看今天，再看框架</h2>
             <div id="daily-counts" class="count-grid"></div>
             <div id="hero-outlook" class="hero-outlook"></div>
           </div>
@@ -44,72 +44,72 @@
               <span id="latest-mode" class="pill"></span>
             </div>
             <div id="judgment-list" class="judgment-list"></div>
-            <div id="user-confirmation" class="confirmation-list"></div>
+            <div id="lead-paragraphs" class="lead-paragraphs"></div>
             <div id="watchpoints" class="watchpoints"></div>
           </section>
 
           <section class="card panel">
             <div class="panel-head">
               <div>
-                <p class="section-tag">今日主线总述</p>
-                <h2>文章式总述、主情景与备选情景</h2>
+                <p class="section-tag">今日事件总览</p>
+                <h2>把重复报道合并成当天事件包</h2>
               </div>
             </div>
-            <div id="lead-paragraphs" class="lead-paragraphs"></div>
-            <div id="scenario-overview" class="scenario-grid"></div>
+            <div id="today-focus-packages" class="package-grid"></div>
           </section>
 
           <section class="card panel">
             <div class="panel-head">
               <div>
-                <p class="section-tag">重点点评卡</p>
-                <h2>今天最值得看的宏观事件</h2>
+                <p class="section-tag">今日次级关注</p>
+                <h2>有增量，但暂不到当天主线级别</h2>
               </div>
             </div>
-            <div id="lead-focus-card" class="lead-focus-card"></div>
-            <div id="focus-cards" class="focus-cards"></div>
+            <div id="today-secondary-packages" class="stack-list"></div>
           </section>
 
           <section class="card panel">
             <div class="panel-head">
               <div>
-                <p class="section-tag">次级关注</p>
-                <h2>有增量，但暂不到主线级别</h2>
-              </div>
-            </div>
-            <div id="secondary-list" class="stack-list"></div>
-          </section>
-
-          <section class="card panel">
-            <div class="panel-head">
-              <div>
-                <p class="section-tag">背景与降级信息</p>
-                <h2>保留记录，但不抢主视图</h2>
-              </div>
-            </div>
-            <details class="background-details">
-              <summary>展开查看背景层事件</summary>
-              <p class="section-tag">窗口内背景</p>
-              <div id="background-list" class="stack-list"></div>
-              <p class="section-tag">窗口外背景</p>
-              <div id="context-background-list" class="stack-list"></div>
-            </details>
-          </section>
-
-          <section class="card panel">
-            <div class="panel-head">
-              <div>
-                <p class="section-tag">证据池与确认状态</p>
-                <h2>判断之后，再回头看主证据、确认状态与分桶证据池</h2>
+                <p class="section-tag">证据流</p>
+                <h2>主证据、官方确认与补充媒体</h2>
               </div>
             </div>
             <div id="evidence-digest" class="digest-grid"></div>
             <div id="official-confirmation-list" class="stack-list"></div>
             <div id="evidence-sections" class="evidence-grid"></div>
           </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">背景与窗口外补充</p>
+                <h2>当天低增量背景与少量窗口外上下文</h2>
+              </div>
+            </div>
+            <p class="section-tag">窗口内背景</p>
+            <div id="today-background-packages" class="stack-list"></div>
+            <p class="section-tag">窗口外背景</p>
+            <div id="context-background-list" class="stack-list"></div>
+          </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
+                <p class="section-tag">框架支持</p>
+                <h2>存量主线与情景矩阵放在最后读</h2>
+              </div>
+            </div>
+            <div id="framework-support-list" class="framework-grid"></div>
+          </section>
         </section>
 
         <aside class="sidebar">
+          <section class="card">
+            <p class="section-tag">今日摘要栏</p>
+            <div id="snapshot-list" class="compact-list"></div>
+          </section>
+
           <section class="card">
             <p class="section-tag">今日资产映射</p>
             <div id="asset-map" class="asset-map"></div>
@@ -121,29 +121,8 @@
           </section>
 
           <section class="card">
-            <p class="section-tag">行业 / A股跟进路线</p>
-            <div id="macro-route-summary" class="route-list"></div>
-          </section>
-
-          <section class="card">
-            <p class="section-tag">监控逻辑</p>
-            <p id="monitoring-strategy" class="small-copy"></p>
-            <div id="monitoring-notes" class="monitoring-notes"></div>
-          </section>
-
-          <section class="card">
-            <p class="section-tag">监控信源</p>
-            <div id="monitoring-sources" class="source-list"></div>
-          </section>
-
-          <section class="card">
-            <p class="section-tag">框架锚点</p>
-            <div id="framework-notes" class="compact-list"></div>
-          </section>
-
-          <section class="card">
-            <p class="section-tag">历史判断</p>
-            <div id="history-list" class="history-list"></div>
+            <p class="section-tag">今日代表信源</p>
+            <div id="today-representative-sources" class="source-list"></div>
           </section>
         </aside>
       </main>
@@ -546,12 +525,144 @@
         (section.items || []).forEach((item) => {
           const row = createNode('div', 'evidence-item');
           row.appendChild(renderCardTitle(item));
-          row.appendChild(createNode('div', 'entry-meta', [item.source_name, item.importance_level].join(' | ')));
-          row.appendChild(createNode('p', 'entry-summary', item.summary_zh || item.analysis_summary));
+          row.appendChild(createNode('div', 'entry-meta', [item.source_name, item.importance_level].filter(Boolean).join(' | ')));
+          row.appendChild(createNode('p', 'entry-summary', item.summary_zh || item.analysis_summary || ''));
           list.appendChild(row);
         });
         card.appendChild(list);
         return card;
+      }
+
+      function buildPackageMeta(item) {
+        const parts = [];
+        if (item.primary_source && (item.primary_source.source_name_zh || item.primary_source.source_name)) {
+          parts.push('代表信源：' + (item.primary_source.source_name_zh || item.primary_source.source_name));
+        }
+        if (item.source_tier_mix && item.source_tier_mix.length) {
+          parts.push(item.source_tier_mix.map(formatSourceTier).join(' / '));
+        }
+        if (item.first_published_at || item.latest_published_at) {
+          parts.push('首发：' + (item.first_published_at || '未知') + ' | 最新：' + (item.latest_published_at || '未知'));
+        }
+        if (item.source_count) {
+          parts.push('信源数：' + item.source_count);
+        }
+        return parts.join(' | ');
+      }
+
+      function buildPackageSourceLine(source) {
+        const meta = [
+          source.source_name_zh || source.source_name || '信源',
+          formatSourceTier(source.source_tier),
+          source.published_at || '',
+        ].filter(Boolean).join(' | ');
+        const title = source.source_title_original || source.title || source.title_zh || '';
+        return { meta, title };
+      }
+
+      function renderPackageCard(item, lead) {
+        const card = createNode('article', lead ? 'focus-card focus-card--lead package-card' : 'focus-card package-card');
+        const top = createNode('div', 'card-top');
+        top.appendChild(createNode('span', 'pill level-pill', item.package_type === 'today_focus' ? '今日重点' : item.package_type === 'today_secondary' ? '次级关注' : '背景'));
+        top.appendChild(createNode('span', 'entry-meta', buildPackageMeta(item)));
+        card.appendChild(top);
+        card.appendChild(createNode('div', 'entry-title', item.package_title_zh || item.core_topic || '今日事件包'));
+
+        const sections = [
+          ['主要内容', item.main_content],
+          ['点评归纳', item.commentary_zh],
+          ['为什么重要', item.why_it_matters],
+          ['传导链', joinText(item.macro_transmission || [])],
+          ['投资含义', item.market_implication ? item.market_implication.summary : ''],
+          ['跟踪点', joinText(item.follow_up_signals || [])],
+        ];
+        sections.forEach(([label, value]) => {
+          if (!value) return;
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', label + '：'));
+          row.appendChild(createNode('span', '', value));
+          card.appendChild(row);
+        });
+
+        if (item.market_implication && item.market_implication.assets) {
+          card.appendChild(renderAssetChips(item.market_implication.assets, 'asset-chip-row'));
+        }
+
+        const sourceBlock = createNode('div', 'supporting-source-block');
+        sourceBlock.appendChild(createNode('p', 'section-tag', '代表信源与补充'));
+        if (item.primary_source) {
+          const primaryLine = buildPackageSourceLine(item.primary_source);
+          if (primaryLine.meta) {
+            sourceBlock.appendChild(createNode('div', 'entry-meta', primaryLine.meta));
+          }
+          if (primaryLine.title) {
+            sourceBlock.appendChild(createNode('div', 'entry-summary', '原始报道：' + primaryLine.title));
+          }
+        }
+        (item.supporting_sources || []).slice(0, 3).forEach((source) => {
+          const supportLine = buildPackageSourceLine(source);
+          const value = [supportLine.meta, supportLine.title].filter(Boolean).join(' | ');
+          if (value) {
+            sourceBlock.appendChild(createNode('div', 'entry-summary entry-summary--subtle', value));
+          }
+        });
+        if ((item.supporting_sources || []).length > 3) {
+          sourceBlock.appendChild(createNode('div', 'entry-summary entry-summary--subtle', '另有 ' + ((item.supporting_sources || []).length - 3) + ' 个补充信源。'));
+        }
+        card.appendChild(sourceBlock);
+        return card;
+      }
+
+      function renderFrameworkSupportCard(item) {
+        const card = createNode('article', 'scenario-card framework-card');
+        const top = createNode('div', 'scenario-top');
+        top.appendChild(createNode('p', 'scenario-topic', item.title_zh || item.title || '框架支持'));
+        top.appendChild(createNode('span', 'pill scenario-pill', item.card_kind || '框架支持'));
+        card.appendChild(top);
+        if (item.summary) card.appendChild(createNode('p', 'scenario-summary', item.summary));
+        if (item.current_view) {
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', '当前视角：'));
+          row.appendChild(createNode('span', '', item.current_view));
+          card.appendChild(row);
+        }
+        if (item.commentary_zh) {
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', '今日关联信号：'));
+          row.appendChild(createNode('span', '', item.commentary_zh));
+          card.appendChild(row);
+        }
+        if (item.latest_related_at) {
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', '今日引用时间：'));
+          row.appendChild(createNode('span', '', item.latest_related_at));
+          card.appendChild(row);
+        }
+        if ((item.follow_up_signals || []).length > 0) {
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', '跟踪点：'));
+          row.appendChild(createNode('span', '', joinText(item.follow_up_signals || [])));
+          card.appendChild(row);
+        }
+        if (item.framework_support_note) {
+          card.appendChild(createNode('p', 'entry-summary entry-summary--subtle', item.framework_support_note));
+        }
+        return card;
+      }
+
+      function renderBackgroundItem(item) {
+        const wrap = createNode('article', 'stack-item');
+        wrap.appendChild(createNode('strong', '', item.package_title_zh || item.title_zh || item.title || '背景条目'));
+        if (item.main_content) wrap.appendChild(createNode('p', 'entry-summary', item.main_content));
+        if (item.commentary_zh) wrap.appendChild(createNode('p', 'entry-summary', '点评：' + item.commentary_zh));
+        if (item.downgrade_reason) wrap.appendChild(createNode('p', 'entry-summary', '降级原因：' + item.downgrade_reason));
+        const meta = [
+          item.primary_source ? (item.primary_source.source_name_zh || item.primary_source.source_name || '') : '',
+          item.latest_published_at || item.published_at || '',
+          item.context_role || '',
+        ].filter(Boolean).join(' | ');
+        if (meta) wrap.appendChild(createNode('div', 'entry-meta', meta));
+        return wrap;
       }
 
       async function main() {
@@ -562,8 +673,6 @@
         document.getElementById('site-title').textContent = payload.site.title;
         document.getElementById('site-subtitle').textContent = payload.site.subtitle;
         document.getElementById('latest-date').textContent = latest.date;
-        const coverageWindow = latest.coverage_window || {};
-        document.getElementById('coverage-window').textContent = coverageWindow.label ? ('本期覆盖时间：' + coverageWindow.label) : '';
         document.getElementById('latest-headline').textContent = latest.headline_zh || latest.headline;
         document.getElementById('latest-summary').textContent = latest.lead_summary || latest.summary;
         document.getElementById('generated-at').textContent = '页面生成时间：' + payload.site.generated_at;
@@ -573,18 +682,21 @@
           document.getElementById('daily-generated-at').textContent = '分析生成时间：' + latest.daily_input_generated_at;
         }
 
+        const coverageWindow = latest.coverage_window || {};
+        document.getElementById('coverage-window').textContent = coverageWindow.label ? ('本期覆盖时间：' + coverageWindow.label) : '';
+
+        const countsWrap = document.getElementById('daily-counts');
         const countMap = {
-          focus: '重点',
-          secondary: '关注',
-          background: '窗口内背景',
+          today_focus_packages: '重点事件包',
+          today_secondary_packages: '次级关注包',
+          today_background_packages: '背景包',
           context_background: '窗口外背景',
-          ignored: '忽略',
           raw_items_total: '原始条目',
         };
-        const countsWrap = document.getElementById('daily-counts');
         Object.entries(latest.daily_input_counts || {}).forEach(([key, value]) => {
+          if (!countMap[key]) return;
           const box = createNode('div', 'count-box');
-          box.innerHTML = '<strong>' + value + '</strong><span>' + (countMap[key] || key) + '</span>';
+          box.innerHTML = '<strong>' + value + '</strong><span>' + countMap[key] + '</span>';
           countsWrap.appendChild(box);
         });
 
@@ -600,37 +712,30 @@
         (latest.lead_paragraphs || []).forEach((text) => {
           leadParagraphWrap.appendChild(createNode('p', 'lead-paragraph', text));
         });
-        if (!leadParagraphWrap.children.length) {
-          leadParagraphWrap.appendChild(createNode('div', 'empty-state', '今天暂时没有可展示的主线总述。'));
-        }
-
-        const scenarioWrap = document.getElementById('scenario-overview');
-        (latest.scenario_overview || []).forEach((item) => {
-          scenarioWrap.appendChild(renderScenarioCard(item));
-        });
-        if (!scenarioWrap.children.length) {
-          scenarioWrap.appendChild(createNode('div', 'empty-state', '当前没有可展示的情景矩阵，先沿用今日判断与证据池观察。'));
-        }
-
-        const confirmationWrap = document.getElementById('user-confirmation');
-        const confirmations = latest.needs_user_confirmation || [];
-        if (confirmations.length > 0) {
-          const head = createNode('div', 'confirmation-head');
-          head.appendChild(createNode('strong', '', '待你确认的高影响分歧'));
-          head.appendChild(createNode('span', 'entry-meta', '这些问题会改变首页主判断或多个资产映射'));
-          confirmationWrap.appendChild(head);
-          confirmations.forEach((item) => confirmationWrap.appendChild(renderConfirmationItem(item)));
-        }
 
         const watchpointWrap = document.getElementById('watchpoints');
         (latest.watchpoints || []).forEach((text) => {
           watchpointWrap.appendChild(createNode('div', 'watchpoint', text));
         });
 
+        const focusWrap = document.getElementById('today-focus-packages');
+        const focusPackages = latest.today_focus_packages || [];
+        if (focusPackages.length > 0) {
+          focusPackages.forEach((item, index) => focusWrap.appendChild(renderPackageCard(item, index === 0)));
+        } else {
+          focusWrap.appendChild(createNode('div', 'empty-state', '今天没有足够高质量的重点事件包。'));
+        }
+
+        const secondaryWrap = document.getElementById('today-secondary-packages');
+        (latest.today_secondary_packages || []).forEach((item) => secondaryWrap.appendChild(renderPackageCard(item, false)));
+        if (!secondaryWrap.children.length) {
+          secondaryWrap.appendChild(createNode('div', 'empty-state', '今天没有额外的次级关注包。'));
+        }
+
         const digestWrap = document.getElementById('evidence-digest');
         const digest = latest.evidence_digest || {};
         digestWrap.appendChild(renderDigestCard('主证据', digest.primary_evidence || [], 'official', '今天还没有稳定主证据。'));
-        digestWrap.appendChild(renderDigestCard('高信号媒体', digest.high_signal_media || [], 'media', '今天没有高信号媒体线索。'));
+        digestWrap.appendChild(renderDigestCard('高信号媒体', digest.high_signal_media || [], 'media', '今天没有高信号媒体补充。'));
         digestWrap.appendChild(renderSimpleList('开放缺口', digest.open_gaps || [], '当前没有显式证据缺口。'));
 
         const officialWrap = document.getElementById('official-confirmation-list');
@@ -641,45 +746,45 @@
           officialWrap.appendChild(createNode('div', 'empty-state', '今天没有额外的官方确认状态需要单独提示。'));
         }
 
-        const focusWrap = document.getElementById('focus-cards');
-        const leadFocusWrap = document.getElementById('lead-focus-card');
-        const focusItems = latest.focus_cards || [];
-        if (focusItems.length > 0) {
-          leadFocusWrap.appendChild(renderFocusCard(focusItems[0], true));
-          focusItems.slice(1).forEach((item) => focusWrap.appendChild(renderFocusCard(item, false)));
-        } else {
-          const mainlineCards = latest.mainline_cards || [];
-          if (mainlineCards.length > 0) {
-            leadFocusWrap.appendChild(renderMainlineCard(mainlineCards[0], true));
-            mainlineCards.slice(1).forEach((item) => focusWrap.appendChild(renderMainlineCard(item, false)));
-          } else {
-            leadFocusWrap.appendChild(createNode('div', 'empty-state', '今天没有足够高质量的新重点事件上首页，先沿用存量主线、情景矩阵和次级关注继续跟踪。'));
-          }
+        const evidenceWrap = document.getElementById('evidence-sections');
+        (latest.evidence_sections || []).forEach((section) => evidenceWrap.appendChild(renderEvidenceSection(section)));
+        if (!evidenceWrap.children.length) {
+          evidenceWrap.appendChild(createNode('div', 'empty-state', '今天没有额外的分桶证据流。'));
         }
 
-        const secondaryWrap = document.getElementById('secondary-list');
-        (latest.secondary_items || []).forEach((item) => secondaryWrap.appendChild(renderStackItem(item)));
-        if (!secondaryWrap.children.length) {
-          secondaryWrap.appendChild(createNode('div', 'empty-state', '今天没有额外的次级关注条目。'));
-        }
-
-        const backgroundWrap = document.getElementById('background-list');
-        (latest.background_items || []).forEach((item) => backgroundWrap.appendChild(renderStackItem(item)));
+        const backgroundWrap = document.getElementById('today-background-packages');
+        (latest.today_background_packages || []).forEach((item) => backgroundWrap.appendChild(renderBackgroundItem(item)));
         if (!backgroundWrap.children.length) {
-          backgroundWrap.appendChild(createNode('div', 'empty-state', '今天没有窗口内背景条目。'));
+          backgroundWrap.appendChild(createNode('div', 'empty-state', '今天没有窗口内背景包。'));
         }
 
         const contextBackgroundWrap = document.getElementById('context-background-list');
-        (latest.context_background_items || []).forEach((item) => contextBackgroundWrap.appendChild(renderStackItem(item)));
+        (latest.context_background_items || []).forEach((item) => contextBackgroundWrap.appendChild(renderBackgroundItem(item)));
         if (!contextBackgroundWrap.children.length) {
           contextBackgroundWrap.appendChild(createNode('div', 'empty-state', '今天没有补充的窗口外背景。'));
         }
 
-        const evidenceWrap = document.getElementById('evidence-sections');
-        (latest.evidence_sections || []).forEach((section) => evidenceWrap.appendChild(renderEvidenceSection(section)));
-        if (!evidenceWrap.children.length) {
-          evidenceWrap.appendChild(createNode('div', 'empty-state', '今天没有可展示的分桶证据池。'));
+        const frameworkWrap = document.getElementById('framework-support-list');
+        (latest.framework_support_cards || []).forEach((item) => frameworkWrap.appendChild(renderFrameworkSupportCard(item)));
+        if (!frameworkWrap.children.length) {
+          frameworkWrap.appendChild(createNode('div', 'empty-state', '今天没有需要展示的框架支持卡。'));
         }
+
+        const heroOutlookWrap = document.getElementById('hero-outlook');
+        (latest.asset_map || []).slice(0, 4).forEach((item) => {
+          const chip = createNode('div', 'hero-outlook-item stance-' + (item.score > 0 ? 'up' : item.score < 0 ? 'down' : 'flat'));
+          chip.appendChild(createNode('strong', '', item.label));
+          chip.appendChild(createNode('span', '', item.stance));
+          heroOutlookWrap.appendChild(chip);
+        });
+
+        const snapshotWrap = document.getElementById('snapshot-list');
+        [
+          '本期覆盖时间：' + (coverageWindow.label || '暂无'),
+          '重点事件包：' + ((latest.today_focus_packages || []).length || 0),
+          '次级关注包：' + ((latest.today_secondary_packages || []).length || 0),
+          '窗口外背景：' + ((latest.context_background_items || []).length || 0),
+        ].forEach((text) => snapshotWrap.appendChild(createNode('div', 'list-row', text)));
 
         const assetWrap = document.getElementById('asset-map');
         (latest.asset_map || []).forEach((item) => {
@@ -690,50 +795,19 @@
           assetWrap.appendChild(row);
         });
 
-        const heroOutlookWrap = document.getElementById('hero-outlook');
-        (latest.asset_map || []).slice(0, 4).forEach((item) => {
-          const chip = createNode('div', 'hero-outlook-item stance-' + (item.score > 0 ? 'up' : item.score < 0 ? 'down' : 'flat'));
-          chip.appendChild(createNode('strong', '', item.label));
-          chip.appendChild(createNode('span', '', item.stance));
-          heroOutlookWrap.appendChild(chip);
-        });
-
         const signalWrap = document.getElementById('follow-up-signals');
-        (latest.follow_up_signals || []).forEach((text) => {
-          signalWrap.appendChild(createNode('div', 'list-row', text));
-        });
+        (latest.follow_up_signals || []).forEach((text) => signalWrap.appendChild(createNode('div', 'list-row', text)));
 
-        const routeWrap = document.getElementById('macro-route-summary');
-        routeWrap.appendChild(renderRouteSummary(latest.macro_research_routes || {}));
-
-        const logic = latest.monitoring_logic || {};
-        document.getElementById('monitoring-strategy').textContent = logic.core_rule || '';
-        const noteWrap = document.getElementById('monitoring-notes');
-        (logic.selection_notes || []).forEach((text) => noteWrap.appendChild(createNode('div', 'note-row', text)));
-
-        const sourceWrap = document.getElementById('monitoring-sources');
-        (latest.monitoring_sources || []).forEach((source) => {
+        const sourceWrap = document.getElementById('today-representative-sources');
+        (latest.today_representative_sources || []).forEach((item) => {
           const row = createNode('div', 'source-item');
-          row.innerHTML =
-            '<strong>' + source.name + '</strong>' +
-            '<span>' + [source.category_label, source.priority, source.region, source.trust_label].join(' | ') + '</span>' +
-            '<span>更新频率：' + source.cadence_label + '</span>' +
-            '<a class="repo-link" href="' + source.homepage_url + '" target="_blank" rel="noreferrer">' + source.homepage_url + '</a>' +
-            '<span>' + source.notes + '</span>';
+          row.appendChild(createNode('strong', '', item.source_name_zh || item.source_name || '代表信源'));
+          row.appendChild(createNode('span', '', [item.package_title_zh, formatSourceTier(item.source_tier), item.published_at].filter(Boolean).join(' | ')));
           sourceWrap.appendChild(row);
         });
-
-        const frameworkWrap = document.getElementById('framework-notes');
-        (latest.framework_notes || []).forEach((text) => frameworkWrap.appendChild(createNode('div', 'list-row', text)));
-
-        const historyWrap = document.getElementById('history-list');
-        (payload.history || []).forEach((item) => {
-          const row = createNode('div', 'history-item');
-          row.appendChild(createNode('strong', '', item.date));
-          row.appendChild(createNode('span', '', item.headline));
-          row.appendChild(createNode('em', '', item.status));
-          historyWrap.appendChild(row);
-        });
+        if (!sourceWrap.children.length) {
+          sourceWrap.appendChild(createNode('div', 'empty-state', '今天没有可展示的代表信源。'));
+        }
       }
 
       main().catch((error) => {

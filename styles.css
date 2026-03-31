@@ -214,6 +214,8 @@ h3,
 .count-grid,
 .digest-grid,
 .scenario-grid,
+.package-grid,
+.framework-grid,
 .focus-cards,
 .evidence-grid {
   display: grid;
@@ -269,6 +271,7 @@ h3,
 .confirmation-list,
 .watchpoints,
 .stack-list,
+.package-grid,
 .route-list,
 .asset-map,
 .monitoring-notes,
@@ -310,6 +313,11 @@ h3,
 
 .focus-cards {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.package-grid,
+.framework-grid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .focus-card,
@@ -403,6 +411,22 @@ h3,
   display: grid;
   gap: 4px;
   margin-top: 10px;
+}
+
+.package-card {
+  display: grid;
+  gap: 10px;
+}
+
+.framework-card {
+  display: grid;
+  gap: 10px;
+}
+
+.supporting-source-block {
+  margin-top: 8px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
 }
 
 .asset-chip-row {

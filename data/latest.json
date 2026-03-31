@@ -2,11 +2,11 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-31 16:09:42",
+    "generated_at": "2026-04-01 01:01:55",
     "mode": "分析日报"
   },
   "latest": {
-    "slug": "2026-03-31",
+    "slug": "2026-04-01",
     "date": "2026-03-31",
     "coverage_window": {
       "timezone": "Asia/Shanghai",
@@ -18,17 +18,18 @@
       "window_key": "202603301200-202603311200",
       "label": "昨天12:00（含）- 今天12:00（不含） | 2026-03-30 12:00 - 2026-03-31 12:00"
     },
-    "headline": "本期午间窗口没有足够强的新重点卡，保留 8 条关注、12 条窗口内背景和 3 条窗口外背景；首页转向存量主线与跟踪项。",
-    "headline_zh": "今天没有足够强的新重点事件，页面转向 8 条次级关注、12 条窗口内背景，并补充少量窗口外背景；当前最值得继续观察的仍是油价、地缘与通胀。",
+    "headline": "本期午间窗口汇总出 1 个重点事件包、0 个次级关注包、3 个窗口内背景包；主线聚焦在存量主线。",
+    "headline_zh": "今天的宏观日报在午间硬窗口内汇总出 1 个重点事件包、0 个次级关注包和 3 个窗口内背景包，判断主线主要围绕中东局势升温，油价与通胀约束重新抬头展开。",
     "summary": "这份日报只消费当日新闻流和官方/媒体/社媒信源，并用研究框架去判断为什么重要、如何传导、对投资意味着什么。",
     "lead_summary": "当前主情景仍以“脉冲冲击回落型”为主，现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。 从资产映射看，A股/港股风险偏好：偏空，政策预期改善通常先作用于风险偏好。 接下来最关键的验证点是WTI 持续站稳高位。",
     "lead_paragraphs": [
-      "今天最重要的判断有三层：在“油价、地缘与通胀”这条主线上，当前更接近“脉冲冲击回落型”情景，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。备选路径仍是“持续高油价型”；如果接下来看到WTI 持续站稳高位、库存持续去化这些信号，今天的判断就需要及时切换。 美债长短端目前都在上行且 10Y-2Y 利差维持正值，说明市场仍在交易更高的长端定价和并未明显转松的金融条件。",
+      "今天最重要的判断有三层：今天最值得优先跟踪的是“中东局势升温，油价与通胀约束重新抬头”，因为能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 落实到投资上，能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。 在“油价、地缘与通胀”这条主线上，当前更接近“脉冲冲击回落型”情景，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。备选路径仍是“持续高油价型”；如果接下来看到WTI 持续站稳高位、库存持续去化这些信号，今天的判断就需要及时切换。",
       "从情景上看，当前先采用“脉冲冲击回落型”视角，不是因为备选路径不成立，而是因为今天的证据更支持这一边。真正需要防的是“持续高油价型”，一旦看到WTI 持续站稳高位、库存持续去化、美元继续走强，市场就可能开始切换交易方向。",
       "落实到投资上，今天更有参考价值的是这些资产线索：A股/港股风险偏好：偏空，政策预期改善通常先作用于风险偏好。；美元/人民币：偏空，政策托底有助于稳定人民币预期。；黄金：偏多，政策条目对黄金并非直接驱动。。如果后续要验证今天的判断，优先继续盯住WTI 持续站稳高位、库存持续去化、后续是否有配套细则。"
     ],
     "mode": "分析日报",
     "judgments": [
+      "今天最值得优先跟踪的是“中东局势升温，油价与通胀约束重新抬头”，因为能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 落实到投资上，能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。",
       "在“油价、地缘与通胀”这条主线上，当前更接近“脉冲冲击回落型”情景，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。备选路径仍是“持续高油价型”；如果接下来看到WTI 持续站稳高位、库存持续去化这些信号，今天的判断就需要及时切换。",
       "美债长短端目前都在上行且 10Y-2Y 利差维持正值，说明市场仍在交易更高的长端定价和并未明显转松的金融条件。",
       "美国失业率边际抬升，当前更像就业韧性开始松动的早期信号，但还需要非农、工资和工时共同验证。",
@@ -56,6 +57,624 @@
           "如果冲突拖长且库存恶化，脉冲冲击回落型会失效。"
         ],
         "framework_support_note": "该判断调用了历史研究框架，但前台不直接展示学习报告或文件名。"
+      }
+    ],
+    "today_focus_packages": [
+      {
+        "package_id": "pkg-oil-geopolitics",
+        "package_type": "today_focus",
+        "core_topic": "油价、地缘与通胀",
+        "topic_key": "oil-geopolitics",
+        "package_title_zh": "中东局势升温，油价与通胀约束重新抬头",
+        "window_status": "in_window",
+        "package_importance_level": "B级关注",
+        "importance_score": 9,
+        "main_content": "窗口内BBC、日经亚洲、金融时报、MarketWatch集中报道同一主线：中东地缘风险继续扰动能源与航运预期；油价重新进入通胀和利率定价链条；影响已从商品层外溢到债券和央行路径。",
+        "summary_zh": "窗口内BBC、日经亚洲、金融时报、MarketWatch集中报道同一主线：中东地缘风险继续扰动能源与航运预期；油价重新进入通胀和利率定价链条；影响已从商品层外溢到债券和央行路径。",
+        "commentary_zh": "能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 落实到投资上，能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。",
+        "why_it_matters": "能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。",
+        "macro_transmission": [
+          "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
+          "若冲击持续，影响会从商品层扩散到增长、政策路径和行业盈利"
+        ],
+        "market_implication": {
+          "summary": "能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。",
+          "assets": {
+            "a_h_share": {
+              "bias": "偏空",
+              "score": -1,
+              "reason": "能源冲击通常压制整体风险偏好并抬高成本。"
+            },
+            "rates": {
+              "bias": "中性偏下",
+              "score": 1,
+              "reason": "避险会利多债券，但通胀抬头会限制空间。"
+            },
+            "fx": {
+              "bias": "偏美元强/人民币弱",
+              "score": -1,
+              "reason": "风险厌恶和外部冲击通常支撑美元。"
+            },
+            "gold": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "避险和通胀预期通常共同利多黄金。"
+            },
+            "oil_commodities": {
+              "bias": "偏多",
+              "score": 1,
+              "reason": "若是供给冲击，原油和相关商品通常先涨。"
+            }
+          }
+        },
+        "follow_up_signals": [
+          "油气价格是否持续上行或回落",
+          "库存和供给是否继续恶化",
+          "通胀预期和风险资产是否出现联动",
+          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+          "WTI 持续站稳高位",
+          "库存持续去化"
+        ],
+        "primary_source": {
+          "source_id": "agg-google-news-bbc-business",
+          "source_name": "Google News RSS BBC Business query",
+          "source_name_zh": "BBC",
+          "title": "How Trump and the oil markets move in sync: A tango in five charts - BBC",
+          "title_zh": "How Trump and the oil markets move in sync: A tango in five charts - BBC",
+          "source_title_original": "How Trump and the oil markets move in sync: A tango in five charts - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxRngyZkRxWURmNTMwOUxmckRoUG85VllVV0hwX1lLd1F6dHZhQUNXdFE0ME5QSGhiMUlGWUFqMXk5SHZkYi1NaFdNd1RsYndiczlZcE9sUlBQUQ?oc=5",
+          "published_at": "2026-03-31 07:35:37",
+          "source_tier": "Tier 2"
+        },
+        "supporting_sources": [
+          {
+            "source_id": "agg-google-news-nikkei-asia-economy",
+            "source_name": "Google News RSS Nikkei Asia Economy query",
+            "source_name_zh": "日经亚洲",
+            "title": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+            "title_zh": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+            "source_title_original": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcHlPWEdRLWMzbkxkNGpIM1pEamhtN2ZsZm5QN0FUYmtGTVNLU3pObXlnSng5QUxPOWluUHJEdUdKc0ZpOENHY3prbzNvM0lSOC1LMF9lM0FLZWtEUTE3bi1MVXZTbFpiVzJqVzZidDRfZkRreGh5bzVfOTh2eENGYzlMeWZ1UmJJbUgzUHdkVDV2NmdfUVpJZkptZ2Jhdw?oc=5",
+            "published_at": "2026-03-31 10:12:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-nikkei-asia-economy",
+            "source_name": "Google News RSS Nikkei Asia Economy query",
+            "source_name_zh": "日经亚洲",
+            "title": "Bank of Japan rushes to pave way for rate hikes amid rising oil prices, weak yen - Nikkei Asia",
+            "title_zh": "Bank of Japan rushes to pave way for rate hikes amid rising oil prices, weak yen - Nikkei Asia",
+            "source_title_original": "Bank of Japan rushes to pave way for rate hikes amid rising oil prices, weak yen - Nikkei Asia",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEZvc0FyeUd2aERZX0N6dEk1cHZkYjlrZnMxMTI1TktlTkEzcWFIZlpUdHRycWJjam5xN0JOTlRZUk5lcXROOTdic0hTdmRXTkRzSmtpMjV5aHFGYUNJLWZ2Yl8xS0dxOVBGRFlZZzk3YmZaeHVSVDdXSDZJbkVDMGN1WlNJSVJGcHQtUlJKc0d5aEdaZmx2amRSU2pOam9iYUkzY0NibEFnVWdPMkNCdGl5bUNmMTM0TDVlel9HZ1czbWc?oc=5",
+            "published_at": "2026-03-31 05:52:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-ft-global-economy",
+            "source_name": "Google News RSS Financial Times query",
+            "source_name_zh": "金融时报",
+            "title": "Trump could ask Gulf states to contribute to war costs, says White House - Financial Times",
+            "title_zh": "Trump could ask Gulf states to contribute to war costs, says White House - Financial Times",
+            "source_title_original": "Trump could ask Gulf states to contribute to war costs, says White House - Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXMkdxWTRmVTZBVEstMUdmS19KS0I2ZFdkSTZpOS1SaDNreTRrVURaWXRaVDZZZGswNXpzWGNPWVBYZ0ZNYzk5NmttM1lzZjY1UThQbTctZEtsZExIZ2ktYUNIaG9uQWZvZElSQlIxSUQ?oc=5",
+            "published_at": "2026-03-31 05:43:41",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys - MarketWatch",
+            "title_zh": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys - MarketWatch",
+            "source_title_original": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxOd0tQS3BwZ0tEWEMxV25aQi1FT0IybUxqdlNXMXZxdFl1TVhpMmZUc1NFYTZJSVFGQ3RFWUw1bVJtMXNmRnlTQ0hZRkNTMmM0QmRXM3ltOHc1YkdrTk5QNWRGWHctM2xJNTJrbWFZQVZQRGhOV09QSGtBcTZQajdEenpRMmZIV1g1dWs0akllMG04OV9GVEh1Zk4yTmFvMWtwdHdSQVN0Nml5RndIekxSeUkyRzdDa0dmeWFhWlNDM3pCSkFVUFE2cmc5SXpucHBxamdNUkxKSlBHQmVrWi1fUVZNVGNZakNEcDQzNmVfa2lYQmNkYmFLN0tUSi1kcDdLWm50ZXBuOU9iRmNncWlyWjl2eVJJdzBxcU9VT0YtXzVBUFd2aTN6dk9HRFlHOVQtd2RIZHdMbHZENjdVQ19TYUlZSFc0OUtmZEFsczZJdzlZY0gxLUlkLXRFV0ZOQVdMdUVKdlo2ZkM3OEx3SS0tM2x2SGtQWm80S25oWGsyZmozVjBrX0hKUFA4RlhNeFBndUJRZnVMNWJ1NF9FaDUxRjJZRVRJa2F1WEJQQ1otNFRQa3REYWhYdmpRM3dCQ2VVT2tQNnhRR3Azblk5TzQ2NG8tanpITTY1UHd2WjkzZWsxUQ?oc=5",
+            "published_at": "2026-03-31 00:53:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-reuters-markets",
+            "source_name": "Google News RSS Reuters Markets query",
+            "source_name_zh": "路透",
+            "title": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+            "title_zh": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+            "source_title_original": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxBSWFud1RLWEU1QlFtRmNNWktrZGlRX05lS1lmclBXZFI2TlV2NndRVW9EZ3F5Nl8zaWZpUHZHVGV2UWlCVXlFcDg4N0EzZ3JTTThmQ1hRZ0FWbTd3T0t5YlJwRC1MbEJtbGl0UE1vME1sZThYaG9GSXdMY1ppSUpUSmplMDRFRE1hVXlTWndRVzJlN245dVBBcjJzYzhTaF9vMDVKMTF1bmNYZWc?oc=5",
+            "published_at": "2026-03-30 21:00:51",
+            "source_tier": "Tier 2"
+          }
+        ],
+        "source_count": 12,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-03-30 12:02:50",
+        "latest_published_at": "2026-03-31 10:12:00",
+        "selection_reason": "窗口内有明确增量，但对今天主线的改写力度仍次于 A 级重点。",
+        "items": [
+          {
+            "source_id": "agg-google-news-nikkei-asia-economy",
+            "source_name": "Google News RSS Nikkei Asia Economy query",
+            "source_name_zh": "日经亚洲",
+            "title": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+            "title_zh": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+            "source_title_original": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcHlPWEdRLWMzbkxkNGpIM1pEamhtN2ZsZm5QN0FUYmtGTVNLU3pObXlnSng5QUxPOWluUHJEdUdKc0ZpOENHY3prbzNvM0lSOC1LMF9lM0FLZWtEUTE3bi1MVXZTbFpiVzJqVzZidDRfZkRreGh5bzVfOTh2eENGYzlMeWZ1UmJJbUgzUHdkVDV2NmdfUVpJZkptZ2Jhdw?oc=5",
+            "published_at": "2026-03-31 10:12:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-bbc-business",
+            "source_name": "Google News RSS BBC Business query",
+            "source_name_zh": "BBC",
+            "title": "How Trump and the oil markets move in sync: A tango in five charts - BBC",
+            "title_zh": "How Trump and the oil markets move in sync: A tango in five charts - BBC",
+            "source_title_original": "How Trump and the oil markets move in sync: A tango in five charts - BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxRngyZkRxWURmNTMwOUxmckRoUG85VllVV0hwX1lLd1F6dHZhQUNXdFE0ME5QSGhiMUlGWUFqMXk5SHZkYi1NaFdNd1RsYndiczlZcE9sUlBQUQ?oc=5",
+            "published_at": "2026-03-31 07:35:37",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-nikkei-asia-economy",
+            "source_name": "Google News RSS Nikkei Asia Economy query",
+            "source_name_zh": "日经亚洲",
+            "title": "Bank of Japan rushes to pave way for rate hikes amid rising oil prices, weak yen - Nikkei Asia",
+            "title_zh": "Bank of Japan rushes to pave way for rate hikes amid rising oil prices, weak yen - Nikkei Asia",
+            "source_title_original": "Bank of Japan rushes to pave way for rate hikes amid rising oil prices, weak yen - Nikkei Asia",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEZvc0FyeUd2aERZX0N6dEk1cHZkYjlrZnMxMTI1TktlTkEzcWFIZlpUdHRycWJjam5xN0JOTlRZUk5lcXROOTdic0hTdmRXTkRzSmtpMjV5aHFGYUNJLWZ2Yl8xS0dxOVBGRFlZZzk3YmZaeHVSVDdXSDZJbkVDMGN1WlNJSVJGcHQtUlJKc0d5aEdaZmx2amRSU2pOam9iYUkzY0NibEFnVWdPMkNCdGl5bUNmMTM0TDVlel9HZ1czbWc?oc=5",
+            "published_at": "2026-03-31 05:52:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-ft-global-economy",
+            "source_name": "Google News RSS Financial Times query",
+            "source_name_zh": "金融时报",
+            "title": "Trump could ask Gulf states to contribute to war costs, says White House - Financial Times",
+            "title_zh": "Trump could ask Gulf states to contribute to war costs, says White House - Financial Times",
+            "source_title_original": "Trump could ask Gulf states to contribute to war costs, says White House - Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXMkdxWTRmVTZBVEstMUdmS19KS0I2ZFdkSTZpOS1SaDNreTRrVURaWXRaVDZZZGswNXpzWGNPWVBYZ0ZNYzk5NmttM1lzZjY1UThQbTctZEtsZExIZ2ktYUNIaG9uQWZvZElSQlIxSUQ?oc=5",
+            "published_at": "2026-03-31 05:43:41",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys - MarketWatch",
+            "title_zh": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys - MarketWatch",
+            "source_title_original": "This is a reason the Middle East’s major oil-producing countries have been selling their U.S. Treasurys - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxOd0tQS3BwZ0tEWEMxV25aQi1FT0IybUxqdlNXMXZxdFl1TVhpMmZUc1NFYTZJSVFGQ3RFWUw1bVJtMXNmRnlTQ0hZRkNTMmM0QmRXM3ltOHc1YkdrTk5QNWRGWHctM2xJNTJrbWFZQVZQRGhOV09QSGtBcTZQajdEenpRMmZIV1g1dWs0akllMG04OV9GVEh1Zk4yTmFvMWtwdHdSQVN0Nml5RndIekxSeUkyRzdDa0dmeWFhWlNDM3pCSkFVUFE2cmc5SXpucHBxamdNUkxKSlBHQmVrWi1fUVZNVGNZakNEcDQzNmVfa2lYQmNkYmFLN0tUSi1kcDdLWm50ZXBuOU9iRmNncWlyWjl2eVJJdzBxcU9VT0YtXzVBUFd2aTN6dk9HRFlHOVQtd2RIZHdMbHZENjdVQ19TYUlZSFc0OUtmZEFsczZJdzlZY0gxLUlkLXRFV0ZOQVdMdUVKdlo2ZkM3OEx3SS0tM2x2SGtQWm80S25oWGsyZmozVjBrX0hKUFA4RlhNeFBndUJRZnVMNWJ1NF9FaDUxRjJZRVRJa2F1WEJQQ1otNFRQa3REYWhYdmpRM3dCQ2VVT2tQNnhRR3Azblk5TzQ2NG8tanpITTY1UHd2WjkzZWsxUQ?oc=5",
+            "published_at": "2026-03-31 00:53:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-reuters-markets",
+            "source_name": "Google News RSS Reuters Markets query",
+            "source_name_zh": "路透",
+            "title": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+            "title_zh": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+            "source_title_original": "Crude oil and LNG supply are at risk of the worst-possible scenario - Reuters",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGxBSWFud1RLWEU1QlFtRmNNWktrZGlRX05lS1lmclBXZFI2TlV2NndRVW9EZ3F5Nl8zaWZpUHZHVGV2UWlCVXlFcDg4N0EzZ3JTTThmQ1hRZ0FWbTd3T0t5YlJwRC1MbEJtbGl0UE1vME1sZThYaG9GSXdMY1ppSUpUSmplMDRFRE1hVXlTWndRVzJlN245dVBBcjJzYzhTaF9vMDVKMTF1bmNYZWc?oc=5",
+            "published_at": "2026-03-30 21:00:51",
+            "source_tier": "Tier 2"
+          }
+        ]
+      }
+    ],
+    "today_secondary_packages": [],
+    "today_background_packages": [
+      {
+        "package_id": "pkg-政策变化",
+        "package_type": "today_background",
+        "core_topic": "政策变化",
+        "topic_key": "政策变化",
+        "package_title_zh": "中国增长、政策与供应链线索",
+        "window_status": "in_window",
+        "package_importance_level": "C级背景",
+        "importance_score": 5,
+        "main_content": "窗口内日经亚洲、巴伦周刊、MarketWatch集中报道同一主线：当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。。",
+        "summary_zh": "窗口内日经亚洲、巴伦周刊、MarketWatch集中报道同一主线：当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。。",
+        "commentary_zh": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 落实到投资上，当前更适合作为背景证据，不建议据此单独调整投资判断。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
+          "若后续出现配套执行细则，影响会从预期层走向基本面层"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "follow_up_signals": [
+          "后续是否有配套细则",
+          "是否出现量化工具或额度安排",
+          "市场利率与风险偏好是否跟随改善",
+          "科技与绿色目标继续量化细化",
+          "6-12 个月内出台更多行业蓝图",
+          "A 股硬资产继续跑赢离岸中国资产"
+        ],
+        "primary_source": {
+          "source_id": "agg-google-news-nikkei-asia-economy",
+          "source_name": "Google News RSS Nikkei Asia Economy query",
+          "source_name_zh": "日经亚洲",
+          "title": "Japan to focus on India economic ties with new Foreign Ministry office - Nikkei Asia",
+          "title_zh": "Japan to focus on India economic ties with new Foreign Ministry office - Nikkei Asia",
+          "source_title_original": "Japan to focus on India economic ties with new Foreign Ministry office - Nikkei Asia",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFVyQmprN0tLWnh2LVdsT2tfTm9femtjTnRPSGNrcy1Ic3c4MlVhR3BmYnhDeHE1V3UzeGlNUWx3Z3RUYk5hRndOSlI4eFlwQTB3cWxwbjNfdGJ5eC1CVjlielVvWTRsX3kxVjlnMWJPZ3Z6OF9PSk5xYm0wak01bDFld3FUTEtwYm5ieVJYUjRkQk8zdWNwalJIYk1xTEhFMjM1aXl5eGgxbVZ3b0o4ZHNxbHRHVXFBUzQzVXV2Z2hqYm1rQnc?oc=5",
+          "published_at": "2026-03-31 05:07:00",
+          "source_tier": "Tier 2"
+        },
+        "supporting_sources": [
+          {
+            "source_id": "agg-google-news-barrons-homepage",
+            "source_name": "Google News RSS Barron's query",
+            "source_name_zh": "巴伦周刊",
+            "title": "Tech Stocks Rarely Look This Cheap. 7 to Consider Buying—and 8 to Avoid. - Barron's",
+            "title_zh": "Tech Stocks Rarely Look This Cheap. 7 to Consider Buying—and 8 to Avoid. - Barron's",
+            "source_title_original": "Tech Stocks Rarely Look This Cheap. 7 to Consider Buying—and 8 to Avoid. - Barron's",
+            "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxONFFDaXpscUhORFJoMGpvS3RSOWRDVms3U01YdHNMWE1rdUt6RndWZkFBUWdyOWw3SlBlZ2hKb2hoMVJDd3l3ZXdadTNOODF5V0J5eEdrWnE0NUI2ZzRrVTRjeDNHd0QtQ2lvZVBHQTVaZUhpaWw0REkyRkZjMDZGZEVLQXN0U3k4NzFBbC1PZm1VUXNBWUI3ZElhNEZHamQ1YzlXV1ZqWGVoOTFuUlRKRGtGM293dXhxRkhLOUpLRElNVjJ2QW53RFNscjlJcWdQZGFIRmRkR2kyWmNmWDJha1R5U1pmOUpHNldKaWxENzRVd1lZcEJTYi1yNC1KQWVZejliU2xpMjlGME1jTWEwUDB1RTgtOXBoYVlWMEJSNmdTX0tvOS1JeFpmU1VsdnE5dm15Nm5LbWNPeWxNaTAwc2NIaUg2QmNfSjB3aW5EeGhLVzB1ZnNNWjMxVGhrZmF4LWY4Y2oxS0FlTjh1RkY0aFRjemtGLVFxcHhXQUpkTQ?oc=5",
+            "published_at": "2026-03-31 04:20:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall further - MarketWatch",
+            "title_zh": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall furth...",
+            "source_title_original": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall further - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxNblFNUWRtS3RrclVFOWxXRngxaVJNc3FkZU1Wb3Z1V0xOQmg2M2NGMjlGeXp3QTdnOG1jbVo2V3RmaEVRbWR4UDJwczdJNTF6dUk5cGEwejg4eXd1X1dyNGEtV1hBVU1Ldms1UWk1YUV5ckNfYkt3VnBVdHJaRW5wand6Z3ptUkltb2w4MFpsdkdXY0JjakthLThHVjFpY3BnNEpyaVlpQ2I1U3l4d3lONnZDWG5SR3NNZmU5TkJtLTdwRUxwbUQxUTRGVnk5VEdITHl1Z2NkcWZTNXp0TEdkUjhXWUpLaHJBdktQdjIyaXhXOGJ0VUJuNGY0U1NSbWFjRTROckhfeDV6QmRFV0JnSDhvd2M0SnMtNHhsdlN1SHBJOTZhajRPdkZ6NF8zT2poelhWdkJEbTJlV2pURWhESi1ha01DT3JrVlZYNnBBb1JQd01wUmRQM1ZCZGxZdi1DZW1IZG1EN3NDbGtMckQ4TVBhWlNySkdLbjFyaGJhOEg5WkMtMlQ5QXpUaHE1MW0zMDZnZHBjRUZGdnZlRnJGTUg4dnRQbXJJLUwwUFFnQUlZaTJ5NnNBcmJmV2M2cWxTazVSaHdValdhbXg4YkpuTUtUQ0V4UUZ2X3Q3WkplZ1JJTlBQaFlYUzRvZHpHQU5ZN1R4Sg?oc=5",
+            "published_at": "2026-03-31 03:29:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA - MarketWatch",
+            "title_zh": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA - MarketWatch",
+            "source_title_original": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxQc0M4TlRGb2lybW1jSjdDYmtsUUxFc0hlWGtjYm1kOC0wQzRtTnVib3YtNVpmNXZUZms0d0RFMmlPeldlSnlYRXZTS1J0T0JWWDBDOXcwelhDM1hKVUVZS0xxU191ekE0LW5pdUxRamVhaGY3X0pXb19NX2lvbHVOeTdOclVXNFQzSVVwQ0Y3WC1iV1FuT0h2Snp6WmtoWEVsUUYwWVVqSzRMQVA4X3Z5aVhIVnJDaGlGTFFRQi14WXRUQlg3Z2x0RExLa0FSQTkwNGRHZkhYLUZhdktPVkJqbm1OdU81Q1I1dDNIT1k2STRyVGdqYXo2bkpVNUtqa2JCZXNjWmlhcl9qOTJmTVR5dUU3aHQ0aG5XOC1xWllEUHF0QmlDc1NrT3hrUVlfMlZ6T09GVzA4ZkstbDJqMjVWTmtXWkV4M2ZBTEZDUzFKUjBEMU9FWUNWTWg4LTVwWHlFQjJwODNieEhKMV9ybFIwS09sNUJtMm10OGk1Z1BHVGFUajNncVBjMHVUanJ3YnlxUmFuUzRmbm1JSHEyRG9UajJ6VGlBcUZiaUFaQVRKUVVfNXJja1pFUEYwNA?oc=5",
+            "published_at": "2026-03-31 03:08:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-ft-global-economy",
+            "source_name": "Google News RSS Financial Times query",
+            "source_name_zh": "金融时报",
+            "title": "Don’t speak to UK diplomats, Russians told - Financial Times",
+            "title_zh": "Don’t speak to UK diplomats, Russians told - Financial Times",
+            "source_title_original": "Don’t speak to UK diplomats, Russians told - Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYmFUU1hhM1lCck1KMXZtaXM1U2NfelpFb1BnS2JkQjRnaFZfTjJGVjdYaGwtM2Zjbm44dFRxMUVORDdwWmdPYVUwY0xPanBNd3NJQkE5Tkpjd0o0LUdCNF9qZVkzR1gwUnpfMXdHX1Y?oc=5",
+            "published_at": "2026-03-30 18:45:26",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-ft-global-economy",
+            "source_name": "Google News RSS Financial Times query",
+            "source_name_zh": "金融时报",
+            "title": "US bets billions of dollars on unproven groups in rare earths deals - Financial Times",
+            "title_zh": "US bets billions of dollars on unproven groups in rare earths deals - Financial Times",
+            "source_title_original": "US bets billions of dollars on unproven groups in rare earths deals - Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kM3lDV2Q3MU5KWVJRaDJ2eXliRGR0YmlmQnA3NFhjc25rQm1Reng3S2dwTEtfeTNQaFRXaVg4eHc5ZnhTazk0OVF2Z0R4TUp5Z0JEcFdMMFREYlphcUdsNlFIMWxSYnF0QXNOMm9DS1Q?oc=5",
+            "published_at": "2026-03-30 12:00:50",
+            "source_tier": "Tier 2"
+          }
+        ],
+        "source_count": 6,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-03-30 12:00:50",
+        "latest_published_at": "2026-03-31 05:07:00",
+        "selection_reason": null,
+        "items": [
+          {
+            "source_id": "agg-google-news-nikkei-asia-economy",
+            "source_name": "Google News RSS Nikkei Asia Economy query",
+            "source_name_zh": "日经亚洲",
+            "title": "Japan to focus on India economic ties with new Foreign Ministry office - Nikkei Asia",
+            "title_zh": "Japan to focus on India economic ties with new Foreign Ministry office - Nikkei Asia",
+            "source_title_original": "Japan to focus on India economic ties with new Foreign Ministry office - Nikkei Asia",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFVyQmprN0tLWnh2LVdsT2tfTm9femtjTnRPSGNrcy1Ic3c4MlVhR3BmYnhDeHE1V3UzeGlNUWx3Z3RUYk5hRndOSlI4eFlwQTB3cWxwbjNfdGJ5eC1CVjlielVvWTRsX3kxVjlnMWJPZ3Z6OF9PSk5xYm0wak01bDFld3FUTEtwYm5ieVJYUjRkQk8zdWNwalJIYk1xTEhFMjM1aXl5eGgxbVZ3b0o4ZHNxbHRHVXFBUzQzVXV2Z2hqYm1rQnc?oc=5",
+            "published_at": "2026-03-31 05:07:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-barrons-homepage",
+            "source_name": "Google News RSS Barron's query",
+            "source_name_zh": "巴伦周刊",
+            "title": "Tech Stocks Rarely Look This Cheap. 7 to Consider Buying—and 8 to Avoid. - Barron's",
+            "title_zh": "Tech Stocks Rarely Look This Cheap. 7 to Consider Buying—and 8 to Avoid. - Barron's",
+            "source_title_original": "Tech Stocks Rarely Look This Cheap. 7 to Consider Buying—and 8 to Avoid. - Barron's",
+            "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxONFFDaXpscUhORFJoMGpvS3RSOWRDVms3U01YdHNMWE1rdUt6RndWZkFBUWdyOWw3SlBlZ2hKb2hoMVJDd3l3ZXdadTNOODF5V0J5eEdrWnE0NUI2ZzRrVTRjeDNHd0QtQ2lvZVBHQTVaZUhpaWw0REkyRkZjMDZGZEVLQXN0U3k4NzFBbC1PZm1VUXNBWUI3ZElhNEZHamQ1YzlXV1ZqWGVoOTFuUlRKRGtGM293dXhxRkhLOUpLRElNVjJ2QW53RFNscjlJcWdQZGFIRmRkR2kyWmNmWDJha1R5U1pmOUpHNldKaWxENzRVd1lZcEJTYi1yNC1KQWVZejliU2xpMjlGME1jTWEwUDB1RTgtOXBoYVlWMEJSNmdTX0tvOS1JeFpmU1VsdnE5dm15Nm5LbWNPeWxNaTAwc2NIaUg2QmNfSjB3aW5EeGhLVzB1ZnNNWjMxVGhrZmF4LWY4Y2oxS0FlTjh1RkY0aFRjemtGLVFxcHhXQUpkTQ?oc=5",
+            "published_at": "2026-03-31 04:20:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall further - MarketWatch",
+            "title_zh": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall furth...",
+            "source_title_original": "U.S. stocks are faring worse than during past geopolitical shocks — and there’s plenty of room for them to fall further - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxNblFNUWRtS3RrclVFOWxXRngxaVJNc3FkZU1Wb3Z1V0xOQmg2M2NGMjlGeXp3QTdnOG1jbVo2V3RmaEVRbWR4UDJwczdJNTF6dUk5cGEwejg4eXd1X1dyNGEtV1hBVU1Ldms1UWk1YUV5ckNfYkt3VnBVdHJaRW5wand6Z3ptUkltb2w4MFpsdkdXY0JjakthLThHVjFpY3BnNEpyaVlpQ2I1U3l4d3lONnZDWG5SR3NNZmU5TkJtLTdwRUxwbUQxUTRGVnk5VEdITHl1Z2NkcWZTNXp0TEdkUjhXWUpLaHJBdktQdjIyaXhXOGJ0VUJuNGY0U1NSbWFjRTROckhfeDV6QmRFV0JnSDhvd2M0SnMtNHhsdlN1SHBJOTZhajRPdkZ6NF8zT2poelhWdkJEbTJlV2pURWhESi1ha01DT3JrVlZYNnBBb1JQd01wUmRQM1ZCZGxZdi1DZW1IZG1EN3NDbGtMckQ4TVBhWlNySkdLbjFyaGJhOEg5WkMtMlQ5QXpUaHE1MW0zMDZnZHBjRUZGdnZlRnJGTUg4dnRQbXJJLUwwUFFnQUlZaTJ5NnNBcmJmV2M2cWxTazVSaHdValdhbXg4YkpuTUtUQ0V4UUZ2X3Q3WkplZ1JJTlBQaFlYUzRvZHpHQU5ZN1R4Sg?oc=5",
+            "published_at": "2026-03-31 03:29:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA - MarketWatch",
+            "title_zh": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA - MarketWatch",
+            "source_title_original": "These stocks are ‘the place to be’ if you want serious AI growth, says BofA - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMiuwNBVV95cUxQc0M4TlRGb2lybW1jSjdDYmtsUUxFc0hlWGtjYm1kOC0wQzRtTnVib3YtNVpmNXZUZms0d0RFMmlPeldlSnlYRXZTS1J0T0JWWDBDOXcwelhDM1hKVUVZS0xxU191ekE0LW5pdUxRamVhaGY3X0pXb19NX2lvbHVOeTdOclVXNFQzSVVwQ0Y3WC1iV1FuT0h2Snp6WmtoWEVsUUYwWVVqSzRMQVA4X3Z5aVhIVnJDaGlGTFFRQi14WXRUQlg3Z2x0RExLa0FSQTkwNGRHZkhYLUZhdktPVkJqbm1OdU81Q1I1dDNIT1k2STRyVGdqYXo2bkpVNUtqa2JCZXNjWmlhcl9qOTJmTVR5dUU3aHQ0aG5XOC1xWllEUHF0QmlDc1NrT3hrUVlfMlZ6T09GVzA4ZkstbDJqMjVWTmtXWkV4M2ZBTEZDUzFKUjBEMU9FWUNWTWg4LTVwWHlFQjJwODNieEhKMV9ybFIwS09sNUJtMm10OGk1Z1BHVGFUajNncVBjMHVUanJ3YnlxUmFuUzRmbm1JSHEyRG9UajJ6VGlBcUZiaUFaQVRKUVVfNXJja1pFUEYwNA?oc=5",
+            "published_at": "2026-03-31 03:08:00",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-ft-global-economy",
+            "source_name": "Google News RSS Financial Times query",
+            "source_name_zh": "金融时报",
+            "title": "Don’t speak to UK diplomats, Russians told - Financial Times",
+            "title_zh": "Don’t speak to UK diplomats, Russians told - Financial Times",
+            "source_title_original": "Don’t speak to UK diplomats, Russians told - Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTYmFUU1hhM1lCck1KMXZtaXM1U2NfelpFb1BnS2JkQjRnaFZfTjJGVjdYaGwtM2Zjbm44dFRxMUVORDdwWmdPYVUwY0xPanBNd3NJQkE5Tkpjd0o0LUdCNF9qZVkzR1gwUnpfMXdHX1Y?oc=5",
+            "published_at": "2026-03-30 18:45:26",
+            "source_tier": "Tier 2"
+          },
+          {
+            "source_id": "agg-google-news-ft-global-economy",
+            "source_name": "Google News RSS Financial Times query",
+            "source_name_zh": "金融时报",
+            "title": "US bets billions of dollars on unproven groups in rare earths deals - Financial Times",
+            "title_zh": "US bets billions of dollars on unproven groups in rare earths deals - Financial Times",
+            "source_title_original": "US bets billions of dollars on unproven groups in rare earths deals - Financial Times",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kM3lDV2Q3MU5KWVJRaDJ2eXliRGR0YmlmQnA3NFhjc25rQm1Reng3S2dwTEtfeTNQaFRXaVg4eHc5ZnhTazk0OVF2Z0R4TUp5Z0JEcFdMMFREYlphcUdsNlFIMWxSYnF0QXNOMm9DS1Q?oc=5",
+            "published_at": "2026-03-30 12:00:50",
+            "source_tier": "Tier 2"
+          }
+        ]
+      },
+      {
+        "package_id": "pkg-global-rates-central-banks",
+        "package_type": "today_background",
+        "core_topic": "政策变化",
+        "topic_key": "global-rates-central-banks",
+        "package_title_zh": "全球央行与利率路径出现再定价",
+        "window_status": "in_window",
+        "package_importance_level": "C级背景",
+        "importance_score": 4,
+        "main_content": "窗口内MarketWatch集中报道同一主线：主要央行对通胀与汇率扰动的反应正在重新定价；利率路径比单纯新闻标题更值得跟踪。",
+        "summary_zh": "窗口内MarketWatch集中报道同一主线：主要央行对通胀与汇率扰动的反应正在重新定价；利率路径比单纯新闻标题更值得跟踪。",
+        "commentary_zh": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 落实到投资上，当前更适合作为背景证据，不建议据此单独调整投资判断。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
+          "若后续出现配套执行细则，影响会从预期层走向基本面层"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "follow_up_signals": [
+          "后续是否有配套细则",
+          "是否出现量化工具或额度安排",
+          "市场利率与风险偏好是否跟随改善"
+        ],
+        "primary_source": {
+          "source_id": "agg-google-news-marketwatch-latest",
+          "source_name": "Google News RSS MarketWatch query",
+          "source_name_zh": "MarketWatch",
+          "title": "Fed chief Powell says risks to economy suggest rates could go lower or higher - MarketWatch",
+          "title_zh": "Fed chief Powell says risks to economy suggest rates could go lower or higher - MarketWatch",
+          "source_title_original": "Fed chief Powell says risks to economy suggest rates could go lower or higher - MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxQRHZiUnI1Z3lYMWV6bWt1eHNNVHBZWWRjQXVVQ3dWWHV6ZzdWdklnMkxaRGlzY2hUS2RCMExLcWY0clhXWUdnQXRzTmFCcTBoRWI3djZBU0RGMHQ5RjZIMWtlSklLenVDZnBxVC01Wm1jT0VLOFlwYWdiWWhzd3FYMWR2NFlLaG9JV2l2R3d0QWV4TGhxTXE3VXNxNDFKYVE2THhfMmtjTU1PUmZIb3lkNUpHb1lYZ2t4NEQ1TE5DNGduQWpjTm1QZkRSOHdhM2VtY3JYX0JjZVdtbTN1Ni1YWnFWVlJZa1BORHEyQ045RHdSMGVnd20yZlVNUFktN0RQV21jaUd5LUVMaEhiVlNob0VxaWNEV3A4MzRNSzk4c1dLREZOX203S2F2NGV3bFlmNS1KeWU3Q1FRYVktYmlVVFVBdk4wQzhucnRKNFU0U25nSmt5YTlhM09KUzI1dC00TzFCSWlBSmFxQ0hmX3FRaXJoSDhIUFRmS2RsSWliYWRLVTBmZjloUlllS0kxUEZ2RV90a1lFdzRnU0xfSTNLTXJGcFpEMVJtZFNBT1N4Z2V4akpw?oc=5",
+          "published_at": "2026-03-30 22:56:00",
+          "source_tier": "Tier 2"
+        },
+        "supporting_sources": [],
+        "source_count": 1,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-03-30 22:56:00",
+        "latest_published_at": "2026-03-30 22:56:00",
+        "selection_reason": null,
+        "items": [
+          {
+            "source_id": "agg-google-news-marketwatch-latest",
+            "source_name": "Google News RSS MarketWatch query",
+            "source_name_zh": "MarketWatch",
+            "title": "Fed chief Powell says risks to economy suggest rates could go lower or higher - MarketWatch",
+            "title_zh": "Fed chief Powell says risks to economy suggest rates could go lower or higher - MarketWatch",
+            "source_title_original": "Fed chief Powell says risks to economy suggest rates could go lower or higher - MarketWatch",
+            "url": "https://news.google.com/rss/articles/CBMitANBVV95cUxQRHZiUnI1Z3lYMWV6bWt1eHNNVHBZWWRjQXVVQ3dWWHV6ZzdWdklnMkxaRGlzY2hUS2RCMExLcWY0clhXWUdnQXRzTmFCcTBoRWI3djZBU0RGMHQ5RjZIMWtlSklLenVDZnBxVC01Wm1jT0VLOFlwYWdiWWhzd3FYMWR2NFlLaG9JV2l2R3d0QWV4TGhxTXE3VXNxNDFKYVE2THhfMmtjTU1PUmZIb3lkNUpHb1lYZ2t4NEQ1TE5DNGduQWpjTm1QZkRSOHdhM2VtY3JYX0JjZVdtbTN1Ni1YWnFWVlJZa1BORHEyQ045RHdSMGVnd20yZlVNUFktN0RQV21jaUd5LUVMaEhiVlNob0VxaWNEV3A4MzRNSzk4c1dLREZOX203S2F2NGV3bFlmNS1KeWU3Q1FRYVktYmlVVFVBdk4wQzhucnRKNFU0U25nSmt5YTlhM09KUzI1dC00TzFCSWlBSmFxQ0hmX3FRaXJoSDhIUFRmS2RsSWliYWRLVTBmZjloUlllS0kxUEZ2RV90a1lFdzRnU0xfSTNLTXJGcFpEMVJtZFNBT1N4Z2V4akpw?oc=5",
+            "published_at": "2026-03-30 22:56:00",
+            "source_tier": "Tier 2"
+          }
+        ]
+      },
+      {
+        "package_id": "pkg-global-risk-sentiment",
+        "package_type": "today_background",
+        "core_topic": "中国宏观母板、硬资产与产业升级",
+        "topic_key": "global-risk-sentiment",
+        "package_title_zh": "全球风险偏好与跨资产波动升温",
+        "window_status": "in_window",
+        "package_importance_level": "C级背景",
+        "importance_score": 4,
+        "main_content": "窗口内日经亚洲集中报道同一主线：全球风险偏好有从资产价格波动向宏观约束扩散的迹象；跨资产联动强于单一市场噪音。",
+        "summary_zh": "窗口内日经亚洲集中报道同一主线：全球风险偏好有从资产价格波动向宏观约束扩散的迹象；跨资产联动强于单一市场噪音。",
+        "commentary_zh": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 落实到投资上，当前更适合作为背景证据，不建议据此单独调整投资判断。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "情绪或金融条件恶化 -> 居民/企业支出意愿下降 -> 增长预期承压",
+          "若持续时间较长，最终会反馈到政策沟通与资产估值"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "follow_up_signals": [
+          "风险资产是否继续回撤",
+          "高频消费/就业指标是否转弱",
+          "央行口径是否转向更谨慎或更宽松",
+          "科技与绿色目标继续量化细化",
+          "6-12 个月内出台更多行业蓝图",
+          "A 股硬资产继续跑赢离岸中国资产"
+        ],
+        "primary_source": {
+          "source_id": "agg-google-news-nikkei-asia-economy",
+          "source_name": "Google News RSS Nikkei Asia Economy query",
+          "source_name_zh": "日经亚洲",
+          "title": "Thai CEOs' confidence hits three-year low, survey finds - Nikkei Asia",
+          "title_zh": "Thai CEOs' confidence hits three-year low, survey finds - Nikkei Asia",
+          "source_title_original": "Thai CEOs' confidence hits three-year low, survey finds - Nikkei Asia",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSkRwLUtZM2tOX2tPZkpNMXZ1WElpb1pZTEJ3VFpLbFlqZVVmR3NUbXdtdHEwNUZ1NUF2Z01aRk5tNHNnejdSc0M0WnpBa2hrR0NjeGw3aVZ1OV9ucWVPcS0zRWJSNjRJaHU4NXUtRXdqdE1tcjRFVlgyNUtkQmF6d0h3aTBRSTdscXZRcEJn?oc=5",
+          "published_at": "2026-03-30 18:28:00",
+          "source_tier": "Tier 2"
+        },
+        "supporting_sources": [],
+        "source_count": 1,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-03-30 18:28:00",
+        "latest_published_at": "2026-03-30 18:28:00",
+        "selection_reason": null,
+        "items": [
+          {
+            "source_id": "agg-google-news-nikkei-asia-economy",
+            "source_name": "Google News RSS Nikkei Asia Economy query",
+            "source_name_zh": "日经亚洲",
+            "title": "Thai CEOs' confidence hits three-year low, survey finds - Nikkei Asia",
+            "title_zh": "Thai CEOs' confidence hits three-year low, survey finds - Nikkei Asia",
+            "source_title_original": "Thai CEOs' confidence hits three-year low, survey finds - Nikkei Asia",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSkRwLUtZM2tOX2tPZkpNMXZ1WElpb1pZTEJ3VFpLbFlqZVVmR3NUbXdtdHEwNUZ1NUF2Z01aRk5tNHNnejdSc0M0WnpBa2hrR0NjeGw3aVZ1OV9ucWVPcS0zRWJSNjRJaHU4NXUtRXdqdE1tcjRFVlgyNUtkQmF6d0h3aTBRSTdscXZRcEJn?oc=5",
+            "published_at": "2026-03-30 18:28:00",
+            "source_tier": "Tier 2"
+          }
+        ]
+      }
+    ],
+    "framework_support_cards": [
+      {
+        "card_kind": "框架支持",
+        "title": "油价、地缘与通胀",
+        "title_zh": "油价、地缘与通胀",
+        "summary": "油价和地缘不能只当商品新闻处理，它们决定的是通胀预期、联储路径和全球风险偏好的再定价速度。",
+        "current_view": "脉冲冲击回落型",
+        "commentary_zh": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
+        "follow_up_signals": [
+          "WTI 持续站稳高位",
+          "库存持续去化",
+          "美元继续走强"
+        ],
+        "latest_related_at": "2026-03-31 10:12:00",
+        "framework_support_note": "这是存量框架支持层，用来解释当天事件，不等于当天新事件。"
+      },
+      {
+        "card_kind": "框架支持",
+        "title": "China manufacturing expands despite Iran-linked trade disruptions - Nikkei Asia",
+        "title_zh": "日经亚洲：政策变化更新",
+        "summary": "这是一条政策变化类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。 若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+        "current_view": "若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。",
+        "commentary_zh": "这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。",
+        "follow_up_signals": [
+          "后续是否有配套细则",
+          "是否出现量化工具或额度安排",
+          "市场利率与风险偏好是否跟随改善"
+        ],
+        "latest_related_at": null,
+        "framework_support_note": "这是存量框架支持层，用来给当天判断补足结构背景。"
+      }
+    ],
+    "today_representative_sources": [
+      {
+        "source_id": "agg-google-news-bbc-business",
+        "source_name": "Google News RSS BBC Business query",
+        "source_name_zh": "BBC",
+        "published_at": "2026-03-31 07:35:37",
+        "package_title_zh": "中东局势升温，油价与通胀约束重新抬头",
+        "source_tier": "Tier 2"
       }
     ],
     "focus_cards": [],
@@ -7167,6 +7786,9 @@
       "focus": 0,
       "secondary": 8,
       "background": 12,
+      "today_focus_packages": 1,
+      "today_secondary_packages": 0,
+      "today_background_packages": 3,
       "context_background": 3,
       "ignored": 7,
       "raw_items_total": 207
@@ -7668,7 +8290,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-31 16:08:47",
+    "daily_input_generated_at": "2026-04-01 01:01:48",
     "evidence_digest": {
       "primary_evidence": [],
       "high_signal_media": [
@@ -8669,9 +9291,15 @@
   },
   "history": [
     {
+      "slug": "2026-04-01",
+      "date": "2026-03-31",
+      "headline": "本期午间窗口汇总出 1 个重点事件包、0 个次级关注包、3 个窗口内背景包；主线聚焦在存量主线。",
+      "status": "分析日报"
+    },
+    {
       "slug": "2026-03-31",
       "date": "2026-03-31",
-      "headline": "本期午间窗口没有足够强的新重点卡，保留 8 条关注、12 条窗口内背景和 3 条窗口外背景；首页转向存量主线与跟踪项。",
+      "headline": "本期午间窗口汇总出 1 个重点事件包、0 个次级关注包、3 个窗口内背景包；主线聚焦在存量主线。",
       "status": "分析日报"
     },
     {
