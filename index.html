@@ -39,6 +39,7 @@
               <div>
                 <p class="section-tag">今日宏观判断</p>
                 <h2 id="latest-date"></h2>
+                <p id="coverage-window" class="entry-meta"></p>
               </div>
               <span id="latest-mode" class="pill"></span>
             </div>
@@ -88,7 +89,10 @@
             </div>
             <details class="background-details">
               <summary>展开查看背景层事件</summary>
+              <p class="section-tag">窗口内背景</p>
               <div id="background-list" class="stack-list"></div>
+              <p class="section-tag">窗口外背景</p>
+              <div id="context-background-list" class="stack-list"></div>
             </details>
           </section>
 
@@ -165,10 +169,30 @@
         return title;
       }
 
+      function formatSourceTier(sourceTier) {
+        const mapping = {
+          'Tier 1': 'Tier 1 官方',
+          'Tier 2': 'Tier 2 主流媒体',
+          'Tier 3': 'Tier 3 热点报道',
+          'Tier 4': 'Tier 4 社媒线索',
+        };
+        return mapping[sourceTier] || sourceTier || '';
+      }
+
+      function formatPublishedAt(item) {
+        if (item.published_at) return item.published_at;
+        if ((item.timestamp_confidence || '') === 'low') return '时间待核';
+        return '';
+      }
+
       function buildSourceMeta(item, extraParts) {
         const parts = [];
         if (item.source_name_zh || item.source_name) parts.push(item.source_name_zh || item.source_name);
+        if (item.source_tier) parts.push(formatSourceTier(item.source_tier));
+        const publishedAt = formatPublishedAt(item);
+        if (publishedAt) parts.push(publishedAt);
         if (item.event_type) parts.push(item.event_type);
+        if (item.context_role) parts.push(item.context_role);
         if (extraParts && extraParts.length) {
           extraParts.filter(Boolean).forEach((part) => parts.push(part));
         }
@@ -370,6 +394,7 @@
         const sections = [
           ['发生了什么', item.what_happened_zh || item.what_happened],
           ['中文摘要', item.summary_zh || item.analysis_summary],
+          ['入选原因', item.selection_reason],
           ['为什么重要', item.why_it_matters],
           ['核心矛盾', item.core_contradiction],
           ['数据校验', item.data_validation_note],
@@ -494,6 +519,9 @@
         wrap.appendChild(createNode('div', 'entry-meta', buildSourceMeta(item)));
         if (item.summary_zh) wrap.appendChild(createNode('p', 'entry-summary', item.summary_zh));
         if (item.analysis_summary) wrap.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
+        if (item.selection_reason) {
+          wrap.appendChild(createNode('p', 'entry-summary', '入选原因：' + item.selection_reason));
+        }
         if (item.core_contradiction) {
           wrap.appendChild(createNode('p', 'entry-summary', '核心矛盾：' + item.core_contradiction));
         }
@@ -534,6 +562,8 @@
         document.getElementById('site-title').textContent = payload.site.title;
         document.getElementById('site-subtitle').textContent = payload.site.subtitle;
         document.getElementById('latest-date').textContent = latest.date;
+        const coverageWindow = latest.coverage_window || {};
+        document.getElementById('coverage-window').textContent = coverageWindow.label ? ('本期覆盖时间：' + coverageWindow.label) : '';
         document.getElementById('latest-headline').textContent = latest.headline_zh || latest.headline;
         document.getElementById('latest-summary').textContent = latest.lead_summary || latest.summary;
         document.getElementById('generated-at').textContent = '页面生成时间：' + payload.site.generated_at;
@@ -546,7 +576,8 @@
         const countMap = {
           focus: '重点',
           secondary: '关注',
-          background: '背景',
+          background: '窗口内背景',
+          context_background: '窗口外背景',
           ignored: '忽略',
           raw_items_total: '原始条目',
         };
@@ -628,12 +659,27 @@
 
         const secondaryWrap = document.getElementById('secondary-list');
         (latest.secondary_items || []).forEach((item) => secondaryWrap.appendChild(renderStackItem(item)));
+        if (!secondaryWrap.children.length) {
+          secondaryWrap.appendChild(createNode('div', 'empty-state', '今天没有额外的次级关注条目。'));
+        }
 
         const backgroundWrap = document.getElementById('background-list');
         (latest.background_items || []).forEach((item) => backgroundWrap.appendChild(renderStackItem(item)));
+        if (!backgroundWrap.children.length) {
+          backgroundWrap.appendChild(createNode('div', 'empty-state', '今天没有窗口内背景条目。'));
+        }
+
+        const contextBackgroundWrap = document.getElementById('context-background-list');
+        (latest.context_background_items || []).forEach((item) => contextBackgroundWrap.appendChild(renderStackItem(item)));
+        if (!contextBackgroundWrap.children.length) {
+          contextBackgroundWrap.appendChild(createNode('div', 'empty-state', '今天没有补充的窗口外背景。'));
+        }
 
         const evidenceWrap = document.getElementById('evidence-sections');
         (latest.evidence_sections || []).forEach((section) => evidenceWrap.appendChild(renderEvidenceSection(section)));
+        if (!evidenceWrap.children.length) {
+          evidenceWrap.appendChild(createNode('div', 'empty-state', '今天没有可展示的分桶证据池。'));
+        }
 
         const assetWrap = document.getElementById('asset-map');
         (latest.asset_map || []).forEach((item) => {
