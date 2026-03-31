@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-31 14:05:07",
+    "generated_at": "2026-03-31 14:50:25",
     "mode": "分析日报"
   },
   "latest": {
@@ -2947,292 +2947,6 @@
     ],
     "background_items": [
       {
-        "id": "media-cls-depth-美伊战争-击碎-黄金牛市-瑞银-短期内还会涨-未来几年将下跌",
-        "title": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-        "title_zh": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-        "source_title_original": null,
-        "url": "https://www.cls.cn/detail/2330096",
-        "published_at": "2026-03-31 11:16:17",
-        "event_date": "2026-03-31",
-        "source_id": "media-cls-depth",
-        "source_name": "财联社深度",
-        "source_name_zh": "财联社深度",
-        "theme": "macro-depth-alert",
-        "category": "media-alert",
-        "priority": "P1",
-        "trust_level": "secondary",
-        "bucket_id": "media_watch",
-        "bucket_title": "媒体预警证据池",
-        "importance_level": "C级背景",
-        "importance_score": 5,
-        "is_macro_primary_signal": false,
-        "event_paradigm": "geopolitics_commodities",
-        "variable_bucket": "commodity_supply_shock",
-        "event_type": "地缘与商品冲击",
-        "analysis_lens": "energy_shock",
-        "what_happened": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-        "what_happened_zh": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-        "macro_transmission": [
-          "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
-          "若冲击持续，影响会从商品层扩散到增长、政策路径和行业盈利"
-        ],
-        "macro_transmission_chain": [
-          "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
-          "若冲击持续，影响会从商品层扩散到增长、政策路径和行业盈利"
-        ],
-        "market_implication": {
-          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
-          "assets": {
-            "a_h_share": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不构成新的交易主线。"
-            },
-            "rates": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变利率主判断。"
-            },
-            "fx": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不改变汇率方向判断。"
-            },
-            "gold": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "避险与通胀信号不足。"
-            },
-            "oil_commodities": {
-              "bias": "中性",
-              "score": 0,
-              "reason": "暂不足以重塑商品供需预期。"
-            }
-          }
-        },
-        "content_tier": "headline",
-        "access_mode": null,
-        "headline_only": false,
-        "paywall_risk": null,
-        "browser_auth_required": false,
-        "content_visibility": null,
-        "extraction_method": null,
-        "confirmation_required": true,
-        "fallback_chain": [],
-        "requested_url": "https://www.cls.cn/detail/2330096",
-        "landed_url": "https://www.cls.cn/detail/2330096",
-        "edition_requested": null,
-        "edition_landed": null,
-        "region_detected": "CN",
-        "landing_drift": "none",
-        "paywall_state": "open",
-        "auth_state": "anonymous",
-        "visible_paragraph_count": 0,
-        "media_item_kind": "article",
-        "evidence_role": "alert_only",
-        "stability_score": null,
-        "confidence": "低",
-        "follow_up_signals": [
-          "油气价格是否持续上行或回落",
-          "库存和供给是否继续恶化",
-          "通胀预期和风险资产是否出现联动",
-          "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-          "WTI 持续站稳高位",
-          "库存持续去化"
-        ],
-        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-        "detail_excerpt": "",
-        "analysis_basis": "标题/摘要",
-        "summary_zh": "基于标题/摘要整理，①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-        "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
-        "falsification_points": [
-          "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
-          "如果库存和供给链没有继续恶化，通胀外溢压力可能只是脉冲。",
-          "如果风险资产快速修复，说明市场未把事件定价为长期冲击。"
-        ],
-        "affected_regions": [
-          "Middle East",
-          "US",
-          "Europe",
-          "China"
-        ],
-        "affected_asset_classes": [
-          "equities",
-          "rates",
-          "fx",
-          "gold",
-          "commodities"
-        ],
-        "affected_styles": [
-          "defensive",
-          "value",
-          "cash-flow-quality"
-        ],
-        "affected_industries": [
-          "energy",
-          "shipping",
-          "airlines",
-          "chemicals"
-        ],
-        "industry_impact_map": {
-          "beta_sensitive": [
-            "energy",
-            "shipping",
-            "airlines",
-            "chemicals"
-          ],
-          "alpha_candidates": [
-            "oilfield services",
-            "LNG shipping",
-            "coal chemicals"
-          ]
-        },
-        "ashare_followthrough_candidates": [
-          "油气开采",
-          "航运",
-          "黄金",
-          "煤化工"
-        ],
-        "ashare_research_routes": {
-          "beta_basket": [
-            "油气开采",
-            "航运",
-            "黄金",
-            "煤化工"
-          ],
-          "alpha_deep_dive": [
-            "油服设备",
-            "LNG运输链",
-            "资源品高分红"
-          ]
-        },
-        "matched_official_sources": [
-          {
-            "source_id": "cn-ndrc-news",
-            "source_name": "国家发展改革委新闻动态",
-            "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
-            "published_at": "2026/03/23",
-            "match_score": 10,
-            "event_paradigm": "policy_change"
-          },
-          {
-            "source_id": "cn-ndrc-news",
-            "source_name": "国家发展改革委新闻动态",
-            "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
-            "published_at": "2026/03/23",
-            "match_score": 10,
-            "event_paradigm": "policy_change"
-          },
-          {
-            "source_id": "us-bea-current-releases",
-            "source_name": "U.S. Bureau of Economic Analysis Current Releases",
-            "source_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
-            "published_at": null,
-            "match_score": 4,
-            "event_paradigm": "fx_cross_border_flow"
-          }
-        ],
-        "confirmation_match_quality": "strong",
-        "confirmation_gap_reason": null,
-        "evidence_ledger": {
-          "media_evidence": [
-            {
-              "source_id": "media-cls-depth",
-              "source_name": "财联社深度",
-              "source_name_zh": "财联社深度",
-              "source_url": "https://www.cls.cn/detail/2330096",
-              "published_at": "2026-03-31 11:16:17",
-              "trust_level": "secondary",
-              "fact_or_inference": "fact",
-              "content_tier": "headline",
-              "evidence_role": "alert_only",
-              "requested_url": "https://www.cls.cn/detail/2330096",
-              "landed_url": "https://www.cls.cn/detail/2330096",
-              "region_detected": "CN",
-              "landing_drift": "none",
-              "paywall_state": "open",
-              "visible_paragraph_count": 0,
-              "auth_state": "anonymous",
-              "confirmation_required": true,
-              "media_item_kind": "article",
-              "matched_official_sources": [
-                {
-                  "source_id": "cn-ndrc-news",
-                  "source_name": "国家发展改革委新闻动态",
-                  "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
-                  "published_at": "2026/03/23",
-                  "match_score": 10,
-                  "event_paradigm": "policy_change"
-                },
-                {
-                  "source_id": "cn-ndrc-news",
-                  "source_name": "国家发展改革委新闻动态",
-                  "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
-                  "published_at": "2026/03/23",
-                  "match_score": 10,
-                  "event_paradigm": "policy_change"
-                },
-                {
-                  "source_id": "us-bea-current-releases",
-                  "source_name": "U.S. Bureau of Economic Analysis Current Releases",
-                  "source_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
-                  "published_at": null,
-                  "match_score": 4,
-                  "event_paradigm": "fx_cross_border_flow"
-                }
-              ],
-              "headline": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-              "headline_zh": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-              "summary": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-              "summary_zh": "基于标题/摘要整理，①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。"
-            }
-          ],
-          "official_evidence": [],
-          "market_context_evidence": [
-            {
-              "source_id": "media-cls-depth",
-              "source_url": "https://www.cls.cn/detail/2330096",
-              "published_at": "2026-03-31 11:16:17",
-              "trust_level": "secondary",
-              "fact_or_inference": "fact_or_context",
-              "content_tier": "headline",
-              "evidence_role": "confirmation_support",
-              "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。"
-            }
-          ],
-          "inference_notes": [
-            {
-              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-              "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-              "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
-              "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
-              "falsification_points": [
-                "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
-                "如果库存和供给链没有继续恶化，通胀外溢压力可能只是脉冲。",
-                "如果风险资产快速修复，说明市场未把事件定价为长期冲击。"
-              ],
-              "confirmation_match_quality": "strong"
-            }
-          ]
-        },
-        "data_validation_note": "数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-        "scenario_topic": "油价、地缘与通胀",
-        "active_scenario": "地缘风险短期推高价格和避险情绪，但库存、需求负反馈和冲突缓和会限制油价持续上冲，市场更快回到增长和流动性交易。",
-        "alternative_scenario": "冲突持续至三四季度，油价稳定在高位区间，通胀压力重回核心约束，降息路径继续后移，风险资产补跌。",
-        "active_scenario_label": "脉冲冲击回落型",
-        "alternative_scenario_label": "持续高油价型",
-        "scenario_switch_signals": [
-          "WTI 持续站稳高位",
-          "库存持续去化",
-          "美元继续走强"
-        ],
-        "scenario_why_not_alternative": "今天先不采用“持续高油价型”，因为现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
-        "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。"
-      },
-      {
         "id": "media-cls-depth-中东战火首月谁更抗跌-a股正在全球脱颖而出",
         "title": "中东战火首月谁更抗跌？A股正在全球脱颖而出",
         "title_zh": "中东战火首月谁更抗跌？A股正在全球脱颖而出",
@@ -3814,7 +3528,7 @@
         "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
         "source_title_original": "Iran war deals harder blow to natural gas than oil - Reuters",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamw1SGZQN0liYTJ4UVBBR0hJd3FmN2dabDdjcDFmdEU4bjNCX05xRXBUNmQtMkhZZXJMME9TR2ZaNmJTRUtzbWJhdzRtbU1jNE84blNTMTB2c0FIMThNRWRrbzNGRkJvdWxWRmpQNHlRa0JUSnNEM0IzSTRqSXpURnJEdDgtcUFlWjJKQ29fbVVVZ2xaUVlERVdKRm5VaTlSX1UxbWpR?oc=5",
-        "published_at": "Tue, 24 Mar 2026 06:38:16 GMT",
+        "published_at": "Tue, 24 Mar 2026 11:00:28 GMT",
         "event_date": "2026-03-24",
         "source_id": "agg-google-news-reuters-markets",
         "source_name": "Google News RSS Reuters Markets query",
@@ -4010,7 +3724,7 @@
               "source_name": "Google News RSS Reuters Markets query",
               "source_name_zh": "Google News RSS Reuters Markets query",
               "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamw1SGZQN0liYTJ4UVBBR0hJd3FmN2dabDdjcDFmdEU4bjNCX05xRXBUNmQtMkhZZXJMME9TR2ZaNmJTRUtzbWJhdzRtbU1jNE84blNTMTB2c0FIMThNRWRrbzNGRkJvdWxWRmpQNHlRa0JUSnNEM0IzSTRqSXpURnJEdDgtcUFlWjJKQ29fbVVVZ2xaUVlERVdKRm5VaTlSX1UxbWpR?oc=5",
-              "published_at": "Tue, 24 Mar 2026 06:38:16 GMT",
+              "published_at": "Tue, 24 Mar 2026 11:00:28 GMT",
               "trust_level": "secondary",
               "fact_or_inference": "fact",
               "content_tier": "headline",
@@ -4061,7 +3775,7 @@
             {
               "source_id": "agg-google-news-reuters-markets",
               "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamw1SGZQN0liYTJ4UVBBR0hJd3FmN2dabDdjcDFmdEU4bjNCX05xRXBUNmQtMkhZZXJMME9TR2ZaNmJTRUtzbWJhdzRtbU1jNE84blNTMTB2c0FIMThNRWRrbzNGRkJvdWxWRmpQNHlRa0JUSnNEM0IzSTRqSXpURnJEdDgtcUFlWjJKQ29fbVVVZ2xaUVlERVdKRm5VaTlSX1UxbWpR?oc=5",
-              "published_at": "Tue, 24 Mar 2026 06:38:16 GMT",
+              "published_at": "Tue, 24 Mar 2026 11:00:28 GMT",
               "trust_level": "secondary",
               "fact_or_inference": "fact_or_context",
               "content_tier": "headline",
@@ -5414,12 +5128,12 @@
         "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
       },
       {
-        "id": "media-cls-telegraph-财联社3月31日电-30年期日本国债收益率日内下跌10个基点至3-690",
-        "title": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-        "title_zh": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "id": "media-cls-telegraph-财政部公布2026年第二季度国债发行有关安排",
+        "title": "财政部公布2026年第二季度国债发行有关安排",
+        "title_zh": "财政部公布2026年第二季度国债发行有关安排",
         "source_title_original": null,
-        "url": "https://www.cls.cn/detail/2330209",
-        "published_at": "2026-03-31 13:11:25",
+        "url": "https://www.cls.cn/detail/2330298",
+        "published_at": "2026-03-31 14:33:51",
         "event_date": "2026-03-31",
         "source_id": "media-cls-telegraph",
         "source_name": "财联社电报",
@@ -5437,8 +5151,8 @@
         "variable_bucket": "liquidity_policy",
         "event_type": "政策变化",
         "analysis_lens": "policy_change",
-        "what_happened": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-        "what_happened_zh": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "what_happened": "【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。",
+        "what_happened_zh": "【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。",
         "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
@@ -5488,8 +5202,8 @@
         "extraction_method": null,
         "confirmation_required": true,
         "fallback_chain": [],
-        "requested_url": "https://www.cls.cn/detail/2330209",
-        "landed_url": "https://www.cls.cn/detail/2330209",
+        "requested_url": "https://www.cls.cn/detail/2330298",
+        "landed_url": "https://www.cls.cn/detail/2330298",
         "edition_requested": null,
         "edition_landed": null,
         "region_detected": "CN",
@@ -5507,10 +5221,10 @@
           "市场利率与风险偏好是否跟随改善"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "raw_summary": "【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "基于标题/摘要整理，财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "summary_zh": "基于标题/摘要整理，【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。",
         "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5599,14 +5313,14 @@
               "source_id": "media-cls-telegraph",
               "source_name": "财联社电报",
               "source_name_zh": "财联社电报",
-              "source_url": "https://www.cls.cn/detail/2330209",
-              "published_at": "2026-03-31 13:11:25",
+              "source_url": "https://www.cls.cn/detail/2330298",
+              "published_at": "2026-03-31 14:33:51",
               "trust_level": "secondary",
               "fact_or_inference": "fact",
               "content_tier": "headline",
               "evidence_role": "alert_only",
-              "requested_url": "https://www.cls.cn/detail/2330209",
-              "landed_url": "https://www.cls.cn/detail/2330209",
+              "requested_url": "https://www.cls.cn/detail/2330298",
+              "landed_url": "https://www.cls.cn/detail/2330298",
               "region_detected": "CN",
               "landing_drift": "none",
               "paywall_state": "open",
@@ -5640,18 +5354,18 @@
                   "event_paradigm": "policy_change"
                 }
               ],
-              "headline": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-              "headline_zh": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-              "summary": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-              "summary_zh": "基于标题/摘要整理，财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。"
+              "headline": "财政部公布2026年第二季度国债发行有关安排",
+              "headline_zh": "财政部公布2026年第二季度国债发行有关安排",
+              "summary": "【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。",
+              "summary_zh": "基于标题/摘要整理，【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。"
             }
           ],
           "official_evidence": [],
           "market_context_evidence": [
             {
               "source_id": "media-cls-telegraph",
-              "source_url": "https://www.cls.cn/detail/2330209",
-              "published_at": "2026-03-31 13:11:25",
+              "source_url": "https://www.cls.cn/detail/2330298",
+              "published_at": "2026-03-31 14:33:51",
               "trust_level": "secondary",
               "fact_or_inference": "fact_or_context",
               "content_tier": "headline",
@@ -5676,31 +5390,31 @@
         }
       },
       {
-        "id": "media-cls-telegraph-瑞银-中国市场调整或已过度-优质ai股票迎来布局窗口",
-        "title": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
-        "title_zh": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
+        "id": "cn-ndrc-news-关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
+        "title": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
+        "title_zh": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
         "source_title_original": null,
-        "url": "https://www.cls.cn/detail/2330223",
-        "published_at": "2026-03-31 13:28:15",
-        "event_date": "2026-03-31",
-        "source_id": "media-cls-telegraph",
-        "source_name": "财联社电报",
-        "source_name_zh": "财联社电报",
-        "theme": "china-fast-alert",
-        "category": "media-alert",
+        "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
+        "published_at": "2026/02/13",
+        "event_date": "2026-02-13",
+        "source_id": "cn-ndrc-news",
+        "source_name": "国家发展改革委新闻动态",
+        "source_name_zh": "国家发展改革委新闻动态",
+        "theme": "china-growth-policy",
+        "category": "official-secondary",
         "priority": "P1",
-        "trust_level": "secondary",
-        "bucket_id": "media_watch",
-        "bucket_title": "媒体预警证据池",
+        "trust_level": "primary",
+        "bucket_id": "china_policy",
+        "bucket_title": "中国政策证据池",
         "importance_level": "C级背景",
-        "importance_score": 4,
+        "importance_score": 3,
         "is_macro_primary_signal": false,
         "event_paradigm": "policy_change",
         "variable_bucket": "liquidity_policy",
         "event_type": "政策变化",
         "analysis_lens": "policy_change",
-        "what_happened": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek...",
-        "what_happened_zh": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek...",
+        "what_happened": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
+        "what_happened_zh": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
         "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
@@ -5750,8 +5464,8 @@
         "extraction_method": null,
         "confirmation_required": true,
         "fallback_chain": [],
-        "requested_url": "https://www.cls.cn/detail/2330223",
-        "landed_url": "https://www.cls.cn/detail/2330223",
+        "requested_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
+        "landed_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
         "edition_requested": null,
         "edition_landed": null,
         "region_detected": "CN",
@@ -5760,22 +5474,22 @@
         "auth_state": "anonymous",
         "visible_paragraph_count": 0,
         "media_item_kind": "article",
-        "evidence_role": "alert_only",
+        "evidence_role": "official_anchor",
         "stability_score": null,
         "confidence": "低",
         "follow_up_signals": [
           "后续是否有配套细则",
           "是否出现量化工具或额度安排",
           "市场利率与风险偏好是否跟随改善",
-          "科技与绿色目标继续量化细化",
-          "6-12 个月内出台更多行业蓝图",
-          "A 股硬资产继续跑赢离岸中国资产"
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来的收益。瑞银财富管理预计，MSCI中国指数今年EPS增速约为13%，科技板块盈利增速有望达到20%至...",
+        "raw_summary": "通知公告 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "基于标题/摘要整理，【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来...",
+        "summary_zh": "基于标题/摘要整理，关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
         "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5830,48 +5544,24 @@
             "龙头制造出海"
           ]
         },
-        "matched_official_sources": [
-          {
-            "source_id": "cn-govcn-yaowen",
-            "source_name": "国务院 / 中国政府网要闻",
-            "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064150.htm",
-            "published_at": null,
-            "match_score": 17,
-            "event_paradigm": "policy_change"
-          },
-          {
-            "source_id": "cn-govcn-yaowen",
-            "source_name": "国务院 / 中国政府网要闻",
-            "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
-            "published_at": null,
-            "match_score": 17,
-            "event_paradigm": "policy_change"
-          },
-          {
-            "source_id": "cn-govcn-yaowen",
-            "source_name": "国务院 / 中国政府网要闻",
-            "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064015.htm",
-            "published_at": null,
-            "match_score": 17,
-            "event_paradigm": "policy_change"
-          }
-        ],
-        "confirmation_match_quality": "strong",
+        "matched_official_sources": [],
+        "confirmation_match_quality": null,
         "confirmation_gap_reason": null,
         "evidence_ledger": {
-          "media_evidence": [
+          "media_evidence": [],
+          "official_evidence": [
             {
-              "source_id": "media-cls-telegraph",
-              "source_name": "财联社电报",
-              "source_name_zh": "财联社电报",
-              "source_url": "https://www.cls.cn/detail/2330223",
-              "published_at": "2026-03-31 13:28:15",
-              "trust_level": "secondary",
+              "source_id": "cn-ndrc-news",
+              "source_name": "国家发展改革委新闻动态",
+              "source_name_zh": "国家发展改革委新闻动态",
+              "source_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
+              "published_at": "2026/02/13",
+              "trust_level": "primary",
               "fact_or_inference": "fact",
               "content_tier": "headline",
-              "evidence_role": "alert_only",
-              "requested_url": "https://www.cls.cn/detail/2330223",
-              "landed_url": "https://www.cls.cn/detail/2330223",
+              "evidence_role": "official_anchor",
+              "requested_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
+              "landed_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
               "region_detected": "CN",
               "landing_drift": "none",
               "paywall_state": "open",
@@ -5879,45 +5569,19 @@
               "auth_state": "anonymous",
               "confirmation_required": true,
               "media_item_kind": "article",
-              "matched_official_sources": [
-                {
-                  "source_id": "cn-govcn-yaowen",
-                  "source_name": "国务院 / 中国政府网要闻",
-                  "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064150.htm",
-                  "published_at": null,
-                  "match_score": 17,
-                  "event_paradigm": "policy_change"
-                },
-                {
-                  "source_id": "cn-govcn-yaowen",
-                  "source_name": "国务院 / 中国政府网要闻",
-                  "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
-                  "published_at": null,
-                  "match_score": 17,
-                  "event_paradigm": "policy_change"
-                },
-                {
-                  "source_id": "cn-govcn-yaowen",
-                  "source_name": "国务院 / 中国政府网要闻",
-                  "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064015.htm",
-                  "published_at": null,
-                  "match_score": 17,
-                  "event_paradigm": "policy_change"
-                }
-              ],
-              "headline": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
-              "headline_zh": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
-              "summary": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek...",
-              "summary_zh": "基于标题/摘要整理，【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来..."
+              "matched_official_sources": [],
+              "headline": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
+              "headline_zh": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
+              "summary": "关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知",
+              "summary_zh": "基于标题/摘要整理，关于加强投资项目在线审批监管平台和工程建设项目审批管理系统数据共享的通知"
             }
           ],
-          "official_evidence": [],
           "market_context_evidence": [
             {
-              "source_id": "media-cls-telegraph",
-              "source_url": "https://www.cls.cn/detail/2330223",
-              "published_at": "2026-03-31 13:28:15",
-              "trust_level": "secondary",
+              "source_id": "cn-ndrc-news",
+              "source_url": "https://www.ndrc.gov.cn/xwdt/tzgg/202602/t20260213_1403764.html",
+              "published_at": "2026/02/13",
+              "trust_level": "primary",
               "fact_or_inference": "fact_or_context",
               "content_tier": "headline",
               "evidence_role": "confirmation_support",
@@ -5929,16 +5593,250 @@
               "summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
-              "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
+              "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
               "falsification_points": [
                 "如果后续一手来源没有继续确认，当前主线要降级。",
                 "如果市场关键变量没有跟随反应，传导链可能不成立。",
                 "如果同类事件很快被更高优先级信息覆盖，当前判断应降为背景。"
               ],
-              "confirmation_match_quality": "strong"
+              "confirmation_match_quality": null
             }
           ]
         },
+        "scenario_topic": "增长、通胀、利率与风险偏好",
+        "active_scenario": "通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
+        "alternative_scenario": "油价不再继续上行或开始回落，就业和消费继续走弱，央行在等待通胀回落证据后重新转回宽松偏向，债券和久期资产修复弹性更大。",
+        "active_scenario_label": "利率约束延续型",
+        "alternative_scenario_label": "增长放缓宽松回归型",
+        "scenario_switch_signals": [
+          "核心通胀继续偏强",
+          "10Y 和 2Y 利率维持高位",
+          "就业只是边际转弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“增长放缓宽松回归型”，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。"
+      },
+      {
+        "id": "us-fed-speeches-rss-waller-labor-market-data-signal-or-noise",
+        "title": "Waller, Labor Market Data: Signal or Noise?",
+        "title_zh": "美联储 Speeches：流动性/利率更新",
+        "source_title_original": "Waller, Labor Market Data: Signal or Noise?",
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+        "published_at": "Mon, 23 Feb 2026 13:00:00 GMT",
+        "event_date": "2026-02-23",
+        "source_id": "us-fed-speeches-rss",
+        "source_name": "Federal Reserve Speeches",
+        "source_name_zh": "美联储 Speeches",
+        "theme": "us-policy-communication",
+        "category": "official-secondary",
+        "priority": "P1",
+        "trust_level": "primary",
+        "bucket_id": "fed_us_macro",
+        "bucket_title": "美联储与美国宏观证据池",
+        "importance_level": "C级背景",
+        "importance_score": 3,
+        "is_macro_primary_signal": false,
+        "event_paradigm": "liquidity_rates",
+        "variable_bucket": "growth_validation",
+        "event_type": "流动性/利率",
+        "analysis_lens": "us_employment",
+        "what_happened": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The Nati...",
+        "what_happened_zh": "美联储 Speeches发布了一条与流动性/利率相关的更新，当前可见信息主要围绕“美联储 Speeches：流动性/利率更新”。",
+        "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
+        "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+        "macro_transmission": [
+          "就业与失业率变化 -> 增长韧性和联储预期修正 -> 美债、美元与全球风险资产再定价",
+          "若就业走弱被证明是趋势而非扰动，风险偏好会从估值层向盈利预期层传导"
+        ],
+        "macro_transmission_chain": [
+          "就业与失业率变化 -> 增长韧性和联储预期修正 -> 美债、美元与全球风险资产再定价",
+          "若就业走弱被证明是趋势而非扰动，风险偏好会从估值层向盈利预期层传导"
+        ],
+        "market_implication": {
+          "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
+          "assets": {
+            "a_h_share": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不构成新的交易主线。"
+            },
+            "rates": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变利率主判断。"
+            },
+            "fx": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不改变汇率方向判断。"
+            },
+            "gold": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "避险与通胀信号不足。"
+            },
+            "oil_commodities": {
+              "bias": "中性",
+              "score": 0,
+              "reason": "暂不足以重塑商品供需预期。"
+            }
+          }
+        },
+        "content_tier": "headline",
+        "access_mode": null,
+        "headline_only": false,
+        "paywall_risk": null,
+        "browser_auth_required": false,
+        "content_visibility": null,
+        "extraction_method": null,
+        "confirmation_required": true,
+        "fallback_chain": [],
+        "requested_url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+        "landed_url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+        "edition_requested": null,
+        "edition_landed": null,
+        "region_detected": "US",
+        "landing_drift": "none",
+        "paywall_state": "open",
+        "auth_state": "anonymous",
+        "visible_paragraph_count": 0,
+        "media_item_kind": "article",
+        "evidence_role": "official_anchor",
+        "stability_score": null,
+        "confidence": "低",
+        "follow_up_signals": [
+          "失业率和非农后续是否继续验证同一方向",
+          "工资与劳动参与率是否同步变化",
+          "市场是否把数据解释为趋势而不是扰动",
+          "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
+          "科技与绿色目标继续量化细化",
+          "6-12 个月内出台更多行业蓝图"
+        ],
+        "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
+        "raw_summary": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The National Association for Business Economics, Washington, D.C.",
+        "detail_excerpt": "",
+        "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，美联储 Speeches发布了一条与流动性/利率相关的更新，当前可见信息主要围绕“美联储 Speeches：流动性/利率更新”。",
+        "core_contradiction": "主矛盾在于就业走弱是趋势开始，还是单次扰动。",
+        "falsification_points": [
+          "如果非农、工资和工时没有共振走弱，就业降温不能被确认为趋势。",
+          "如果市场利率没有继续回落或切换宽松交易，说明就业信号未被市场确认。",
+          "如果后续消费与通胀仍强，就业走弱可能只是噪音。"
+        ],
+        "affected_regions": [
+          "US",
+          "Global",
+          "China"
+        ],
+        "affected_asset_classes": [
+          "equities",
+          "rates",
+          "fx",
+          "gold",
+          "commodities"
+        ],
+        "affected_styles": [
+          "quality",
+          "macro-sensitive"
+        ],
+        "affected_industries": [
+          "internet",
+          "semiconductors",
+          "consumer discretionary",
+          "gold"
+        ],
+        "industry_impact_map": {
+          "beta_sensitive": [
+            "internet",
+            "semiconductors",
+            "consumer discretionary",
+            "gold"
+          ],
+          "alpha_candidates": [
+            "AI compute",
+            "export manufacturing",
+            "precious metals"
+          ]
+        },
+        "ashare_followthrough_candidates": [
+          "黄金",
+          "算力链",
+          "出口链",
+          "利率敏感成长"
+        ],
+        "ashare_research_routes": {
+          "beta_basket": [
+            "黄金",
+            "算力链",
+            "出口链",
+            "利率敏感成长"
+          ],
+          "alpha_deep_dive": [
+            "铜金资源",
+            "服务器链",
+            "美元收入软件"
+          ]
+        },
+        "matched_official_sources": [],
+        "confirmation_match_quality": null,
+        "confirmation_gap_reason": null,
+        "evidence_ledger": {
+          "media_evidence": [],
+          "official_evidence": [
+            {
+              "source_id": "us-fed-speeches-rss",
+              "source_name": "Federal Reserve Speeches",
+              "source_name_zh": "美联储 Speeches",
+              "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+              "published_at": "Mon, 23 Feb 2026 13:00:00 GMT",
+              "trust_level": "primary",
+              "fact_or_inference": "fact",
+              "content_tier": "headline",
+              "evidence_role": "official_anchor",
+              "requested_url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+              "landed_url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+              "region_detected": "US",
+              "landing_drift": "none",
+              "paywall_state": "open",
+              "visible_paragraph_count": 0,
+              "auth_state": "anonymous",
+              "confirmation_required": true,
+              "media_item_kind": "article",
+              "matched_official_sources": [],
+              "headline": "Waller, Labor Market Data: Signal or Noise?",
+              "headline_zh": "美联储 Speeches：流动性/利率更新",
+              "summary": "Speech At The Great Realignment: Navigating AI, Demographic and Geoeconomic Change, 42nd Annual NABE Economic Policy Conference, The Nati...",
+              "summary_zh": "基于标题/摘要整理，美联储 Speeches发布了一条与流动性/利率相关的更新，当前可见信息主要围绕“美联储 Speeches：流动性/利率更新”。"
+            }
+          ],
+          "market_context_evidence": [
+            {
+              "source_id": "us-fed-speeches-rss",
+              "source_url": "https://www.federalreserve.gov/newsevents/speech/waller20260223a.htm",
+              "published_at": "Mon, 23 Feb 2026 13:00:00 GMT",
+              "trust_level": "primary",
+              "fact_or_inference": "fact_or_context",
+              "content_tier": "headline",
+              "evidence_role": "confirmation_support",
+              "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。"
+            }
+          ],
+          "inference_notes": [
+            {
+              "summary": "这是一条流动性/利率类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
+              "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
+              "core_contradiction": "主矛盾在于就业走弱是趋势开始，还是单次扰动。",
+              "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
+              "falsification_points": [
+                "如果非农、工资和工时没有共振走弱，就业降温不能被确认为趋势。",
+                "如果市场利率没有继续回落或切换宽松交易，说明就业信号未被市场确认。",
+                "如果后续消费与通胀仍强，就业走弱可能只是噪音。"
+              ],
+              "confirmation_match_quality": null
+            }
+          ]
+        },
+        "data_validation_note": "数据校验：美国失业率最新为 4.40% ，较前值变动 0.10 个百分点；要继续和非农、工资、工时联动观察。",
         "scenario_topic": "中国宏观母板、硬资产与产业升级",
         "active_scenario": "外部能源与地缘冲击持续、消费修复仍弱，市场更偏向拥抱 A 股中的能源、工业、原材料、战略安全资产，把科技和转型主线先当中期配置而非短期兑现。",
         "alternative_scenario": "五年规划中的科技和绿色目标继续细化，行业蓝图和资本开支持续兑现，中国宏观主线从单纯托底转向“科技自立 + 绿色升级 + 新质生产力”协同推进。",
@@ -5953,40 +5851,40 @@
         "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。"
       },
       {
-        "id": "media-cls-telegraph-北京消费品以旧换新政策持续落地-带动销售额约50亿元",
-        "title": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
-        "title_zh": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
-        "source_title_original": null,
-        "url": "https://www.cls.cn/detail/2330212",
-        "published_at": "2026-03-31 13:16:58",
-        "event_date": "2026-03-31",
-        "source_id": "media-cls-telegraph",
-        "source_name": "财联社电报",
-        "source_name_zh": "财联社电报",
-        "theme": "china-fast-alert",
-        "category": "media-alert",
+        "id": "cn-safe-home-safe-releases-data-on-china-s-foreign-exchange-reserves-at-t",
+        "title": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
+        "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
+        "source_title_original": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
+        "url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
+        "published_at": null,
+        "event_date": "2026-03-07",
+        "source_id": "cn-safe-home",
+        "source_name": "国家外汇管理局英文发布",
+        "source_name_zh": "国家外汇管理局英文发布",
+        "theme": "china-fx-bop",
+        "category": "official-secondary",
         "priority": "P1",
-        "trust_level": "secondary",
-        "bucket_id": "media_watch",
-        "bucket_title": "媒体预警证据池",
+        "trust_level": "primary",
+        "bucket_id": "china_data",
+        "bucket_title": "中国数据证据池",
         "importance_level": "C级背景",
-        "importance_score": 4,
+        "importance_score": 3,
         "is_macro_primary_signal": false,
-        "event_paradigm": "policy_change",
-        "variable_bucket": "liquidity_policy",
-        "event_type": "政策变化",
-        "analysis_lens": "policy_change",
-        "what_happened": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。...",
-        "what_happened_zh": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。...",
-        "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+        "event_paradigm": "fx_cross_border_flow",
+        "variable_bucket": "external_balance",
+        "event_type": "汇率/跨境流动",
+        "analysis_lens": "external_balance",
+        "what_happened": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
+        "what_happened_zh": "国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
+        "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
-          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
-          "若后续出现配套执行细则，影响会从预期层走向基本面层"
+          "国际收支/跨境流动变化 -> 汇率预期与外资方向调整 -> 国内政策空间与风险偏好再定价",
+          "若外部平衡持续改善，人民币资产风险溢价更容易回落；若承压，宽松空间会被压缩"
         ],
         "macro_transmission_chain": [
-          "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
-          "若后续出现配套执行细则，影响会从预期层走向基本面层"
+          "国际收支/跨境流动变化 -> 汇率预期与外资方向调整 -> 国内政策空间与风险偏好再定价",
+          "若外部平衡持续改善，人民币资产风险溢价更容易回落；若承压，宽松空间会被压缩"
         ],
         "market_implication": {
           "summary": "当前更适合作为背景证据，不建议据此单独调整投资判断。",
@@ -6027,8 +5925,8 @@
         "extraction_method": null,
         "confirmation_required": true,
         "fallback_chain": [],
-        "requested_url": "https://www.cls.cn/detail/2330212",
-        "landed_url": "https://www.cls.cn/detail/2330212",
+        "requested_url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
+        "landed_url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
         "edition_requested": null,
         "edition_landed": null,
         "region_detected": "CN",
@@ -6037,28 +5935,32 @@
         "auth_state": "anonymous",
         "visible_paragraph_count": 0,
         "media_item_kind": "article",
-        "evidence_role": "alert_only",
+        "evidence_role": "official_anchor",
         "stability_score": null,
         "confidence": "低",
         "follow_up_signals": [
-          "后续是否有配套细则",
-          "是否出现量化工具或额度安排",
-          "市场利率与风险偏好是否跟随改善"
+          "经常账户和资本金融账户是否继续改善",
+          "人民币汇率与跨境流向是否延续",
+          "政策口径是否更强调稳汇率或稳外部平衡",
+          "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+          "主动外资持续净流入股市",
+          "社融和内需同步修复"
         ],
         "downgrade_reason": "事件与宏观相关，但当前增量有限，适合作为背景证据而不是首页重点。",
-        "raw_summary": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。如今，北京全市已有近7000家门店、1300余家商户参与，让实惠更便捷地走进市民生活。",
+        "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "基于标题/摘要整理，【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。如今，北京全市已有近7000家门店、1300余家商户参与，让...",
-        "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
+        "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
+        "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
         "falsification_points": [
-          "如果后续一手来源没有继续确认，当前主线要降级。",
-          "如果市场关键变量没有跟随反应，传导链可能不成立。",
-          "如果同类事件很快被更高优先级信息覆盖，当前判断应降为背景。"
+          "如果后续经常账户或资本流动没有继续改善，当前外部平衡改善逻辑要降级。",
+          "如果汇率没有配合走稳，说明跨境流动改善未形成持续支撑。",
+          "如果政策空间没有出现边际改善，说明传导链可能停留在数据层。"
         ],
         "affected_regions": [
-          "Global",
-          "China"
+          "China",
+          "US",
+          "Global"
         ],
         "affected_asset_classes": [
           "equities",
@@ -6068,84 +5970,66 @@
           "commodities"
         ],
         "affected_styles": [
-          "growth",
-          "beta",
-          "policy-sensitive"
+          "exporters",
+          "quality",
+          "large-cap"
         ],
         "affected_industries": [
           "banks",
-          "industrials",
-          "consumer"
+          "exporters",
+          "consumer electronics",
+          "industrial machinery"
         ],
         "industry_impact_map": {
           "beta_sensitive": [
+            "exporters",
             "banks",
-            "industrials",
-            "consumer"
+            "consumer electronics",
+            "industrial machinery"
           ],
           "alpha_candidates": [
-            "high dividend",
-            "export chain"
+            "home appliances",
+            "auto parts",
+            "shipping logistics"
           ]
         },
         "ashare_followthrough_candidates": [
-          "高股息",
-          "大金融",
-          "出口链"
+          "出口链",
+          "高股息央国企",
+          "银行",
+          "家电"
         ],
         "ashare_research_routes": {
           "beta_basket": [
-            "高股息",
-            "大金融",
-            "出口链"
+            "出口链",
+            "高股息央国企",
+            "银行",
+            "家电"
           ],
           "alpha_deep_dive": [
-            "央国企高股息",
-            "龙头制造出海"
+            "白电龙头",
+            "汽车零部件出海",
+            "港口航运"
           ]
         },
-        "matched_official_sources": [
-          {
-            "source_id": "cn-govcn-yaowen",
-            "source_name": "国务院 / 中国政府网要闻",
-            "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064150.htm",
-            "published_at": null,
-            "match_score": 17,
-            "event_paradigm": "policy_change"
-          },
-          {
-            "source_id": "cn-govcn-yaowen",
-            "source_name": "国务院 / 中国政府网要闻",
-            "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
-            "published_at": null,
-            "match_score": 17,
-            "event_paradigm": "policy_change"
-          },
-          {
-            "source_id": "cn-govcn-yaowen",
-            "source_name": "国务院 / 中国政府网要闻",
-            "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064015.htm",
-            "published_at": null,
-            "match_score": 17,
-            "event_paradigm": "policy_change"
-          }
-        ],
-        "confirmation_match_quality": "strong",
+        "matched_official_sources": [],
+        "confirmation_match_quality": null,
         "confirmation_gap_reason": null,
         "evidence_ledger": {
-          "media_evidence": [
+          "media_evidence": [],
+          "official_evidence": [
             {
-              "source_id": "media-cls-telegraph",
-              "source_name": "财联社电报",
-              "source_name_zh": "财联社电报",
-              "source_url": "https://www.cls.cn/detail/2330212",
-              "published_at": "2026-03-31 13:16:58",
-              "trust_level": "secondary",
+              "source_id": "cn-safe-home",
+              "source_name": "国家外汇管理局英文发布",
+              "source_name_zh": "国家外汇管理局英文发布",
+              "source_url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
+              "published_at": null,
+              "trust_level": "primary",
               "fact_or_inference": "fact",
               "content_tier": "headline",
-              "evidence_role": "alert_only",
-              "requested_url": "https://www.cls.cn/detail/2330212",
-              "landed_url": "https://www.cls.cn/detail/2330212",
+              "evidence_role": "official_anchor",
+              "requested_url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
+              "landed_url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
               "region_detected": "CN",
               "landing_drift": "none",
               "paywall_state": "open",
@@ -6153,45 +6037,19 @@
               "auth_state": "anonymous",
               "confirmation_required": true,
               "media_item_kind": "article",
-              "matched_official_sources": [
-                {
-                  "source_id": "cn-govcn-yaowen",
-                  "source_name": "国务院 / 中国政府网要闻",
-                  "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064150.htm",
-                  "published_at": null,
-                  "match_score": 17,
-                  "event_paradigm": "policy_change"
-                },
-                {
-                  "source_id": "cn-govcn-yaowen",
-                  "source_name": "国务院 / 中国政府网要闻",
-                  "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7063789.htm",
-                  "published_at": null,
-                  "match_score": 17,
-                  "event_paradigm": "policy_change"
-                },
-                {
-                  "source_id": "cn-govcn-yaowen",
-                  "source_name": "国务院 / 中国政府网要闻",
-                  "source_url": "https://www.gov.cn/yaowen/liebiao/202603/content_7064015.htm",
-                  "published_at": null,
-                  "match_score": 17,
-                  "event_paradigm": "policy_change"
-                }
-              ],
-              "headline": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
-              "headline_zh": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
-              "summary": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。...",
-              "summary_zh": "基于标题/摘要整理，【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。如今，北京全市已有近7000家门店、1300余家商户参与，让..."
+              "matched_official_sources": [],
+              "headline": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
+              "headline_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
+              "summary": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
+              "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。"
             }
           ],
-          "official_evidence": [],
           "market_context_evidence": [
             {
-              "source_id": "media-cls-telegraph",
-              "source_url": "https://www.cls.cn/detail/2330212",
-              "published_at": "2026-03-31 13:16:58",
-              "trust_level": "secondary",
+              "source_id": "cn-safe-home",
+              "source_url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
+              "published_at": null,
+              "trust_level": "primary",
               "fact_or_inference": "fact_or_context",
               "content_tier": "headline",
               "evidence_role": "confirmation_support",
@@ -6200,19 +6058,32 @@
           ],
           "inference_notes": [
             {
-              "summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+              "summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
-              "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
-              "why_this_scenario": null,
+              "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
+              "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
               "falsification_points": [
-                "如果后续一手来源没有继续确认，当前主线要降级。",
-                "如果市场关键变量没有跟随反应，传导链可能不成立。",
-                "如果同类事件很快被更高优先级信息覆盖，当前判断应降为背景。"
+                "如果后续经常账户或资本流动没有继续改善，当前外部平衡改善逻辑要降级。",
+                "如果汇率没有配合走稳，说明跨境流动改善未形成持续支撑。",
+                "如果政策空间没有出现边际改善，说明传导链可能停留在数据层。"
               ],
-              "confirmation_match_quality": "strong"
+              "confirmation_match_quality": null
             }
           ]
-        }
+        },
+        "data_validation_note": "数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "scenario_topic": "人民币汇率与股市",
+        "active_scenario": "人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
+        "alternative_scenario": "人民币升值来自内需修复、信用扩张和外资直接入股，汇率与股市可以同向走强，指数与高弹性板块更容易共振。",
+        "active_scenario_label": "结构性升值型",
+        "alternative_scenario_label": "基本面共振型",
+        "scenario_switch_signals": [
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
+        ],
+        "scenario_why_not_alternative": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
+        "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。"
       }
     ],
     "evidence_sections": [
@@ -6445,18 +6316,6 @@
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
             "content_tier": "headline"
-          },
-          {
-            "title": "US mortgage rates hit highest since October as war keeps bond yields up, MBA says - Reuters",
-            "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcDQ2ZHo0SURha1E4TWc0MjA1MGVHRHRrNzdib3lSdG42NGp4S3NFbmJDek0wMGlfbUpyQU1nOEZaQ1hZcHdXYjBYVFJlZ3RwT3BmNWR5cndsSWlXY0xacmNWcnNmeW8tam9NeFVuT3BRSjdXRkE2M21UcGgxSlBONkwzczBBNW5TNGFRMmZCdTVLTXROcmtYaWtvcHF0TU1nNGR3Q3VKZmJhOWRoZTgzbTd3Y01hcGNjblJfdjBTY0pUdw?oc=5",
-            "importance_level": "C级背景",
-            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-            "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
-            "source_name": "Google News RSS Reuters Markets query",
-            "event_paradigm": "geopolitics_commodities",
-            "evidence_role": "alert_only",
-            "content_tier": "headline"
           }
         ]
       },
@@ -6490,38 +6349,38 @@
             "content_tier": "headline"
           },
           {
-            "title": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-            "title_zh": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-            "url": "https://www.cls.cn/detail/2330096",
-            "importance_level": "C级背景",
-            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-            "summary_zh": "基于标题/摘要整理，①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-            "source_name": "财联社深度",
-            "event_paradigm": "geopolitics_commodities",
-            "evidence_role": "alert_only",
-            "content_tier": "headline"
-          },
-          {
-            "title": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
-            "title_zh": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
-            "url": "https://www.cls.cn/detail/2330223",
-            "importance_level": "C级背景",
-            "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
-            "summary_zh": "基于标题/摘要整理，【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来...",
+            "title": "财联社3月31日电，法国3月CPI同比增长1.7%，预期1.6%；3月CPI环比增长0.9%，预期0.9%。",
+            "title_zh": "财联社3月31日电，法国3月CPI同比增长1.7%，预期1.6%；3月CPI环比增长0.9%，预期0.9%。",
+            "url": "https://www.cls.cn/detail/2330317",
+            "importance_level": "B级关注",
+            "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。 若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，财联社3月31日电，法国3月CPI同比增长1.7%，预期1.6%；3月CPI环比增长0.9%，预期0.9%。",
             "source_name": "财联社电报",
             "event_paradigm": "policy_change",
             "evidence_role": "alert_only",
             "content_tier": "headline"
           },
           {
-            "title": "无视特朗普警告 伊朗硬刚回应 科威特满载油轮遭袭令油价再现震荡！",
-            "title_zh": "无视特朗普警告 伊朗硬刚回应 科威特满载油轮遭袭令油价再现震荡！",
-            "url": "https://www.cls.cn/detail/2330032",
+            "title": "财联社3月31日电，法国2月PPI同比下降2.4%，前值下降2.30%；2月PPI环比下降0.2%，前值增长0.50%。",
+            "title_zh": "财联社3月31日电，法国2月PPI同比下降2.4%，前值下降2.30%；2月PPI环比下降0.2%，前值增长0.50%。",
+            "url": "https://www.cls.cn/detail/2330316",
             "importance_level": "B级关注",
-            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
-            "summary_zh": "基于标题/摘要整理，①3月31日，伊朗袭击了停泊在迪拜港的一艘满载科威特原油的运输船，导致船体受损并起火，可能引发周边水域石油泄漏； ②受此影响，西德克萨斯中质原油一度上涨3.7%，触及每桶106.70美元，布伦特原油期货同样一度大涨超3%。",
-            "source_name": "财联社深度",
-            "event_paradigm": "geopolitics_commodities",
+            "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类政策信息的关键不在活动本身，而在是否真的出现新增口径、工具或约束变化；一旦确认，市场会先交易政策预期再交易后续执行。 若后续配套工具继续落地，短期更偏向压低风险溢价并改善风险资产预期；但若只有表态没有执行细则，交易层应以稳预期而非强刺激来理解。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，财联社3月31日电，法国2月PPI同比下降2.4%，前值下降2.30%；2月PPI环比下降0.2%，前值增长0.50%。",
+            "source_name": "财联社电报",
+            "event_paradigm": "policy_change",
+            "evidence_role": "alert_only",
+            "content_tier": "headline"
+          },
+          {
+            "title": "财政部公布2026年第二季度国债发行有关安排",
+            "title_zh": "财政部公布2026年第二季度国债发行有关安排",
+            "url": "https://www.cls.cn/detail/2330298",
+            "importance_level": "C级背景",
+            "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，【财政部公布2026年第二季度国债发行有关安排】财联社3月31日电，财政部公布2026年第二季度关键期限国债、短期国债、超长期一般国债、储蓄国债发行有关安排。",
+            "source_name": "财联社电报",
+            "event_paradigm": "policy_change",
             "evidence_role": "alert_only",
             "content_tier": "headline"
           }
@@ -6580,8 +6439,8 @@
       "focus": 4,
       "secondary": 8,
       "background": 12,
-      "ignored": 39,
-      "raw_items_total": 212
+      "ignored": 37,
+      "raw_items_total": 211
     },
     "watchpoints": [
       "中国政策雷达: 中国人民银行货币政策委员会...",
@@ -7080,7 +6939,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-31 14:05:00",
+    "daily_input_generated_at": "2026-03-31 14:50:25",
     "evidence_digest": {
       "primary_evidence": [
         {
@@ -7289,56 +7148,6 @@
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
           "source_name_zh": "AP News Business",
-          "source_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
-          "published_at": null,
-          "trust_level": "secondary",
-          "fact_or_inference": "fact",
-          "content_tier": "visible_body",
-          "evidence_role": "clue_high",
-          "requested_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
-          "landed_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
-          "region_detected": "US-facing-global",
-          "landing_drift": "none",
-          "paywall_state": "open",
-          "visible_paragraph_count": 4,
-          "auth_state": "anonymous",
-          "confirmation_required": true,
-          "media_item_kind": "article",
-          "matched_official_sources": [
-            {
-              "source_id": "cn-ndrc-news",
-              "source_name": "国家发展改革委新闻动态",
-              "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
-              "published_at": "2026/03/23",
-              "match_score": 10,
-              "event_paradigm": "policy_change"
-            },
-            {
-              "source_id": "cn-ndrc-news",
-              "source_name": "国家发展改革委新闻动态",
-              "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
-              "published_at": "2026/03/23",
-              "match_score": 10,
-              "event_paradigm": "policy_change"
-            },
-            {
-              "source_id": "eu-ecb-statistical-rss",
-              "source_name": "欧洲央行统计新闻稿",
-              "source_url": "https://www.ecb.europa.eu//press/stats/md/html/ecb.md2602~b3ebd27726.en.html",
-              "published_at": "Thu, 26 Mar 2026 10:00:00 +0100",
-              "match_score": 6,
-              "event_paradigm": "data_validation"
-            }
-          ],
-          "headline": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
-          "headline_zh": "AP News Business：地缘与商品冲击更新",
-          "summary": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
-          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
-        },
-        {
-          "source_id": "media-ap-business",
-          "source_name": "AP News Business",
-          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
           "published_at": null,
           "trust_level": "secondary",
@@ -7383,6 +7192,56 @@
           "headline": "US stocks swing through another shaky day as oil prices keep climbing",
           "headline_zh": "AP News Business：地缘与商品冲击更新",
           "summary": "US stocks swing through another shaky day as oil prices keep climbing",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
+        },
+        {
+          "source_id": "media-ap-business",
+          "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
+          "source_url": "https://apnews.com/article/stock-markets-trump-iran-oil-8118f58d75859b9fc74ab133fa9e8c3e",
+          "published_at": null,
+          "trust_level": "secondary",
+          "fact_or_inference": "fact",
+          "content_tier": "visible_body",
+          "evidence_role": "clue_high",
+          "requested_url": "https://apnews.com/article/stock-markets-trump-iran-oil-8118f58d75859b9fc74ab133fa9e8c3e",
+          "landed_url": "https://apnews.com/article/stock-markets-trump-iran-oil-8118f58d75859b9fc74ab133fa9e8c3e",
+          "region_detected": "US-facing-global",
+          "landing_drift": "none",
+          "paywall_state": "open",
+          "visible_paragraph_count": 4,
+          "auth_state": "anonymous",
+          "confirmation_required": true,
+          "media_item_kind": "article",
+          "matched_official_sources": [
+            {
+              "source_id": "cn-ndrc-news",
+              "source_name": "国家发展改革委新闻动态",
+              "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
+              "published_at": "2026/03/23",
+              "match_score": 10,
+              "event_paradigm": "policy_change"
+            },
+            {
+              "source_id": "cn-ndrc-news",
+              "source_name": "国家发展改革委新闻动态",
+              "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404295.html",
+              "published_at": "2026/03/23",
+              "match_score": 10,
+              "event_paradigm": "policy_change"
+            },
+            {
+              "source_id": "eu-ecb-statistical-rss",
+              "source_name": "欧洲央行统计新闻稿",
+              "source_url": "https://www.ecb.europa.eu//press/stats/md/html/ecb.md2602~b3ebd27726.en.html",
+              "published_at": "Thu, 26 Mar 2026 10:00:00 +0100",
+              "match_score": 6,
+              "event_paradigm": "data_validation"
+            }
+          ],
+          "headline": "Wall Street falls to its worst drop since the Iran war as the Nasdaq sinks 10% below its record",
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "Wall Street falls to its worst drop since the Iran war as the Nasdaq sinks 10% below its record",
           "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         },
         {
@@ -7611,21 +7470,6 @@
         "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
-        "headline": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
-        "headline_zh": "AP News Business：地缘与商品冲击更新",
-        "source_id": "media-ap-business",
-        "source_name": "AP News Business",
-        "source_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
-        "published_at": null,
-        "trust_level": "secondary",
-        "content_tier": "visible_body",
-        "fact_or_inference": "fact",
-        "evidence_role": "clue_high",
-        "media_item_kind": "article",
-        "confirmation_match_quality": "strong",
-        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
-      },
-      {
         "headline": "US stocks swing through another shaky day as oil prices keep climbing",
         "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
@@ -7654,6 +7498,21 @@
         "media_item_kind": "article",
         "confirmation_match_quality": "strong",
         "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
+      },
+      {
+        "headline": "Wall Street falls to its worst drop since the Iran war as the Nasdaq sinks 10% below its record",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
+        "source_id": "media-ap-business",
+        "source_name": "AP News Business",
+        "source_url": "https://apnews.com/article/stock-markets-trump-iran-oil-8118f58d75859b9fc74ab133fa9e8c3e",
+        "published_at": null,
+        "trust_level": "secondary",
+        "content_tier": "visible_body",
+        "fact_or_inference": "fact",
+        "evidence_role": "clue_high",
+        "media_item_kind": "article",
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "headline": "When stock markets are rattled, even by war, it usually pays for investors to be patient",
@@ -7741,23 +7600,6 @@
       {
         "source_id": "media-ap-business",
         "source_name": "AP News Business",
-        "requested_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
-        "landed_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
-        "region_detected": "US-facing-global",
-        "landing_drift": "none",
-        "content_tier": "visible_body",
-        "paywall_state": "open",
-        "visible_paragraph_count": 4,
-        "headline": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
-        "headline_zh": "AP News Business：地缘与商品冲击更新",
-        "author": "AP News Business",
-        "published_at": null,
-        "media_item_kind": "article",
-        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
-      },
-      {
-        "source_id": "media-ap-business",
-        "source_name": "AP News Business",
         "requested_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
         "landed_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
         "region_detected": "US-facing-global",
@@ -7788,6 +7630,23 @@
         "published_at": null,
         "media_item_kind": "article",
         "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
+      },
+      {
+        "source_id": "media-ap-business",
+        "source_name": "AP News Business",
+        "requested_url": "https://apnews.com/article/stock-markets-trump-iran-oil-8118f58d75859b9fc74ab133fa9e8c3e",
+        "landed_url": "https://apnews.com/article/stock-markets-trump-iran-oil-8118f58d75859b9fc74ab133fa9e8c3e",
+        "region_detected": "US-facing-global",
+        "landing_drift": "none",
+        "content_tier": "visible_body",
+        "paywall_state": "open",
+        "visible_paragraph_count": 4,
+        "headline": "Wall Street falls to its worst drop since the Iran war as the Nasdaq sinks 10% below its record",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
+        "author": "AP News Business",
+        "published_at": null,
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       }
     ],
     "evidence_gaps": [
