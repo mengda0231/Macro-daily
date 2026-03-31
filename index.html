@@ -51,6 +51,17 @@
           <section class="card panel">
             <div class="panel-head">
               <div>
+                <p class="section-tag">证据总览</p>
+                <h2>先看主证据，再看高信号媒体与确认缺口</h2>
+              </div>
+            </div>
+            <div id="evidence-digest" class="digest-grid"></div>
+            <div id="official-confirmation-list" class="stack-list"></div>
+          </section>
+
+          <section class="card panel">
+            <div class="panel-head">
+              <div>
                 <p class="section-tag">重点点评卡</p>
                 <h2>今天最值得看的宏观事件</h2>
               </div>
@@ -102,6 +113,11 @@
           <section class="card">
             <p class="section-tag">重点跟踪指标</p>
             <div id="follow-up-signals" class="compact-list"></div>
+          </section>
+
+          <section class="card">
+            <p class="section-tag">行业 / A股跟进路线</p>
+            <div id="macro-route-summary" class="route-list"></div>
           </section>
 
           <section class="card">
@@ -166,6 +182,145 @@
         return wrap;
       }
 
+      function joinText(values) {
+        return (values || []).filter(Boolean).join('；');
+      }
+
+      function formatConfirmation(item) {
+        if (item.category === 'official-primary' || item.category === 'official-secondary') {
+          return '官方来源本体，可作为确认锚点。';
+        }
+        const qualityLabel = {
+          strong: '强确认',
+          partial: '部分确认',
+          weak: '弱确认',
+          unmatched: '未确认',
+        };
+        const matched = item.matched_official_sources || [];
+        if (matched.length > 0) {
+          return '已匹配官方来源：' + matched.join('、') + '；匹配强度：' + (qualityLabel[item.confirmation_match_quality] || item.confirmation_match_quality || '待评估');
+        }
+        if (item.confirmation_gap_reason) {
+          return '仍需官方确认：' + item.confirmation_gap_reason;
+        }
+        if (item.confirmation_required) {
+          return '当前仍属媒体线索层，不能跳过官方确认。';
+        }
+        return '';
+      }
+
+      function formatMediaContract(item) {
+        const tierLabel = {
+          visible_body: '正文可见',
+          partial_visible_body: '正文部分可见',
+          excerpt: '摘要可见',
+          headline: '仅标题',
+          blocked: '受限',
+        };
+        const kindLabel = {
+          article: '文章',
+          aggregated_feed: '聚合流',
+          quote_page: '行情页',
+          market_page: '市场页',
+          section_page: '栏目页',
+        };
+        const parts = [];
+        if (item.content_tier) {
+          parts.push('可见性：' + (tierLabel[item.content_tier] || item.content_tier));
+        }
+        if (item.media_item_kind) {
+          parts.push('类型：' + (kindLabel[item.media_item_kind] || item.media_item_kind));
+        }
+        if (item.paywall_state && item.paywall_state !== 'open') {
+          parts.push('访问状态：' + item.paywall_state);
+        }
+        if (item.landing_drift && item.landing_drift !== 'none') {
+          parts.push('落地漂移：' + item.landing_drift);
+        }
+        if (typeof item.visible_paragraph_count === 'number' && item.visible_paragraph_count > 0) {
+          parts.push('可见段落：' + item.visible_paragraph_count);
+        }
+        return parts.join('；');
+      }
+
+      function renderSimpleList(title, items, emptyText) {
+        const card = createNode('article', 'digest-card');
+        card.appendChild(createNode('h3', '', title));
+        const list = createNode('div', 'compact-list');
+        if (!items || items.length === 0) {
+          list.appendChild(createNode('div', 'list-row', emptyText));
+        } else {
+          items.forEach((item) => {
+            list.appendChild(createNode('div', 'list-row', item));
+          });
+        }
+        card.appendChild(list);
+        return card;
+      }
+
+      function renderEvidenceEntry(entry, mode) {
+        const row = createNode('div', 'digest-entry');
+        const sourceName = entry.source_name || entry.source_id || '未命名来源';
+        row.appendChild(createNode('strong', '', entry.headline || sourceName));
+        const metaParts = [sourceName];
+        if (entry.content_tier) metaParts.push('可见性：' + entry.content_tier);
+        if (entry.evidence_role) metaParts.push('角色：' + entry.evidence_role);
+        if (entry.confirmation_match_quality) metaParts.push('确认：' + entry.confirmation_match_quality);
+        if (mode === 'official' && entry.summary) {
+          row.appendChild(createNode('p', 'entry-summary', entry.summary));
+        }
+        row.appendChild(createNode('div', 'entry-meta', metaParts.join(' | ')));
+        return row;
+      }
+
+      function renderDigestCard(title, entries, mode, emptyText) {
+        const card = createNode('article', 'digest-card');
+        card.appendChild(createNode('h3', '', title));
+        const list = createNode('div', 'compact-list');
+        if (!entries || entries.length === 0) {
+          list.appendChild(createNode('div', 'list-row', emptyText));
+        } else {
+          entries.forEach((entry) => list.appendChild(renderEvidenceEntry(entry, mode)));
+        }
+        card.appendChild(list);
+        return card;
+      }
+
+      function renderConfirmationStatus(item) {
+        const card = createNode('article', 'stack-item');
+        const statusMap = {
+          'confirmed-primary': '官方一级确认',
+          'confirmed-secondary': '官方二级确认',
+          'pending-required': '仍待确认',
+        };
+        card.appendChild(createNode('strong', '', item.claim || '待确认断言'));
+        card.appendChild(createNode('div', 'entry-meta', statusMap[item.confirmation_status] || item.confirmation_status || '待确认'));
+        if (item.official_source) {
+          card.appendChild(createNode('p', 'entry-summary', '确认来源：' + item.official_source));
+        }
+        if (item.remaining_uncertainty) {
+          card.appendChild(createNode('p', 'entry-summary', '剩余不确定：' + item.remaining_uncertainty));
+        }
+        if ((item.matched_official_sources || []).length > 0) {
+          card.appendChild(createNode('p', 'entry-summary', '候选官方锚点：' + item.matched_official_sources.join('、')));
+        }
+        return card;
+      }
+
+      function renderRouteSummary(routeMap) {
+        const sections = [
+          ['受影响行业', routeMap.affected_industries || []],
+          ['A股 beta 跟踪篮子', routeMap.beta_basket || []],
+          ['alpha 深挖入口', routeMap.alpha_deep_dive || []],
+          ['行业 alpha 线索', routeMap.alpha_candidates || []],
+        ];
+        const wrap = createNode('div', 'route-grid');
+        sections.forEach(([title, items]) => {
+          wrap.appendChild(renderSimpleList(title, items, '今天暂未形成稳定路线。'));
+        });
+        return wrap;
+      }
+
       function renderFocusCard(item, lead) {
         const card = createNode('article', lead ? 'focus-card focus-card--lead' : 'focus-card');
         const top = createNode('div', 'card-top');
@@ -183,6 +338,7 @@
         const sections = [
           ['发生了什么', item.what_happened],
           ['为什么重要', item.why_it_matters],
+          ['核心矛盾', item.core_contradiction],
           ['数据校验', item.data_validation_note],
           ['传导链', (item.macro_transmission || []).join(' -> ')],
           ['当前采用视角', item.active_scenario_label ? (item.active_scenario_label + '：' + (item.active_scenario || '')) : ''],
@@ -190,6 +346,12 @@
           ['切换条件', (item.scenario_switch_signals || []).slice(0, 3).join('；')],
           ['为什么今天先不用另一个视角', item.scenario_why_not_alternative || item.why_this_scenario],
           ['投资含义', item.market_implication ? item.market_implication.summary : ''],
+          ['官方确认', formatConfirmation(item)],
+          ['媒体可见性', formatMediaContract(item)],
+          ['证伪点', joinText(item.falsification_points || [])],
+          ['受影响行业', joinText(item.affected_industries || [])],
+          ['A股 beta 路线', joinText((item.ashare_research_routes || {}).beta_basket || item.ashare_followthrough_candidates || [])],
+          ['A股 alpha 深挖', joinText((item.ashare_research_routes || {}).alpha_deep_dive || (item.industry_impact_map || {}).alpha_candidates || [])],
           ['跟踪点', (item.follow_up_signals || []).slice(0, 3).join('；')],
         ];
 
@@ -241,6 +403,36 @@
         return card;
       }
 
+      function renderMainlineCard(item, lead) {
+        const card = createNode('article', lead ? 'focus-card focus-card--lead' : 'focus-card');
+        const top = createNode('div', 'card-top');
+        top.appendChild(createNode('span', 'pill level-pill', item.card_kind || '存量主线'));
+        top.appendChild(createNode('span', 'entry-meta', '无新增 A 级事件时，用存量主线继续组织判断'));
+        card.appendChild(top);
+        card.appendChild(createNode('div', 'entry-title', item.title || '存量主线'));
+
+        const sections = [
+          ['主线摘要', item.summary],
+          ['为什么今天仍沿用', item.why_now],
+          ['当前采用视角', item.current_view],
+          ['备选视角或核心矛盾', item.alternative_view],
+          ['切换条件', joinText(item.switch_signals || [])],
+          ['今日资产含义', joinText(item.asset_hint_lines || [])],
+          ['支撑条目', joinText(item.supporting_items || [])],
+          ['跟踪点', joinText(item.follow_up_signals || [])],
+          ['参考框架', joinText(item.source_mix || [])],
+        ];
+
+        sections.forEach(([label, value]) => {
+          if (!value) return;
+          const row = createNode('div', 'analysis-row');
+          row.appendChild(createNode('strong', '', label + '：'));
+          row.appendChild(createNode('span', '', value));
+          card.appendChild(row);
+        });
+        return card;
+      }
+
       function renderConfirmationItem(item) {
         const card = createNode('article', 'confirmation-item');
         const title = createNode('strong', '', item.topic || '待确认问题');
@@ -265,8 +457,17 @@
         wrap.appendChild(header);
         wrap.appendChild(createNode('div', 'entry-meta', [item.source_name, item.event_type].join(' | ')));
         if (item.analysis_summary) wrap.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
+        if (item.core_contradiction) {
+          wrap.appendChild(createNode('p', 'entry-summary', '核心矛盾：' + item.core_contradiction));
+        }
+        if (item.scenario_why_not_alternative || item.why_this_scenario) {
+          wrap.appendChild(createNode('p', 'entry-summary', '当前视角：' + (item.scenario_why_not_alternative || item.why_this_scenario)));
+        }
         if (item.market_implication && item.market_implication.summary) {
           wrap.appendChild(createNode('p', 'entry-summary', '投资含义：' + item.market_implication.summary));
+        }
+        if ((item.follow_up_signals || []).length > 0) {
+          wrap.appendChild(createNode('p', 'entry-summary', '跟踪点：' + (item.follow_up_signals || []).slice(0, 3).join('；')));
         }
         if (item.downgrade_reason) wrap.appendChild(createNode('p', 'entry-summary', '降级原因：' + item.downgrade_reason));
         return wrap;
@@ -350,12 +551,34 @@
           watchpointWrap.appendChild(createNode('div', 'watchpoint', text));
         });
 
+        const digestWrap = document.getElementById('evidence-digest');
+        const digest = latest.evidence_digest || {};
+        digestWrap.appendChild(renderDigestCard('主证据', digest.primary_evidence || [], 'official', '今天还没有稳定主证据。'));
+        digestWrap.appendChild(renderDigestCard('高信号媒体', digest.high_signal_media || [], 'media', '今天没有高信号媒体线索。'));
+        digestWrap.appendChild(renderSimpleList('开放缺口', digest.open_gaps || [], '当前没有显式证据缺口。'));
+
+        const officialWrap = document.getElementById('official-confirmation-list');
+        const officialConfirmation = latest.official_confirmation || [];
+        if (officialConfirmation.length > 0) {
+          officialConfirmation.forEach((item) => officialWrap.appendChild(renderConfirmationStatus(item)));
+        } else {
+          officialWrap.appendChild(createNode('div', 'empty-state', '今天没有额外的官方确认状态需要单独提示。'));
+        }
+
         const focusWrap = document.getElementById('focus-cards');
         const leadFocusWrap = document.getElementById('lead-focus-card');
         const focusItems = latest.focus_cards || [];
         if (focusItems.length > 0) {
           leadFocusWrap.appendChild(renderFocusCard(focusItems[0], true));
           focusItems.slice(1).forEach((item) => focusWrap.appendChild(renderFocusCard(item, false)));
+        } else {
+          const mainlineCards = latest.mainline_cards || [];
+          if (mainlineCards.length > 0) {
+            leadFocusWrap.appendChild(renderMainlineCard(mainlineCards[0], true));
+            mainlineCards.slice(1).forEach((item) => focusWrap.appendChild(renderMainlineCard(item, false)));
+          } else {
+            leadFocusWrap.appendChild(createNode('div', 'empty-state', '今天没有足够高质量的新重点事件上首页，先沿用存量主线、情景矩阵和次级关注继续跟踪。'));
+          }
         }
 
         const secondaryWrap = document.getElementById('secondary-list');
@@ -388,6 +611,9 @@
         (latest.follow_up_signals || []).forEach((text) => {
           signalWrap.appendChild(createNode('div', 'list-row', text));
         });
+
+        const routeWrap = document.getElementById('macro-route-summary');
+        routeWrap.appendChild(renderRouteSummary(latest.macro_research_routes || {}));
 
         const logic = latest.monitoring_logic || {};
         document.getElementById('monitoring-strategy').textContent = logic.core_rule || '';

@@ -194,6 +194,7 @@ h3,
 }
 
 .count-grid,
+.digest-grid,
 .scenario-grid,
 .focus-cards,
 .evidence-grid {
@@ -250,6 +251,7 @@ h3,
 .confirmation-list,
 .watchpoints,
 .stack-list,
+.route-list,
 .asset-map,
 .monitoring-notes,
 .source-list,
@@ -294,10 +296,16 @@ h3,
 
 .focus-card,
 .scenario-card,
-.evidence-card {
+.evidence-card,
+.digest-card {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.46);
   padding: 16px;
+}
+
+.digest-grid {
+  margin-bottom: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .scenario-grid {
@@ -332,7 +340,8 @@ h3,
 }
 
 .scenario-summary,
-.scenario-source {
+.scenario-source,
+.digest-entry p {
   margin-top: 12px;
   color: var(--muted);
   line-height: 1.7;
@@ -343,6 +352,7 @@ h3,
 }
 
 .confirmation-item,
+.digest-entry,
 .empty-state {
   border: 1px dashed var(--line);
   background: rgba(255, 255, 255, 0.4);
@@ -414,6 +424,11 @@ h3,
 
 .evidence-grid {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.route-grid {
+  display: grid;
+  gap: 12px;
 }
 
 .history-item,
