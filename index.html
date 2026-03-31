@@ -18,8 +18,8 @@
             <p id="latest-summary" class="summary"></p>
           </div>
           <div class="hero-side card subtle-card">
-            <p class="section-tag">今日框架</p>
-            <h2>先结论，再证据，再背景</h2>
+            <p class="section-tag">今日主线总述</p>
+            <h2>先读结论，再看重点事件</h2>
             <div id="daily-counts" class="count-grid"></div>
             <div id="hero-outlook" class="hero-outlook"></div>
           </div>
@@ -43,7 +43,6 @@
               <span id="latest-mode" class="pill"></span>
             </div>
             <div id="judgment-list" class="judgment-list"></div>
-            <div id="scenario-overview" class="scenario-grid"></div>
             <div id="user-confirmation" class="confirmation-list"></div>
             <div id="watchpoints" class="watchpoints"></div>
           </section>
@@ -51,12 +50,12 @@
           <section class="card panel">
             <div class="panel-head">
               <div>
-                <p class="section-tag">证据总览</p>
-                <h2>先看主证据，再看高信号媒体与确认缺口</h2>
+                <p class="section-tag">今日主线总述</p>
+                <h2>文章式总述、主情景与备选情景</h2>
               </div>
             </div>
-            <div id="evidence-digest" class="digest-grid"></div>
-            <div id="official-confirmation-list" class="stack-list"></div>
+            <div id="lead-paragraphs" class="lead-paragraphs"></div>
+            <div id="scenario-overview" class="scenario-grid"></div>
           </section>
 
           <section class="card panel">
@@ -96,10 +95,12 @@
           <section class="card panel">
             <div class="panel-head">
               <div>
-                <p class="section-tag">分桶证据池</p>
-                <h2>用于验证主线，不替代重点判断</h2>
+                <p class="section-tag">证据池与确认状态</p>
+                <h2>判断之后，再回头看主证据、确认状态与分桶证据池</h2>
               </div>
             </div>
+            <div id="evidence-digest" class="digest-grid"></div>
+            <div id="official-confirmation-list" class="stack-list"></div>
             <div id="evidence-sections" class="evidence-grid"></div>
           </section>
         </section>
@@ -155,13 +156,28 @@
       function renderCardTitle(item) {
         const title = document.createElement(item.url ? 'a' : 'span');
         title.className = 'entry-title';
-        title.textContent = item.title;
+        title.textContent = item.title_zh || item.title || '未命名条目';
         if (item.url) {
           title.href = item.url;
           title.target = '_blank';
           title.rel = 'noreferrer';
         }
         return title;
+      }
+
+      function buildSourceMeta(item, extraParts) {
+        const parts = [];
+        if (item.source_name_zh || item.source_name) parts.push(item.source_name_zh || item.source_name);
+        if (item.event_type) parts.push(item.event_type);
+        if (extraParts && extraParts.length) {
+          extraParts.filter(Boolean).forEach((part) => parts.push(part));
+        }
+        return parts.join(' | ');
+      }
+
+      function appendOriginalTitle(container, item) {
+        if (!item.source_title_original) return;
+        container.appendChild(createNode('p', 'entry-summary entry-summary--subtle', '原文标题：' + item.source_title_original));
       }
 
       function renderAssetChips(assets, className) {
@@ -196,7 +212,7 @@
           weak: '弱确认',
           unmatched: '未确认',
         };
-        const matched = item.matched_official_sources || [];
+        const matched = (item.matched_official_sources || []).map((entry) => entry.source_name || entry.source_id || '').filter(Boolean);
         if (matched.length > 0) {
           return '已匹配官方来源：' + matched.join('、') + '；匹配强度：' + (qualityLabel[item.confirmation_match_quality] || item.confirmation_match_quality || '待评估');
         }
@@ -260,14 +276,28 @@
 
       function renderEvidenceEntry(entry, mode) {
         const row = createNode('div', 'digest-entry');
-        const sourceName = entry.source_name || entry.source_id || '未命名来源';
-        row.appendChild(createNode('strong', '', entry.headline || sourceName));
+        const sourceName = entry.source_name_zh || entry.source_name || entry.source_id || '未命名来源';
+        row.appendChild(createNode('strong', '', entry.headline_zh || entry.headline || sourceName));
         const metaParts = [sourceName];
-        if (entry.content_tier) metaParts.push('可见性：' + entry.content_tier);
-        if (entry.evidence_role) metaParts.push('角色：' + entry.evidence_role);
+        const tierMap = {
+          visible_body: '正文可见',
+          partial_visible_body: '正文部分可见',
+          excerpt: '摘要可见',
+          headline: '仅标题',
+          blocked: '受限',
+        };
+        const roleMap = {
+          official_anchor: '官方锚点',
+          clue_high: '高信号线索',
+          confirmation_support: '确认支持',
+          alert_only: '提示线索',
+          market_context_only: '市场上下文',
+        };
+        if (entry.content_tier) metaParts.push('可见性：' + (tierMap[entry.content_tier] || entry.content_tier));
+        if (entry.evidence_role) metaParts.push('角色：' + (roleMap[entry.evidence_role] || entry.evidence_role));
         if (entry.confirmation_match_quality) metaParts.push('确认：' + entry.confirmation_match_quality);
-        if (mode === 'official' && entry.summary) {
-          row.appendChild(createNode('p', 'entry-summary', entry.summary));
+        if ((mode === 'official' || mode === 'media') && (entry.summary_zh || entry.summary)) {
+          row.appendChild(createNode('p', 'entry-summary', entry.summary_zh || entry.summary));
         }
         row.appendChild(createNode('div', 'entry-meta', metaParts.join(' | ')));
         return row;
@@ -293,7 +323,7 @@
           'confirmed-secondary': '官方二级确认',
           'pending-required': '仍待确认',
         };
-        card.appendChild(createNode('strong', '', item.claim || '待确认断言'));
+        card.appendChild(createNode('strong', '', item.claim_zh || item.claim || '待确认断言'));
         card.appendChild(createNode('div', 'entry-meta', statusMap[item.confirmation_status] || item.confirmation_status || '待确认'));
         if (item.official_source) {
           card.appendChild(createNode('p', 'entry-summary', '确认来源：' + item.official_source));
@@ -302,7 +332,8 @@
           card.appendChild(createNode('p', 'entry-summary', '剩余不确定：' + item.remaining_uncertainty));
         }
         if ((item.matched_official_sources || []).length > 0) {
-          card.appendChild(createNode('p', 'entry-summary', '候选官方锚点：' + item.matched_official_sources.join('、')));
+          const anchors = (item.matched_official_sources || []).map((entry) => entry.source_name || entry.source_id || '').filter(Boolean);
+          card.appendChild(createNode('p', 'entry-summary', '候选官方锚点：' + anchors.join('、')));
         }
         return card;
       }
@@ -326,17 +357,19 @@
         const top = createNode('div', 'card-top');
         const level = createNode('span', 'pill level-pill', item.importance_level);
         const basis = item.analysis_basis ? item.analysis_basis : '标题/摘要';
-        const meta = createNode('span', 'entry-meta', [item.source_name, item.event_type, basis, item.confidence + '置信度'].join(' | '));
+        const meta = createNode('span', 'entry-meta', buildSourceMeta(item, [basis, item.confidence ? item.confidence + '置信度' : '']));
         top.appendChild(level);
         top.appendChild(meta);
         card.appendChild(top);
         card.appendChild(renderCardTitle(item));
+        appendOriginalTitle(card, item);
         if (item.market_implication && item.market_implication.assets) {
           card.appendChild(renderAssetChips(item.market_implication.assets, lead ? 'asset-chip-row asset-chip-row--lead' : 'asset-chip-row'));
         }
 
         const sections = [
-          ['发生了什么', item.what_happened],
+          ['发生了什么', item.what_happened_zh || item.what_happened],
+          ['中文摘要', item.summary_zh || item.analysis_summary],
           ['为什么重要', item.why_it_matters],
           ['核心矛盾', item.core_contradiction],
           ['数据校验', item.data_validation_note],
@@ -362,6 +395,9 @@
           row.appendChild(createNode('span', '', value));
           card.appendChild(row);
         });
+        if (item.url) {
+          card.appendChild(createNode('p', 'entry-summary entry-summary--subtle', '原文来源：' + item.url));
+        }
         return card;
       }
 
@@ -396,9 +432,8 @@
           card.appendChild(row);
         });
 
-        if ((item.source_mix || []).length > 0) {
-          const source = createNode('p', 'scenario-source', '参考来源：' + item.source_mix.join('；'));
-          card.appendChild(source);
+        if (item.framework_support_note) {
+          card.appendChild(createNode('p', 'scenario-source', item.framework_support_note));
         }
         return card;
       }
@@ -409,7 +444,7 @@
         top.appendChild(createNode('span', 'pill level-pill', item.card_kind || '存量主线'));
         top.appendChild(createNode('span', 'entry-meta', '无新增 A 级事件时，用存量主线继续组织判断'));
         card.appendChild(top);
-        card.appendChild(createNode('div', 'entry-title', item.title || '存量主线'));
+        card.appendChild(createNode('div', 'entry-title', item.title_zh || item.title || '存量主线'));
 
         const sections = [
           ['主线摘要', item.summary],
@@ -420,7 +455,7 @@
           ['今日资产含义', joinText(item.asset_hint_lines || [])],
           ['支撑条目', joinText(item.supporting_items || [])],
           ['跟踪点', joinText(item.follow_up_signals || [])],
-          ['参考框架', joinText(item.source_mix || [])],
+          ['框架支持', item.framework_support_note],
         ];
 
         sections.forEach(([label, value]) => {
@@ -455,7 +490,9 @@
         header.appendChild(renderCardTitle(item));
         header.appendChild(createNode('span', 'pill small-pill', item.importance_level));
         wrap.appendChild(header);
-        wrap.appendChild(createNode('div', 'entry-meta', [item.source_name, item.event_type].join(' | ')));
+        appendOriginalTitle(wrap, item);
+        wrap.appendChild(createNode('div', 'entry-meta', buildSourceMeta(item)));
+        if (item.summary_zh) wrap.appendChild(createNode('p', 'entry-summary', item.summary_zh));
         if (item.analysis_summary) wrap.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
         if (item.core_contradiction) {
           wrap.appendChild(createNode('p', 'entry-summary', '核心矛盾：' + item.core_contradiction));
@@ -482,7 +519,7 @@
           const row = createNode('div', 'evidence-item');
           row.appendChild(renderCardTitle(item));
           row.appendChild(createNode('div', 'entry-meta', [item.source_name, item.importance_level].join(' | ')));
-          row.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
+          row.appendChild(createNode('p', 'entry-summary', item.summary_zh || item.analysis_summary));
           list.appendChild(row);
         });
         card.appendChild(list);
@@ -497,8 +534,8 @@
         document.getElementById('site-title').textContent = payload.site.title;
         document.getElementById('site-subtitle').textContent = payload.site.subtitle;
         document.getElementById('latest-date').textContent = latest.date;
-        document.getElementById('latest-headline').textContent = latest.headline;
-        document.getElementById('latest-summary').textContent = latest.summary;
+        document.getElementById('latest-headline').textContent = latest.headline_zh || latest.headline;
+        document.getElementById('latest-summary').textContent = latest.lead_summary || latest.summary;
         document.getElementById('generated-at').textContent = '页面生成时间：' + payload.site.generated_at;
         document.getElementById('site-mode').textContent = '页面模式：' + payload.site.mode;
         document.getElementById('latest-mode').textContent = latest.mode || '分析日报';
@@ -527,6 +564,14 @@
           row.appendChild(createNode('span', '', text));
           judgmentWrap.appendChild(row);
         });
+
+        const leadParagraphWrap = document.getElementById('lead-paragraphs');
+        (latest.lead_paragraphs || []).forEach((text) => {
+          leadParagraphWrap.appendChild(createNode('p', 'lead-paragraph', text));
+        });
+        if (!leadParagraphWrap.children.length) {
+          leadParagraphWrap.appendChild(createNode('div', 'empty-state', '今天暂时没有可展示的主线总述。'));
+        }
 
         const scenarioWrap = document.getElementById('scenario-overview');
         (latest.scenario_overview || []).forEach((item) => {

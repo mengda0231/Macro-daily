@@ -30,16 +30,8 @@ run-local-npm.cmd run dev
 
 `run check` 会校验 `data/latest.json` 的关键字段，避免把结构异常的数据发布到线上。
 
-当前源文件集合：
+说明：
 
-- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-research-motherboard.md`
-- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-transmission-map.md`
-- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-daily-analysis-framework.md`
-- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-learning-live-notes.md`
-- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-misjudgment-and-falsification.md`
-- `F:\Codex\projects\research-report\learning\02-macro-synthesis\macro-to-industry-interfaces.md`
-- `F:\Codex\projects\research-report\playbooks\macro-strategy-general-playbook.md`
-- `F:\Codex\projects\research-report\capability\macro-strategy-general.md`
-- `F:\Codex\projects\research-report\source-registry.json`
-- `F:\Codex\projects\research-report\_work\macro-daily\daily-analysis-latest.json`
-- `F:\Codex\projects\research-report\_work\macro-data\snapshot-latest.json`
+- 前台页面只展示当日新闻流、官方发布、媒体报道、财联社与核心社媒信源的分析结果。
+- 研究报告、学习卡、playbook 与 capability 只作为后台研究框架能力层，不直接作为每日日报素材展示。
+- 页面默认采用中文优先展示，英文原文标题仅作为附属来源信息保留。

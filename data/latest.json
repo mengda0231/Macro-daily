@@ -2,19 +2,26 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-31 13:37:35",
+    "generated_at": "2026-03-31 14:05:07",
     "mode": "分析日报"
   },
   "latest": {
     "slug": "2026-03-31",
     "date": "2026-03-31",
     "headline": "今天筛出 4 条重点、8 条关注、12 条背景事件；主线聚焦在汇率/跨境流动、数据验证。",
-    "summary": "这份日报优先回答“为什么重要、如何传导、对资产意味着什么”，并尽量用正文增量而不是仅用标题做点评。",
+    "headline_zh": "今天的宏观日报筛出 4 条重点事件、8 条次级关注和 12 条背景信息，判断主线主要围绕增长、通胀、利率与风险偏好、人民币汇率与股市展开。",
+    "summary": "这份日报只消费当日新闻流和官方/媒体/社媒信源，并用研究框架去判断为什么重要、如何传导、对投资意味着什么。",
+    "lead_summary": "当前主情景仍以“利率约束延续型”为主，当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。 从资产映射看，A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。 接下来最关键的验证点是核心通胀继续偏强。",
+    "lead_paragraphs": [
+      "今天最重要的判断有三层：在“增长、通胀、利率与风险偏好”这条主线上，当前更接近“利率约束延续型”情景，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。备选路径仍是“增长放缓宽松回归型”；如果接下来看到核心通胀继续偏强、10Y 和 2Y 利率维持高位这些信号，今天的判断就需要及时切换。 在“人民币汇率与股市”这条主线上，当前更接近“结构性升值型”情景，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。备选路径仍是“基本面共振型”；如果接下来看到主动外资持续净流入股市、社融和内需同步修复这些信号，今天的判断就需要及时切换。",
+      "从情景上看，当前先采用“利率约束延续型”视角，不是因为备选路径不成立，而是因为今天的证据更支持这一边。真正需要防的是“增长放缓宽松回归型”，一旦看到核心通胀继续偏强、10Y 和 2Y 利率维持高位、就业只是边际转弱，市场就可能开始切换交易方向。",
+      "落实到投资上，今天更有参考价值的是这些资产线索：A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。；利率：偏空，利率方向仍要看国内增长与政策组合。；美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。。如果后续要验证今天的判断，优先继续盯住核心通胀继续偏强、10Y 和 2Y 利率维持高位、主动外资持续净流入股市。"
+    ],
     "mode": "分析日报",
     "judgments": [
-      "增长、通胀、利率与风险偏好：当前主情景为“利率约束延续型”，当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。。备选情景是“增长放缓宽松回归型”；若核心通胀继续偏强；10Y 和 2Y 利率维持高位，就要切换视角。",
-      "人民币汇率与股市：当前主情景为“结构性升值型”，当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。。备选情景是“基本面共振型”；若主动外资持续净流入股市；社融和内需同步修复，就要切换视角。",
-      "中国宏观母板、硬资产与产业升级：当前主情景为“防御硬资产型”，当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。。备选情景是“结构升级型”；若科技与绿色目标继续量化细化；6-12 个月内出台更多行业蓝图，就要切换视角。",
+      "在“增长、通胀、利率与风险偏好”这条主线上，当前更接近“利率约束延续型”情景，因为当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。备选路径仍是“增长放缓宽松回归型”；如果接下来看到核心通胀继续偏强、10Y 和 2Y 利率维持高位这些信号，今天的判断就需要及时切换。",
+      "在“人民币汇率与股市”这条主线上，当前更接近“结构性升值型”情景，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。备选路径仍是“基本面共振型”；如果接下来看到主动外资持续净流入股市、社融和内需同步修复这些信号，今天的判断就需要及时切换。",
+      "在“中国宏观母板、硬资产与产业升级”这条主线上，当前更接近“防御硬资产型”情景，因为当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。备选路径仍是“结构升级型”；如果接下来看到科技与绿色目标继续量化细化、6-12 个月内出台更多行业蓝图这些信号，今天的判断就需要及时切换。",
       "美债长短端目前都在上行且 10Y-2Y 利差维持正值，说明市场仍在交易更高的长端定价和并未明显转松的金融条件。",
       "美国失业率边际抬升，当前更像就业韧性开始松动的早期信号，但还需要非农、工资和工时共同验证。"
     ],
@@ -39,13 +46,7 @@
           "如果就业与增长明确走弱，利率约束延续型会失效",
           "如果通胀和长端利率重新抬升，增长放缓宽松回归型会失效"
         ],
-        "source_mix": [
-          "大摩-全球宏观下一步：通胀与增长如何抉择",
-          "花旗-全球宏观策略：滞胀之风",
-          "法国兴业-宏观大局：现实审视",
-          "大摩-周一宏观策略谈：全球压力测试",
-          "macro-data-interfaces-map"
-        ]
+        "framework_support_note": "该判断调用了历史研究框架，但前台不直接展示学习报告或文件名。"
       },
       {
         "topic_id": "fx-equity",
@@ -67,12 +68,7 @@
           "如果外资直接入市和内需修复同时被验证，结构性升值型会失效",
           "如果升值持续但股市仍无增量资金验证，基本面共振型会失效。"
         ],
-        "source_mix": [
-          "宏观策略周论：汇率与股市的关系",
-          "macro-intake-20260316-fx-equity-study",
-          "macro-strategy-general-study",
-          "macro-strategy-memo-study"
-        ]
+        "framework_support_note": "该判断调用了历史研究框架，但前台不直接展示学习报告或文件名。"
       },
       {
         "topic_id": "china-macro-hard-assets",
@@ -94,23 +90,21 @@
           "如果政策蓝图迟迟不落地且盈利兑现缺失，结构升级型会失效",
           "如果外部冲击缓和且消费修复接力，单纯防御硬资产型会失效。"
         ],
-        "source_mix": [
-          "大摩-中国宏观主题",
-          "大摩-周一宏观策略谈：全球压力测试",
-          "宏观策略周论：油价、黄金与科技",
-          "macro-research-motherboard"
-        ]
+        "framework_support_note": "该判断调用了历史研究框架，但前台不直接展示学习报告或文件名。"
       }
     ],
     "focus_cards": [
       {
         "id": "us-bea-current-releases-u-s-international-transactions-and-investment-position-4th-quarter-and-year-2025",
         "title": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
+        "title_zh": "美国国际收支与国际投资头寸，2025年第四季度及全年",
+        "source_title_original": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
         "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
         "published_at": null,
         "event_date": "2026-03-31",
         "source_id": "us-bea-current-releases",
         "source_name": "U.S. Bureau of Economic Analysis Current Releases",
+        "source_name_zh": "美国经济分析局 最新发布",
         "theme": "us-data",
         "category": "official-primary",
         "priority": "P0",
@@ -125,7 +119,8 @@
         "event_type": "汇率/跨境流动",
         "analysis_lens": "external_balance",
         "what_happened": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int...",
-        "analysis_summary": "汇率/跨境流动视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "what_happened_zh": "美国经济分析局发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“美国国际收支与国际投资头寸，2025年第四季度及全年”。",
+        "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。 这类信息先影响汇率和跨境流动，再反过来决定外资风险偏好与国内政策空间。真正的关键不是单项数字，而是外部平衡是否在改善或恶化。 这次判断主要基于可见正文。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。",
         "macro_transmission": [
           "国际收支/跨境流动变化 -> 汇率预期与外资方向调整 -> 国内政策空间与风险偏好再定价；当前正文中已有更明确的数字或措辞增量。",
@@ -199,6 +194,7 @@
         "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。",
         "detail_excerpt": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from international economic transactions narrowed by $48.4 billion, or 20.2 percent, to $190.7 billion in the fourth quarter of 2025, according to statistics released t...",
         "analysis_basis": "正文提炼",
+        "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“美国国际收支与国际投资头寸，2025年第四季度及全年”。",
         "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
         "falsification_points": [
           "如果后续经常账户或资本流动没有继续改善，当前外部平衡改善逻辑要降级。",
@@ -269,6 +265,7 @@
             {
               "source_id": "us-bea-current-releases",
               "source_name": "U.S. Bureau of Economic Analysis Current Releases",
+              "source_name_zh": "美国经济分析局 最新发布",
               "source_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
               "published_at": null,
               "trust_level": "primary",
@@ -286,7 +283,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
-              "summary": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int..."
+              "headline_zh": "美国国际收支与国际投资头寸，2025年第四季度及全年",
+              "summary": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int...",
+              "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“美国国际收支与国际投资头寸，2025年第四季度及全年”。"
             }
           ],
           "market_context_evidence": [
@@ -303,7 +302,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "汇率/跨境流动视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+              "summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。 这类信息先影响汇率和跨境流动，再反过来决定外资风险偏好与国内政策空间。真正的关键不是单项数字，而是外部平衡是否在改善或恶化。 这次判断主要基于可见正文。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
               "why_it_matters": "外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。",
               "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
               "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
@@ -333,11 +332,14 @@
       {
         "id": "us-bea-current-releases-u-s-international-trade-in-goods-and-services-january-2026",
         "title": "U.S. International Trade in Goods and Services, January 2026",
+        "title_zh": "美国经济分析局 最新发布：数据验证更新",
+        "source_title_original": "U.S. International Trade in Goods and Services, January 2026",
         "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
         "published_at": null,
         "event_date": "2026-03-31",
         "source_id": "us-bea-current-releases",
         "source_name": "U.S. Bureau of Economic Analysis Current Releases",
+        "source_name_zh": "美国经济分析局 最新发布",
         "theme": "us-data",
         "category": "official-primary",
         "priority": "P0",
@@ -352,7 +354,8 @@
         "event_type": "数据验证",
         "analysis_lens": "us_inflation",
         "what_happened": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser...",
-        "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+        "what_happened_zh": "美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 美国通胀信息真正重要的地方不在headline本身，而在正文中的新增数字或执行口径是否改变核心粘性、联储路径和美债利率中枢。 美国通胀信息最先影响联储路径和美债利率，再通过美元和风险偏好外溢到全球资产。判断重点是核心项而不是 headline 的单次波动。 这次判断主要基于可见正文。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
         "why_it_matters": "美国通胀信息真正重要的地方不在headline本身，而在正文中的新增数字或执行口径是否改变核心粘性、联储路径和美债利率中枢。",
         "macro_transmission": [
           "美国通胀分项变化 -> 联储路径与美债利率修正 -> 美元和全球风险偏好调整；当前正文中已有更明确的数字或措辞增量。",
@@ -426,6 +429,7 @@
         "raw_summary": "美国 GDP、PCE、收入、贸易和行业活动发布的一手来源。",
         "detail_excerpt": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the services surplus of $1.0 billion to $27.3 billion. International Trade in Goods and Services, January 2026 EMBARGOED UNTIL RELEASE AT 8:30 A.M.",
         "analysis_basis": "正文提炼",
+        "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于通胀粘性是否仍足以压住宽松预期。",
         "falsification_points": [
           "如果核心分项没有继续偏强，通胀粘性主线要降级。",
@@ -496,6 +500,7 @@
             {
               "source_id": "us-bea-current-releases",
               "source_name": "U.S. Bureau of Economic Analysis Current Releases",
+              "source_name_zh": "美国经济分析局 最新发布",
               "source_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
               "published_at": null,
               "trust_level": "primary",
@@ -513,7 +518,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "U.S. International Trade in Goods and Services, January 2026",
-              "summary": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser..."
+              "headline_zh": "美国经济分析局 最新发布：数据验证更新",
+              "summary": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser...",
+              "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -530,7 +537,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 美国通胀信息真正重要的地方不在headline本身，而在正文中的新增数字或执行口径是否改变核心粘性、联储路径和美债利率中枢。 美国通胀信息最先影响联储路径和美债利率，再通过美元和风险偏好外溢到全球资产。判断重点是核心项而不是 headline 的单次波动。 这次判断主要基于可见正文。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
               "why_it_matters": "美国通胀信息真正重要的地方不在headline本身，而在正文中的新增数字或执行口径是否改变核心粘性、联储路径和美债利率中枢。",
               "core_contradiction": "主矛盾在于通胀粘性是否仍足以压住宽松预期。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -560,11 +567,14 @@
       {
         "id": "eu-ecb-statistical-rss-euro-area-monthly-balance-of-payments-january-2026",
         "title": "Euro area monthly balance of payments: January 2026",
+        "title_zh": "欧洲央行统计新闻稿：汇率/跨境流动更新",
+        "source_title_original": "Euro area monthly balance of payments: January 2026",
         "url": "https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html",
         "published_at": "Fri, 20 Mar 2026 10:00:00 +0100",
         "event_date": "2026-03-31",
         "source_id": "eu-ecb-statistical-rss",
         "source_name": "欧洲央行统计新闻稿",
+        "source_name_zh": "欧洲央行统计新闻稿",
         "theme": "euro-data",
         "category": "official-primary",
         "priority": "P0",
@@ -579,7 +589,8 @@
         "event_type": "汇率/跨境流动",
         "analysis_lens": "external_balance",
         "what_happened": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά En...",
-        "analysis_summary": "汇率/跨境流动视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "what_happened_zh": "欧洲央行统计新闻稿了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：汇率/跨境流动更新”。",
+        "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。 这类信息先影响汇率和跨境流动，再反过来决定外资风险偏好与国内政策空间。真正的关键不是单项数字，而是外部平衡是否在改善或恶化。 这次判断主要基于可见正文。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。",
         "macro_transmission": [
           "国际收支/跨境流动变化 -> 汇率预期与外资方向调整 -> 国内政策空间与风险偏好再定价；当前正文中已有更明确的数字或措辞增量。",
@@ -653,6 +664,7 @@
         "raw_summary": "Euro area monthly balance of payments: January 2026",
         "detail_excerpt": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά English Español Eesti keel Suomi Français Gaeilge Hrvatski Magyar Italiano Lietuvių Latviešu Malti Nederlands Polski Português Română Slovenčina Slovenščina Svens...",
         "analysis_basis": "正文提炼",
+        "summary_zh": "根据可见正文整理，欧洲央行统计新闻稿了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：汇率/跨境流动更新”。",
         "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
         "falsification_points": [
           "如果后续经常账户或资本流动没有继续改善，当前外部平衡改善逻辑要降级。",
@@ -723,6 +735,7 @@
             {
               "source_id": "eu-ecb-statistical-rss",
               "source_name": "欧洲央行统计新闻稿",
+              "source_name_zh": "欧洲央行统计新闻稿",
               "source_url": "https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html",
               "published_at": "Fri, 20 Mar 2026 10:00:00 +0100",
               "trust_level": "primary",
@@ -740,7 +753,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "Euro area monthly balance of payments: January 2026",
-              "summary": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά En..."
+              "headline_zh": "欧洲央行统计新闻稿：汇率/跨境流动更新",
+              "summary": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά En...",
+              "summary_zh": "根据可见正文整理，欧洲央行统计新闻稿了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：汇率/跨境流动更新”。"
             }
           ],
           "market_context_evidence": [
@@ -757,7 +772,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "汇率/跨境流动视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+              "summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。 这类信息先影响汇率和跨境流动，再反过来决定外资风险偏好与国内政策空间。真正的关键不是单项数字，而是外部平衡是否在改善或恶化。 这次判断主要基于可见正文。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
               "why_it_matters": "外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。",
               "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
               "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
@@ -787,11 +802,14 @@
       {
         "id": "eu-ecb-statistical-rss-monetary-developments-in-the-euro-area-january-2026",
         "title": "Monetary developments in the euro area: January 2026",
+        "title_zh": "欧洲央行统计新闻稿：数据验证更新",
+        "source_title_original": "Monetary developments in the euro area: January 2026",
         "url": "https://www.ecb.europa.eu//press/stats/md/html/ecb.md2601~d2cecf4f49.en.html",
         "published_at": "Thu, 26 Feb 2026 10:00:00 +0100",
         "event_date": "2026-03-31",
         "source_id": "eu-ecb-statistical-rss",
         "source_name": "欧洲央行统计新闻稿",
+        "source_name_zh": "欧洲央行统计新闻稿",
         "theme": "euro-data",
         "category": "official-primary",
         "priority": "P0",
@@ -806,7 +824,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά E...",
-        "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
+        "what_happened_zh": "欧洲央行统计新闻稿了一条与数据验证相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 这类数据的价值在于验证或反驳当前主线，尤其要看正文中的新增数字或执行口径是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于可见正文。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看正文中的新增数字或执行口径是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整；当前正文中已有更明确的数字或措辞增量。",
@@ -880,6 +899,7 @@
         "raw_summary": "Monetary developments in the euro area: January 2026",
         "detail_excerpt": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά English Español Eesti keel Suomi Français Gaeilge Hrvatski Magyar Italiano Lietuvių Latviešu Malti Nederlands Polski Português Română Slovenčina Slovenščina Sven...",
         "analysis_basis": "正文提炼",
+        "summary_zh": "根据可见正文整理，欧洲央行统计新闻稿了一条与数据验证相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -942,6 +962,7 @@
             {
               "source_id": "eu-ecb-statistical-rss",
               "source_name": "欧洲央行统计新闻稿",
+              "source_name_zh": "欧洲央行统计新闻稿",
               "source_url": "https://www.ecb.europa.eu//press/stats/md/html/ecb.md2601~d2cecf4f49.en.html",
               "published_at": "Thu, 26 Feb 2026 10:00:00 +0100",
               "trust_level": "primary",
@@ -959,7 +980,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "Monetary developments in the euro area: January 2026",
-              "summary": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά E..."
+              "headline_zh": "欧洲央行统计新闻稿：数据验证更新",
+              "summary": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά E...",
+              "summary_zh": "根据可见正文整理，欧洲央行统计新闻稿了一条与数据验证相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -976,7 +999,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 这类数据的价值在于验证或反驳当前主线，尤其要看正文中的新增数字或执行口径是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于可见正文。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看正文中的新增数字或执行口径是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
@@ -1007,6 +1030,7 @@
       {
         "card_kind": "存量主线",
         "title": "增长、通胀、利率与风险偏好",
+        "title_zh": "增长、通胀、利率与风险偏好",
         "summary": "宏观日报必须同时跟踪增长、通胀、利率、风险偏好和央行反应函数，不能只盯 headline 数据。",
         "why_now": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
         "current_view": "利率约束延续型：通胀和长端利率维持偏高，金融条件没有明显转松，央行仍优先压住通胀和二次通胀预期，风险资产更多是结构交易而不是全面再定价。",
@@ -1027,20 +1051,16 @@
           "5.Investment in Real Estate Development from January to February 2026"
         ],
         "asset_hint_lines": [
-          "A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。；若核心通胀偏强，全球风险资产估值承压。；更强增长或更稳数据通常改善权益预期。；流动性改善通常先利好成长与高弹性资产。",
-          "利率：偏空，利率方向仍要看国内增长与政策组合。；通胀粘性通常抬高利率中枢预期。；增长或通胀预期抬升会推高利率中枢。；若宽松倾向强化，利率中枢更易下移。；数据快照显示美债 2Y/10Y 分...",
-          "美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。；更强通胀往往支撑美元。；数据改善有利于稳定人民币与风险偏好。；宽松若明显加大，人民币可能阶段性承压。；长短端利差维持正值，美元利率..."
+          "A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。",
+          "利率：偏空，利率方向仍要看国内增长与政策组合。",
+          "美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。"
         ],
-        "source_mix": [
-          "大摩-全球宏观下一步：通胀与增长如何抉择",
-          "花旗-全球宏观策略：滞胀之风",
-          "法国兴业-宏观大局：现实审视",
-          "大摩-周一宏观策略谈：全球压力测试"
-        ]
+        "framework_support_note": "该判断调用了历史研究框架，但前台不直接展示学习报告或文件名。"
       },
       {
         "card_kind": "存量主线",
         "title": "人民币汇率与股市",
+        "title_zh": "人民币汇率与股市",
         "summary": "写汇率和股市关系时，必须先拆人民币升值来自哪里，再判断资金到底流向了经常账户、债券、现金、FDI 还是股市。",
         "why_now": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
         "current_view": "结构性升值型：人民币升值主要来自外需顺差、结汇需求和美元环境变化，跨境流入未必进入股市，市场更可能表现为结构性而非全面行情。",
@@ -1059,21 +1079,17 @@
           "中国人民银行召开2026年国库工作会议"
         ],
         "asset_hint_lines": [
-          "A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。；若核心通胀偏强，全球风险资产估值承压。；更强增长或更稳数据通常改善权益预期。；流动性改善通常先利好成长与高弹性资产。",
-          "利率：偏空，利率方向仍要看国内增长与政策组合。；通胀粘性通常抬高利率中枢预期。；增长或通胀预期抬升会推高利率中枢。；若宽松倾向强化，利率中枢更易下移。；数据快照显示美债 2Y/10Y 分...",
-          "美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。；更强通胀往往支撑美元。；数据改善有利于稳定人民币与风险偏好。；宽松若明显加大，人民币可能阶段性承压。；长短端利差维持正值，美元利率..."
+          "A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。",
+          "利率：偏空，利率方向仍要看国内增长与政策组合。",
+          "美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。"
         ],
-        "source_mix": [
-          "宏观策略周论：汇率与股市的关系",
-          "macro-intake-20260316-fx-equity-study",
-          "macro-strategy-general-study",
-          "macro-strategy-memo-study"
-        ]
+        "framework_support_note": "该判断调用了历史研究框架，但前台不直接展示学习报告或文件名。"
       },
       {
         "card_kind": "最强次级催化",
         "title": "中国人民银行召开2026年国库工作会议",
-        "summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "title_zh": "中国人民银行召开2026年国库工作会议",
+        "summary": "这是一条流动性/利率类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_now": "中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。",
         "current_view": "今天先不采用“基本面共振型”，因为当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
         "alternative_view": "主矛盾在于流动性改善能否真正传导到信用与风险偏好，而不只是停留在预期层。",
@@ -1093,22 +1109,25 @@
           "低"
         ],
         "asset_hint_lines": [
-          "A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。；若核心通胀偏强，全球风险资产估值承压。；更强增长或更稳数据通常改善权益预期。；流动性改善通常先利好成长与高弹性资产。",
-          "利率：偏空，利率方向仍要看国内增长与政策组合。；通胀粘性通常抬高利率中枢预期。；增长或通胀预期抬升会推高利率中枢。；若宽松倾向强化，利率中枢更易下移。；数据快照显示美债 2Y/10Y 分...",
-          "美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。；更强通胀往往支撑美元。；数据改善有利于稳定人民币与风险偏好。；宽松若明显加大，人民币可能阶段性承压。；长短端利差维持正值，美元利率..."
+          "A股/港股风险偏好：偏多，外部平衡改善通常有利于风险溢价回落。",
+          "利率：偏空，利率方向仍要看国内增长与政策组合。",
+          "美元/人民币：偏多，跨境流动和经常账户改善通常利于人民币预期。"
         ],
-        "source_mix": []
+        "framework_support_note": "该条目来自当日新闻流判断，不展示后台学习材料文件名。"
       }
     ],
     "secondary_items": [
       {
         "id": "cn-pboc-home-中国人民银行召开2026年国库工作会议",
         "title": "中国人民银行召开2026年国库工作会议",
+        "title_zh": "中国人民银行召开2026年国库工作会议",
+        "source_title_original": null,
         "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032315013158591/index.html",
         "published_at": null,
         "event_date": "2026-03-23",
         "source_id": "cn-pboc-home",
         "source_name": "中国人民银行",
+        "source_name_zh": "中国人民银行",
         "theme": "china-monetary-policy",
         "category": "official-primary",
         "priority": "P0",
@@ -1123,7 +1142,8 @@
         "event_type": "流动性/利率",
         "analysis_lens": "china_liquidity",
         "what_happened": "中国人民银行召开2026年国库工作会议",
-        "analysis_summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "what_happened_zh": "中国人民银行召开2026年国库工作会议",
+        "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。",
         "macro_transmission": [
           "流动性工具或短端条件变化 -> 贴现率与信用条件修正 -> 权益估值和汇率预期同步调整",
@@ -1197,6 +1217,7 @@
         "raw_summary": "中国货币政策与流动性核心信源，重点关注公开市场操作、LPR、汇率、金融稳定和官方统计发布。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，中国人民银行召开2026年国库工作会议",
         "core_contradiction": "主矛盾在于流动性改善能否真正传导到信用与风险偏好，而不只是停留在预期层。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1267,6 +1288,7 @@
             {
               "source_id": "cn-pboc-home",
               "source_name": "中国人民银行",
+              "source_name_zh": "中国人民银行",
               "source_url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032315013158591/index.html",
               "published_at": null,
               "trust_level": "primary",
@@ -1284,7 +1306,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "中国人民银行召开2026年国库工作会议",
-              "summary": "中国人民银行召开2026年国库工作会议"
+              "headline_zh": "中国人民银行召开2026年国库工作会议",
+              "summary": "中国人民银行召开2026年国库工作会议",
+              "summary_zh": "基于标题/摘要整理，中国人民银行召开2026年国库工作会议"
             }
           ],
           "market_context_evidence": [
@@ -1301,7 +1325,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+              "summary": "这是一条流动性/利率类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
               "why_it_matters": "中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。",
               "core_contradiction": "主矛盾在于流动性改善能否真正传导到信用与风险偏好，而不只是停留在预期层。",
               "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
@@ -1331,11 +1355,14 @@
       {
         "id": "cn-nbs-press-release-9-market-prices-of-important-means-of-production-in-circulation-march-1-10-2026",
         "title": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
+        "title_zh": "国家统计局英文发布：数据验证更新",
+        "source_title_original": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260312_1962757.html",
         "published_at": null,
         "event_date": "2026-03-12",
         "source_id": "cn-nbs-press-release",
         "source_name": "国家统计局英文发布",
+        "source_name_zh": "国家统计局英文发布",
         "theme": "china-data",
         "category": "official-primary",
         "priority": "P0",
@@ -1350,7 +1377,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "what_happened_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
@@ -1424,6 +1452,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1486,6 +1515,7 @@
             {
               "source_id": "cn-nbs-press-release",
               "source_name": "国家统计局英文发布",
+              "source_name_zh": "国家统计局英文发布",
               "source_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260312_1962757.html",
               "published_at": null,
               "trust_level": "primary",
@@ -1503,7 +1533,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-              "summary": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026"
+              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "summary": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
+              "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -1520,7 +1552,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -1549,11 +1581,14 @@
       {
         "id": "cn-nbs-press-release-7-energy-production-from-january-to-february-2026",
         "title": "7.Energy Production from January to February 2026",
+        "title_zh": "国家统计局英文发布：数据验证更新",
+        "source_title_original": "7.Energy Production from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962806.html",
         "published_at": null,
         "event_date": "2026-03-17",
         "source_id": "cn-nbs-press-release",
         "source_name": "国家统计局英文发布",
+        "source_name_zh": "国家统计局英文发布",
         "theme": "china-data",
         "category": "official-primary",
         "priority": "P0",
@@ -1568,7 +1603,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "7.Energy Production from January to February 2026",
-        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "what_happened_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
@@ -1642,6 +1678,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1704,6 +1741,7 @@
             {
               "source_id": "cn-nbs-press-release",
               "source_name": "国家统计局英文发布",
+              "source_name_zh": "国家统计局英文发布",
               "source_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962806.html",
               "published_at": null,
               "trust_level": "primary",
@@ -1721,7 +1759,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "7.Energy Production from January to February 2026",
-              "summary": "7.Energy Production from January to February 2026"
+              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "summary": "7.Energy Production from January to February 2026",
+              "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -1738,7 +1778,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -1767,11 +1807,14 @@
       {
         "id": "cn-nbs-press-release-6-total-retail-sales-of-consumer-goods-from-january-to-february-2026",
         "title": "6.Total Retail Sales of Consumer Goods from January to February 2026",
+        "title_zh": "国家统计局英文发布：数据验证更新",
+        "source_title_original": "6.Total Retail Sales of Consumer Goods from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962805.html",
         "published_at": null,
         "event_date": "2026-03-17",
         "source_id": "cn-nbs-press-release",
         "source_name": "国家统计局英文发布",
+        "source_name_zh": "国家统计局英文发布",
         "theme": "china-data",
         "category": "official-primary",
         "priority": "P0",
@@ -1786,7 +1829,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "what_happened_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
@@ -1860,6 +1904,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1922,6 +1967,7 @@
             {
               "source_id": "cn-nbs-press-release",
               "source_name": "国家统计局英文发布",
+              "source_name_zh": "国家统计局英文发布",
               "source_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962805.html",
               "published_at": null,
               "trust_level": "primary",
@@ -1939,7 +1985,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-              "summary": "6.Total Retail Sales of Consumer Goods from January to February 2026"
+              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "summary": "6.Total Retail Sales of Consumer Goods from January to February 2026",
+              "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -1956,7 +2004,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
@@ -1985,11 +2033,14 @@
       {
         "id": "cn-nbs-press-release-5-investment-in-real-estate-development-from-january-to-february-2026",
         "title": "5.Investment in Real Estate Development from January to February 2026",
+        "title_zh": "国家统计局英文发布：数据验证更新",
+        "source_title_original": "5.Investment in Real Estate Development from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962803.html",
         "published_at": null,
         "event_date": "2026-03-17",
         "source_id": "cn-nbs-press-release",
         "source_name": "国家统计局英文发布",
+        "source_name_zh": "国家统计局英文发布",
         "theme": "china-data",
         "category": "official-primary",
         "priority": "P0",
@@ -2004,7 +2055,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "5.Investment in Real Estate Development from January to February 2026",
-        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "what_happened_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
@@ -2078,6 +2130,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -2140,6 +2193,7 @@
             {
               "source_id": "cn-nbs-press-release",
               "source_name": "国家统计局英文发布",
+              "source_name_zh": "国家统计局英文发布",
               "source_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962803.html",
               "published_at": null,
               "trust_level": "primary",
@@ -2157,7 +2211,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "5.Investment in Real Estate Development from January to February 2026",
-              "summary": "5.Investment in Real Estate Development from January to February 2026"
+              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "summary": "5.Investment in Real Estate Development from January to February 2026",
+              "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -2174,7 +2230,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -2203,11 +2259,14 @@
       {
         "id": "cn-nbs-press-release-4-investment-in-fixed-assets-from-january-to-february-2026",
         "title": "4.Investment in Fixed Assets from January to February 2026",
+        "title_zh": "国家统计局英文发布：数据验证更新",
+        "source_title_original": "4.Investment in Fixed Assets from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962801.html",
         "published_at": null,
         "event_date": "2026-03-17",
         "source_id": "cn-nbs-press-release",
         "source_name": "国家统计局英文发布",
+        "source_name_zh": "国家统计局英文发布",
         "theme": "china-data",
         "category": "official-primary",
         "priority": "P0",
@@ -2222,7 +2281,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "4.Investment in Fixed Assets from January to February 2026",
-        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "what_happened_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
@@ -2296,6 +2356,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -2358,6 +2419,7 @@
             {
               "source_id": "cn-nbs-press-release",
               "source_name": "国家统计局英文发布",
+              "source_name_zh": "国家统计局英文发布",
               "source_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962801.html",
               "published_at": null,
               "trust_level": "primary",
@@ -2375,7 +2437,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "4.Investment in Fixed Assets from January to February 2026",
-              "summary": "4.Investment in Fixed Assets from January to February 2026"
+              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "summary": "4.Investment in Fixed Assets from January to February 2026",
+              "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -2392,7 +2456,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -2421,11 +2485,14 @@
       {
         "id": "cn-nbs-press-release-3-industrial-production-operation-from-january-to-february-2026",
         "title": "3.Industrial Production Operation from January to February 2026",
+        "title_zh": "国家统计局英文发布：数据验证更新",
+        "source_title_original": "3.Industrial Production Operation from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962800.html",
         "published_at": null,
         "event_date": "2026-03-17",
         "source_id": "cn-nbs-press-release",
         "source_name": "国家统计局英文发布",
+        "source_name_zh": "国家统计局英文发布",
         "theme": "china-data",
         "category": "official-primary",
         "priority": "P0",
@@ -2440,7 +2507,8 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "3.Industrial Production Operation from January to February 2026",
-        "analysis_summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+        "what_happened_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
+        "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
           "核心数据变化 -> 增长/通胀预期修正 -> 政策路径与资产定价调整",
@@ -2514,6 +2582,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -2576,6 +2645,7 @@
             {
               "source_id": "cn-nbs-press-release",
               "source_name": "国家统计局英文发布",
+              "source_name_zh": "国家统计局英文发布",
               "source_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962800.html",
               "published_at": null,
               "trust_level": "primary",
@@ -2593,7 +2663,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "3.Industrial Production Operation from January to February 2026",
-              "summary": "3.Industrial Production Operation from January to February 2026"
+              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "summary": "3.Industrial Production Operation from January to February 2026",
+              "summary_zh": "基于标题/摘要整理，国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。"
             }
           ],
           "market_context_evidence": [
@@ -2610,7 +2682,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "数据验证视角下，这条信息对今日判断有辅助价值。",
+              "summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
               "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -2639,11 +2711,14 @@
       {
         "id": "cn-ndrc-news-国家对成品油价格采取临时调控措施",
         "title": "国家对成品油价格采取临时调控措施",
+        "title_zh": "国家对成品油价格采取临时调控措施",
+        "source_title_original": null,
         "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
         "published_at": "2026/03/23",
         "event_date": "2026-03-23",
         "source_id": "cn-ndrc-news",
         "source_name": "国家发展改革委新闻动态",
+        "source_name_zh": "国家发展改革委新闻动态",
         "theme": "china-growth-policy",
         "category": "official-secondary",
         "priority": "P1",
@@ -2658,7 +2733,8 @@
         "event_type": "政策变化",
         "analysis_lens": "energy_shock",
         "what_happened": "国家对成品油价格采取临时调控措施",
-        "analysis_summary": "政策变化视角下，这条信息对今日判断有辅助价值。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "国家对成品油价格采取临时调控措施",
+        "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -2732,6 +2808,7 @@
         "raw_summary": "新闻发布 | 用于跟踪稳增长政策、价格政策、能源政策、基建和内需信号。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家对成品油价格采取临时调控措施",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -2803,6 +2880,7 @@
             {
               "source_id": "cn-ndrc-news",
               "source_name": "国家发展改革委新闻动态",
+              "source_name_zh": "国家发展改革委新闻动态",
               "source_url": "https://www.ndrc.gov.cn/xwdt/xwfb/202603/t20260323_1404296.html",
               "published_at": "2026/03/23",
               "trust_level": "primary",
@@ -2820,7 +2898,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "国家对成品油价格采取临时调控措施",
-              "summary": "国家对成品油价格采取临时调控措施"
+              "headline_zh": "国家对成品油价格采取临时调控措施",
+              "summary": "国家对成品油价格采取临时调控措施",
+              "summary_zh": "基于标题/摘要整理，国家对成品油价格采取临时调控措施"
             }
           ],
           "market_context_evidence": [
@@ -2837,7 +2917,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "政策变化视角下，这条信息对今日判断有辅助价值。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条政策变化类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
@@ -2869,11 +2949,14 @@
       {
         "id": "media-cls-depth-美伊战争-击碎-黄金牛市-瑞银-短期内还会涨-未来几年将下跌",
         "title": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
+        "title_zh": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
+        "source_title_original": null,
         "url": "https://www.cls.cn/detail/2330096",
         "published_at": "2026-03-31 11:16:17",
         "event_date": "2026-03-31",
         "source_id": "media-cls-depth",
         "source_name": "财联社深度",
+        "source_name_zh": "财联社深度",
         "theme": "macro-depth-alert",
         "category": "media-alert",
         "priority": "P1",
@@ -2888,7 +2971,8 @@
         "event_type": "地缘与商品冲击",
         "analysis_lens": "energy_shock",
         "what_happened": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
+        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -2962,6 +3046,7 @@
         "raw_summary": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -3057,6 +3142,7 @@
             {
               "source_id": "media-cls-depth",
               "source_name": "财联社深度",
+              "source_name_zh": "财联社深度",
               "source_url": "https://www.cls.cn/detail/2330096",
               "published_at": "2026-03-31 11:16:17",
               "trust_level": "secondary",
@@ -3099,7 +3185,9 @@
                 }
               ],
               "headline": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
-              "summary": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。"
+              "headline_zh": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
+              "summary": "①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
+              "summary_zh": "基于标题/摘要整理，①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。"
             }
           ],
           "official_evidence": [],
@@ -3117,7 +3205,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
@@ -3147,11 +3235,14 @@
       {
         "id": "media-cls-depth-中东战火首月谁更抗跌-a股正在全球脱颖而出",
         "title": "中东战火首月谁更抗跌？A股正在全球脱颖而出",
+        "title_zh": "中东战火首月谁更抗跌？A股正在全球脱颖而出",
+        "source_title_original": null,
         "url": "https://www.cls.cn/detail/2330079",
         "published_at": "2026-03-31 10:57:47",
         "event_date": "2026-03-31",
         "source_id": "media-cls-depth",
         "source_name": "财联社深度",
+        "source_name_zh": "财联社深度",
         "theme": "macro-depth-alert",
         "category": "media-alert",
         "priority": "P1",
@@ -3166,7 +3257,8 @@
         "event_type": "地缘与商品冲击",
         "analysis_lens": "energy_shock",
         "what_happened": "①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。",
+        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -3240,6 +3332,7 @@
         "raw_summary": "①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -3335,6 +3428,7 @@
             {
               "source_id": "media-cls-depth",
               "source_name": "财联社深度",
+              "source_name_zh": "财联社深度",
               "source_url": "https://www.cls.cn/detail/2330079",
               "published_at": "2026-03-31 10:57:47",
               "trust_level": "secondary",
@@ -3377,7 +3471,9 @@
                 }
               ],
               "headline": "中东战火首月谁更抗跌？A股正在全球脱颖而出",
-              "summary": "①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。"
+              "headline_zh": "中东战火首月谁更抗跌？A股正在全球脱颖而出",
+              "summary": "①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。",
+              "summary_zh": "基于标题/摘要整理，①有迹象显示，随着各国市场在中东战火下“风雨飘摇”，中国股市反而成为全球范围内相对抗跌的主要股指之一； ②行情数据对比显示，虽然都在下跌，但本月A股相对于全球其他市场的跑赢幅度，有望创下2025年8月以来之最。"
             }
           ],
           "official_evidence": [],
@@ -3395,7 +3491,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
@@ -3425,11 +3521,14 @@
       {
         "id": "agg-google-news-reuters-markets-war-oil-shock-uncertainty-time-to-raise-us-equity-outlook-reuters",
         "title": "War, oil shock, uncertainty? Time to raise US equity outlook - Reuters",
+        "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
+        "source_title_original": "War, oil shock, uncertainty? Time to raise US equity outlook - Reuters",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRVFZcHdkd3NYbzJNTjNRQTB4ZnpDbGxwaUExT2dGOEFWMXZ2T01hSTFCZUtXTjZOcVRnNmZpNGpKUVVBMmNaYUlob3I1cThobmtfWlRQLVM0R0hTeTVocVl4bnBRdmFtMFo2UDNYX05SUWtCUEI2TFNkdkFIdFlobnV6VUUtVzVLdTRmaWdleHh6RHp3Yi1SZVVoX09FRTVScE5J?oc=5",
         "published_at": "Thu, 26 Mar 2026 23:30:21 GMT",
         "event_date": "2026-03-26",
         "source_id": "agg-google-news-reuters-markets",
         "source_name": "Google News RSS Reuters Markets query",
+        "source_name_zh": "Google News RSS Reuters Markets query",
         "theme": "global-market-alert",
         "category": "media-alert",
         "priority": "P2",
@@ -3444,7 +3543,8 @@
         "event_type": "地缘与商品冲击",
         "analysis_lens": "energy_shock",
         "what_happened": "War, oil shock, uncertainty? Time to raise US equity outlook Reuters",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
+        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -3522,6 +3622,7 @@
         "raw_summary": "War, oil shock, uncertainty? Time to raise US equity outlook Reuters",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -3617,6 +3718,7 @@
             {
               "source_id": "agg-google-news-reuters-markets",
               "source_name": "Google News RSS Reuters Markets query",
+              "source_name_zh": "Google News RSS Reuters Markets query",
               "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRVFZcHdkd3NYbzJNTjNRQTB4ZnpDbGxwaUExT2dGOEFWMXZ2T01hSTFCZUtXTjZOcVRnNmZpNGpKUVVBMmNaYUlob3I1cThobmtfWlRQLVM0R0hTeTVocVl4bnBRdmFtMFo2UDNYX05SUWtCUEI2TFNkdkFIdFlobnV6VUUtVzVLdTRmaWdleHh6RHp3Yi1SZVVoX09FRTVScE5J?oc=5",
               "published_at": "Thu, 26 Mar 2026 23:30:21 GMT",
               "trust_level": "secondary",
@@ -3659,7 +3761,9 @@
                 }
               ],
               "headline": "War, oil shock, uncertainty? Time to raise US equity outlook - Reuters",
-              "summary": "War, oil shock, uncertainty? Time to raise US equity outlook Reuters"
+              "headline_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
+              "summary": "War, oil shock, uncertainty? Time to raise US equity outlook Reuters",
+              "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。"
             }
           ],
           "official_evidence": [],
@@ -3677,7 +3781,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
@@ -3707,11 +3811,14 @@
       {
         "id": "agg-google-news-reuters-markets-iran-war-deals-harder-blow-to-natural-gas-than-oil-reuters",
         "title": "Iran war deals harder blow to natural gas than oil - Reuters",
+        "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
+        "source_title_original": "Iran war deals harder blow to natural gas than oil - Reuters",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamw1SGZQN0liYTJ4UVBBR0hJd3FmN2dabDdjcDFmdEU4bjNCX05xRXBUNmQtMkhZZXJMME9TR2ZaNmJTRUtzbWJhdzRtbU1jNE84blNTMTB2c0FIMThNRWRrbzNGRkJvdWxWRmpQNHlRa0JUSnNEM0IzSTRqSXpURnJEdDgtcUFlWjJKQ29fbVVVZ2xaUVlERVdKRm5VaTlSX1UxbWpR?oc=5",
         "published_at": "Tue, 24 Mar 2026 06:38:16 GMT",
         "event_date": "2026-03-24",
         "source_id": "agg-google-news-reuters-markets",
         "source_name": "Google News RSS Reuters Markets query",
+        "source_name_zh": "Google News RSS Reuters Markets query",
         "theme": "global-market-alert",
         "category": "media-alert",
         "priority": "P2",
@@ -3726,7 +3833,8 @@
         "event_type": "地缘与商品冲击",
         "analysis_lens": "energy_shock",
         "what_happened": "Iran war deals harder blow to natural gas than oil Reuters",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
+        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -3804,6 +3912,7 @@
         "raw_summary": "Iran war deals harder blow to natural gas than oil Reuters",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -3899,6 +4008,7 @@
             {
               "source_id": "agg-google-news-reuters-markets",
               "source_name": "Google News RSS Reuters Markets query",
+              "source_name_zh": "Google News RSS Reuters Markets query",
               "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamw1SGZQN0liYTJ4UVBBR0hJd3FmN2dabDdjcDFmdEU4bjNCX05xRXBUNmQtMkhZZXJMME9TR2ZaNmJTRUtzbWJhdzRtbU1jNE84blNTMTB2c0FIMThNRWRrbzNGRkJvdWxWRmpQNHlRa0JUSnNEM0IzSTRqSXpURnJEdDgtcUFlWjJKQ29fbVVVZ2xaUVlERVdKRm5VaTlSX1UxbWpR?oc=5",
               "published_at": "Tue, 24 Mar 2026 06:38:16 GMT",
               "trust_level": "secondary",
@@ -3941,7 +4051,9 @@
                 }
               ],
               "headline": "Iran war deals harder blow to natural gas than oil - Reuters",
-              "summary": "Iran war deals harder blow to natural gas than oil Reuters"
+              "headline_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
+              "summary": "Iran war deals harder blow to natural gas than oil Reuters",
+              "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。"
             }
           ],
           "official_evidence": [],
@@ -3959,7 +4071,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
@@ -3989,11 +4101,14 @@
       {
         "id": "agg-google-news-reuters-markets-iran-oil-shock-sets-us-treasury-seismograph-twitching-reuters",
         "title": "Iran oil shock sets US Treasury seismograph twitching - Reuters",
+        "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
+        "source_title_original": "Iran oil shock sets US Treasury seismograph twitching - Reuters",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdEhwWGtQWGZReWxnbVF5azU1ZnJyTnBpV010VHlmMjMxYUp6dG1kNHViT2pTY1pLYUFUQkhUWjJNRGlfRGlUQzY2RW9pak4tVHk5Q09KRHRhMERDT3BmcmdQU01SeUJzTlN3Y1RNMExUcGI2Y1B3RWQ5QjBWR09VTjM0WGdCN2phWnJhWUlReEVib1lOYlJ0NExvNGxKNHQwRFE?oc=5",
         "published_at": "Thu, 26 Mar 2026 11:01:01 GMT",
         "event_date": "2026-03-26",
         "source_id": "agg-google-news-reuters-markets",
         "source_name": "Google News RSS Reuters Markets query",
+        "source_name_zh": "Google News RSS Reuters Markets query",
         "theme": "global-market-alert",
         "category": "media-alert",
         "priority": "P2",
@@ -4008,7 +4123,8 @@
         "event_type": "地缘与商品冲击",
         "analysis_lens": "energy_shock",
         "what_happened": "Iran oil shock sets US Treasury seismograph twitching Reuters",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
+        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -4086,6 +4202,7 @@
         "raw_summary": "Iran oil shock sets US Treasury seismograph twitching Reuters",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -4181,6 +4298,7 @@
             {
               "source_id": "agg-google-news-reuters-markets",
               "source_name": "Google News RSS Reuters Markets query",
+              "source_name_zh": "Google News RSS Reuters Markets query",
               "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdEhwWGtQWGZReWxnbVF5azU1ZnJyTnBpV010VHlmMjMxYUp6dG1kNHViT2pTY1pLYUFUQkhUWjJNRGlfRGlUQzY2RW9pak4tVHk5Q09KRHRhMERDT3BmcmdQU01SeUJzTlN3Y1RNMExUcGI2Y1B3RWQ5QjBWR09VTjM0WGdCN2phWnJhWUlReEVib1lOYlJ0NExvNGxKNHQwRFE?oc=5",
               "published_at": "Thu, 26 Mar 2026 11:01:01 GMT",
               "trust_level": "secondary",
@@ -4223,7 +4341,9 @@
                 }
               ],
               "headline": "Iran oil shock sets US Treasury seismograph twitching - Reuters",
-              "summary": "Iran oil shock sets US Treasury seismograph twitching Reuters"
+              "headline_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
+              "summary": "Iran oil shock sets US Treasury seismograph twitching Reuters",
+              "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。"
             }
           ],
           "official_evidence": [],
@@ -4241,7 +4361,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。",
@@ -4271,11 +4391,14 @@
       {
         "id": "agg-google-news-wapo-business-financial-markets-fall-to-new-2026-low-as-oil-rises-again-the-washington-post",
         "title": "Financial markets fall to new 2026 low as oil rises again - The Washington Post",
+        "title_zh": "Google News RSS Washington Post Business query：地缘与商品冲击更新",
+        "source_title_original": "Financial markets fall to new 2026 low as oil rises again - The Washington Post",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXdyUHdLUjIySnhLSUxDMDVScnoxRFRvbnYwYldRb0xiR2VZdUhmOHdQZXZnZGt2ckRnX2FpQlNjdXgteWN2ZVdfaXlieERaT1M5Q1B5OFZWUXM5SWR1OVYxV3pyNzFaeEFObmFfU0NjcURvWWMyRWpBQllkRWlxS0FaZ29OUnRLb0t2LTJRQkQ5eXc?oc=5",
         "published_at": "Sat, 28 Mar 2026 03:25:38 GMT",
         "event_date": "2026-03-28",
         "source_id": "agg-google-news-wapo-business",
         "source_name": "Google News RSS Washington Post Business query",
+        "source_name_zh": "Google News RSS Washington Post Business query",
         "theme": "us-policy-and-business-alert",
         "category": "media-alert",
         "priority": "P2",
@@ -4290,7 +4413,8 @@
         "event_type": "地缘与商品冲击",
         "analysis_lens": "energy_shock",
         "what_happened": "Financial markets fall to new 2026 low as oil rises again The Washington Post",
-        "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+        "what_happened_zh": "Google News RSS Washington Post Business query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Washington Post Business query：地缘与商品冲击更新”。",
+        "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "能源供需/库存/地缘变化 -> 油气价格与运输成本调整 -> 通胀预期和风险偏好重估",
@@ -4368,6 +4492,7 @@
         "raw_summary": "Financial markets fall to new 2026 low as oil rises again The Washington Post",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，Google News RSS Washington Post Business query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Washington Post Business query：地缘与商品冲击更新”。",
         "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
         "falsification_points": [
           "如果油价没有维持高位，持续性能源冲击逻辑要降级。",
@@ -4463,6 +4588,7 @@
             {
               "source_id": "agg-google-news-wapo-business",
               "source_name": "Google News RSS Washington Post Business query",
+              "source_name_zh": "Google News RSS Washington Post Business query",
               "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXdyUHdLUjIySnhLSUxDMDVScnoxRFRvbnYwYldRb0xiR2VZdUhmOHdQZXZnZGt2ckRnX2FpQlNjdXgteWN2ZVdfaXlieERaT1M5Q1B5OFZWUXM5SWR1OVYxV3pyNzFaeEFObmFfU0NjcURvWWMyRWpBQllkRWlxS0FaZ29OUnRLb0t2LTJRQkQ5eXc?oc=5",
               "published_at": "Sat, 28 Mar 2026 03:25:38 GMT",
               "trust_level": "secondary",
@@ -4505,7 +4631,9 @@
                 }
               ],
               "headline": "Financial markets fall to new 2026 low as oil rises again - The Washington Post",
-              "summary": "Financial markets fall to new 2026 low as oil rises again The Washington Post"
+              "headline_zh": "Google News RSS Washington Post Business query：地缘与商品冲击更新",
+              "summary": "Financial markets fall to new 2026 low as oil rises again The Washington Post",
+              "summary_zh": "基于标题/摘要整理，Google News RSS Washington Post Business query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Washington Post Business query：地缘与商品冲击更新”。"
             }
           ],
           "official_evidence": [],
@@ -4523,7 +4651,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+              "summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于地缘与能源冲击是脉冲扰动，还是会升级为持续通胀约束。",
               "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
@@ -4553,11 +4681,14 @@
       {
         "id": "media-bbc-business-2-days-agopotential-houthi-threat-to-red-sea-shipping-could-further-damage-global-economythe-iran-backed-group-could-bring-a-second-crucial-waterway-to-a-standstill-writes-sebastian-usher-2-days-ago",
         "title": "2 days agoPotential Houthi threat to Red Sea shipping could further damage global economyThe Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.2 days ago",
+        "title_zh": "BBC Business：政策变化更新",
+        "source_title_original": "2 days agoPotential Houthi threat to Red Sea shipping could further damage global economyThe Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.2 days ago",
         "url": "https://www.bbc.com/news/articles/cwyvd5z1xjno",
         "published_at": null,
         "event_date": "2026-03-31",
         "source_id": "media-bbc-business",
         "source_name": "BBC Business",
+        "source_name_zh": "BBC Business",
         "theme": "global-business-and-policy-alert",
         "category": "media-alert",
         "priority": "P2",
@@ -4572,7 +4703,8 @@
         "event_type": "政策变化",
         "analysis_lens": "inflation_data",
         "what_happened": "适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。",
-        "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
+        "what_happened_zh": "适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。",
+        "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于可见正文。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
@@ -4647,6 +4779,7 @@
         "raw_summary": "适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。",
         "core_contradiction": "主矛盾在于事件增量是否足以改写当前宏观主线。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -4733,6 +4866,7 @@
             {
               "source_id": "media-bbc-business",
               "source_name": "BBC Business",
+              "source_name_zh": "BBC Business",
               "source_url": "https://www.bbc.com/news/articles/cwyvd5z1xjno",
               "published_at": null,
               "trust_level": "secondary",
@@ -4775,7 +4909,9 @@
                 }
               ],
               "headline": "2 days agoPotential Houthi threat to Red Sea shipping could further damage global economyThe Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.2 days ago",
-              "summary": "适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
+              "headline_zh": "BBC Business：政策变化更新",
+              "summary": "适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。",
+              "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
             }
           ],
           "official_evidence": [],
@@ -4793,7 +4929,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "政策变化视角下，这条信息更适合作为背景记录。",
+              "summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于可见正文。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于事件增量是否足以改写当前宏观主线。",
               "why_this_scenario": null,
@@ -4810,11 +4946,14 @@
       {
         "id": "cn-safe-home-safe-releases-data-on-foreign-exchange-settlement-and-sales",
         "title": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
+        "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
+        "source_title_original": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
         "url": "https://www.safe.gov.cn/en/2026/0316/2400.html",
         "published_at": null,
         "event_date": "2026-03-16",
         "source_id": "cn-safe-home",
         "source_name": "国家外汇管理局英文发布",
+        "source_name_zh": "国家外汇管理局英文发布",
         "theme": "china-fx-bop",
         "category": "official-secondary",
         "priority": "P1",
@@ -4829,7 +4968,8 @@
         "event_type": "汇率/跨境流动",
         "analysis_lens": "external_balance",
         "what_happened": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
-        "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "what_happened_zh": "国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
+        "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "国际收支/跨境流动变化 -> 汇率预期与外资方向调整 -> 国内政策空间与风险偏好再定价",
@@ -4903,6 +5043,7 @@
         "raw_summary": "用于跟踪外汇储备、国际收支和跨境资金流动。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
         "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
         "falsification_points": [
           "如果后续经常账户或资本流动没有继续改善，当前外部平衡改善逻辑要降级。",
@@ -4973,6 +5114,7 @@
             {
               "source_id": "cn-safe-home",
               "source_name": "国家外汇管理局英文发布",
+              "source_name_zh": "国家外汇管理局英文发布",
               "source_url": "https://www.safe.gov.cn/en/2026/0316/2400.html",
               "published_at": null,
               "trust_level": "primary",
@@ -4990,7 +5132,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
-              "summary": "SAFE Releases Data on Foreign Exchange Settlement and Sales ..."
+              "headline_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
+              "summary": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
+              "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。"
             }
           ],
           "market_context_evidence": [
@@ -5007,7 +5151,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+              "summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于外部平衡是否真的改善到足以放松汇率与政策空间约束。",
               "why_this_scenario": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
@@ -5037,11 +5181,14 @@
       {
         "id": "us-fed-speeches-rss-bowman-capital-rules-for-the-real-economy",
         "title": "Bowman, Capital Rules for the Real Economy",
+        "title_zh": "美联储 Speeches：流动性/利率更新",
+        "source_title_original": "Bowman, Capital Rules for the Real Economy",
         "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260312a.htm",
         "published_at": "Thu, 12 Mar 2026 15:00:00 GMT",
         "event_date": "2026-03-12",
         "source_id": "us-fed-speeches-rss",
         "source_name": "Federal Reserve Speeches",
+        "source_name_zh": "美联储 Speeches",
         "theme": "us-policy-communication",
         "category": "official-secondary",
         "priority": "P1",
@@ -5056,7 +5203,8 @@
         "event_type": "流动性/利率",
         "analysis_lens": "china_liquidity",
         "what_happened": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
-        "analysis_summary": "流动性/利率视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+        "what_happened_zh": "美联储 Speeches发布了一条与流动性/利率相关的更新，当前可见信息主要围绕“美联储 Speeches：流动性/利率更新”。",
+        "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "流动性工具或短端条件变化 -> 贴现率与信用条件修正 -> 权益估值和汇率预期同步调整",
@@ -5130,6 +5278,7 @@
         "raw_summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，美联储 Speeches发布了一条与流动性/利率相关的更新，当前可见信息主要围绕“美联储 Speeches：流动性/利率更新”。",
         "core_contradiction": "主矛盾在于流动性改善能否真正传导到信用与风险偏好，而不只是停留在预期层。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5200,6 +5349,7 @@
             {
               "source_id": "us-fed-speeches-rss",
               "source_name": "Federal Reserve Speeches",
+              "source_name_zh": "美联储 Speeches",
               "source_url": "https://www.federalreserve.gov/newsevents/speech/bowman20260312a.htm",
               "published_at": "Thu, 12 Mar 2026 15:00:00 GMT",
               "trust_level": "primary",
@@ -5217,7 +5367,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "Bowman, Capital Rules for the Real Economy",
-              "summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C."
+              "headline_zh": "美联储 Speeches：流动性/利率更新",
+              "summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
+              "summary_zh": "基于标题/摘要整理，美联储 Speeches发布了一条与流动性/利率相关的更新，当前可见信息主要围绕“美联储 Speeches：流动性/利率更新”。"
             }
           ],
           "market_context_evidence": [
@@ -5234,7 +5386,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "流动性/利率视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+              "summary": "这是一条流动性/利率类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于流动性改善能否真正传导到信用与风险偏好，而不只是停留在预期层。",
               "why_this_scenario": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
@@ -5264,11 +5416,14 @@
       {
         "id": "media-cls-telegraph-财联社3月31日电-30年期日本国债收益率日内下跌10个基点至3-690",
         "title": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "title_zh": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "source_title_original": null,
         "url": "https://www.cls.cn/detail/2330209",
         "published_at": "2026-03-31 13:11:25",
         "event_date": "2026-03-31",
         "source_id": "media-cls-telegraph",
         "source_name": "财联社电报",
+        "source_name_zh": "财联社电报",
         "theme": "china-fast-alert",
         "category": "media-alert",
         "priority": "P1",
@@ -5283,7 +5438,8 @@
         "event_type": "政策变化",
         "analysis_lens": "policy_change",
         "what_happened": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-        "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
+        "what_happened_zh": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+        "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
@@ -5354,6 +5510,7 @@
         "raw_summary": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
         "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5441,6 +5598,7 @@
             {
               "source_id": "media-cls-telegraph",
               "source_name": "财联社电报",
+              "source_name_zh": "财联社电报",
               "source_url": "https://www.cls.cn/detail/2330209",
               "published_at": "2026-03-31 13:11:25",
               "trust_level": "secondary",
@@ -5483,7 +5641,9 @@
                 }
               ],
               "headline": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
-              "summary": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。"
+              "headline_zh": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+              "summary": "财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。",
+              "summary_zh": "基于标题/摘要整理，财联社3月31日电，30年期日本国债收益率日内下跌10个基点至3.690%。"
             }
           ],
           "official_evidence": [],
@@ -5501,7 +5661,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "政策变化视角下，这条信息更适合作为背景记录。",
+              "summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
               "why_this_scenario": null,
@@ -5518,11 +5678,14 @@
       {
         "id": "media-cls-telegraph-瑞银-中国市场调整或已过度-优质ai股票迎来布局窗口",
         "title": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
+        "title_zh": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
+        "source_title_original": null,
         "url": "https://www.cls.cn/detail/2330223",
         "published_at": "2026-03-31 13:28:15",
         "event_date": "2026-03-31",
         "source_id": "media-cls-telegraph",
         "source_name": "财联社电报",
+        "source_name_zh": "财联社电报",
         "theme": "china-fast-alert",
         "category": "media-alert",
         "priority": "P1",
@@ -5537,7 +5700,8 @@
         "event_type": "政策变化",
         "analysis_lens": "policy_change",
         "what_happened": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek...",
-        "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
+        "what_happened_zh": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek...",
+        "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
@@ -5611,6 +5775,7 @@
         "raw_summary": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来的收益。瑞银财富管理预计，MSCI中国指数今年EPS增速约为13%，科技板块盈利增速有望达到20%至...",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来...",
         "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5698,6 +5863,7 @@
             {
               "source_id": "media-cls-telegraph",
               "source_name": "财联社电报",
+              "source_name_zh": "财联社电报",
               "source_url": "https://www.cls.cn/detail/2330223",
               "published_at": "2026-03-31 13:28:15",
               "trust_level": "secondary",
@@ -5740,7 +5906,9 @@
                 }
               ],
               "headline": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
-              "summary": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek..."
+              "headline_zh": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
+              "summary": "【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek...",
+              "summary_zh": "基于标题/摘要整理，【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来..."
             }
           ],
           "official_evidence": [],
@@ -5758,7 +5926,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "政策变化视角下，这条信息更适合作为背景记录。",
+              "summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
               "why_this_scenario": "当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。",
@@ -5787,11 +5955,14 @@
       {
         "id": "media-cls-telegraph-北京消费品以旧换新政策持续落地-带动销售额约50亿元",
         "title": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
+        "title_zh": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
+        "source_title_original": null,
         "url": "https://www.cls.cn/detail/2330212",
         "published_at": "2026-03-31 13:16:58",
         "event_date": "2026-03-31",
         "source_id": "media-cls-telegraph",
         "source_name": "财联社电报",
+        "source_name_zh": "财联社电报",
         "theme": "china-fast-alert",
         "category": "media-alert",
         "priority": "P1",
@@ -5806,7 +5977,8 @@
         "event_type": "政策变化",
         "analysis_lens": "policy_change",
         "what_happened": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。...",
-        "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
+        "what_happened_zh": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。...",
+        "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
           "政策口径/工具变化 -> 预期修正 -> 风险偏好或融资条件变化",
@@ -5877,6 +6049,7 @@
         "raw_summary": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。如今，北京全市已有近7000家门店、1300余家商户参与，让实惠更便捷地走进市民生活。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
+        "summary_zh": "基于标题/摘要整理，【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。如今，北京全市已有近7000家门店、1300余家商户参与，让...",
         "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5964,6 +6137,7 @@
             {
               "source_id": "media-cls-telegraph",
               "source_name": "财联社电报",
+              "source_name_zh": "财联社电报",
               "source_url": "https://www.cls.cn/detail/2330212",
               "published_at": "2026-03-31 13:16:58",
               "trust_level": "secondary",
@@ -6006,7 +6180,9 @@
                 }
               ],
               "headline": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
-              "summary": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。..."
+              "headline_zh": "北京消费品以旧换新政策持续落地 带动销售额约50亿元",
+              "summary": "【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。...",
+              "summary_zh": "基于标题/摘要整理，【北京消费品以旧换新政策持续落地 带动销售额约50亿元】财联社3月31日电，北京市2026年消费品以旧换新补贴持续释放消费活力。今年已累计销售补贴产品超130万件，带动销售额约50亿元。市民通过“京通”小程序即可领取补贴资格，购买家电、手机、平板等产品可享受最高15%补贴。如今，北京全市已有近7000家门店、1300余家商户参与，让..."
             }
           ],
           "official_evidence": [],
@@ -6024,7 +6200,7 @@
           ],
           "inference_notes": [
             {
-              "summary": "政策变化视角下，这条信息更适合作为背景记录。",
+              "summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
               "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
               "core_contradiction": "主矛盾在于政策口径是否会转化为可执行、可量化的落地动作。",
               "why_this_scenario": null,
@@ -6047,9 +6223,11 @@
         "items": [
           {
             "title": "中国人民银行货币政策委员会...",
+            "title_zh": "中国人民银行货币政策委员会...",
             "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870939/5546206/index.html",
             "importance_level": "A级重点",
-            "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，中国人民银行货币政策委员会...",
             "source_name": "中国人民银行",
             "event_paradigm": "liquidity_rates",
             "evidence_role": "official_anchor",
@@ -6057,9 +6235,11 @@
           },
           {
             "title": "中国人民银行货币政策委员会...",
+            "title_zh": "中国人民银行货币政策委员会...",
             "url": "http://www.pbc.gov.cn/zhengcehuobisi/125207/3870933/3870936/2025100917194615589/index.html",
             "importance_level": "B级关注",
-            "analysis_summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，中国人民银行货币政策委员会...",
             "source_name": "中国人民银行",
             "event_paradigm": "liquidity_rates",
             "evidence_role": "official_anchor",
@@ -6067,9 +6247,11 @@
           },
           {
             "title": "中国人民银行召开2026年金融稳定工作会议",
+            "title_zh": "中国人民银行召开2026年金融稳定工作会议",
             "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032711215379505/index.html",
             "importance_level": "A级重点",
-            "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，中国人民银行召开2026年金融稳定工作会议",
             "source_name": "中国人民银行",
             "event_paradigm": "liquidity_rates",
             "evidence_role": "official_anchor",
@@ -6077,9 +6259,11 @@
           },
           {
             "title": "中国人民银行召开2026年国库工作会议",
+            "title_zh": "中国人民银行召开2026年国库工作会议",
             "url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032315013158591/index.html",
             "importance_level": "B级关注",
-            "analysis_summary": "流动性/利率视角下，这条信息对今日判断有辅助价值。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，中国人民银行召开2026年国库工作会议",
             "source_name": "中国人民银行",
             "event_paradigm": "liquidity_rates",
             "evidence_role": "official_anchor",
@@ -6087,9 +6271,11 @@
           },
           {
             "title": "2026年统计数据",
+            "title_zh": "2026年统计数据",
             "url": "http://www.pbc.gov.cn/diaochatongjisi/116219/116319/2026ntjsj/index.html",
             "importance_level": "A级重点",
-            "analysis_summary": "流动性/利率视角下，这条信息足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 中国流动性条目的重点不只是宽松方向，而是新增口径、工具或约束变化是否改变短端资金、信用扩张和汇率约束之间的平衡。 流动性和利率变化通常先作用于估值，再作用于盈利预期。真正的交易敏感点是短端条件是否变化，以及政策口径是否出现新倾向。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，2026年统计数据",
             "source_name": "中国人民银行",
             "event_paradigm": "liquidity_rates",
             "evidence_role": "official_anchor",
@@ -6104,9 +6290,11 @@
         "items": [
           {
             "title": "SAFE Releases Data on Foreign Exchange Settlement and Sales ...",
+            "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
             "url": "https://www.safe.gov.cn/en/2026/0316/2400.html",
             "importance_level": "C级背景",
-            "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
             "source_name": "国家外汇管理局英文发布",
             "event_paradigm": "fx_cross_border_flow",
             "evidence_role": "official_anchor",
@@ -6114,9 +6302,11 @@
           },
           {
             "title": "SAFE Releases Data on China's Foreign Exchange Reserves at t...",
+            "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
             "url": "https://www.safe.gov.cn/en/2026/0307/2403.html",
             "importance_level": "C级背景",
-            "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
             "source_name": "国家外汇管理局英文发布",
             "event_paradigm": "fx_cross_border_flow",
             "evidence_role": "official_anchor",
@@ -6124,9 +6314,11 @@
           },
           {
             "title": "SAFE Releases China's Balance of Payments for the Fourth Qua...",
+            "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
             "url": "https://www.safe.gov.cn/en/2026/0327/2406.html",
             "importance_level": "B级关注",
-            "analysis_summary": "汇率/跨境流动视角下，这条信息对今日判断有辅助价值。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于新增口径、工具或约束变化是否改变经常账户、资本流动或储备稳定性的判断。 这类信息先影响汇率和跨境流动，再反过来决定外资风险偏好与国内政策空间。真正的关键不是单项数字，而是外部平衡是否在改善或恶化。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
             "source_name": "国家外汇管理局英文发布",
             "event_paradigm": "fx_cross_border_flow",
             "evidence_role": "official_anchor",
@@ -6134,9 +6326,11 @@
           },
           {
             "title": "Notice of the State Administration of Foreign Exchange on Fu...",
+            "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
             "url": "https://www.safe.gov.cn/en/2023/1208/2262.html",
             "importance_level": "C级背景",
-            "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
             "source_name": "国家外汇管理局英文发布",
             "event_paradigm": "fx_cross_border_flow",
             "evidence_role": "official_anchor",
@@ -6144,9 +6338,11 @@
           },
           {
             "title": "Circular of the State Administration of Foreign Exchange on ...",
+            "title_zh": "国家外汇管理局英文发布：汇率/跨境流动更新",
             "url": "https://www.safe.gov.cn/en/2021/1203/1909.html",
             "importance_level": "C级背景",
-            "analysis_summary": "汇率/跨境流动视角下，这条信息更适合作为背景记录。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "基于标题/摘要整理，国家外汇管理局英文发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“国家外汇管理局英文发布：汇率/跨境流动更新”。",
             "source_name": "国家外汇管理局英文发布",
             "event_paradigm": "fx_cross_border_flow",
             "evidence_role": "official_anchor",
@@ -6161,9 +6357,11 @@
         "items": [
           {
             "title": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
+            "title_zh": "美国国际收支与国际投资头寸，2025年第四季度及全年",
             "url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
             "importance_level": "A级重点",
-            "analysis_summary": "汇率/跨境流动视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "analysis_summary": "这是一条汇率/跨境流动类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 外部平衡类信息会同时影响汇率预期、跨境流动和国内政策空间，因此关键在于正文中的新增数字或执行口径是否改变经常账户、资本流动或储备稳定性的判断。 这类信息先影响汇率和跨境流动，再反过来决定外资风险偏好与国内政策空间。真正的关键不是单项数字，而是外部平衡是否在改善或恶化。 这次判断主要基于可见正文。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
+            "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“美国国际收支与国际投资头寸，2025年第四季度及全年”。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases",
             "event_paradigm": "fx_cross_border_flow",
             "evidence_role": "official_anchor",
@@ -6171,9 +6369,11 @@
           },
           {
             "title": "U.S. International Trade in Goods and Services, January 2026",
+            "title_zh": "美国经济分析局 最新发布：数据验证更新",
             "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+            "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 美国通胀信息真正重要的地方不在headline本身，而在正文中的新增数字或执行口径是否改变核心粘性、联储路径和美债利率中枢。 美国通胀信息最先影响联储路径和美债利率，再通过美元和风险偏好外溢到全球资产。判断重点是核心项而不是 headline 的单次波动。 这次判断主要基于可见正文。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+            "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases",
             "event_paradigm": "data_validation",
             "evidence_role": "official_anchor",
@@ -6181,9 +6381,11 @@
           },
           {
             "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
+            "title_zh": "美国经济分析局 最新发布：数据验证更新",
             "url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
             "importance_level": "C级背景",
-            "analysis_summary": "数据验证视角下，这条信息更适合作为背景记录。",
+            "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases",
             "event_paradigm": "data_validation",
             "evidence_role": "official_anchor",
@@ -6191,9 +6393,11 @@
           },
           {
             "title": "Productivity and Costs",
+            "title_zh": "美国劳工统计局 Newsroom：数据验证更新",
             "url": "https://www.bls.gov/news.release/prod2.toc.htm",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息足以进入今日重点观察。",
+            "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，美国劳工统计局 Newsroom发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国劳工统计局 Newsroom：数据验证更新”。",
             "source_name": "U.S. Bureau of Labor Statistics Newsroom",
             "event_paradigm": "data_validation",
             "evidence_role": "official_anchor",
@@ -6201,9 +6405,11 @@
           },
           {
             "title": "Personal Income and Outlays, January 2026",
+            "title_zh": "个人收入与支出，January 2026年",
             "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
             "importance_level": "A级重点",
-            "analysis_summary": "数据验证视角下，这条信息提供了更明确的正文增量，足以进入今日重点观察。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+            "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息已经足以进入首页重点点评，因为它对今天的宏观主线有直接增量。 美国通胀信息真正重要的地方不在headline本身，而在正文中的新增数字或执行口径是否改变核心粘性、联储路径和美债利率中枢。 美国通胀信息最先影响联储路径和美债利率，再通过美元和风险偏好外溢到全球资产。判断重点是核心项而不是 headline 的单次波动。 这次判断主要基于可见正文。 数据校验：美国 CPI 最新为 327.46，较前值变动 0.872；需要继续看核心分项是否同步验证。",
+            "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“个人收入与支出，January 2026年”。",
             "source_name": "U.S. Bureau of Economic Analysis Current Releases",
             "event_paradigm": "data_validation",
             "evidence_role": "official_anchor",
@@ -6218,9 +6424,11 @@
         "items": [
           {
             "title": "World Economic Outlook",
+            "title_zh": "IMF News 与 Press Releases：政策变化更新",
             "url": "https://www.imf.org/en/publications/weo",
             "importance_level": "C级背景",
-            "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
+            "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，IMF News 与 Press Releases发布了一条与政策变化相关的更新，当前可见信息主要围绕“IMF News 与 Press Releases：政策变化更新”。",
             "source_name": "IMF News and Press Releases",
             "event_paradigm": "policy_change",
             "evidence_role": "official_anchor",
@@ -6228,9 +6436,11 @@
           },
           {
             "title": "War, oil shock, uncertainty? Time to raise US equity outlook - Reuters",
+            "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
             "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRVFZcHdkd3NYbzJNTjNRQTB4ZnpDbGxwaUExT2dGOEFWMXZ2T01hSTFCZUtXTjZOcVRnNmZpNGpKUVVBMmNaYUlob3I1cThobmtfWlRQLVM0R0hTeTVocVl4bnBRdmFtMFo2UDNYX05SUWtCUEI2TFNkdkFIdFlobnV6VUUtVzVLdTRmaWdleHh6RHp3Yi1SZVVoX09FRTVScE5J?oc=5",
             "importance_level": "C级背景",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
             "source_name": "Google News RSS Reuters Markets query",
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
@@ -6238,9 +6448,11 @@
           },
           {
             "title": "US mortgage rates hit highest since October as war keeps bond yields up, MBA says - Reuters",
+            "title_zh": "Google News RSS Reuters Markets query：地缘与商品冲击更新",
             "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcDQ2ZHo0SURha1E4TWc0MjA1MGVHRHRrNzdib3lSdG42NGp4S3NFbmJDek0wMGlfbUpyQU1nOEZaQ1hZcHdXYjBYVFJlZ3RwT3BmNWR5cndsSWlXY0xacmNWcnNmeW8tam9NeFVuT3BRSjdXRkE2M21UcGgxSlBONkwzczBBNW5TNGFRMmZCdTVLTXROcmtYaWtvcHF0TU1nNGR3Q3VKZmJhOWRoZTgzbTd3Y01hcGNjblJfdjBTY0pUdw?oc=5",
             "importance_level": "C级背景",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "summary_zh": "基于标题/摘要整理，Google News RSS Reuters Markets query发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“Google News RSS Reuters Markets query：地缘与商品冲击更新”。",
             "source_name": "Google News RSS Reuters Markets query",
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
@@ -6255,9 +6467,11 @@
         "items": [
           {
             "title": "四年前的通胀噩梦会否重演？小摩：中东冲突不会重蹈俄乌冲突覆辙",
+            "title_zh": "四年前的通胀噩梦会否重演？小摩：中东冲突不会重蹈俄乌冲突覆辙",
             "url": "https://www.cls.cn/detail/2330200",
             "importance_level": "B级关注",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息对今日判断有辅助价值。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类事件会先冲击能源与通胀预期，再向增长预期和风险偏好传导，当前关键在于新增口径、工具或约束变化是否持续。 这类冲击通常意味着通胀压力抬头、增长预期受扰、市场先交易避险再交易基本面，短期更适合把它当作跨资产风险源来处理。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "summary_zh": "基于标题/摘要整理，①摩根大通认为，当前的宏观背景与2022年俄乌冲突时有所不同，四年前能源短缺推升通胀狂飙的情况不会重演； ②当前全球政策利率处于历史平均水平，消费者需求和全球经济活动水平较低，欧洲能源基础设施更完善，人工智能可能对就业产生影响，这些因素都与2022年的情况不同。",
             "source_name": "财联社深度",
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
@@ -6265,9 +6479,11 @@
           },
           {
             "title": "金价反弹能否重启上涨趋势？分析师普遍警告短期仍存下行风险",
+            "title_zh": "金价反弹能否重启上涨趋势？分析师普遍警告短期仍存下行风险",
             "url": "https://www.cls.cn/detail/2330085",
             "importance_level": "B级关注",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息对今日判断有辅助价值。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "summary_zh": "基于标题/摘要整理，①周二亚洲早盘，金价一度冲上4600美元/盎司，交易员们正在关注金价的100日均线4624美元/盎司； ②分析师们认为黄金下跌风险仍在，市场波动性导致期货市场和现货市场投资者均被迫观望； ③贵金属短期趋势仍然看跌，原油仍是目前主导大宗商品交易的关键。",
             "source_name": "财联社深度",
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
@@ -6275,9 +6491,11 @@
           },
           {
             "title": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
+            "title_zh": "美伊战争“击碎”黄金牛市？瑞银：短期内还会涨，未来几年将下跌！",
             "url": "https://www.cls.cn/detail/2330096",
             "importance_level": "C级背景",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息更适合作为背景记录。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "summary_zh": "基于标题/摘要整理，①瑞银贵金属策略师Joni Teves警告，美伊冲突和高油价可能结束黄金牛市； ②市场预期美联储今年维持利率不变，黄金价格上涨可能性较小； ③瑞银预计黄金上涨趋势将在年底减弱，未来几年金价将下跌。",
             "source_name": "财联社深度",
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
@@ -6285,9 +6503,11 @@
           },
           {
             "title": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
+            "title_zh": "瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口",
             "url": "https://www.cls.cn/detail/2330223",
             "importance_level": "C级背景",
-            "analysis_summary": "政策变化视角下，这条信息更适合作为背景记录。",
+            "analysis_summary": "这是一条政策变化类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
+            "summary_zh": "基于标题/摘要整理，【瑞银：中国市场调整或已过度 优质AI股票迎来布局窗口】财联社3月31日电，瑞银财富管理投资总监办公室（CIO）发表机构观点，认为当前中国市场的调整可能已过度，投资者有机会以较低估值增持优质中国AI股票。中国互联网行业目前12个月远期市盈率约为13倍，已接近DeepSeek发布前的水平，当前估值尚未充分反映过去一年AI投资及变现带来...",
             "source_name": "财联社电报",
             "event_paradigm": "policy_change",
             "evidence_role": "alert_only",
@@ -6295,9 +6515,11 @@
           },
           {
             "title": "无视特朗普警告 伊朗硬刚回应 科威特满载油轮遭袭令油价再现震荡！",
+            "title_zh": "无视特朗普警告 伊朗硬刚回应 科威特满载油轮遭袭令油价再现震荡！",
             "url": "https://www.cls.cn/detail/2330032",
             "importance_level": "B级关注",
-            "analysis_summary": "地缘与商品冲击视角下，这条信息对今日判断有辅助价值。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "analysis_summary": "这是一条地缘与商品冲击类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好，因此要看新增口径、工具或约束变化是否会把事件从商品层抬升到宏观层。 能源类信息不能只按商品新闻理解，它会通过油气价格、运输成本和通胀预期影响风险偏好与行业盈利。关键是判断冲击能否持续外溢。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：WTI 最新约 89.33 美元/桶，较前值变动 -9.38；判断不能只看价格，还要继续看库存与供给纪律。",
+            "summary_zh": "基于标题/摘要整理，①3月31日，伊朗袭击了停泊在迪拜港的一艘满载科威特原油的运输船，导致船体受损并起火，可能引发周边水域石油泄漏； ②受此影响，西德克萨斯中质原油一度上涨3.7%，触及每桶106.70美元，布伦特原油期货同样一度大涨超3%。",
             "source_name": "财联社深度",
             "event_paradigm": "geopolitics_commodities",
             "evidence_role": "alert_only",
@@ -6858,12 +7080,13 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-31 13:37:34",
+    "daily_input_generated_at": "2026-03-31 14:05:00",
     "evidence_digest": {
       "primary_evidence": [
         {
           "source_id": "us-bea-current-releases",
           "source_name": "U.S. Bureau of Economic Analysis Current Releases",
+          "source_name_zh": "美国经济分析局 最新发布",
           "source_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
           "published_at": null,
           "trust_level": "primary",
@@ -6881,11 +7104,14 @@
           "media_item_kind": "article",
           "matched_official_sources": [],
           "headline": "U.S. International Transactions and Investment Position, 4th Quarter and Year 2025",
-          "summary": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int..."
+          "headline_zh": "美国国际收支与国际投资头寸，2025年第四季度及全年",
+          "summary": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int...",
+          "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“美国国际收支与国际投资头寸，2025年第四季度及全年”。"
         },
         {
           "source_id": "us-bea-current-releases",
           "source_name": "U.S. Bureau of Economic Analysis Current Releases",
+          "source_name_zh": "美国经济分析局 最新发布",
           "source_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
           "published_at": null,
           "trust_level": "primary",
@@ -6903,11 +7129,14 @@
           "media_item_kind": "article",
           "matched_official_sources": [],
           "headline": "U.S. International Trade in Goods and Services, January 2026",
-          "summary": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser..."
+          "headline_zh": "美国经济分析局 最新发布：数据验证更新",
+          "summary": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser...",
+          "summary_zh": "根据可见正文整理，美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。"
         },
         {
           "source_id": "eu-ecb-statistical-rss",
           "source_name": "欧洲央行统计新闻稿",
+          "source_name_zh": "欧洲央行统计新闻稿",
           "source_url": "https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html",
           "published_at": "Fri, 20 Mar 2026 10:00:00 +0100",
           "trust_level": "primary",
@@ -6925,11 +7154,14 @@
           "media_item_kind": "article",
           "matched_official_sources": [],
           "headline": "Euro area monthly balance of payments: January 2026",
-          "summary": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά En..."
+          "headline_zh": "欧洲央行统计新闻稿：汇率/跨境流动更新",
+          "summary": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά En...",
+          "summary_zh": "根据可见正文整理，欧洲央行统计新闻稿了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：汇率/跨境流动更新”。"
         },
         {
           "source_id": "eu-ecb-statistical-rss",
           "source_name": "欧洲央行统计新闻稿",
+          "source_name_zh": "欧洲央行统计新闻稿",
           "source_url": "https://www.ecb.europa.eu//press/stats/md/html/ecb.md2601~d2cecf4f49.en.html",
           "published_at": "Thu, 26 Feb 2026 10:00:00 +0100",
           "trust_level": "primary",
@@ -6947,13 +7179,16 @@
           "media_item_kind": "article",
           "matched_official_sources": [],
           "headline": "Monetary developments in the euro area: January 2026",
-          "summary": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά E..."
+          "headline_zh": "欧洲央行统计新闻稿：数据验证更新",
+          "summary": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά E...",
+          "summary_zh": "根据可见正文整理，欧洲央行统计新闻稿了一条与数据验证相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：数据验证更新”。"
         }
       ],
       "high_signal_media": [
         {
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-84a7c46b51b3583f743c8da6a40d36ac",
           "published_at": null,
           "trust_level": "secondary",
@@ -6996,11 +7231,14 @@
             }
           ],
           "headline": "Oil steadies and Asian stocks are mostly lower on mixed signs on Iran",
-          "summary": "Oil steadies and Asian stocks are mostly lower on mixed signs on Iran"
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "Oil steadies and Asian stocks are mostly lower on mixed signs on Iran",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         },
         {
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/middle-east-wars-energy-asia-russia-crude-oil-ea90f06d9f35fe4bb977f068d2c6ef27",
           "published_at": null,
           "trust_level": "secondary",
@@ -7043,11 +7281,14 @@
             }
           ],
           "headline": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
-          "summary": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies"
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         },
         {
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
           "published_at": null,
           "trust_level": "secondary",
@@ -7090,11 +7331,14 @@
             }
           ],
           "headline": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
-          "summary": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade"
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         },
         {
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
           "published_at": null,
           "trust_level": "secondary",
@@ -7137,11 +7381,14 @@
             }
           ],
           "headline": "US stocks swing through another shaky day as oil prices keep climbing",
-          "summary": "US stocks swing through another shaky day as oil prices keep climbing"
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "US stocks swing through another shaky day as oil prices keep climbing",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         },
         {
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/investors-war-trump-portfolio-stocks-401k-909716663d11c41c9a87fa8ee9a19c08",
           "published_at": null,
           "trust_level": "secondary",
@@ -7184,11 +7431,14 @@
             }
           ],
           "headline": "When stock markets are rattled, even by war, it usually pays for investors to be patient",
-          "summary": "When stock markets are rattled, even by war, it usually pays for investors to be patient"
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "When stock markets are rattled, even by war, it usually pays for investors to be patient",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         },
         {
           "source_id": "media-ap-business",
           "source_name": "AP News Business",
+          "source_name_zh": "AP News Business",
           "source_url": "https://apnews.com/article/iran-us-israel-war-global-economy-oil-1bcb0c616c5ca2e1b6a903c2cd64a4e4",
           "published_at": null,
           "trust_level": "secondary",
@@ -7231,7 +7481,9 @@
             }
           ],
           "headline": "Worries about global economic pain deepen as the war in Iran drags on",
-          "summary": "Worries about global economic pain deepen as the war in Iran drags on"
+          "headline_zh": "AP News Business：地缘与商品冲击更新",
+          "summary": "Worries about global economic pain deepen as the war in Iran drags on",
+          "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
         }
       ],
       "open_gaps": [
@@ -7241,6 +7493,7 @@
     "official_confirmation": [
       {
         "claim": "International Transactions and Investment Position, 4th Quarter and Year 2025 EMBARGOED UNTIL RELEASE AT 8:30 a.m. current-account deficit resulting from int...",
+        "claim_zh": "美国经济分析局发布了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“美国国际收支与国际投资头寸，2025年第四季度及全年”。",
         "official_source": "U.S. Bureau of Economic Analysis Current Releases",
         "official_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-4th-quarter-and-year-2025",
         "published_at": null,
@@ -7249,6 +7502,7 @@
       },
       {
         "claim": "The January decrease in the goods and services deficit reflected a decrease in the goods deficit of $17.5 billion to $81.8 billion and an increase in the ser...",
+        "claim_zh": "美国经济分析局发布了一条与数据验证相关的更新，当前可见信息主要围绕“美国经济分析局 最新发布：数据验证更新”。",
         "official_source": "U.S. Bureau of Economic Analysis Current Releases",
         "official_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-january-2026",
         "published_at": null,
@@ -7257,6 +7511,7 @@
       },
       {
         "claim": "Euro area monthly balance of payments: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά En...",
+        "claim_zh": "欧洲央行统计新闻稿了一条与汇率/跨境流动相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：汇率/跨境流动更新”。",
         "official_source": "欧洲央行统计新闻稿",
         "official_url": "https://www.ecb.europa.eu//press/stats/bop/2026/html/ecb.bp260320~7ee78cd14f.en.html",
         "published_at": "Fri, 20 Mar 2026 10:00:00 +0100",
@@ -7265,6 +7520,7 @@
       },
       {
         "claim": "Monetary developments in the euro area: January 2026 Skip to: Skip to navigation Skip to content Skip to footer EN Български Čeština Dansk Deutsch Eλληνικά E...",
+        "claim_zh": "欧洲央行统计新闻稿了一条与数据验证相关的更新，当前可见信息主要围绕“欧洲央行统计新闻稿：数据验证更新”。",
         "official_source": "欧洲央行统计新闻稿",
         "official_url": "https://www.ecb.europa.eu//press/stats/md/html/ecb.md2601~d2cecf4f49.en.html",
         "published_at": "Thu, 26 Feb 2026 10:00:00 +0100",
@@ -7273,6 +7529,7 @@
       },
       {
         "claim": "中国人民银行召开2026年国库工作会议",
+        "claim_zh": "中国人民银行召开2026年国库工作会议",
         "official_source": "中国人民银行",
         "official_url": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026032315013158591/index.html",
         "published_at": null,
@@ -7281,6 +7538,7 @@
       },
       {
         "claim": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
+        "claim_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "official_source": "国家统计局英文发布",
         "official_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260312_1962757.html",
         "published_at": null,
@@ -7289,6 +7547,7 @@
       },
       {
         "claim": "7.Energy Production from January to February 2026",
+        "claim_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "official_source": "国家统计局英文发布",
         "official_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962806.html",
         "published_at": null,
@@ -7297,6 +7556,7 @@
       },
       {
         "claim": "6.Total Retail Sales of Consumer Goods from January to February 2026",
+        "claim_zh": "国家统计局英文发布了一条与数据验证相关的更新，当前可见信息主要围绕“国家统计局英文发布：数据验证更新”。",
         "official_source": "国家统计局英文发布",
         "official_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962805.html",
         "published_at": null,
@@ -7307,7 +7567,9 @@
     "headline_evidence": [
       {
         "headline": "How Trump and the oil markets move in sync: Five changes in chartsOil markets have been sensitive to Donald Trump's comments on the war. But are traders growing less responsive?6 hrs agoBusiness",
+        "headline_zh": "BBC Business：地缘与商品冲击更新",
         "source_id": "media-bbc-business",
+        "source_name": "BBC Business",
         "source_url": "https://www.bbc.com/news/articles/cvgk8zk9epgo",
         "published_at": null,
         "trust_level": "secondary",
@@ -7315,11 +7577,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
       },
       {
         "headline": "Oil steadies and Asian stocks are mostly lower on mixed signs on Iran",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "source_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-84a7c46b51b3583f743c8da6a40d36ac",
         "published_at": null,
         "trust_level": "secondary",
@@ -7327,11 +7592,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "headline": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "source_url": "https://apnews.com/article/middle-east-wars-energy-asia-russia-crude-oil-ea90f06d9f35fe4bb977f068d2c6ef27",
         "published_at": null,
         "trust_level": "secondary",
@@ -7339,11 +7607,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "headline": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "source_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
         "published_at": null,
         "trust_level": "secondary",
@@ -7351,11 +7622,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "headline": "US stocks swing through another shaky day as oil prices keep climbing",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "source_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
         "published_at": null,
         "trust_level": "secondary",
@@ -7363,11 +7637,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "headline": "2 days agoPotential Houthi threat to Red Sea shipping could further damage global economyThe Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.2 days ago",
+        "headline_zh": "BBC Business：政策变化更新",
         "source_id": "media-bbc-business",
+        "source_name": "BBC Business",
         "source_url": "https://www.bbc.com/news/articles/cwyvd5z1xjno",
         "published_at": null,
         "trust_level": "secondary",
@@ -7375,11 +7652,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
       },
       {
         "headline": "When stock markets are rattled, even by war, it usually pays for investors to be patient",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "source_url": "https://apnews.com/article/investors-war-trump-portfolio-stocks-401k-909716663d11c41c9a87fa8ee9a19c08",
         "published_at": null,
         "trust_level": "secondary",
@@ -7387,11 +7667,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "headline": "Worries about global economic pain deepen as the war in Iran drags on",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "source_url": "https://apnews.com/article/iran-us-israel-war-global-economy-oil-1bcb0c616c5ca2e1b6a903c2cd64a4e4",
         "published_at": null,
         "trust_level": "secondary",
@@ -7399,12 +7682,14 @@
         "fact_or_inference": "fact",
         "evidence_role": "clue_high",
         "media_item_kind": "article",
-        "confirmation_match_quality": "strong"
+        "confirmation_match_quality": "strong",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       }
     ],
     "browser_visible_extraction": [
       {
         "source_id": "media-bbc-business",
+        "source_name": "BBC Business",
         "requested_url": "https://www.bbc.com/news/articles/cvgk8zk9epgo",
         "landed_url": "https://www.bbc.com/news/articles/cvgk8zk9epgo",
         "region_detected": "US-facing-global",
@@ -7413,12 +7698,15 @@
         "paywall_state": "open",
         "visible_paragraph_count": 12,
         "headline": "How Trump and the oil markets move in sync: Five changes in chartsOil markets have been sensitive to Donald Trump's comments on the war. But are traders growing less responsive?6 hrs agoBusiness",
+        "headline_zh": "BBC Business：地缘与商品冲击更新",
         "author": "BBC Business",
         "published_at": null,
-        "media_item_kind": "article"
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
       },
       {
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "requested_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-84a7c46b51b3583f743c8da6a40d36ac",
         "landed_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-84a7c46b51b3583f743c8da6a40d36ac",
         "region_detected": "US-facing-global",
@@ -7427,12 +7715,15 @@
         "paywall_state": "open",
         "visible_paragraph_count": 4,
         "headline": "Oil steadies and Asian stocks are mostly lower on mixed signs on Iran",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "author": "AP News Business",
         "published_at": null,
-        "media_item_kind": "article"
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "requested_url": "https://apnews.com/article/middle-east-wars-energy-asia-russia-crude-oil-ea90f06d9f35fe4bb977f068d2c6ef27",
         "landed_url": "https://apnews.com/article/middle-east-wars-energy-asia-russia-crude-oil-ea90f06d9f35fe4bb977f068d2c6ef27",
         "region_detected": "US-facing-global",
@@ -7441,12 +7732,15 @@
         "paywall_state": "open",
         "visible_paragraph_count": 4,
         "headline": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "author": "AP News Business",
         "published_at": null,
-        "media_item_kind": "article"
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "requested_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
         "landed_url": "https://apnews.com/article/cuba-trump-russia-oil-shipment-b6845987728e28d5d762992840ca6b69",
         "region_detected": "US-facing-global",
@@ -7455,12 +7749,15 @@
         "paywall_state": "open",
         "visible_paragraph_count": 4,
         "headline": "Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "author": "AP News Business",
         "published_at": null,
-        "media_item_kind": "article"
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "source_id": "media-ap-business",
+        "source_name": "AP News Business",
         "requested_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
         "landed_url": "https://apnews.com/article/stock-markets-war-oil-trump-iran-1aef947ecb395c3bb97fcdb5ed3826f1",
         "region_detected": "US-facing-global",
@@ -7469,12 +7766,15 @@
         "paywall_state": "open",
         "visible_paragraph_count": 4,
         "headline": "US stocks swing through another shaky day as oil prices keep climbing",
+        "headline_zh": "AP News Business：地缘与商品冲击更新",
         "author": "AP News Business",
         "published_at": null,
-        "media_item_kind": "article"
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，AP News Business发布了一条与地缘与商品冲击相关的更新，当前可见信息主要围绕“AP News Business：地缘与商品冲击更新”。"
       },
       {
         "source_id": "media-bbc-business",
+        "source_name": "BBC Business",
         "requested_url": "https://www.bbc.com/news/articles/cwyvd5z1xjno",
         "landed_url": "https://www.bbc.com/news/articles/cwyvd5z1xjno",
         "region_detected": "US-facing-global",
@@ -7483,9 +7783,11 @@
         "paywall_state": "open",
         "visible_paragraph_count": 12,
         "headline": "2 days agoPotential Houthi threat to Red Sea shipping could further damage global economyThe Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.2 days ago",
+        "headline_zh": "BBC Business：政策变化更新",
         "author": "BBC Business",
         "published_at": null,
-        "media_item_kind": "article"
+        "media_item_kind": "article",
+        "summary_zh": "基于标题/摘要整理，适合作为全球宏观与政策叙事的高置信度公共媒体对象。部分国际访问场景可能带订阅或展示限制。"
       }
     ],
     "evidence_gaps": [
@@ -7808,20 +8110,7 @@
         "BEA 和 EIA 已预留接口位，但当前环境未发现 API key。",
         "中国宏观仍以官方页面层和统计解读为主，不建议为了 API 化牺牲口径增量信息。"
       ]
-    },
-    "source_documents": [
-      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-research-motherboard.md",
-      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-transmission-map.md",
-      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-daily-analysis-framework.md",
-      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-learning-live-notes.md",
-      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-misjudgment-and-falsification.md",
-      "F:\\Codex\\projects\\research-report\\learning\\02-macro-synthesis\\macro-to-industry-interfaces.md",
-      "F:\\Codex\\projects\\research-report\\playbooks\\macro-strategy-general-playbook.md",
-      "F:\\Codex\\projects\\research-report\\capability\\macro-strategy-general.md",
-      "F:\\Codex\\projects\\research-report\\source-registry.json",
-      "F:\\Codex\\projects\\research-report\\_work\\macro-daily\\daily-analysis-latest.json",
-      "F:\\Codex\\projects\\research-report\\_work\\macro-data\\snapshot-latest.json"
-    ]
+    }
   },
   "history": [
     {
