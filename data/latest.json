@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-03-31 15:12:00",
+    "generated_at": "2026-03-31 15:22:16",
     "mode": "分析日报"
   },
   "latest": {
@@ -1355,7 +1355,7 @@
       {
         "id": "cn-nbs-press-release-9-market-prices-of-important-means-of-production-in-circulation-march-1-10-2026",
         "title": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-        "title_zh": "流通领域重要生产资料市场价格，March 1-10，2026年",
+        "title_zh": "流通领域重要生产资料市场价格，2026年3月1-10日",
         "source_title_original": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260312_1962757.html",
         "published_at": null,
@@ -1377,7 +1377,7 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-        "what_happened_zh": "流通领域重要生产资料市场价格，March 1-10，2026年",
+        "what_happened_zh": "流通领域重要生产资料市场价格，2026年3月1-10日",
         "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
@@ -1452,7 +1452,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "流通领域重要生产资料市场价格，March 1-10，2026年",
+        "summary_zh": "流通领域重要生产资料市场价格，2026年3月1-10日",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1533,9 +1533,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-              "headline_zh": "流通领域重要生产资料市场价格，March 1-10，2026年",
+              "headline_zh": "流通领域重要生产资料市场价格，2026年3月1-10日",
               "summary": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-              "summary_zh": "流通领域重要生产资料市场价格，March 1-10，2026年"
+              "summary_zh": "流通领域重要生产资料市场价格，2026年3月1-10日"
             }
           ],
           "market_context_evidence": [
@@ -1581,7 +1581,7 @@
       {
         "id": "cn-nbs-press-release-7-energy-production-from-january-to-february-2026",
         "title": "7.Energy Production from January to February 2026",
-        "title_zh": "国家统计局英文发布：数据验证更新",
+        "title_zh": "能源生产 2026年1至2月",
         "source_title_original": "7.Energy Production from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962806.html",
         "published_at": null,
@@ -1603,7 +1603,7 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "7.Energy Production from January to February 2026",
-        "what_happened_zh": "国家统计局英文发布：数据验证更新",
+        "what_happened_zh": "能源生产 2026年1至2月",
         "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
@@ -1678,7 +1678,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "国家统计局英文发布：数据验证更新",
+        "summary_zh": "能源生产 2026年1至2月",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1759,9 +1759,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "7.Energy Production from January to February 2026",
-              "headline_zh": "国家统计局英文发布：数据验证更新",
+              "headline_zh": "能源生产 2026年1至2月",
               "summary": "7.Energy Production from January to February 2026",
-              "summary_zh": "国家统计局英文发布：数据验证更新"
+              "summary_zh": "能源生产 2026年1至2月"
             }
           ],
           "market_context_evidence": [
@@ -1807,7 +1807,7 @@
       {
         "id": "cn-nbs-press-release-6-total-retail-sales-of-consumer-goods-from-january-to-february-2026",
         "title": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-        "title_zh": "社会消费品零售总额 from January to 2026年2月",
+        "title_zh": "社会消费品零售总额 2026年1至2月",
         "source_title_original": "6.Total Retail Sales of Consumer Goods from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962805.html",
         "published_at": null,
@@ -1829,7 +1829,7 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-        "what_happened_zh": "社会消费品零售总额 from January to 2026年2月",
+        "what_happened_zh": "社会消费品零售总额 2026年1至2月",
         "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
@@ -1904,7 +1904,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "社会消费品零售总额 from January to 2026年2月",
+        "summary_zh": "社会消费品零售总额 2026年1至2月",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -1985,9 +1985,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-              "headline_zh": "社会消费品零售总额 from January to 2026年2月",
+              "headline_zh": "社会消费品零售总额 2026年1至2月",
               "summary": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-              "summary_zh": "社会消费品零售总额 from January to 2026年2月"
+              "summary_zh": "社会消费品零售总额 2026年1至2月"
             }
           ],
           "market_context_evidence": [
@@ -2033,7 +2033,7 @@
       {
         "id": "cn-nbs-press-release-5-investment-in-real-estate-development-from-january-to-february-2026",
         "title": "5.Investment in Real Estate Development from January to February 2026",
-        "title_zh": "房地产开发投资 from January to 2026年2月",
+        "title_zh": "房地产开发投资 2026年1至2月",
         "source_title_original": "5.Investment in Real Estate Development from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962803.html",
         "published_at": null,
@@ -2055,7 +2055,7 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "5.Investment in Real Estate Development from January to February 2026",
-        "what_happened_zh": "房地产开发投资 from January to 2026年2月",
+        "what_happened_zh": "房地产开发投资 2026年1至2月",
         "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
@@ -2130,7 +2130,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "房地产开发投资 from January to 2026年2月",
+        "summary_zh": "房地产开发投资 2026年1至2月",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -2211,9 +2211,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "5.Investment in Real Estate Development from January to February 2026",
-              "headline_zh": "房地产开发投资 from January to 2026年2月",
+              "headline_zh": "房地产开发投资 2026年1至2月",
               "summary": "5.Investment in Real Estate Development from January to February 2026",
-              "summary_zh": "房地产开发投资 from January to 2026年2月"
+              "summary_zh": "房地产开发投资 2026年1至2月"
             }
           ],
           "market_context_evidence": [
@@ -2259,7 +2259,7 @@
       {
         "id": "cn-nbs-press-release-4-investment-in-fixed-assets-from-january-to-february-2026",
         "title": "4.Investment in Fixed Assets from January to February 2026",
-        "title_zh": "固定资产投资 from January to 2026年2月",
+        "title_zh": "固定资产投资 2026年1至2月",
         "source_title_original": "4.Investment in Fixed Assets from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962801.html",
         "published_at": null,
@@ -2281,7 +2281,7 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "4.Investment in Fixed Assets from January to February 2026",
-        "what_happened_zh": "固定资产投资 from January to 2026年2月",
+        "what_happened_zh": "固定资产投资 2026年1至2月",
         "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
@@ -2356,7 +2356,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "固定资产投资 from January to 2026年2月",
+        "summary_zh": "固定资产投资 2026年1至2月",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -2437,9 +2437,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "4.Investment in Fixed Assets from January to February 2026",
-              "headline_zh": "固定资产投资 from January to 2026年2月",
+              "headline_zh": "固定资产投资 2026年1至2月",
               "summary": "4.Investment in Fixed Assets from January to February 2026",
-              "summary_zh": "固定资产投资 from January to 2026年2月"
+              "summary_zh": "固定资产投资 2026年1至2月"
             }
           ],
           "market_context_evidence": [
@@ -2485,7 +2485,7 @@
       {
         "id": "cn-nbs-press-release-3-industrial-production-operation-from-january-to-february-2026",
         "title": "3.Industrial Production Operation from January to February 2026",
-        "title_zh": "工业生产运行 from January to 2026年2月",
+        "title_zh": "工业生产运行 2026年1至2月",
         "source_title_original": "3.Industrial Production Operation from January to February 2026",
         "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962800.html",
         "published_at": null,
@@ -2507,7 +2507,7 @@
         "event_type": "数据验证",
         "analysis_lens": "macro_data",
         "what_happened": "3.Industrial Production Operation from January to February 2026",
-        "what_happened_zh": "工业生产运行 from January to 2026年2月",
+        "what_happened_zh": "工业生产运行 2026年1至2月",
         "analysis_summary": "这是一条数据验证类宏观信息。 当前这条信息有增量，但还不足以单独改写今天的主线判断，更适合作为次级关注继续跟踪。 这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。 关键不在数字本身，而在它是否推动市场重写增长、通胀和政策路径。如果数据连续验证同一方向，资产价格会更快跟进。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。",
         "why_it_matters": "这类数据的价值在于验证或反驳当前主线，尤其要看新增口径、工具或约束变化是否会改变增长、通胀和政策预期。",
         "macro_transmission": [
@@ -2582,7 +2582,7 @@
         "raw_summary": "中国宏观数据发布和统计解读的一手来源。",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "工业生产运行 from January to 2026年2月",
+        "summary_zh": "工业生产运行 2026年1至2月",
         "core_contradiction": "主矛盾在于单点数据是在验证主线，还是只提供噪音。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -2663,9 +2663,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "3.Industrial Production Operation from January to February 2026",
-              "headline_zh": "工业生产运行 from January to 2026年2月",
+              "headline_zh": "工业生产运行 2026年1至2月",
               "summary": "3.Industrial Production Operation from January to February 2026",
-              "summary_zh": "工业生产运行 from January to 2026年2月"
+              "summary_zh": "工业生产运行 2026年1至2月"
             }
           ],
           "market_context_evidence": [
@@ -4895,8 +4895,8 @@
       {
         "id": "us-fed-speeches-rss-bowman-capital-rules-for-the-real-economy",
         "title": "Bowman, Capital Rules for the Real Economy",
-        "title_zh": "美联储官员讲话：流动性/利率更新",
-        "source_title_original": "Bowman, Capital Rules for the Real",
+        "title_zh": "鲍曼：服务实体经济的资本规则",
+        "source_title_original": "Bowman, Capital Rules for the Real Economy",
         "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260312a.htm",
         "published_at": "Thu, 12 Mar 2026 15:00:00 GMT",
         "event_date": "2026-03-12",
@@ -4917,7 +4917,7 @@
         "event_type": "流动性/利率",
         "analysis_lens": "china_liquidity",
         "what_happened": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
-        "what_happened_zh": "美联储官员讲话：流动性/利率更新",
+        "what_happened_zh": "鲍曼在卡托研究所政策论坛谈巴塞尔III与银行资本规则",
         "analysis_summary": "这是一条流动性/利率类宏观信息。 当前这条信息更适合作为背景记录，用来补足证据面而不是抢占主判断。 当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。 当前更适合作为背景证据，不建议据此单独调整投资判断。 这次判断主要基于标题与摘要，因此需要继续等待正文或官方确认。 数据校验：美债 2Y/10Y 最新分别为 3.96% / 4.42% ，10Y-2Y 利差约 0.46；先看长端是否继续围绕政策利率重定价。",
         "why_it_matters": "当前条目没有提供足够的新工具、新数字或新执行约束，因此不足以单独改变宏观判断。",
         "macro_transmission": [
@@ -4992,7 +4992,7 @@
         "raw_summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
         "detail_excerpt": "",
         "analysis_basis": "标题/摘要",
-        "summary_zh": "美联储官员讲话：流动性/利率更新",
+        "summary_zh": "鲍曼在卡托研究所政策论坛谈巴塞尔III与银行资本规则",
         "core_contradiction": "主矛盾在于流动性改善能否真正传导到信用与风险偏好，而不只是停留在预期层。",
         "falsification_points": [
           "如果后续一手来源没有继续确认，当前主线要降级。",
@@ -5081,9 +5081,9 @@
               "media_item_kind": "article",
               "matched_official_sources": [],
               "headline": "Bowman, Capital Rules for the Real Economy",
-              "headline_zh": "美联储官员讲话：流动性/利率更新",
+              "headline_zh": "鲍曼：服务实体经济的资本规则",
               "summary": "Speech At the Cato Institute Policy Forum: Basel III and Bank Capital Rules, Washington, D.C.",
-              "summary_zh": "美联储官员讲话：流动性/利率更新"
+              "summary_zh": "鲍曼在卡托研究所政策论坛谈巴塞尔III与银行资本规则"
             }
           ],
           "market_context_evidence": [
@@ -6939,7 +6939,7 @@
       "`card_id`: macro-strategy-general",
       "定义当前主矛盾。"
     ],
-    "daily_input_generated_at": "2026-03-31 15:11:11",
+    "daily_input_generated_at": "2026-03-31 15:18:56",
     "evidence_digest": {
       "primary_evidence": [
         {
@@ -7397,7 +7397,7 @@
       },
       {
         "claim": "9.Market Prices of Important Means of Production in Circulation, March 1-10, 2026",
-        "claim_zh": "流通领域重要生产资料市场价格，March 1-10，2026年",
+        "claim_zh": "流通领域重要生产资料市场价格，2026年3月1-10日",
         "official_source": "国家统计局英文发布",
         "official_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260312_1962757.html",
         "published_at": null,
@@ -7406,7 +7406,7 @@
       },
       {
         "claim": "7.Energy Production from January to February 2026",
-        "claim_zh": "国家统计局英文发布：数据验证更新",
+        "claim_zh": "能源生产 2026年1至2月",
         "official_source": "国家统计局英文发布",
         "official_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962806.html",
         "published_at": null,
@@ -7415,7 +7415,7 @@
       },
       {
         "claim": "6.Total Retail Sales of Consumer Goods from January to February 2026",
-        "claim_zh": "社会消费品零售总额 from January to 2026年2月",
+        "claim_zh": "社会消费品零售总额 2026年1至2月",
         "official_source": "国家统计局英文发布",
         "official_url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260317_1962805.html",
         "published_at": null,
