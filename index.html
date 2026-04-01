@@ -521,11 +521,38 @@
         const card = createNode('article', 'evidence-card');
         card.appendChild(createNode('h3', '', section.title));
         if (section.hint) card.appendChild(createNode('p', 'section-hint', section.hint));
+        const summaryMeta = [
+          section.representative_source ? ('代表信源：' + section.representative_source) : '',
+          section.first_published_at ? ('首发：' + section.first_published_at) : '',
+          section.latest_published_at ? ('最新：' + section.latest_published_at) : '',
+          section.confirmation_status ? ('确认状态：' + section.confirmation_status) : '',
+          section.source_count ? ('补充来源：' + section.source_count) : '',
+        ].filter(Boolean).join(' | ');
+        if (summaryMeta) {
+          card.appendChild(createNode('div', 'entry-meta', summaryMeta));
+        }
+        if (section.summary_zh) {
+          card.appendChild(createNode('p', 'entry-summary', section.summary_zh));
+        }
+        if (section.commentary_zh) {
+          card.appendChild(createNode('p', 'entry-summary', '点评：' + section.commentary_zh));
+        }
         const list = createNode('div', 'evidence-list');
         (section.items || []).forEach((item) => {
           const row = createNode('div', 'evidence-item');
           row.appendChild(renderCardTitle(item));
-          row.appendChild(createNode('div', 'entry-meta', [item.source_name, item.importance_level].filter(Boolean).join(' | ')));
+          row.appendChild(
+            createNode(
+              'div',
+              'entry-meta',
+              [
+                item.source_name_zh || item.source_name,
+                item.source_tier ? formatSourceTier(item.source_tier) : '',
+                item.published_at || '',
+                item.confirmation_status || '',
+              ].filter(Boolean).join(' | ')
+            )
+          );
           row.appendChild(createNode('p', 'entry-summary', item.summary_zh || item.analysis_summary || ''));
           list.appendChild(row);
         });
