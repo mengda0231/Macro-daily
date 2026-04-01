@@ -703,7 +703,6 @@
           today_secondary_packages: '次级关注包',
           today_background_packages: '背景包',
           context_background: '窗口外背景',
-          raw_items_total: '原始条目',
         };
         Object.entries(latest.daily_input_counts || {}).forEach(([key, value]) => {
           if (!countMap[key]) return;
@@ -788,9 +787,8 @@
         const snapshotWrap = document.getElementById('snapshot-list');
         [
           '本期覆盖时间：' + (coverageWindow.label || '暂无'),
-          '重点事件包：' + ((latest.today_focus_packages || []).length || 0),
-          '次级关注包：' + ((latest.today_secondary_packages || []).length || 0),
-          '窗口外背景：' + ((latest.context_background_items || []).length || 0),
+          '今日重点：' + ((latest.today_focus_packages || []).map((item) => item.package_title_zh).slice(0, 2).join('、') || '暂无'),
+          '重点跟踪：' + ((latest.follow_up_signals || []).slice(0, 2).join('、') || '暂无'),
         ].forEach((text) => snapshotWrap.appendChild(createNode('div', 'list-row', text)));
 
         const assetWrap = document.getElementById('asset-map');
