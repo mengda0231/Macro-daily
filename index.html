@@ -44,7 +44,6 @@
               <span id="latest-mode" class="pill"></span>
             </div>
             <div id="judgment-list" class="judgment-list"></div>
-            <div id="lead-paragraphs" class="lead-paragraphs"></div>
             <div id="watchpoints" class="watchpoints"></div>
           </section>
 
@@ -374,7 +373,6 @@
           ['发生了什么', item.what_happened_zh || item.what_happened],
           ['中文摘要', item.summary_zh || item.analysis_summary],
           ['入选原因', item.selection_reason],
-          ['为什么重要', item.why_it_matters],
           ['核心矛盾', item.core_contradiction],
           ['数据校验', item.data_validation_note],
           ['传导链', (item.macro_transmission || []).join(' -> ')],
@@ -497,7 +495,6 @@
         appendOriginalTitle(wrap, item);
         wrap.appendChild(createNode('div', 'entry-meta', buildSourceMeta(item)));
         if (item.summary_zh) wrap.appendChild(createNode('p', 'entry-summary', item.summary_zh));
-        if (item.analysis_summary) wrap.appendChild(createNode('p', 'entry-summary', item.analysis_summary));
         if (item.selection_reason) {
           wrap.appendChild(createNode('p', 'entry-summary', '入选原因：' + item.selection_reason));
         }
@@ -520,7 +517,6 @@
       function renderEvidenceSection(section) {
         const card = createNode('article', 'evidence-card');
         card.appendChild(createNode('h3', '', section.title));
-        if (section.hint) card.appendChild(createNode('p', 'section-hint', section.hint));
         const summaryMeta = [
           section.representative_source ? ('代表信源：' + section.representative_source) : '',
           section.first_published_at ? ('首发：' + section.first_published_at) : '',
@@ -533,9 +529,6 @@
         }
         if (section.summary_zh) {
           card.appendChild(createNode('p', 'entry-summary', section.summary_zh));
-        }
-        if (section.commentary_zh) {
-          card.appendChild(createNode('p', 'entry-summary', '点评：' + section.commentary_zh));
         }
         const list = createNode('div', 'evidence-list');
         (section.items || []).forEach((item) => {
@@ -587,6 +580,13 @@
         return { meta, title };
       }
 
+      function renderPackageBlock(label, value, emphasized) {
+        const block = createNode('div', emphasized ? 'package-block package-block--accent' : 'package-block');
+        block.appendChild(createNode('p', 'package-label', label));
+        block.appendChild(createNode('p', 'package-copy', value));
+        return block;
+      }
+
       function renderPackageCard(item, lead) {
         const card = createNode('article', lead ? 'focus-card focus-card--lead package-card' : 'focus-card package-card');
         const top = createNode('div', 'card-top');
@@ -594,25 +594,10 @@
         top.appendChild(createNode('span', 'entry-meta', buildPackageMeta(item)));
         card.appendChild(top);
         card.appendChild(createNode('div', 'entry-title', item.package_title_zh || item.core_topic || '今日事件包'));
-
-        const sections = [
-          ['主要内容', item.main_content],
-          ['点评归纳', item.commentary_zh],
-          ['为什么重要', item.why_it_matters],
-          ['传导链', joinText(item.macro_transmission || [])],
-          ['投资含义', item.market_implication ? item.market_implication.summary : ''],
-          ['跟踪点', joinText(item.follow_up_signals || [])],
-        ];
-        sections.forEach(([label, value]) => {
-          if (!value) return;
-          const row = createNode('div', 'analysis-row');
-          row.appendChild(createNode('strong', '', label + '：'));
-          row.appendChild(createNode('span', '', value));
-          card.appendChild(row);
-        });
-
-        if (item.market_implication && item.market_implication.assets) {
-          card.appendChild(renderAssetChips(item.market_implication.assets, 'asset-chip-row'));
+        if (item.main_content) card.appendChild(renderPackageBlock('主要内容', item.main_content, true));
+        if (item.commentary_zh) card.appendChild(renderPackageBlock('点评', item.commentary_zh, false));
+        if (item.action_block && item.action_block.content) {
+          card.appendChild(renderPackageBlock(item.action_block.title || '跟踪点', item.action_block.content, false));
         }
 
         const sourceBlock = createNode('div', 'supporting-source-block');
@@ -733,11 +718,6 @@
           row.appendChild(createNode('span', 'bullet-dot'));
           row.appendChild(createNode('span', '', text));
           judgmentWrap.appendChild(row);
-        });
-
-        const leadParagraphWrap = document.getElementById('lead-paragraphs');
-        (latest.lead_paragraphs || []).forEach((text) => {
-          leadParagraphWrap.appendChild(createNode('p', 'lead-paragraph', text));
         });
 
         const watchpointWrap = document.getElementById('watchpoints');
