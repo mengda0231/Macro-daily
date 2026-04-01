@@ -415,7 +415,36 @@ h3,
 
 .package-card {
   display: grid;
-  gap: 10px;
+  gap: 12px;
+}
+
+.package-block {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.package-block--accent {
+  background: rgba(143, 74, 41, 0.08);
+  border-color: rgba(143, 74, 41, 0.18);
+}
+
+.package-label,
+.package-copy {
+  margin: 0;
+}
+
+.package-label {
+  margin-bottom: 6px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.package-copy {
+  line-height: 1.75;
+  color: var(--ink);
 }
 
 .framework-card {
