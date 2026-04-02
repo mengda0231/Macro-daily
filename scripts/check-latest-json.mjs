@@ -28,6 +28,17 @@ function packageSummary(packageItem) {
   return packageItem.package_title_zh || packageItem.core_topic || "未命名主题包";
 }
 
+const bannedPromptOpeners = ["关键看", "先看", "继续看", "需要继续看"];
+
+function firstSentence(text) {
+  return String(text || "").split(/[。！？]/u)[0].trim();
+}
+
+function startsWithBannedPrompt(text) {
+  const normalized = String(text || "").trim().replace(/^[：:，,\s]+/u, "");
+  return bannedPromptOpeners.some((marker) => normalized.startsWith(marker));
+}
+
 if (!fs.existsSync(payloadPath)) {
   fail(`missing payload: ${payloadPath}`);
 }
@@ -107,8 +118,20 @@ const packageArrays = [
   ["today_secondary_packages", latest.today_secondary_packages],
 ];
 
-if (latest.today_focus_packages.length > 3) {
-  fail("today_focus_packages should stay within the 1-3 package density target");
+const totalMainPackages = latest.today_focus_packages.length + latest.today_secondary_packages.length;
+if (totalMainPackages > 8) {
+  fail("main reading flow should stay within the 6-8 high-density target ceiling");
+}
+if (latest.today_focus_packages.length > 6) {
+  fail("today_focus_packages should stay within the result-first lead-lane ceiling");
+}
+if (latest.today_secondary_packages.length > 5) {
+  fail("today_secondary_packages should stay within the compressed secondary lane ceiling");
+}
+
+const candidateCount = Number(latest.daily_input_counts?.main_newsflow_candidates || 0);
+if (candidateCount >= 6 && totalMainPackages < 6) {
+  fail("enough unique newsflow candidates existed, but homepage main flow still failed to expand to 6+ packages");
 }
 
 const packageTitleKeys = new Set();
@@ -118,6 +141,9 @@ for (const [bucketName, packages] of packageArrays) {
     requireString(packageItem.package_title_zh, `${bucketName} package_title_zh`);
     requireString(packageItem.main_content, `${bucketName} ${packageSummary(packageItem)} main_content`);
     requireString(packageItem.commentary_zh, `${bucketName} ${packageSummary(packageItem)} commentary_zh`);
+    if (startsWithBannedPrompt(firstSentence(packageItem.commentary_zh))) {
+      fail(`${bucketName} ${packageSummary(packageItem)} commentary_zh still starts with a prompt-style phrase`);
+    }
     if (!packageItem.action_block || typeof packageItem.action_block !== "object") {
       fail(`${bucketName} ${packageSummary(packageItem)} action_block is missing`);
     }
@@ -160,6 +186,20 @@ if (latest.today_focus_packages.length > 0) {
   const hasLeadLane = latest.today_focus_packages.some((item) => ["headline_media", "official_update"].includes(item.display_lane));
   if (!hasLeadLane) {
     fail("today_focus_packages must contain at least one result-first display lane");
+  }
+}
+
+requireArray(latest.judgments, "latest.judgments");
+if (latest.judgments.length > 5) {
+  fail("latest.judgments should stay within the 3-5 judgment range");
+}
+if (totalMainPackages > 0 && latest.judgments.length < 3) {
+  fail("latest.judgments should provide at least 3 result-first judgments when the main flow is populated");
+}
+for (const judgment of latest.judgments) {
+  requireString(judgment, "latest.judgments[]");
+  if (startsWithBannedPrompt(firstSentence(judgment))) {
+    fail(`judgment still starts with a prompt-style phrase: ${judgment}`);
   }
 }
 

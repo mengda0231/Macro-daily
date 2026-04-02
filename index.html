@@ -19,7 +19,7 @@
           </div>
           <div class="hero-side card subtle-card">
             <p class="section-tag">摘要速读</p>
-            <h2>先看今天，再看框架</h2>
+            <h2>今天结果，再看框架</h2>
             <div id="daily-counts" class="count-grid"></div>
             <div id="hero-outlook" class="hero-outlook"></div>
           </div>
@@ -51,7 +51,7 @@
             <div class="panel-head">
               <div>
                 <p class="section-tag">头版深度与独家</p>
-                <h2>先看当天最值得读的深度媒体主线</h2>
+                <h2>当天最值得读的深度媒体主线</h2>
               </div>
             </div>
             <div id="headline-media-packages" class="package-grid"></div>
@@ -754,8 +754,8 @@
           .join('、')) || '暂无';
         [
           '本期覆盖时间：' + (coverageWindow.label || '暂无'),
-          '今日重点：' + ((latest.today_focus_packages || []).map((item) => item.package_title_zh).slice(0, 2).join('、') || '暂无'),
-          '重点跟踪：' + ((latest.follow_up_signals || []).slice(0, 2).join('、') || '暂无'),
+          '今日重点：' + ((latest.today_focus_packages || []).map((item) => item.package_title_zh).slice(0, 3).join('、') || '暂无'),
+          '重点跟踪：' + ((latest.follow_up_signals || []).slice(0, 4).join('、') || '暂无'),
           '代表信源：' + representativeSourceText,
         ].forEach((text) => snapshotWrap.appendChild(createNode('div', 'list-row', text)));
 
