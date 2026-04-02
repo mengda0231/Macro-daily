@@ -530,16 +530,23 @@
         if (section.summary_zh) {
           card.appendChild(createNode('p', 'entry-summary', section.summary_zh));
         }
+        if (section.commentary_zh && section.commentary_zh !== section.summary_zh) {
+          card.appendChild(createNode('p', 'entry-summary entry-summary--subtle', '点评：' + section.commentary_zh));
+        }
         const list = createNode('div', 'evidence-list');
         (section.items || []).forEach((item) => {
           const row = createNode('div', 'evidence-item');
-          row.appendChild(renderCardTitle(item));
+          const sourceLabel = item.source_name_zh || item.source_name || '未命名来源';
+          row.appendChild(createNode('strong', '', sourceLabel));
+          const evidenceTitle = item.title_zh || item.title || '';
+          if (evidenceTitle && evidenceTitle !== section.title) {
+            row.appendChild(createNode('p', 'entry-summary entry-summary--subtle', evidenceTitle));
+          }
           row.appendChild(
             createNode(
               'div',
               'entry-meta',
               [
-                item.source_name_zh || item.source_name,
                 item.source_tier ? formatSourceTier(item.source_tier) : '',
                 item.published_at || '',
                 item.confirmation_status || '',
@@ -555,17 +562,20 @@
 
       function buildPackageMeta(item) {
         const parts = [];
-        if (item.primary_source && (item.primary_source.source_name_zh || item.primary_source.source_name)) {
-          parts.push('代表信源：' + (item.primary_source.source_name_zh || item.primary_source.source_name));
+        const displaySource = item.display_source || item.primary_source || {};
+        if (displaySource && (displaySource.source_name_zh || displaySource.source_name)) {
+          parts.push(displaySource.source_name_zh || displaySource.source_name);
         }
         if (item.source_tier_mix && item.source_tier_mix.length) {
           parts.push(item.source_tier_mix.map(formatSourceTier).join(' / '));
         }
         if (item.first_published_at || item.latest_published_at) {
-          parts.push('首发：' + (item.first_published_at || '未知') + ' | 最新：' + (item.latest_published_at || '未知'));
+          parts.push('首发 ' + (item.first_published_at || '未知'));
+          parts.push('最新 ' + (item.latest_published_at || '未知'));
         }
-        if (item.source_count) {
-          parts.push('信源数：' + item.source_count);
+        const supportingCount = Math.max((item.source_count || 0) - 1, 0);
+        if (supportingCount > 0) {
+          parts.push('另 ' + supportingCount + ' 个补充来源');
         }
         return parts.join(' | ');
       }
@@ -576,8 +586,7 @@
           formatSourceTier(source.source_tier),
           source.published_at || '',
         ].filter(Boolean).join(' | ');
-        const title = source.source_title_original || source.title || source.title_zh || '';
-        return { meta, title };
+        return { meta };
       }
 
       function renderPackageBlock(label, value, emphasized) {
@@ -599,29 +608,6 @@
         if (item.action_block && item.action_block.content) {
           card.appendChild(renderPackageBlock(item.action_block.title || '跟踪点', item.action_block.content, false));
         }
-
-        const sourceBlock = createNode('div', 'supporting-source-block');
-        sourceBlock.appendChild(createNode('p', 'section-tag', '代表信源与补充'));
-        if (item.primary_source) {
-          const primaryLine = buildPackageSourceLine(item.primary_source);
-          if (primaryLine.meta) {
-            sourceBlock.appendChild(createNode('div', 'entry-meta', primaryLine.meta));
-          }
-          if (primaryLine.title) {
-            sourceBlock.appendChild(createNode('div', 'entry-summary', '原始报道：' + primaryLine.title));
-          }
-        }
-        (item.supporting_sources || []).slice(0, 3).forEach((source) => {
-          const supportLine = buildPackageSourceLine(source);
-          const value = [supportLine.meta, supportLine.title].filter(Boolean).join(' | ');
-          if (value) {
-            sourceBlock.appendChild(createNode('div', 'entry-summary entry-summary--subtle', value));
-          }
-        });
-        if ((item.supporting_sources || []).length > 3) {
-          sourceBlock.appendChild(createNode('div', 'entry-summary entry-summary--subtle', '另有 ' + ((item.supporting_sources || []).length - 3) + ' 个补充信源。'));
-        }
-        card.appendChild(sourceBlock);
         return card;
       }
 
@@ -698,18 +684,7 @@
         document.getElementById('coverage-window').textContent = coverageWindow.label ? ('本期覆盖时间：' + coverageWindow.label) : '';
 
         const countsWrap = document.getElementById('daily-counts');
-        const countMap = {
-          today_focus_packages: '重点事件包',
-          today_secondary_packages: '次级关注包',
-          today_background_packages: '背景包',
-          context_background: '窗口外背景',
-        };
-        Object.entries(latest.daily_input_counts || {}).forEach(([key, value]) => {
-          if (!countMap[key]) return;
-          const box = createNode('div', 'count-box');
-          box.innerHTML = '<strong>' + value + '</strong><span>' + countMap[key] + '</span>';
-          countsWrap.appendChild(box);
-        });
+        countsWrap.style.display = 'none';
 
         const judgmentWrap = document.getElementById('judgment-list');
         (latest.judgments || []).forEach((text) => {
@@ -785,10 +760,16 @@
         });
 
         const snapshotWrap = document.getElementById('snapshot-list');
+        const representativeSourceText = ((latest.today_representative_sources || [])
+          .map((item) => typeof item === 'string' ? item : (item.source_name_zh || item.source_name || item.name || ''))
+          .filter(Boolean)
+          .slice(0, 3)
+          .join('、')) || '暂无';
         [
           '本期覆盖时间：' + (coverageWindow.label || '暂无'),
           '今日重点：' + ((latest.today_focus_packages || []).map((item) => item.package_title_zh).slice(0, 2).join('、') || '暂无'),
           '重点跟踪：' + ((latest.follow_up_signals || []).slice(0, 2).join('、') || '暂无'),
+          '代表信源：' + representativeSourceText,
         ].forEach((text) => snapshotWrap.appendChild(createNode('div', 'list-row', text)));
 
         const assetWrap = document.getElementById('asset-map');
