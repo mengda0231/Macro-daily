@@ -576,8 +576,7 @@
           formatSourceTier(source.source_tier),
           source.published_at || '',
         ].filter(Boolean).join(' | ');
-        const title = source.source_title_original || source.title || source.title_zh || '';
-        return { meta, title };
+        return { meta };
       }
 
       function renderPackageBlock(label, value, emphasized) {
@@ -601,19 +600,16 @@
         }
 
         const sourceBlock = createNode('div', 'supporting-source-block');
-        sourceBlock.appendChild(createNode('p', 'section-tag', '代表信源与补充'));
+        sourceBlock.appendChild(createNode('p', 'section-tag', '代表信源'));
         if (item.primary_source) {
           const primaryLine = buildPackageSourceLine(item.primary_source);
           if (primaryLine.meta) {
             sourceBlock.appendChild(createNode('div', 'entry-meta', primaryLine.meta));
           }
-          if (primaryLine.title) {
-            sourceBlock.appendChild(createNode('div', 'entry-summary', '原始报道：' + primaryLine.title));
-          }
         }
         (item.supporting_sources || []).slice(0, 3).forEach((source) => {
           const supportLine = buildPackageSourceLine(source);
-          const value = [supportLine.meta, supportLine.title].filter(Boolean).join(' | ');
+          const value = supportLine.meta;
           if (value) {
             sourceBlock.appendChild(createNode('div', 'entry-summary entry-summary--subtle', value));
           }
