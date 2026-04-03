@@ -122,6 +122,7 @@ const allowedSourceFields = new Set([
   "source_name_zh",
   "source_tier",
   "published_at",
+  "source_url",
 ]);
 
 const allowedActionBlockFields = new Set([
@@ -148,6 +149,7 @@ const allowedRepresentativeSourceFields = new Set([
   "source_name_zh",
   "source_tier",
   "published_at",
+  "source_url",
 ]);
 
 const allowedAssetMapFields = new Set([
@@ -214,13 +216,13 @@ const packageArrays = [
 ];
 
 const totalMainPackages = latest.today_focus_packages.length + latest.today_secondary_packages.length;
-if (totalMainPackages > 8) {
-  fail("main reading flow should stay within the 6-8 high-density target ceiling");
+if (totalMainPackages > 12) {
+  fail("main reading flow should stay within the homepage density ceiling");
 }
 if (latest.today_focus_packages.length > 6) {
   fail("today_focus_packages should stay within the result-first lead-lane ceiling");
 }
-if (latest.today_secondary_packages.length > 5) {
+if (latest.today_secondary_packages.length > 8) {
   fail("today_secondary_packages should stay within the compressed secondary lane ceiling");
 }
 
@@ -254,6 +256,7 @@ for (const [bucketName, packages] of packageArrays) {
     if (!String(displaySource.source_name_zh || displaySource.source_name || "").trim()) {
       fail(`${bucketName} ${packageSummary(packageItem)} representative source name is missing`);
     }
+    requireString(displaySource.source_url, `${bucketName} ${packageSummary(packageItem)} display_source.source_url`);
 
     requireString(packageItem.display_lane, `${bucketName} ${packageSummary(packageItem)} display_lane`);
     if (bucketName === "today_focus_packages" && !["headline_media", "official_update"].includes(packageItem.display_lane)) {
@@ -275,6 +278,12 @@ for (const packageItem of latest.today_background_packages) {
   ensureOnlyAllowedKeys(packageItem, allowedBackgroundPackageFields, `today_background_packages ${packageSummary(packageItem)}`);
   if (packageItem.package_title_zh && !hasCjk(packageItem.package_title_zh)) {
     fail(`today_background_packages ${packageSummary(packageItem)} package_title_zh must stay Chinese-facing`);
+  }
+  if (packageItem.display_source !== undefined && packageItem.display_source !== null) {
+    if (typeof packageItem.display_source !== "object") {
+      fail(`today_background_packages ${packageSummary(packageItem)} display_source must be an object`);
+    }
+    ensureOnlyAllowedKeys(packageItem.display_source, allowedSourceFields, `today_background_packages ${packageSummary(packageItem)} display_source`);
   }
   requireString(packageItem.display_lane, `today_background_packages ${packageSummary(packageItem)} display_lane`);
   if (packageItem.display_lane !== "background") {
@@ -315,6 +324,7 @@ for (const item of latest.today_representative_sources) {
   if (!String(item.source_name_zh || item.source_name || "").trim()) {
     fail("latest.today_representative_sources[] must include a source name");
   }
+  requireString(item.source_url, "latest.today_representative_sources[].source_url");
 }
 
 for (const item of latest.asset_map) {

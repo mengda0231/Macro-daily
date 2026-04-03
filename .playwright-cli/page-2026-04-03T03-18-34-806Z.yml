@@ -1,0 +1,312 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: 宏观日报
+        - heading "宏观日报" [level=1] [ref=e7]
+        - paragraph [ref=e8]: 会分析、会点评、能辅助投资的中文宏观决策界面
+        - paragraph [ref=e9]: 今天的主线集中在中东地缘扰动重新推升油价与通胀约束、亚洲能源应对开始压向增长与通胀、欧元区银行利率数据继续约束宽松预期，深度媒体包主导，官方增量更多承担验证作用。
+        - paragraph [ref=e10]: 今天的主阅读流集中在中东地缘扰动重新推升油价与通胀约束、亚洲能源应对开始压向增长与通胀、欧元区银行利率数据继续约束宽松预期。这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。
+      - generic [ref=e11]:
+        - paragraph [ref=e12]: 摘要速读
+        - heading "今天结果，再看框架" [level=2] [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - strong [ref=e16]: A股/港股风险偏好
+            - generic [ref=e17]: 中性
+          - generic [ref=e18]:
+            - strong [ref=e19]: 利率
+            - generic [ref=e20]: 中性
+          - generic [ref=e21]:
+            - strong [ref=e22]: 美元/人民币
+            - generic [ref=e23]: 中性
+          - generic [ref=e24]:
+            - strong [ref=e25]: 黄金
+            - generic [ref=e26]: 偏多
+    - generic [ref=e27]:
+      - generic [ref=e28]: 页面生成时间：2026-04-03 11:17:12
+      - generic [ref=e29]: 页面模式：分析日报
+      - generic [ref=e30]: 分析生成时间：2026-04-03 10:53:11
+      - link "GitHub 仓库" [ref=e31] [cursor=pointer]:
+        - /url: https://github.com/mengda0231/Macro-daily
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: 今日宏观判断
+            - heading "2026-04-02" [level=2] [ref=e38]
+            - paragraph [ref=e39]: 本期覆盖时间：昨天12:00（含）- 今天12:00（不含） | 2026-04-01 12:00 - 2026-04-02 12:00
+          - generic [ref=e40]: 分析日报
+        - generic [ref=e41]:
+          - generic [ref=e44]: 这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。
+          - generic [ref=e47]: 这更像输入型能源压力开始反噬增长，亚洲顺周期预期需要下修；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。
+          - generic [ref=e50]: 欧元区宽松预期还在被数据后移，欧债利率和欧元更容易先承受再定价；资产上黄金中性偏空，油和大宗偏多，汇率偏稳。
+          - generic [ref=e53]: 这更像金融稳定常规巡检，对当日资产定价的边际冲击有限；若报告新增资本、流动性或信用压力信号，英债和英镑才会更明显反应。
+      - generic [ref=e54]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: 头版深度与独家
+          - heading "当天最值得读的深度媒体主线" [level=2] [ref=e58]
+        - generic [ref=e59]:
+          - article [ref=e60]:
+            - generic [ref=e61]:
+              - generic [ref=e62]: 今日重点
+              - generic [ref=e63]: Tier 2 主流媒体 | 首发 2026-04-02 02:48:45 | 最新 2026-04-02 02:48:45
+            - generic [ref=e64]: 中东地缘扰动重新推升油价与通胀约束
+            - generic [ref=e65]:
+              - link "美联社" [ref=e66] [cursor=pointer]:
+                - /url: https://apnews.com/article/stock-markets-war-oil-trump-iran-6fc90a2e50b1252cde130fc3e0ce0da3
+              - generic [ref=e67]: Tier 2 主流媒体 | 2026-04-02 02:48:45 | Tier 2 主流媒体 | 首发 2026-04-02 02:48:45 | 最新 2026-04-02 02:48:45
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: 主要内容
+              - paragraph [ref=e70]: 中东局势继续扰动能源与航运预期，油价重新进入通胀和利率定价链条。
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: 点评
+              - paragraph [ref=e73]: 这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束。 若油价回吐且航运风险降温，这条通胀约束会先退回次级扰动。
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: 投资映射
+              - paragraph [ref=e76]: 黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。
+          - article [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 今日重点
+              - generic [ref=e80]: Tier 2 主流媒体 | 首发 2026-04-01 18:59:00 | 最新 2026-04-01 18:59:00
+            - generic [ref=e81]: 亚洲能源应对开始压向增长与通胀
+            - generic [ref=e82]:
+              - link "日经亚洲" [ref=e83] [cursor=pointer]:
+                - /url: https://asia.nikkei.com/spotlight/iran-tensions/iran-war/economists-business-warn-indonesia-s-energy-crisis-response-may-backfire2
+              - generic [ref=e84]: Tier 2 主流媒体 | 2026-04-01 18:59:00 | Tier 2 主流媒体 | 首发 2026-04-01 18:59:00 | 最新 2026-04-01 18:59:00
+            - generic [ref=e85]:
+              - paragraph [ref=e86]: 主要内容
+              - paragraph [ref=e87]: 亚洲经济体开始用行政和节流工具应对能源压力，增长与通胀之间的取舍重新突出。
+            - generic [ref=e88]:
+              - paragraph [ref=e89]: 点评
+              - paragraph [ref=e90]: 这更像输入型能源压力开始反噬增长，亚洲顺周期预期需要下修。 若油价回落或补贴扩张，增长压力会先缓和。
+            - generic [ref=e91]:
+              - paragraph [ref=e92]: 投资映射
+              - paragraph [ref=e93]: 黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。
+      - generic [ref=e94]:
+        - generic [ref=e96]:
+          - paragraph [ref=e97]: 今日重大官方与政策
+          - heading "只保留当天真正有增量的官方发布" [level=2] [ref=e98]
+        - article [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]: 今日重点
+            - generic [ref=e103]: Tier 1 官方 | 首发 2026-04-01 16:00:00 | 最新 2026-04-01 16:00:00
+          - generic [ref=e104]: 欧元区银行利率数据继续约束宽松预期
+          - generic [ref=e105]:
+            - link "欧洲央行统计新闻稿" [ref=e106] [cursor=pointer]:
+              - /url: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2604~a265e5863d.en.html
+            - generic [ref=e107]: Tier 1 官方 | 2026-04-01 16:00:00 | Tier 1 官方 | 首发 2026-04-01 16:00:00 | 最新 2026-04-01 16:00:00
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: 主要内容
+            - paragraph [ref=e110]: 欧洲央行最新统计与讲话继续为欧元区利率预期提供新锚点。
+          - generic [ref=e111]:
+            - paragraph [ref=e112]: 点评
+            - paragraph [ref=e113]: 欧元区宽松预期还在被数据后移，欧债利率和欧元更容易先承受再定价。 若后续工资和核心通胀同步回落，宽松交易才会重新前移。
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: 投资映射
+            - paragraph [ref=e116]: 黄金中性偏空，油和大宗偏多，汇率偏稳。
+      - generic [ref=e117]:
+        - generic [ref=e119]:
+          - paragraph [ref=e120]: 今日次级关注
+          - heading "有增量，但暂不到当天主线级别" [level=2] [ref=e121]
+        - generic [ref=e122]:
+          - article [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]: 次级关注
+              - generic [ref=e126]: 2026-04-01 17:30:00
+            - generic [ref=e127]: 英国金融稳定例行记录
+            - generic [ref=e128]:
+              - link "英国央行新闻与公告" [ref=e129] [cursor=pointer]:
+                - /url: https://www.bankofengland.co.uk/financial-policy-committee-record/2026/april-2026
+              - generic [ref=e130]: Tier 1 官方 | 2026-04-01 17:30:00 | Tier 1 官方 | 首发 2026-04-01 17:30:00 | 最新 2026-04-01 17:30:00
+            - paragraph [ref=e131]: 英国金融稳定记录继续提供监管对信用、流动性和系统性风险的观察窗口。
+            - paragraph [ref=e132]: 这更像金融稳定常规巡检，对当日资产定价的边际冲击有限。 若报告新增资本、流动性或信用压力信号，英债和英镑才会更明显反应。
+            - generic [ref=e133]:
+              - strong [ref=e134]: 跟踪点
+              - generic [ref=e135]: 英债、信用利差和监管口径里会不会出现新的资本或流动性约束。
+          - article [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: 次级关注
+              - generic [ref=e139]: 2026-04-02 02:07:32
+            - generic [ref=e140]: 美联储路径与美元定价出现新扰动
+            - generic [ref=e141]:
+              - link "路透" [ref=e142] [cursor=pointer]:
+                - /url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOalQ0dFNmQlpRNE5YNnkzc3VJSkN5MzRxQm9QTmhBaS0xd29ILVVmSmEzX0gtRjdRYXRyeFROZlAzVWw4N2ItUzkxaFdGeDg0d3dYdEZQNWgzbjBXS0dsZ1h3UEgxMFdfTkZSU3RPa2haYTYtcC1JMTRXQzJWTkZWU1hKNUg3ZkhVREU5UEhfcktpb1BEdkxMcHZsaHdEbHByV0l4UHcxdkVmQjZiZnJEemlpUUR5M2FsOVRIZF9XZw?oc=5
+              - generic [ref=e143]: Tier 3 热点报道 | 2026-04-02 02:07:32 | Tier 3 热点报道 | 首发 2026-04-02 02:07:32 | 最新 2026-04-02 02:07:32
+            - paragraph [ref=e144]: 路透援引穆萨莱姆表态称近期没有必要调整政策立场，联储内部仍偏向观望而非快速转向。
+            - paragraph [ref=e145]: 联储短线不会主动给降息交易开绿灯，美元和美债利率更容易维持偏强定价。 若随后就业与通胀数据同步转弱，年内宽松预期才会重新前移。
+            - generic [ref=e146]:
+              - strong [ref=e147]: 跟踪点
+              - generic [ref=e148]: 非农、核心通胀和更多联储官员表态是否一起转弱。
+          - article [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: 次级关注
+              - generic [ref=e152]: 2026-04-01 19:00:11
+            - generic [ref=e153]: 贸易与关税政策扰动重新压向增长预期
+            - generic [ref=e154]:
+              - link "经济学人 Finance & economics" [ref=e155] [cursor=pointer]:
+                - /url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2wzdDVQTE5ud1g0NG5odi0zN2FCMWhRUExMMVJsOHFRY2VpV2FSUWNudEZpSkVlX0lBc094SWcyVFpZbl9BdzBSZzJXc2ZneldQeXlacnUzUzRpVGMwSnhvZW9RZlN4Y1Rwa24tUklTZzZtNkNOS2syRXhmSERKSFRHbjhPZmk1Z3MxRkp1V3RyNjU1WHV6MWZpN1hwNDBwVFh3eF9XM1ozQV8tZEh2bUtHcDVFMmZ5SGxCeTh4aw?oc=5
+              - generic [ref=e156]: Tier 3 热点报道 | 2026-04-01 19:00:11 | Tier 3 热点报道 | 首发 2026-04-01 19:00:11 | 最新 2026-04-01 19:00:11
+            - paragraph [ref=e157]: 关税与贸易重排继续压住增长预期，媒体复盘显示贸易流向变了，但并没有兑现制造业全面回流的承诺。
+            - paragraph [ref=e158]: 这轮关税冲击更像增长折价和供应链重排长期化，而不是一次性的政治噪音。 若豁免范围扩大或摩擦明显缓和，增长折价和风险偏好压力才会同步回吐。
+            - generic [ref=e159]:
+              - strong [ref=e160]: 跟踪点
+              - generic [ref=e161]: 实际税率、豁免范围和风险资产反应会不会继续恶化。
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - paragraph [ref=e165]: 框架支持
+          - heading "存量主线与情景矩阵放在最后读" [level=2] [ref=e166]
+        - generic [ref=e167]:
+          - article [ref=e168]:
+            - generic [ref=e169]:
+              - paragraph [ref=e170]: 中国宏观母板、硬资产与产业升级
+              - generic [ref=e171]: 框架支持
+            - paragraph [ref=e172]: 写中国宏观时，不能只停在总量增长或政策表述，必须把外部冲击、国内政策母板、科技自立、绿色转型和 A 股结构差异并进同一张图。
+            - generic [ref=e173]:
+              - strong [ref=e174]: 当前视角：
+              - generic [ref=e175]: 防御硬资产型
+            - generic [ref=e176]:
+              - strong [ref=e177]: 今日关联信号：
+              - generic [ref=e178]: 当前更稳健的理解仍是外部冲击压制下的防御硬资产视角，先尊重硬资产和战略安全资产的相对强势。
+            - generic [ref=e179]:
+              - strong [ref=e180]: 跟踪点：
+              - generic [ref=e181]: 科技与绿色目标继续量化细化；6-12 个月内出台更多行业蓝图；A 股硬资产继续跑赢离岸中国资产
+            - paragraph [ref=e182]: 这是存量框架支持层，用来解释当天事件，不等于当天新事件。
+          - article [ref=e183]:
+            - generic [ref=e184]:
+              - paragraph [ref=e185]: 油价、地缘与通胀
+              - generic [ref=e186]: 框架支持
+            - paragraph [ref=e187]: 油价和地缘不能只当商品新闻处理，它们决定的是通胀预期、联储路径和全球风险偏好的再定价速度。
+            - generic [ref=e188]:
+              - strong [ref=e189]: 当前视角：
+              - generic [ref=e190]: 脉冲冲击回落型
+            - generic [ref=e191]:
+              - strong [ref=e192]: 今日关联信号：
+              - generic [ref=e193]: 现实价格层显示冲击暂未继续线性升级，更像脉冲冲击后回落而不是持续性高油价。
+            - generic [ref=e194]:
+              - strong [ref=e195]: 跟踪点：
+              - generic [ref=e196]: WTI 持续站稳高位；库存持续去化；美元继续走强
+            - paragraph [ref=e197]: 这是存量框架支持层，用来解释当天事件，不等于当天新事件。
+          - article [ref=e198]:
+            - generic [ref=e199]:
+              - paragraph [ref=e200]: 增长、通胀、利率与风险偏好
+              - generic [ref=e201]: 框架支持
+            - paragraph [ref=e202]: 宏观日报必须同时跟踪增长、通胀、利率、风险偏好和央行反应函数，不能只盯 headline 数据。
+            - generic [ref=e203]:
+              - strong [ref=e204]: 当前视角：
+              - generic [ref=e205]: 利率约束延续型
+            - generic [ref=e206]:
+              - strong [ref=e207]: 今日关联信号：
+              - generic [ref=e208]: 当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。
+            - generic [ref=e209]:
+              - strong [ref=e210]: 跟踪点：
+              - generic [ref=e211]: 核心通胀继续偏强；10Y 和 2Y 利率维持高位；就业只是边际转弱
+            - paragraph [ref=e212]: 这是存量框架支持层，用来解释当天事件，不等于当天新事件。
+    - complementary [ref=e213]:
+      - generic [ref=e214]:
+        - paragraph [ref=e215]: 今日结果速览
+        - generic [ref=e216]:
+          - generic [ref=e217]: 本期覆盖时间：昨天12:00（含）- 今天12:00（不含） | 2026-04-01 12:00 - 2026-04-02 12:00
+          - link "这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。" [ref=e219] [cursor=pointer]:
+            - /url: "#package-pkg-middle-east-middle-east-geopolitical-energy-shock-inflation-risk"
+          - link "这更像输入型能源压力开始反噬增长，亚洲顺周期预期需要下修；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。" [ref=e221] [cursor=pointer]:
+            - /url: "#package-pkg-asia-energy-policy-asia-energy-policy-response-growth-inflation"
+          - link "欧元区宽松预期还在被数据后移，欧债利率和欧元更容易先承受再定价；资产上黄金中性偏空，油和大宗偏多，汇率偏稳。" [ref=e223] [cursor=pointer]:
+            - /url: "#package-pkg-ecb-europe-macro-data-rates-fx"
+          - link "这更像金融稳定常规巡检，对当日资产定价的边际冲击有限；若报告新增资本、流动性或信用压力信号，英债和英镑才会更明显反应。" [ref=e225] [cursor=pointer]:
+            - /url: "#package-pkg-financial-stability-uk-financial-stability-rates-credit"
+      - generic [ref=e226]:
+        - paragraph [ref=e227]: 主题快跳
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - link "中东地缘扰动重新推升油价与通胀约束" [ref=e231] [cursor=pointer]:
+                - /url: "#package-pkg-middle-east-middle-east-geopolitical-energy-shock-inflation-risk"
+              - generic [ref=e232]: 头版主题
+            - generic [ref=e233]:
+              - link "美联社" [ref=e234] [cursor=pointer]:
+                - /url: https://apnews.com/article/stock-markets-war-oil-trump-iran-6fc90a2e50b1252cde130fc3e0ce0da3
+              - generic [ref=e235]: Tier 2 主流媒体 | 2026-04-02 02:48:45
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - link "亚洲能源应对开始压向增长与通胀" [ref=e238] [cursor=pointer]:
+                - /url: "#package-pkg-asia-energy-policy-asia-energy-policy-response-growth-inflation"
+              - generic [ref=e239]: 头版主题
+            - generic [ref=e240]:
+              - link "日经亚洲" [ref=e241] [cursor=pointer]:
+                - /url: https://asia.nikkei.com/spotlight/iran-tensions/iran-war/economists-business-warn-indonesia-s-energy-crisis-response-may-backfire2
+              - generic [ref=e242]: Tier 2 主流媒体 | 2026-04-01 18:59:00
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - link "欧元区银行利率数据继续约束宽松预期" [ref=e245] [cursor=pointer]:
+                - /url: "#package-pkg-ecb-europe-macro-data-rates-fx"
+              - generic [ref=e246]: 官方增量
+            - generic [ref=e247]:
+              - link "欧洲央行统计新闻稿" [ref=e248] [cursor=pointer]:
+                - /url: https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2604~a265e5863d.en.html
+              - generic [ref=e249]: Tier 1 官方 | 2026-04-01 16:00:00
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - link "英国金融稳定例行记录" [ref=e252] [cursor=pointer]:
+                - /url: "#package-pkg-financial-stability-uk-financial-stability-rates-credit"
+              - generic [ref=e253]: 次级关注
+            - generic [ref=e254]:
+              - link "英国央行新闻与公告" [ref=e255] [cursor=pointer]:
+                - /url: https://www.bankofengland.co.uk/financial-policy-committee-record/2026/april-2026
+              - generic [ref=e256]: Tier 1 官方 | 2026-04-01 17:30:00
+          - generic [ref=e257]:
+            - generic [ref=e258]:
+              - link "美联储路径与美元定价出现新扰动" [ref=e259] [cursor=pointer]:
+                - /url: "#package-pkg-fed-us-central-bank-policy-rates-dollar"
+              - generic [ref=e260]: 次级关注
+            - generic [ref=e261]:
+              - link "路透" [ref=e262] [cursor=pointer]:
+                - /url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOalQ0dFNmQlpRNE5YNnkzc3VJSkN5MzRxQm9QTmhBaS0xd29ILVVmSmEzX0gtRjdRYXRyeFROZlAzVWw4N2ItUzkxaFdGeDg0d3dYdEZQNWgzbjBXS0dsZ1h3UEgxMFdfTkZSU3RPa2haYTYtcC1JMTRXQzJWTkZWU1hKNUg3ZkhVREU5UEhfcktpb1BEdkxMcHZsaHdEbHByV0l4UHcxdkVmQjZiZnJEemlpUUR5M2FsOVRIZF9XZw?oc=5
+              - generic [ref=e263]: Tier 3 热点报道 | 2026-04-02 02:07:32
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - link "贸易与关税政策扰动重新压向增长预期" [ref=e266] [cursor=pointer]:
+                - /url: "#package-pkg-trade-policy-us-global-trade-policy-growth-risk"
+              - generic [ref=e267]: 次级关注
+            - generic [ref=e268]:
+              - link "经济学人 Finance & economics" [ref=e269] [cursor=pointer]:
+                - /url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2wzdDVQTE5ud1g0NG5odi0zN2FCMWhRUExMMVJsOHFRY2VpV2FSUWNudEZpSkVlX0lBc094SWcyVFpZbl9BdzBSZzJXc2ZneldQeXlacnUzUzRpVGMwSnhvZW9RZlN4Y1Rwa24tUklTZzZtNkNOS2syRXhmSERKSFRHbjhPZmk1Z3MxRkp1V3RyNjU1WHV6MWZpN1hwNDBwVFh3eF9XM1ozQV8tZEh2bUtHcDVFMmZ5SGxCeTh4aw?oc=5
+              - generic [ref=e270]: Tier 3 热点报道 | 2026-04-01 19:00:11
+      - generic [ref=e271]:
+        - paragraph [ref=e272]: 今日资产映射
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - strong [ref=e276]: A股/港股风险偏好
+              - generic [ref=e277]: 中性
+            - paragraph [ref=e278]: 更强增长或更稳数据通常改善权益预期。；能源冲击通常压制整体风险偏好并抬高成本。；政策预期改善通常先作用于风险偏好。
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - strong [ref=e281]: 利率
+              - generic [ref=e282]: 中性
+            - paragraph [ref=e283]: 增长或通胀预期抬升会推高利率中枢。；避险会利多债券，但通胀抬头会限制空间。；若稳增长预期抬升，长端利率可能先承压。；数据快照显示美债 2Y/10Y 分别约为 3.96% /...
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - strong [ref=e286]: 美元/人民币
+              - generic [ref=e287]: 中性
+            - paragraph [ref=e288]: 数据改善有利于稳定人民币与风险偏好。；风险厌恶和外部冲击通常支撑美元。；政策托底有助于稳定人民币预期。；长短端利差维持正值，美元利率资产的相对吸引力仍在。
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - strong [ref=e291]: 黄金
+              - generic [ref=e292]: 偏多
+            - paragraph [ref=e293]: 风险偏好改善时，黄金相对受抑。；避险和通胀预期通常共同利多黄金。；政策条目对黄金并非直接驱动。
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - strong [ref=e296]: 原油/大宗
+              - generic [ref=e297]: 偏多
+            - paragraph [ref=e298]: 需求修复逻辑通常利多原油和工业品。；若是供给冲击，原油和相关商品通常先涨。；若政策带动需求预期，工业品更受益。；WTI 回落说明短线能源再通胀交易暂未继续强化。
+      - generic [ref=e299]:
+        - paragraph [ref=e300]: 重点跟踪指标
+        - generic [ref=e301]:
+          - generic [ref=e302]: 科技与绿色目标继续量化细化
+          - generic [ref=e303]: 6-12 个月内出台更多行业蓝图
+          - generic [ref=e304]: WTI 持续站稳高位
+          - generic [ref=e305]: 核对正文中的新数字或新措辞是否被后续一手来源继续确认
+          - generic [ref=e306]: 下一期同类数据是否延续
+          - generic [ref=e307]: 政策口径是否因此调整
