@@ -46,6 +46,10 @@ function startsWithBannedPrompt(text) {
   return bannedPromptOpeners.some((marker) => normalized.startsWith(marker));
 }
 
+function hasCjk(text) {
+  return /[\u4e00-\u9fff]/u.test(String(text || ""));
+}
+
 if (!fs.existsSync(payloadPath)) {
   fail(`missing payload: ${payloadPath}`);
 }
@@ -226,6 +230,9 @@ for (const [bucketName, packages] of packageArrays) {
   for (const packageItem of packages) {
     ensureOnlyAllowedKeys(packageItem, allowedPackageFields, `${bucketName} ${packageSummary(packageItem)}`);
     requireString(packageItem.package_title_zh, `${bucketName} package_title_zh`);
+    if (!hasCjk(packageItem.package_title_zh)) {
+      fail(`${bucketName} ${packageSummary(packageItem)} package_title_zh must stay Chinese-facing`);
+    }
     requireString(packageItem.main_content, `${bucketName} ${packageSummary(packageItem)} main_content`);
     requireString(packageItem.commentary_zh, `${bucketName} ${packageSummary(packageItem)} commentary_zh`);
     if (startsWithBannedPrompt(firstSentence(packageItem.commentary_zh))) {
@@ -266,6 +273,9 @@ for (const [bucketName, packages] of packageArrays) {
 
 for (const packageItem of latest.today_background_packages) {
   ensureOnlyAllowedKeys(packageItem, allowedBackgroundPackageFields, `today_background_packages ${packageSummary(packageItem)}`);
+  if (packageItem.package_title_zh && !hasCjk(packageItem.package_title_zh)) {
+    fail(`today_background_packages ${packageSummary(packageItem)} package_title_zh must stay Chinese-facing`);
+  }
   requireString(packageItem.display_lane, `today_background_packages ${packageSummary(packageItem)} display_lane`);
   if (packageItem.display_lane !== "background") {
     fail(`today_background_packages ${packageSummary(packageItem)} display_lane must be background`);
