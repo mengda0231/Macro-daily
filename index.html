@@ -44,7 +44,6 @@
               <span id="latest-mode" class="pill"></span>
             </div>
             <div id="judgment-list" class="judgment-list"></div>
-            <div id="watchpoints" class="watchpoints"></div>
           </section>
 
           <section id="headline-media-panel" class="card panel">
@@ -96,8 +95,6 @@
             </div>
             <p class="section-tag">窗口内背景</p>
             <div id="today-background-packages" class="stack-list"></div>
-            <p class="section-tag">窗口外背景</p>
-            <div id="context-background-list" class="stack-list"></div>
           </section>
         </section>
 
@@ -653,8 +650,8 @@
         if (item.commentary_zh) wrap.appendChild(createNode('p', 'entry-summary', '点评：' + item.commentary_zh));
         if (item.downgrade_reason) wrap.appendChild(createNode('p', 'entry-summary', '降级原因：' + item.downgrade_reason));
         const meta = [
-          item.primary_source ? (item.primary_source.source_name_zh || item.primary_source.source_name || '') : '',
-          item.latest_published_at || item.published_at || '',
+          item.display_source ? (item.display_source.source_name_zh || item.display_source.source_name || '') : '',
+          item.latest_published_at || item.first_published_at || '',
           item.context_role || '',
         ].filter(Boolean).join(' | ');
         if (meta) wrap.appendChild(createNode('div', 'entry-meta', meta));
@@ -706,11 +703,6 @@
           judgmentWrap.appendChild(row);
         });
 
-        const watchpointWrap = document.getElementById('watchpoints');
-        (latest.watchpoints || []).forEach((text) => {
-          watchpointWrap.appendChild(createNode('div', 'watchpoint', text));
-        });
-
         const focusPackages = latest.today_focus_packages || [];
         const headlinePackages = focusPackages.filter((item) => inferPackageLane(item) === 'headline_media');
         const officialPackages = focusPackages.filter((item) => inferPackageLane(item) === 'official_update');
@@ -729,10 +721,7 @@
 
         const backgroundWrap = document.getElementById('today-background-packages');
         (latest.today_background_packages || []).forEach((item) => backgroundWrap.appendChild(renderBackgroundItem(item)));
-
-        const contextBackgroundWrap = document.getElementById('context-background-list');
-        (latest.context_background_items || []).forEach((item) => contextBackgroundWrap.appendChild(renderBackgroundItem(item)));
-        setPanelVisibility('background-panel', backgroundWrap.children.length > 0 || contextBackgroundWrap.children.length > 0);
+        setPanelVisibility('background-panel', backgroundWrap.children.length > 0);
 
         const frameworkWrap = document.getElementById('framework-support-list');
         (latest.framework_support_cards || []).forEach((item) => frameworkWrap.appendChild(renderFrameworkSupportCard(item)));

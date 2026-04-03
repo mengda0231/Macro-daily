@@ -24,6 +24,13 @@ function requireArray(value, label) {
   }
 }
 
+function ensureOnlyAllowedKeys(value, allowedKeys, label) {
+  const unexpectedKeys = Object.keys(value || {}).filter((key) => !allowedKeys.has(key));
+  if (unexpectedKeys.length > 0) {
+    fail(`${label} leaked unexpected public fields: ${unexpectedKeys.join(", ")}`);
+  }
+}
+
 function packageSummary(packageItem) {
   return packageItem.package_title_zh || packageItem.core_topic || "未命名主题包";
 }
@@ -47,30 +54,128 @@ const payload = JSON.parse(fs.readFileSync(payloadPath, "utf8"));
 const latest = payload.latest ?? {};
 const site = payload.site ?? {};
 
+const allowedLatestFields = new Set([
+  "slug",
+  "date",
+  "coverage_window",
+  "headline",
+  "headline_zh",
+  "lead_summary",
+  "mode",
+  "judgments",
+  "today_focus_packages",
+  "today_secondary_packages",
+  "today_background_packages",
+  "framework_support_cards",
+  "today_representative_sources",
+  "asset_map",
+  "follow_up_signals",
+  "daily_input_generated_at",
+]);
+
+const allowedCoverageWindowFields = new Set([
+  "timezone",
+  "window_start",
+  "window_end",
+  "window_date",
+  "label",
+]);
+
+const allowedPackageFields = new Set([
+  "package_id",
+  "package_type",
+  "core_topic",
+  "package_title_zh",
+  "main_content",
+  "commentary_zh",
+  "action_block",
+  "display_source",
+  "source_count",
+  "source_tier_mix",
+  "first_published_at",
+  "latest_published_at",
+  "display_lane",
+]);
+
+const allowedBackgroundPackageFields = new Set([
+  "package_id",
+  "package_type",
+  "package_title_zh",
+  "title",
+  "title_zh",
+  "main_content",
+  "commentary_zh",
+  "display_source",
+  "first_published_at",
+  "latest_published_at",
+  "display_lane",
+  "context_role",
+  "downgrade_reason",
+]);
+
+const allowedSourceFields = new Set([
+  "source_name",
+  "source_name_zh",
+  "source_tier",
+  "published_at",
+]);
+
+const allowedActionBlockFields = new Set([
+  "mode",
+  "title",
+  "content",
+]);
+
+const allowedFrameworkCardFields = new Set([
+  "title",
+  "title_zh",
+  "card_kind",
+  "summary",
+  "current_view",
+  "commentary_zh",
+  "latest_related_at",
+  "follow_up_signals",
+  "framework_support_note",
+]);
+
+const allowedRepresentativeSourceFields = new Set([
+  "package_title_zh",
+  "source_name",
+  "source_name_zh",
+  "source_tier",
+  "published_at",
+]);
+
+const allowedAssetMapFields = new Set([
+  "label",
+  "stance",
+  "score",
+  "reason",
+]);
+
 for (const field of ["title", "subtitle", "generated_at", "mode"]) {
   requireString(site[field], `site.${field}`);
 }
 
+ensureOnlyAllowedKeys(latest, allowedLatestFields, "latest");
+
 for (const field of [
+  "slug",
   "date",
   "headline",
   "headline_zh",
   "lead_summary",
   "mode",
-  "runtime_capability_version",
 ]) {
   requireString(latest[field], `latest.${field}`);
-}
-
-if (typeof latest.runtime_capability_contract !== "object" || latest.runtime_capability_contract === null) {
-  fail("latest.runtime_capability_contract must be an object");
 }
 
 if (typeof latest.coverage_window !== "object" || latest.coverage_window === null) {
   fail("latest.coverage_window must be an object");
 }
+ensureOnlyAllowedKeys(latest.coverage_window, allowedCoverageWindowFields, "latest.coverage_window");
 
-for (const field of ["label", "window_start", "window_end", "window_date"]) {
+for (const field of ["timezone", "label", "window_start", "window_end", "window_date"]) {
   requireString(latest.coverage_window[field], `latest.coverage_window.${field}`);
 }
 
@@ -78,26 +183,12 @@ for (const field of [
   "today_focus_packages",
   "today_secondary_packages",
   "today_background_packages",
-  "monitoring_sources",
+  "framework_support_cards",
+  "today_representative_sources",
+  "asset_map",
+  "follow_up_signals",
 ]) {
   requireArray(latest[field], `latest.${field}`);
-}
-
-for (const forbiddenField of [
-  "evidence_sections",
-  "evidence_digest",
-  "official_confirmation",
-  "headline_evidence",
-  "browser_visible_extraction",
-  "evidence_gaps",
-]) {
-  if (Object.prototype.hasOwnProperty.call(latest, forbiddenField)) {
-    fail(`latest.${forbiddenField} should not be exposed in the public payload`);
-  }
-}
-
-if (latest.monitoring_sources.length < 10) {
-  fail("latest.monitoring_sources must contain at least 10 configured sources");
 }
 
 const countStyleHeadlineMarkers = [
@@ -129,15 +220,11 @@ if (latest.today_secondary_packages.length > 5) {
   fail("today_secondary_packages should stay within the compressed secondary lane ceiling");
 }
 
-const candidateCount = Number(latest.daily_input_counts?.main_newsflow_candidates || 0);
-if (candidateCount >= 6 && totalMainPackages < 6) {
-  fail("enough unique newsflow candidates existed, but homepage main flow still failed to expand to 6+ packages");
-}
-
 const packageTitleKeys = new Set();
 
 for (const [bucketName, packages] of packageArrays) {
   for (const packageItem of packages) {
+    ensureOnlyAllowedKeys(packageItem, allowedPackageFields, `${bucketName} ${packageSummary(packageItem)}`);
     requireString(packageItem.package_title_zh, `${bucketName} package_title_zh`);
     requireString(packageItem.main_content, `${bucketName} ${packageSummary(packageItem)} main_content`);
     requireString(packageItem.commentary_zh, `${bucketName} ${packageSummary(packageItem)} commentary_zh`);
@@ -147,14 +234,16 @@ for (const [bucketName, packages] of packageArrays) {
     if (!packageItem.action_block || typeof packageItem.action_block !== "object") {
       fail(`${bucketName} ${packageSummary(packageItem)} action_block is missing`);
     }
+    ensureOnlyAllowedKeys(packageItem.action_block, allowedActionBlockFields, `${bucketName} ${packageSummary(packageItem)} action_block`);
     requireString(packageItem.action_block.content, `${bucketName} ${packageSummary(packageItem)} action_block.content`);
     requireString(packageItem.first_published_at, `${bucketName} ${packageSummary(packageItem)} first_published_at`);
     requireString(packageItem.latest_published_at, `${bucketName} ${packageSummary(packageItem)} latest_published_at`);
 
-    const displaySource = packageItem.display_source || packageItem.primary_source;
+    const displaySource = packageItem.display_source;
     if (!displaySource || typeof displaySource !== "object") {
       fail(`${bucketName} ${packageSummary(packageItem)} representative source is missing`);
     }
+    ensureOnlyAllowedKeys(displaySource, allowedSourceFields, `${bucketName} ${packageSummary(packageItem)} display_source`);
     if (!String(displaySource.source_name_zh || displaySource.source_name || "").trim()) {
       fail(`${bucketName} ${packageSummary(packageItem)} representative source name is missing`);
     }
@@ -176,6 +265,7 @@ for (const [bucketName, packages] of packageArrays) {
 }
 
 for (const packageItem of latest.today_background_packages) {
+  ensureOnlyAllowedKeys(packageItem, allowedBackgroundPackageFields, `today_background_packages ${packageSummary(packageItem)}`);
   requireString(packageItem.display_lane, `today_background_packages ${packageSummary(packageItem)} display_lane`);
   if (packageItem.display_lane !== "background") {
     fail(`today_background_packages ${packageSummary(packageItem)} display_lane must be background`);
@@ -201,6 +291,26 @@ for (const judgment of latest.judgments) {
   if (startsWithBannedPrompt(firstSentence(judgment))) {
     fail(`judgment still starts with a prompt-style phrase: ${judgment}`);
   }
+}
+
+for (const item of latest.framework_support_cards) {
+  ensureOnlyAllowedKeys(item, allowedFrameworkCardFields, "latest.framework_support_cards[]");
+  if (item.follow_up_signals !== undefined) {
+    requireArray(item.follow_up_signals, "latest.framework_support_cards[].follow_up_signals");
+  }
+}
+
+for (const item of latest.today_representative_sources) {
+  ensureOnlyAllowedKeys(item, allowedRepresentativeSourceFields, "latest.today_representative_sources[]");
+  if (!String(item.source_name_zh || item.source_name || "").trim()) {
+    fail("latest.today_representative_sources[] must include a source name");
+  }
+}
+
+for (const item of latest.asset_map) {
+  ensureOnlyAllowedKeys(item, allowedAssetMapFields, "latest.asset_map[]");
+  requireString(item.label, "latest.asset_map[].label");
+  requireString(item.stance, "latest.asset_map[].stance");
 }
 
 if (!String(site.title).includes("宏观")) {
