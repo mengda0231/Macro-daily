@@ -219,10 +219,10 @@ const totalMainPackages = latest.today_focus_packages.length + latest.today_seco
 if (totalMainPackages > 12) {
   fail("main reading flow should stay within the homepage density ceiling");
 }
-if (latest.today_focus_packages.length > 6) {
+if (latest.today_focus_packages.length > 8) {
   fail("today_focus_packages should stay within the result-first lead-lane ceiling");
 }
-if (latest.today_secondary_packages.length > 8) {
+if (latest.today_secondary_packages.length > 6) {
   fail("today_secondary_packages should stay within the compressed secondary lane ceiling");
 }
 

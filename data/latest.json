@@ -2,30 +2,84 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-04-03 11:28:25",
+    "generated_at": "2026-04-05 12:15:16",
     "mode": "分析日报"
   },
   "latest": {
-    "slug": "2026-04-02",
-    "date": "2026-04-02",
+    "slug": "2026-04-05",
+    "date": "2026-04-05",
     "coverage_window": {
       "timezone": "Asia/Shanghai",
-      "window_start": "2026-04-01 12:00:00",
-      "window_end": "2026-04-02 12:00:00",
-      "window_date": "2026-04-02",
-      "label": "昨天12:00（含）- 今天12:00（不含） | 2026-04-01 12:00 - 2026-04-02 12:00"
+      "window_start": "2026-04-04 12:00:00",
+      "window_end": "2026-04-05 12:00:00",
+      "window_date": "2026-04-05",
+      "label": "昨天12:00（含）- 今天12:00（不含） | 2026-04-04 12:00 - 2026-04-05 12:00"
     },
-    "headline": "今天的主线集中在中东地缘扰动重新推升油价与通胀约束、亚洲能源应对开始压向增长与通胀、欧元区银行利率数据继续约束宽松预期，深度媒体包主导，官方增量更多承担验证作用。",
-    "headline_zh": "今天的主线集中在中东地缘扰动重新推升油价与通胀约束、亚洲能源应对开始压向增长与通胀、欧元区银行利率数据继续约束宽松预期，深度媒体包主导，官方增量更多承担验证作用。",
-    "lead_summary": "今天的主阅读流集中在中东地缘扰动重新推升油价与通胀约束、亚洲能源应对开始压向增长与通胀、欧元区银行利率数据继续约束宽松预期。这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
+    "headline": "今天的主线集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束，深度媒体包主导，官方增量更多承担验证作用。",
+    "headline_zh": "今天的主线集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束，深度媒体包主导，官方增量更多承担验证作用。",
+    "lead_summary": "今天的主阅读流集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束。这不是单纯 headline 噪音，而是风险资产折价重新抬升的来源之一；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
     "mode": "分析日报",
     "judgments": [
+      "这不是单纯 headline 噪音，而是风险资产折价重新抬升的来源之一；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
+      "这是一条地缘与商品冲击类宏观信息；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
       "这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
-      "这更像输入型能源压力开始反噬增长，亚洲顺周期预期需要下修；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
-      "欧元区宽松预期还在被数据后移，欧债利率和欧元更容易先承受再定价；资产上黄金中性偏空，油和大宗偏多，汇率偏稳。",
-      "这更像金融稳定常规巡检，对当日资产定价的边际冲击有限；若报告新增资本、流动性或信用压力信号，英债和英镑才会更明显反应。"
+      "这更像油价敏感度重新回升，商品波动正在重新约束通胀与风险偏好；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
     ],
     "today_focus_packages": [
+      {
+        "package_id": "pkg-middle-east-middle-east-geopolitical-risk-risk",
+        "package_type": "today_focus",
+        "core_topic": "中东军事升级继续抬高风险溢价",
+        "package_title_zh": "中东军事升级继续抬高风险溢价",
+        "main_content": "中东军事升级仍在推高避险溢价，市场先交易战事升级概率，再交易油价和增长后果。",
+        "commentary_zh": "这不是单纯 headline 噪音，而是风险资产折价重新抬升的来源之一。 若军事行动停在可控范围内，市场会先回吐避险溢价。",
+        "action_block": {
+          "mode": "investment_mapping",
+          "title": "投资映射",
+          "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
+        },
+        "display_source": {
+          "source_name": "Nikkei Asia Economy",
+          "source_name_zh": "日经亚洲",
+          "source_tier": "Tier 2",
+          "published_at": "2026-04-05 00:45:18",
+          "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/trump-gives-iran-48-hours-for-deal-hunt-for-missing-us-pilot-ongoing"
+        },
+        "source_count": 3,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-04-04 13:05:48",
+        "latest_published_at": "2026-04-05 11:28:38",
+        "display_lane": "headline_media"
+      },
+      {
+        "package_id": "pkg-macro-global-地缘与商品冲击-macro",
+        "package_type": "today_focus",
+        "core_topic": "欧洲能源安全与增长压力再被定价",
+        "package_title_zh": "欧洲能源安全与增长压力再被定价",
+        "main_content": "能源类信息会通过油气价格、库存和供给预期反向影响通胀与风险偏好。",
+        "commentary_zh": "这是一条地缘与商品冲击类宏观信息。 若核对正文中的新数字或新措辞是否被后续一手来源继续确认，判断切到结构升级型。",
+        "action_block": {
+          "mode": "investment_mapping",
+          "title": "投资映射",
+          "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
+        },
+        "display_source": {
+          "source_name": "Washington Post Business",
+          "source_name_zh": "华盛顿邮报",
+          "source_tier": "Tier 2",
+          "published_at": "2026-04-04 17:30:00",
+          "source_url": "https://www.washingtonpost.com/business/2026/04/04/money-saving-hacks-tips/"
+        },
+        "source_count": 1,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-04-04 17:30:00",
+        "latest_published_at": "2026-04-04 17:30:00",
+        "display_lane": "headline_media"
+      },
       {
         "package_id": "pkg-middle-east-middle-east-geopolitical-energy-shock-inflation-risk",
         "package_type": "today_focus",
@@ -39,27 +93,54 @@
           "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
         },
         "display_source": {
-          "source_name": "BBC Business",
-          "source_name_zh": "BBC",
+          "source_name": "Nikkei Asia Economy",
+          "source_name_zh": "日经亚洲",
           "source_tier": "Tier 2",
-          "published_at": "2026-04-01 16:49:19",
-          "source_url": "https://www.bbc.com/news/articles/c2489v97842o"
+          "published_at": "2026-04-04 15:21:02",
+          "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-drastically-hikes-fuel-prices-despite-mediator-role-in-iran-war"
         },
-        "source_count": 2,
+        "source_count": 1,
         "source_tier_mix": [
           "Tier 2"
         ],
-        "first_published_at": "2026-04-01 16:49:19",
-        "latest_published_at": "2026-04-02 02:48:45",
+        "first_published_at": "2026-04-04 15:21:02",
+        "latest_published_at": "2026-04-04 15:21:02",
         "display_lane": "headline_media"
       },
       {
-        "package_id": "pkg-asia-energy-policy-asia-energy-policy-response-growth-inflation",
+        "package_id": "pkg-macro-global-energy-price-move-inflation-risk",
         "package_type": "today_focus",
-        "core_topic": "亚洲能源应对开始压向增长与通胀",
-        "package_title_zh": "亚洲能源应对开始压向增长与通胀",
-        "main_content": "亚洲经济体开始用行政和节流工具应对能源压力，增长与通胀之间的取舍重新突出。",
-        "commentary_zh": "这更像输入型能源压力开始反噬增长，亚洲顺周期预期需要下修。 若油价回落或补贴扩张，增长压力会先缓和。",
+        "core_topic": "能源价格波动重新进入通胀与风险资产链条",
+        "package_title_zh": "能源价格波动重新进入通胀与风险资产链条",
+        "main_content": "能源价格波动重新从商品层外溢到通胀和风险资产链条，市场对油价的敏感度再次抬升。",
+        "commentary_zh": "这更像油价敏感度重新回升，商品波动正在重新约束通胀与风险偏好。 若油价回吐且美元同步走弱，这条链条会先减压。",
+        "action_block": {
+          "mode": "investment_mapping",
+          "title": "投资映射",
+          "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
+        },
+        "display_source": {
+          "source_name": "AP News Business",
+          "source_name_zh": "美联社",
+          "source_tier": "Tier 2",
+          "published_at": "2026-04-04 14:07:27",
+          "source_url": "https://apnews.com/article/nasa-moon-artemis-astronauts-85bd7e2d77284c3d53ca2a38cf7dee13"
+        },
+        "source_count": 1,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-04-04 14:07:27",
+        "latest_published_at": "2026-04-04 14:07:27",
+        "display_lane": "headline_media"
+      },
+      {
+        "package_id": "pkg-asia-spillover-asia-geopolitical-spillover-growth-fx",
+        "package_type": "today_focus",
+        "core_topic": "中东冲突开始外溢到亚洲增长与汇率预期",
+        "package_title_zh": "中东冲突开始外溢到亚洲增长与汇率预期",
+        "main_content": "中东冲突正通过油价、进口成本和汇率压力向亚洲扩散，亚洲增长预期开始被动下修。",
+        "commentary_zh": "亚洲资产现在更怕输入性成本抬升和本币承压的组合，而不是单一地缘 headline。 若油价回落且美元不再走强，亚洲增长和汇率压力才会同步缓解。",
         "action_block": {
           "mode": "investment_mapping",
           "title": "投资映射",
@@ -69,73 +150,46 @@
           "source_name": "Nikkei Asia Economy",
           "source_name_zh": "日经亚洲",
           "source_tier": "Tier 2",
-          "published_at": "2026-04-01 18:59:00",
-          "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/economists-business-warn-indonesia-s-energy-crisis-response-may-backfire2"
+          "published_at": "2026-04-05 00:47:06",
+          "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/2nd-japan-related-vessel-passes-through-strait-of-hormuz-amid-iran-war"
         },
         "source_count": 1,
         "source_tier_mix": [
           "Tier 2"
         ],
-        "first_published_at": "2026-04-01 18:59:00",
-        "latest_published_at": "2026-04-01 18:59:00",
+        "first_published_at": "2026-04-05 00:47:06",
+        "latest_published_at": "2026-04-05 00:47:06",
         "display_lane": "headline_media"
       },
       {
-        "package_id": "pkg-ecb-europe-macro-data-rates-fx",
+        "package_id": "pkg-china-policy-china-政策变化-policy-growth",
         "package_type": "today_focus",
-        "core_topic": "欧元区银行利率数据继续约束宽松预期",
-        "package_title_zh": "欧元区银行利率数据继续约束宽松预期",
-        "main_content": "欧洲央行最新统计与讲话继续为欧元区利率预期提供新锚点。",
-        "commentary_zh": "欧元区宽松预期还在被数据后移，欧债利率和欧元更容易先承受再定价。 若后续工资和核心通胀同步回落，宽松交易才会重新前移。",
+        "core_topic": "融入统一大市场 畅通国内大循环——学习贯彻习近...",
+        "package_title_zh": "融入统一大市场 畅通国内大循环——学习贯彻习近...",
+        "main_content": "中国政策与流动性表述继续为内需、利率和硬资产定价提供方向。",
+        "commentary_zh": "当前仍是政策定调强于工具落地，内需和利率交易更像等待执行验证。 若总量工具、额度或地产链支持细则落地，风险偏好才会更直接转强。",
         "action_block": {
           "mode": "investment_mapping",
           "title": "投资映射",
-          "content": "黄金中性偏空，油和大宗偏多，汇率偏稳。"
+          "content": "油和大宗偏多，汇率偏稳，利率中性偏上。"
         },
         "display_source": {
-          "source_name": "欧洲央行统计新闻稿",
-          "source_name_zh": "欧洲央行统计新闻稿",
+          "source_name": "国务院 / 中国政府网要闻",
+          "source_name_zh": "国务院 / 中国政府网要闻",
           "source_tier": "Tier 1",
-          "published_at": "2026-04-01 16:00:00",
-          "source_url": "https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2604~a265e5863d.en.html"
+          "published_at": "2026-04-04 17:09:00",
+          "source_url": "https://www.gov.cn/yaowen/liebiao/202604/content_7064697.htm"
         },
         "source_count": 1,
         "source_tier_mix": [
           "Tier 1"
         ],
-        "first_published_at": "2026-04-01 16:00:00",
-        "latest_published_at": "2026-04-01 16:00:00",
+        "first_published_at": "2026-04-04 17:09:00",
+        "latest_published_at": "2026-04-04 17:09:00",
         "display_lane": "official_update"
       }
     ],
     "today_secondary_packages": [
-      {
-        "package_id": "pkg-financial-stability-uk-financial-stability-rates-credit",
-        "package_type": "today_secondary",
-        "core_topic": "英国金融稳定例行记录",
-        "package_title_zh": "英国金融稳定例行记录",
-        "main_content": "英国金融稳定记录继续提供监管对信用、流动性和系统性风险的观察窗口。",
-        "commentary_zh": "这更像金融稳定常规巡检，对当日资产定价的边际冲击有限。 若报告新增资本、流动性或信用压力信号，英债和英镑才会更明显反应。",
-        "action_block": {
-          "mode": "follow_up",
-          "title": "跟踪点",
-          "content": "英债、信用利差和监管口径里会不会出现新的资本或流动性约束。"
-        },
-        "display_source": {
-          "source_name": "英国央行新闻与公告",
-          "source_name_zh": "英国央行新闻与公告",
-          "source_tier": "Tier 1",
-          "published_at": "2026-04-01 17:30:00",
-          "source_url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/april-2026"
-        },
-        "source_count": 1,
-        "source_tier_mix": [
-          "Tier 1"
-        ],
-        "first_published_at": "2026-04-01 17:30:00",
-        "latest_published_at": "2026-04-01 17:30:00",
-        "display_lane": "secondary"
-      },
       {
         "package_id": "pkg-fed-us-central-bank-policy-rates-dollar",
         "package_type": "today_secondary",
@@ -149,45 +203,18 @@
           "content": "非农、核心通胀和更多联储官员表态是否一起转弱。"
         },
         "display_source": {
-          "source_name": "Google News RSS Reuters Markets query",
-          "source_name_zh": "路透",
-          "source_tier": "Tier 3",
-          "published_at": "2026-04-02 02:07:32",
-          "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOalQ0dFNmQlpRNE5YNnkzc3VJSkN5MzRxQm9QTmhBaS0xd29ILVVmSmEzX0gtRjdRYXRyeFROZlAzVWw4N2ItUzkxaFdGeDg0d3dYdEZQNWgzbjBXS0dsZ1h3UEgxMFdfTkZSU3RPa2haYTYtcC1JMTRXQzJWTkZWU1hKNUg3ZkhVREU5UEhfcktpb1BEdkxMcHZsaHdEbHByV0l4UHcxdkVmQjZiZnJEemlpUUR5M2FsOVRIZF9XZw?oc=5"
+          "source_name": "CNBC World",
+          "source_name_zh": "CNBC World",
+          "source_tier": "Tier 2",
+          "published_at": "2026-04-04 21:04:04",
+          "source_url": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html"
         },
         "source_count": 1,
         "source_tier_mix": [
-          "Tier 3"
+          "Tier 2"
         ],
-        "first_published_at": "2026-04-02 02:07:32",
-        "latest_published_at": "2026-04-02 02:07:32",
-        "display_lane": "secondary"
-      },
-      {
-        "package_id": "pkg-trade-policy-us-global-trade-policy-growth-risk",
-        "package_type": "today_secondary",
-        "core_topic": "贸易与关税政策扰动重新压向增长预期",
-        "package_title_zh": "贸易与关税政策扰动重新压向增长预期",
-        "main_content": "关税与贸易重排继续压住增长预期，媒体复盘显示贸易流向变了，但并没有兑现制造业全面回流的承诺。",
-        "commentary_zh": "这轮关税冲击更像增长折价和供应链重排长期化，而不是一次性的政治噪音。 若豁免范围扩大或摩擦明显缓和，增长折价和风险偏好压力才会同步回吐。",
-        "action_block": {
-          "mode": "follow_up",
-          "title": "跟踪点",
-          "content": "实际税率、豁免范围和风险资产反应会不会继续恶化。"
-        },
-        "display_source": {
-          "source_name": "Google News RSS Economist Finance & economics query",
-          "source_name_zh": "经济学人 Finance & economics",
-          "source_tier": "Tier 3",
-          "published_at": "2026-04-01 19:00:11",
-          "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2wzdDVQTE5ud1g0NG5odi0zN2FCMWhRUExMMVJsOHFRY2VpV2FSUWNudEZpSkVlX0lBc094SWcyVFpZbl9BdzBSZzJXc2ZneldQeXlacnUzUzRpVGMwSnhvZW9RZlN4Y1Rwa24tUklTZzZtNkNOS2syRXhmSERKSFRHbjhPZmk1Z3MxRkp1V3RyNjU1WHV6MWZpN1hwNDBwVFh3eF9XM1ozQV8tZEh2bUtHcDVFMmZ5SGxCeTh4aw?oc=5"
-        },
-        "source_count": 1,
-        "source_tier_mix": [
-          "Tier 3"
-        ],
-        "first_published_at": "2026-04-01 19:00:11",
-        "latest_published_at": "2026-04-01 19:00:11",
+        "first_published_at": "2026-04-04 21:04:04",
+        "latest_published_at": "2026-04-04 21:04:04",
         "display_lane": "secondary"
       }
     ],
@@ -222,100 +249,92 @@
         "framework_support_note": "这是存量框架支持层，用来解释当天事件，不等于当天新事件。"
       },
       {
-        "title": "增长、通胀、利率与风险偏好",
-        "title_zh": "增长、通胀、利率与风险偏好",
+        "title": "人民币汇率与股市",
+        "title_zh": "人民币汇率与股市",
         "card_kind": "框架支持",
-        "summary": "宏观日报必须同时跟踪增长、通胀、利率、风险偏好和央行反应函数，不能只盯 headline 数据。",
-        "current_view": "利率约束延续型",
-        "commentary_zh": "当前更像通胀粘性与长端利率约束主导，宽松交易还缺连续验证。",
+        "summary": "写汇率和股市关系时，必须先拆人民币升值来自哪里，再判断资金到底流向了经常账户、债券、现金、FDI 还是股市。",
+        "current_view": "结构性升值型",
+        "commentary_zh": "当前更像结构性升值与资金分流并存，汇率线索还不足以单独推出股市全面受益。",
         "follow_up_signals": [
-          "核心通胀继续偏强",
-          "10Y 和 2Y 利率维持高位",
-          "就业只是边际转弱"
+          "主动外资持续净流入股市",
+          "社融和内需同步修复",
+          "美元走弱"
         ],
         "framework_support_note": "这是存量框架支持层，用来解释当天事件，不等于当天新事件。"
       }
     ],
     "today_representative_sources": [
       {
-        "package_title_zh": "中东地缘扰动重新推升油价与通胀约束",
-        "source_name": "BBC Business",
-        "source_name_zh": "BBC",
-        "source_tier": "Tier 2",
-        "published_at": "2026-04-01 16:49:19",
-        "source_url": "https://www.bbc.com/news/articles/c2489v97842o"
-      },
-      {
-        "package_title_zh": "亚洲能源应对开始压向增长与通胀",
+        "package_title_zh": "中东军事升级继续抬高风险溢价",
         "source_name": "Nikkei Asia Economy",
         "source_name_zh": "日经亚洲",
         "source_tier": "Tier 2",
-        "published_at": "2026-04-01 18:59:00",
-        "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/economists-business-warn-indonesia-s-energy-crisis-response-may-backfire2"
+        "published_at": "2026-04-05 00:45:18",
+        "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/trump-gives-iran-48-hours-for-deal-hunt-for-missing-us-pilot-ongoing"
       },
       {
-        "package_title_zh": "欧元区银行利率数据继续约束宽松预期",
-        "source_name": "欧洲央行统计新闻稿",
-        "source_name_zh": "欧洲央行统计新闻稿",
-        "source_tier": "Tier 1",
-        "published_at": "2026-04-01 16:00:00",
-        "source_url": "https://www.ecb.europa.eu//press/stats/mfi/html/ecb.mir2604~a265e5863d.en.html"
+        "package_title_zh": "欧洲能源安全与增长压力再被定价",
+        "source_name": "Washington Post Business",
+        "source_name_zh": "华盛顿邮报",
+        "source_tier": "Tier 2",
+        "published_at": "2026-04-04 17:30:00",
+        "source_url": "https://www.washingtonpost.com/business/2026/04/04/money-saving-hacks-tips/"
       },
       {
-        "package_title_zh": "英国金融稳定例行记录",
-        "source_name": "英国央行新闻与公告",
-        "source_name_zh": "英国央行新闻与公告",
+        "package_title_zh": "能源价格波动重新进入通胀与风险资产链条",
+        "source_name": "AP News Business",
+        "source_name_zh": "美联社",
+        "source_tier": "Tier 2",
+        "published_at": "2026-04-04 14:07:27",
+        "source_url": "https://apnews.com/article/nasa-moon-artemis-astronauts-85bd7e2d77284c3d53ca2a38cf7dee13"
+      },
+      {
+        "package_title_zh": "融入统一大市场 畅通国内大循环——学习贯彻习近...",
+        "source_name": "国务院 / 中国政府网要闻",
+        "source_name_zh": "国务院 / 中国政府网要闻",
         "source_tier": "Tier 1",
-        "published_at": "2026-04-01 17:30:00",
-        "source_url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/april-2026"
+        "published_at": "2026-04-04 17:09:00",
+        "source_url": "https://www.gov.cn/yaowen/liebiao/202604/content_7064697.htm"
       },
       {
         "package_title_zh": "美联储路径与美元定价出现新扰动",
-        "source_name": "Google News RSS Reuters Markets query",
-        "source_name_zh": "路透",
-        "source_tier": "Tier 3",
-        "published_at": "2026-04-02 02:07:32",
-        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOalQ0dFNmQlpRNE5YNnkzc3VJSkN5MzRxQm9QTmhBaS0xd29ILVVmSmEzX0gtRjdRYXRyeFROZlAzVWw4N2ItUzkxaFdGeDg0d3dYdEZQNWgzbjBXS0dsZ1h3UEgxMFdfTkZSU3RPa2haYTYtcC1JMTRXQzJWTkZWU1hKNUg3ZkhVREU5UEhfcktpb1BEdkxMcHZsaHdEbHByV0l4UHcxdkVmQjZiZnJEemlpUUR5M2FsOVRIZF9XZw?oc=5"
-      },
-      {
-        "package_title_zh": "贸易与关税政策扰动重新压向增长预期",
-        "source_name": "Google News RSS Economist Finance & economics query",
-        "source_name_zh": "经济学人 Finance & economics",
-        "source_tier": "Tier 3",
-        "published_at": "2026-04-01 19:00:11",
-        "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2wzdDVQTE5ud1g0NG5odi0zN2FCMWhRUExMMVJsOHFRY2VpV2FSUWNudEZpSkVlX0lBc094SWcyVFpZbl9BdzBSZzJXc2ZneldQeXlacnUzUzRpVGMwSnhvZW9RZlN4Y1Rwa24tUklTZzZtNkNOS2syRXhmSERKSFRHbjhPZmk1Z3MxRkp1V3RyNjU1WHV6MWZpN1hwNDBwVFh3eF9XM1ozQV8tZEh2bUtHcDVFMmZ5SGxCeTh4aw?oc=5"
+        "source_name": "CNBC World",
+        "source_name_zh": "CNBC World",
+        "source_tier": "Tier 2",
+        "published_at": "2026-04-04 21:04:04",
+        "source_url": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html"
       }
     ],
     "asset_map": [
       {
         "label": "A股/港股风险偏好",
         "stance": "偏空",
-        "score": -2,
-        "reason": "更强增长或更稳数据通常改善权益预期。；能源冲击通常压制整体风险偏好并抬高成本。；若核心通胀偏强，全球风险资产估值承压。；政策预期改善通常先作用于风险偏好。"
+        "score": -14,
+        "reason": "政策预期改善通常先作用于风险偏好。；能源冲击通常压制整体风险偏好并抬高成本。"
       },
       {
         "label": "利率",
-        "stance": "偏空",
-        "score": -3,
-        "reason": "增长或通胀预期抬升会推高利率中枢。；避险会利多债券，但通胀抬头会限制空间。；通胀粘性通常抬高利率中枢预期。；若稳增长预期抬升，长端利率可能先承压。；数据快照显示美债 2Y/1..."
+        "stance": "偏多",
+        "score": 13,
+        "reason": "若稳增长预期抬升，长端利率可能先承压。；避险会利多债券，但通胀抬头会限制空间。；数据快照显示美债 2Y/10Y 分别约为 3.96% / 4.42% ，说明利率环境仍不宽松。"
       },
       {
         "label": "美元/人民币",
         "stance": "偏空",
-        "score": -2,
-        "reason": "数据改善有利于稳定人民币与风险偏好。；风险厌恶和外部冲击通常支撑美元。；更强通胀往往支撑美元。；政策托底有助于稳定人民币预期。；长短端利差维持正值，美元利率资产的相对吸引力仍在。"
+        "score": -14,
+        "reason": "政策托底有助于稳定人民币预期。；风险厌恶和外部冲击通常支撑美元。；长短端利差维持正值，美元利率资产的相对吸引力仍在。"
       },
       {
         "label": "黄金",
-        "stance": "中性",
-        "score": 0,
-        "reason": "风险偏好改善时，黄金相对受抑。；避险和通胀预期通常共同利多黄金。；名义利率上行会压制黄金，除非避险同步升温。；政策条目对黄金并非直接驱动。"
+        "stance": "偏多",
+        "score": 16,
+        "reason": "政策条目对黄金并非直接驱动。；避险和通胀预期通常共同利多黄金。"
       },
       {
         "label": "原油/大宗",
         "stance": "偏多",
-        "score": 7,
-        "reason": "需求修复逻辑通常利多原油和工业品。；若是供给冲击，原油和相关商品通常先涨。；商品反应取决于通胀成因是需求还是供给。；若政策带动需求预期，工业品更受益。；WTI 回落说明短线能..."
+        "score": 17,
+        "reason": "若政策带动需求预期，工业品更受益。；若是供给冲击，原油和相关商品通常先涨。；WTI 回落说明短线能源再通胀交易暂未继续强化。"
       }
     ],
     "follow_up_signals": [
@@ -323,12 +342,24 @@
       "6-12 个月内出台更多行业蓝图",
       "WTI 持续站稳高位",
       "核对正文中的新数字或新措辞是否被后续一手来源继续确认",
-      "下一期同类数据是否延续",
-      "政策口径是否因此调整"
+      "后续是否有配套细则",
+      "是否出现量化工具或额度安排"
     ],
-    "daily_input_generated_at": "2026-04-03 11:28:25"
+    "daily_input_generated_at": "2026-04-05 12:15:15"
   },
   "history": [
+    {
+      "slug": "2026-04-05",
+      "date": "2026-04-05",
+      "headline": "今天的主线集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束，深度媒体包主导，官方增量更多承担验证作用。",
+      "status": "分析日报"
+    },
+    {
+      "slug": "2026-04-04",
+      "date": "2026-04-04",
+      "headline": "今天的主线集中在联储官员继续淡化单月就业走弱的宽松含义、中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价，深度媒体包主导，官方增量更多承担验证作用。",
+      "status": "分析日报"
+    },
     {
       "slug": "2026-04-02",
       "date": "2026-04-02",
