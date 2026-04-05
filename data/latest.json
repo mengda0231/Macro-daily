@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-04-05 12:15:16",
+    "generated_at": "2026-04-05 12:18:14",
     "mode": "分析日报"
   },
   "latest": {
@@ -15,17 +15,44 @@
       "window_date": "2026-04-05",
       "label": "昨天12:00（含）- 今天12:00（不含） | 2026-04-04 12:00 - 2026-04-05 12:00"
     },
-    "headline": "今天的主线集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束，深度媒体包主导，官方增量更多承担验证作用。",
-    "headline_zh": "今天的主线集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束，深度媒体包主导，官方增量更多承担验证作用。",
-    "lead_summary": "今天的主阅读流集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束。这不是单纯 headline 噪音，而是风险资产折价重新抬升的来源之一；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
+    "headline": "今天的主线集中在中东地缘扰动重新推升油价与通胀约束、中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价，深度媒体包主导，官方增量更多承担验证作用。",
+    "headline_zh": "今天的主线集中在中东地缘扰动重新推升油价与通胀约束、中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价，深度媒体包主导，官方增量更多承担验证作用。",
+    "lead_summary": "今天的主阅读流集中在中东地缘扰动重新推升油价与通胀约束、中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价。这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
     "mode": "分析日报",
     "judgments": [
+      "这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
       "这不是单纯 headline 噪音，而是风险资产折价重新抬升的来源之一；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
       "这是一条地缘与商品冲击类宏观信息；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
-      "这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。",
       "这更像油价敏感度重新回升，商品波动正在重新约束通胀与风险偏好；资产上黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
     ],
     "today_focus_packages": [
+      {
+        "package_id": "pkg-middle-east-middle-east-geopolitical-energy-shock-inflation-risk",
+        "package_type": "today_focus",
+        "core_topic": "中东地缘扰动重新推升油价与通胀约束",
+        "package_title_zh": "中东地缘扰动重新推升油价与通胀约束",
+        "main_content": "中东局势继续扰动能源与航运预期，油价重新进入通胀和利率定价链条。",
+        "commentary_zh": "这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束。 若油价回吐且航运风险降温，这条通胀约束会先退回次级扰动。",
+        "action_block": {
+          "mode": "investment_mapping",
+          "title": "投资映射",
+          "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
+        },
+        "display_source": {
+          "source_name": "Bloomberg Markets",
+          "source_name_zh": "彭博",
+          "source_tier": "Tier 2",
+          "published_at": "2026-04-05 07:02:26",
+          "source_url": "https://www.bloomberg.com/news/articles/2026-04-04/kuwait-petroleum-says-headquarters-set-ablaze-by-by-drone-strike?srnd=phx-markets"
+        },
+        "source_count": 2,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-04-04 15:21:02",
+        "latest_published_at": "2026-04-05 07:02:26",
+        "display_lane": "headline_media"
+      },
       {
         "package_id": "pkg-middle-east-middle-east-geopolitical-risk-risk",
         "package_type": "today_focus",
@@ -78,33 +105,6 @@
         ],
         "first_published_at": "2026-04-04 17:30:00",
         "latest_published_at": "2026-04-04 17:30:00",
-        "display_lane": "headline_media"
-      },
-      {
-        "package_id": "pkg-middle-east-middle-east-geopolitical-energy-shock-inflation-risk",
-        "package_type": "today_focus",
-        "core_topic": "中东地缘扰动重新推升油价与通胀约束",
-        "package_title_zh": "中东地缘扰动重新推升油价与通胀约束",
-        "main_content": "中东局势继续扰动能源与航运预期，油价重新进入通胀和利率定价链条。",
-        "commentary_zh": "这更像供给冲击和避险共振重回前台，降息交易重新受到油价约束。 若油价回吐且航运风险降温，这条通胀约束会先退回次级扰动。",
-        "action_block": {
-          "mode": "investment_mapping",
-          "title": "投资映射",
-          "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
-        },
-        "display_source": {
-          "source_name": "Nikkei Asia Economy",
-          "source_name_zh": "日经亚洲",
-          "source_tier": "Tier 2",
-          "published_at": "2026-04-04 15:21:02",
-          "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/pakistan-drastically-hikes-fuel-prices-despite-mediator-role-in-iran-war"
-        },
-        "source_count": 1,
-        "source_tier_mix": [
-          "Tier 2"
-        ],
-        "first_published_at": "2026-04-04 15:21:02",
-        "latest_published_at": "2026-04-04 15:21:02",
         "display_lane": "headline_media"
       },
       {
@@ -216,6 +216,33 @@
         "first_published_at": "2026-04-04 21:04:04",
         "latest_published_at": "2026-04-04 21:04:04",
         "display_lane": "secondary"
+      },
+      {
+        "package_id": "pkg-middle-east-middle-east-shipping-disruption-supply-chain-risk",
+        "package_type": "today_secondary",
+        "core_topic": "中东航运扰动继续推升供应链风险",
+        "package_title_zh": "中东航运扰动继续推升供应链风险",
+        "main_content": "中东航运与关键通道风险继续升温，供应链和运价预期重新被市场纳入定价。",
+        "commentary_zh": "航运扰动正在把地缘风险从油价扩散到更广泛的输入性成本和供给时滞。 若航道恢复通行且运价回落，这条供应链冲击会比油价冲击更快降温。",
+        "action_block": {
+          "mode": "investment_mapping",
+          "title": "投资映射",
+          "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
+        },
+        "display_source": {
+          "source_name": "Bloomberg Markets",
+          "source_name_zh": "彭博",
+          "source_tier": "Tier 2",
+          "published_at": "2026-04-04 20:58:12",
+          "source_url": "https://www.bloomberg.com/news/articles/2026-04-04/hormuz-tracker-weekly-transits-reach-highest-since-war-began?srnd=phx-markets"
+        },
+        "source_count": 1,
+        "source_tier_mix": [
+          "Tier 2"
+        ],
+        "first_published_at": "2026-04-04 20:58:12",
+        "latest_published_at": "2026-04-04 20:58:12",
+        "display_lane": "secondary"
       }
     ],
     "today_background_packages": [],
@@ -265,6 +292,14 @@
     ],
     "today_representative_sources": [
       {
+        "package_title_zh": "中东地缘扰动重新推升油价与通胀约束",
+        "source_name": "Bloomberg Markets",
+        "source_name_zh": "彭博",
+        "source_tier": "Tier 2",
+        "published_at": "2026-04-05 07:02:26",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-04-04/kuwait-petroleum-says-headquarters-set-ablaze-by-by-drone-strike?srnd=phx-markets"
+      },
+      {
         "package_title_zh": "中东军事升级继续抬高风险溢价",
         "source_name": "Nikkei Asia Economy",
         "source_name_zh": "日经亚洲",
@@ -309,31 +344,31 @@
       {
         "label": "A股/港股风险偏好",
         "stance": "偏空",
-        "score": -14,
+        "score": -18,
         "reason": "政策预期改善通常先作用于风险偏好。；能源冲击通常压制整体风险偏好并抬高成本。"
       },
       {
         "label": "利率",
         "stance": "偏多",
-        "score": 13,
+        "score": 17,
         "reason": "若稳增长预期抬升，长端利率可能先承压。；避险会利多债券，但通胀抬头会限制空间。；数据快照显示美债 2Y/10Y 分别约为 3.96% / 4.42% ，说明利率环境仍不宽松。"
       },
       {
         "label": "美元/人民币",
         "stance": "偏空",
-        "score": -14,
+        "score": -18,
         "reason": "政策托底有助于稳定人民币预期。；风险厌恶和外部冲击通常支撑美元。；长短端利差维持正值，美元利率资产的相对吸引力仍在。"
       },
       {
         "label": "黄金",
         "stance": "偏多",
-        "score": 16,
+        "score": 20,
         "reason": "政策条目对黄金并非直接驱动。；避险和通胀预期通常共同利多黄金。"
       },
       {
         "label": "原油/大宗",
         "stance": "偏多",
-        "score": 17,
+        "score": 21,
         "reason": "若政策带动需求预期，工业品更受益。；若是供给冲击，原油和相关商品通常先涨。；WTI 回落说明短线能源再通胀交易暂未继续强化。"
       }
     ],
@@ -345,13 +380,13 @@
       "后续是否有配套细则",
       "是否出现量化工具或额度安排"
     ],
-    "daily_input_generated_at": "2026-04-05 12:15:15"
+    "daily_input_generated_at": "2026-04-05 12:18:14"
   },
   "history": [
     {
       "slug": "2026-04-05",
       "date": "2026-04-05",
-      "headline": "今天的主线集中在中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价、中东地缘扰动重新推升油价与通胀约束，深度媒体包主导，官方增量更多承担验证作用。",
+      "headline": "今天的主线集中在中东地缘扰动重新推升油价与通胀约束、中东军事升级继续抬高风险溢价、欧洲能源安全与增长压力再被定价，深度媒体包主导，官方增量更多承担验证作用。",
       "status": "分析日报"
     },
     {
