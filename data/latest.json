@@ -2,7 +2,7 @@
   "site": {
     "title": "宏观日报",
     "subtitle": "会分析、会点评、能辅助投资的中文宏观决策界面",
-    "generated_at": "2026-04-06 12:13:31",
+    "generated_at": "2026-04-06 12:13:49",
     "mode": "分析日报"
   },
   "latest": {
@@ -67,18 +67,18 @@
           "content": "黄金偏多，油和大宗偏多，汇率偏美元强/人民币弱。"
         },
         "display_source": {
-          "source_name": "BBC Business",
-          "source_name_zh": "BBC",
+          "source_name": "Nikkei Asia Economy",
+          "source_name_zh": "日经亚洲",
           "source_tier": "Tier 2",
-          "published_at": "2026-04-06 11:33:35",
-          "source_url": "https://www.bbc.com/news/articles/c8dl7g6e59eo"
+          "published_at": "2026-04-06 09:30:33",
+          "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/bab-el-mandeb-asia-s-other-energy-choke-point-put-at-risk-by-iran-war"
         },
-        "source_count": 3,
+        "source_count": 2,
         "source_tier_mix": [
           "Tier 2"
         ],
         "first_published_at": "2026-04-06 08:01:56",
-        "latest_published_at": "2026-04-06 11:33:35",
+        "latest_published_at": "2026-04-06 09:30:33",
         "display_lane": "headline_media"
       },
       {
@@ -331,19 +331,11 @@
       },
       {
         "package_title_zh": "中东冲突开始外溢到亚洲增长与汇率预期",
-        "source_name": "BBC Business",
-        "source_name_zh": "BBC",
-        "source_tier": "Tier 2",
-        "published_at": "2026-04-06 11:33:35",
-        "source_url": "https://www.bbc.com/news/articles/c8dl7g6e59eo"
-      },
-      {
-        "package_title_zh": "中东地缘扰动重新推升油价与通胀约束",
         "source_name": "Nikkei Asia Economy",
         "source_name_zh": "日经亚洲",
         "source_tier": "Tier 2",
-        "published_at": "2026-04-06 07:44:54",
-        "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/petronas-chartered-tanker-with-iraqi-crude-passes-through-hormuz"
+        "published_at": "2026-04-06 09:30:33",
+        "source_url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/bab-el-mandeb-asia-s-other-energy-choke-point-put-at-risk-by-iran-war"
       },
       {
         "package_title_zh": "能源价格波动重新进入通胀与风险资产链条",
@@ -374,25 +366,25 @@
       {
         "label": "A股/港股风险偏好",
         "stance": "偏空",
-        "score": -8,
+        "score": -4,
         "reason": "能源冲击通常压制整体风险偏好并抬高成本。；地缘和油价冲击会压低风险偏好。；政策预期改善通常先作用于风险偏好。；外部平衡改善通常有利于风险溢价回落。"
       },
       {
         "label": "利率",
         "stance": "偏多",
-        "score": 9,
+        "score": 5,
         "reason": "避险会利多债券，但通胀抬头会限制空间。；避险交易可能先压低利率，但通胀压力会限制空间。；若稳增长预期抬升，长端利率可能先承压。；利率方向仍要看国内增长与政策组合。；数据快照显..."
       },
       {
         "label": "美元/人民币",
         "stance": "偏空",
-        "score": -8,
+        "score": -4,
         "reason": "风险厌恶和外部冲击通常支撑美元。；全球避险通常利多美元。；政策托底有助于稳定人民币预期。；跨境流动和经常账户改善通常利于人民币预期。；长短端利差维持正值，美元利率资产的相对吸..."
       },
       {
         "label": "黄金",
         "stance": "偏多",
-        "score": 22,
+        "score": 20,
         "reason": "避险和通胀预期通常共同利多黄金。；避险和通胀预期都支撑黄金。；政策条目对黄金并非直接驱动。；黄金更多取决于美元与实际利率的综合变化。"
       },
       {
@@ -410,7 +402,7 @@
       "油气价格是否持续上行或回落",
       "库存和供给是否继续恶化"
     ],
-    "daily_input_generated_at": "2026-04-06 12:13:31"
+    "daily_input_generated_at": "2026-04-06 12:13:48"
   },
   "history": [
     {
