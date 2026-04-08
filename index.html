@@ -19,8 +19,10 @@
             <p id="latest-summary" class="summary"></p>
           </div>
           <div class="hero-side card subtle-card">
-            <p class="section-tag">摘要速读</p>
-            <h2>今天结果，再看框架</h2>
+            <p class="section-tag">封面导航</p>
+            <h2>先看结果，再跳到最重要主题</h2>
+            <p class="hero-side-copy">封面区只保留当天最值得先读的主题入口和资产方向，不把后台诊断信息搬上来。</p>
+            <div id="hero-cover-rail" class="hero-cover-rail"></div>
             <div id="daily-counts" class="count-grid"></div>
             <div id="hero-outlook" class="hero-outlook"></div>
           </div>
@@ -149,6 +151,13 @@
         node.textContent = text;
         node.href = '#' + targetId;
         return node;
+      }
+
+      function clipText(text, limit) {
+        const normalized = String(text || '').replace(/\s+/g, ' ').trim();
+        if (!normalized) return '';
+        if (!limit || normalized.length <= limit) return normalized;
+        return normalized.slice(0, Math.max(limit - 1, 0)).trimEnd() + '…';
       }
 
       function buildPackageAnchorId(item, fallbackKey) {
@@ -612,6 +621,7 @@
         wrap.appendChild(createExternalLink(sourceLabel, displaySource.source_url, compact ? 'package-source-link package-source-link--compact' : 'package-source-link'));
         const metaParts = [
           displaySource.source_tier ? formatSourceTier(displaySource.source_tier) : '',
+          displaySource.published_at || item.latest_published_at || item.first_published_at || '',
         ].filter(Boolean);
         if (metaParts.length > 0) {
           wrap.appendChild(createNode('span', 'entry-meta package-source-meta', metaParts.join(' | ')));
@@ -626,14 +636,40 @@
         return block;
       }
 
-      function renderHeadlinePackageCard(item, lead, anchorId) {
-        const card = createNode('article', lead ? 'focus-card focus-card--lead package-card package-anchor-card' : 'focus-card package-card package-anchor-card');
+      function renderHeroCoverRow(item, anchorId, index) {
+        const row = createNode('article', 'hero-cover-row');
+        const top = createNode('div', 'hero-cover-top');
+        top.appendChild(createNode('span', 'hero-cover-index', String(index + 1).padStart(2, '0')));
+        top.appendChild(createNode('span', 'pill hero-cover-pill', packageLaneLabel(item)));
+        row.appendChild(top);
+        row.appendChild(createInternalLink(item.package_title_zh || item.core_topic || '今日主题', anchorId, 'hero-cover-link'));
+        const source = item.display_source || {};
+        const sourceRow = createNode('div', 'hero-cover-source-row');
+        sourceRow.appendChild(createExternalLink(source.source_name_zh || source.source_name || '代表信源', source.source_url, 'hero-cover-source'));
+        const meta = [source.published_at || item.latest_published_at || item.first_published_at || '', source.source_tier ? formatSourceTier(source.source_tier) : ''].filter(Boolean).join(' | ');
+        if (meta) {
+          sourceRow.appendChild(createNode('span', 'entry-meta hero-cover-meta', meta));
+        }
+        row.appendChild(sourceRow);
+        const note = clipText((item.action_block && item.action_block.content) || item.commentary_zh || item.main_content || '', 76);
+        if (note) {
+          row.appendChild(createNode('p', 'hero-cover-note', note));
+        }
+        return row;
+      }
+
+      function renderHeadlinePackageCard(item, lead, anchorId, index, lane) {
+        const laneClass = lane === 'official_update' ? 'package-card--official' : 'package-card--headline';
+        const card = createNode('article', lead ? 'focus-card focus-card--lead package-card ' + laneClass + ' package-anchor-card' : 'focus-card package-card ' + laneClass + ' package-anchor-card');
         card.id = anchorId;
         const top = createNode('div', 'card-top');
-        top.appendChild(createNode('span', 'pill level-pill', item.package_type === 'today_focus' ? '今日重点' : item.package_type === 'today_secondary' ? '次级关注' : '背景'));
+        const left = createNode('div', 'package-topline');
+        left.appendChild(createNode('span', 'package-rank', (lane === 'official_update' ? '政策 ' : '头版 ') + String(index + 1).padStart(2, '0')));
+        left.appendChild(createNode('span', 'pill level-pill', lane === 'official_update' ? '官方主位' : '媒体主位'));
+        top.appendChild(left);
         top.appendChild(createNode('span', 'entry-meta', buildPackageMetaParts(item).join(' | ')));
         card.appendChild(top);
-        card.appendChild(createNode('div', 'entry-title', item.package_title_zh || item.core_topic || '今日事件包'));
+        card.appendChild(createNode('h3', 'package-title', item.package_title_zh || item.core_topic || '今日事件包'));
         card.appendChild(renderPackageSourceLine(item, false));
         if (item.main_content) card.appendChild(renderPackageBlock('主要内容', item.main_content, true));
         if (item.commentary_zh) card.appendChild(renderPackageBlock('点评', item.commentary_zh, false));
@@ -641,6 +677,13 @@
           card.appendChild(renderPackageBlock(item.action_block.title || '跟踪点', item.action_block.content, false));
         }
         return card;
+      }
+
+      function renderSecondaryMiniBlock(label, value, primary) {
+        const block = createNode('div', primary ? 'secondary-mini-block secondary-mini-block--primary' : 'secondary-mini-block');
+        block.appendChild(createNode('span', 'secondary-mini-label', label));
+        block.appendChild(createNode('p', primary ? 'secondary-copy secondary-copy--primary' : 'secondary-copy', value));
+        return block;
       }
 
       function renderSecondaryPackageCard(item, index) {
@@ -655,19 +698,22 @@
         }
         card.appendChild(top);
 
-        card.appendChild(createNode('div', 'secondary-title', item.package_title_zh || item.core_topic || '今日次级关注'));
+        const titleRow = createNode('div', 'secondary-title-row');
+        titleRow.appendChild(createNode('span', 'secondary-index', String(index + 1).padStart(2, '0')));
+        titleRow.appendChild(createNode('div', 'secondary-title', item.package_title_zh || item.core_topic || '今日次级关注'));
+        card.appendChild(titleRow);
         card.appendChild(renderPackageSourceLine(item, true));
 
         if (item.main_content) {
-          card.appendChild(createNode('p', 'secondary-copy secondary-copy--primary', item.main_content));
+          card.appendChild(renderSecondaryMiniBlock('主要内容', item.main_content, true));
         }
         if (item.commentary_zh) {
-          card.appendChild(createNode('p', 'secondary-copy', item.commentary_zh));
+          card.appendChild(renderSecondaryMiniBlock('点评', item.commentary_zh, false));
         }
         if (item.action_block && item.action_block.content) {
           const actionRow = createNode('div', 'secondary-action-row');
           actionRow.appendChild(createNode('strong', 'secondary-action-label', item.action_block.title || '跟踪点'));
-          actionRow.appendChild(createNode('span', 'secondary-action-copy', item.action_block.content));
+          actionRow.appendChild(createNode('span', 'secondary-action-copy', clipText(item.action_block.content, 100)));
           card.appendChild(actionRow);
         }
         return { card, anchorId };
@@ -746,9 +792,22 @@
         ];
       }
 
-      function renderResultOverviewRow(text, targetId) {
-        const row = createNode('div', 'list-row');
-        row.appendChild(createInternalLink(text, targetId, 'sidebar-internal-link'));
+      function renderResultOverviewRow(text, targetId, item, index) {
+        const row = createNode('div', 'result-row');
+        row.appendChild(createNode('span', 'result-row-index', String(index + 1).padStart(2, '0')));
+        const body = createNode('div', 'result-row-body');
+        body.appendChild(createInternalLink(text, targetId, 'sidebar-internal-link'));
+        const source = (item && item.display_source) || {};
+        if (source.source_name || source.source_name_zh) {
+          const sourceRow = createNode('div', 'result-row-source');
+          sourceRow.appendChild(createExternalLink(source.source_name_zh || source.source_name || '代表信源', source.source_url, 'sidebar-source-link'));
+          const meta = [source.published_at || item.latest_published_at || item.first_published_at || '', source.source_tier ? formatSourceTier(source.source_tier) : ''].filter(Boolean).join(' | ');
+          if (meta) {
+            sourceRow.appendChild(createNode('span', 'entry-meta topic-jump-meta', meta));
+          }
+          body.appendChild(sourceRow);
+        }
+        row.appendChild(body);
         return row;
       }
 
@@ -768,6 +827,10 @@
           sourceRow.appendChild(createNode('span', 'entry-meta topic-jump-meta', meta));
         }
         row.appendChild(sourceRow);
+        const note = clipText((item.action_block && item.action_block.content) || item.commentary_zh || item.main_content || '', 72);
+        if (note) {
+          row.appendChild(createNode('p', 'topic-jump-note', note));
+        }
         return row;
       }
 
@@ -811,17 +874,26 @@
           packageAnchors.set(item.package_id || ('main-' + index), buildPackageAnchorId(item, 'main-' + index));
         });
 
+        const heroCoverWrap = document.getElementById('hero-cover-rail');
+        mainFlowPackages.slice(0, 4).forEach((item, index) => {
+          const anchorId = packageAnchors.get(item.package_id || ('main-' + index)) || buildPackageAnchorId(item, 'main-' + index);
+          heroCoverWrap.appendChild(renderHeroCoverRow(item, anchorId, index));
+        });
+        if (!heroCoverWrap.children.length) {
+          heroCoverWrap.appendChild(createNode('div', 'empty-state', '今天还没有形成可导航的主题包。'));
+        }
+
         const headlineWrap = document.getElementById('headline-media-packages');
         headlinePackages.forEach((item, index) => {
           const anchorId = packageAnchors.get(item.package_id || ('main-' + index)) || buildPackageAnchorId(item, 'headline-' + index);
-          headlineWrap.appendChild(renderHeadlinePackageCard(item, index === 0, anchorId));
+          headlineWrap.appendChild(renderHeadlinePackageCard(item, index === 0, anchorId, index, 'headline_media'));
         });
         setPanelVisibility('headline-media-panel', headlinePackages.length > 0);
 
         const officialWrap = document.getElementById('official-update-packages');
         officialPackages.forEach((item, index) => {
           const anchorId = packageAnchors.get(item.package_id || ('official-' + index)) || buildPackageAnchorId(item, 'official-' + index);
-          officialWrap.appendChild(renderHeadlinePackageCard(item, index === 0 && headlinePackages.length === 0, anchorId));
+          officialWrap.appendChild(renderHeadlinePackageCard(item, index === 0 && headlinePackages.length === 0, anchorId, index, 'official_update'));
         });
         setPanelVisibility('official-update-panel', officialPackages.length > 0);
 
@@ -831,7 +903,10 @@
           packageAnchors.set(item.package_id || ('secondary-' + index), rendered.anchorId);
           secondaryWrap.appendChild(rendered.card);
         });
-        setPanelVisibility('today-secondary-panel', secondaryWrap.children.length > 0);
+        if (!secondaryWrap.children.length) {
+          secondaryWrap.appendChild(createNode('div', 'empty-state', '今天没有通过主阅读流门槛的次级主题，不做低质补位。'));
+        }
+        setPanelVisibility('today-secondary-panel', true);
 
         const backgroundWrap = document.getElementById('today-background-packages');
         (latest.today_background_packages || []).forEach((item) => backgroundWrap.appendChild(renderBackgroundItem(item)));
@@ -854,7 +929,7 @@
         (latest.judgments || []).slice(0, 5).forEach((text, index) => {
           const targetPackage = mainFlowPackages[index] || null;
           const targetId = targetPackage ? (packageAnchors.get(targetPackage.package_id || ('main-' + index)) || '') : '';
-          resultWrap.appendChild(renderResultOverviewRow(text, targetId));
+          resultWrap.appendChild(renderResultOverviewRow(text, targetId, targetPackage, index));
         });
 
         const quickJumpWrap = document.getElementById('topic-quick-jump');
